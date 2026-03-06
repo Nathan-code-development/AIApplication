@@ -1,0 +1,22 @@
+<api type="debug" assembly-name="Xamarin.AndroidX.DrawerLayout" mvid="bb172c5cf161413b895b9f1cdd7bb58c">
+  <java-to-managed>
+    <entry java-name="androidx/drawerlayout/widget/DrawerLayout" managed-name="AndroidX.DrawerLayout.Widget.DrawerLayout, Xamarin.AndroidX.DrawerLayout" managed-type-token-id="33554455" />
+    <entry java-name="androidx/drawerlayout/widget/DrawerLayout$DrawerListener" managed-name="AndroidX.DrawerLayout.Widget.DrawerLayout+IDrawerListener, Xamarin.AndroidX.DrawerLayout" skip-in-java-to-managed="True" managed-type-token-id="33554457" />
+    <entry java-name="androidx/drawerlayout/widget/DrawerLayout$DrawerListener" managed-name="AndroidX.DrawerLayout.Widget.DrawerLayout+IDrawerListenerInvoker, Xamarin.AndroidX.DrawerLayout" managed-type-token-id="33554458" />
+    <entry java-name="mono/androidx/drawerlayout/widget/DrawerLayout_DrawerListenerImplementor" managed-name="AndroidX.DrawerLayout.Widget.DrawerLayout+IDrawerListenerImplementor, Xamarin.AndroidX.DrawerLayout" managed-type-token-id="33554463" />
+    <entry java-name="androidx/drawerlayout/widget/DrawerLayout$LayoutParams" managed-name="AndroidX.DrawerLayout.Widget.DrawerLayout+LayoutParams, Xamarin.AndroidX.DrawerLayout" managed-type-token-id="33554464" />
+    <entry java-name="androidx/drawerlayout/widget/DrawerLayout$SavedState" managed-name="AndroidX.DrawerLayout.Widget.DrawerLayout+SavedState, Xamarin.AndroidX.DrawerLayout" managed-type-token-id="33554465" />
+    <entry java-name="androidx/drawerlayout/widget/DrawerLayout$SimpleDrawerListener" managed-name="AndroidX.DrawerLayout.Widget.DrawerLayout+SimpleDrawerListener, Xamarin.AndroidX.DrawerLayout" managed-type-token-id="33554466" />
+    <entry java-name="androidx/drawerlayout/widget/DrawerLayout$SimpleDrawerListener" managed-name="AndroidX.DrawerLayout.Widget.DrawerLayout+SimpleDrawerListenerInvoker, Xamarin.AndroidX.DrawerLayout" managed-type-token-id="33554467" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="androidx/drawerlayout/widget/DrawerLayout" managed-name="AndroidX.DrawerLayout.Widget.DrawerLayout, Xamarin.AndroidX.DrawerLayout" managed-type-token-id="33554455" />
+    <entry java-name="androidx/drawerlayout/widget/DrawerLayout$DrawerListener" managed-name="AndroidX.DrawerLayout.Widget.DrawerLayout+IDrawerListener, Xamarin.AndroidX.DrawerLayout" skip-in-java-to-managed="True" managed-type-token-id="33554457" />
+    <entry java-name="androidx/drawerlayout/widget/DrawerLayout$DrawerListener" managed-name="AndroidX.DrawerLayout.Widget.DrawerLayout+IDrawerListenerInvoker, Xamarin.AndroidX.DrawerLayout" managed-type-token-id="33554458" />
+    <entry java-name="mono/androidx/drawerlayout/widget/DrawerLayout_DrawerListenerImplementor" managed-name="AndroidX.DrawerLayout.Widget.DrawerLayout+IDrawerListenerImplementor, Xamarin.AndroidX.DrawerLayout" managed-type-token-id="33554463" />
+    <entry java-name="androidx/drawerlayout/widget/DrawerLayout$LayoutParams" managed-name="AndroidX.DrawerLayout.Widget.DrawerLayout+LayoutParams, Xamarin.AndroidX.DrawerLayout" managed-type-token-id="33554464" />
+    <entry java-name="androidx/drawerlayout/widget/DrawerLayout$SavedState" managed-name="AndroidX.DrawerLayout.Widget.DrawerLayout+SavedState, Xamarin.AndroidX.DrawerLayout" managed-type-token-id="33554465" />
+    <entry java-name="androidx/drawerlayout/widget/DrawerLayout$SimpleDrawerListener" managed-name="AndroidX.DrawerLayout.Widget.DrawerLayout+SimpleDrawerListener, Xamarin.AndroidX.DrawerLayout" managed-type-token-id="33554466" />
+    <entry java-name="androidx/drawerlayout/widget/DrawerLayout$SimpleDrawerListener" managed-name="AndroidX.DrawerLayout.Widget.DrawerLayout+SimpleDrawerListenerInvoker, Xamarin.AndroidX.DrawerLayout" managed-type-token-id="33554467" />
+  </managed-to-java>
+</api>

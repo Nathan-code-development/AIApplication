@@ -1,0 +1,10 @@
+<api type="debug" assembly-name="Xamarin.Google.Guava.ListenableFuture" mvid="407547c9a08c42d38cd19531fe02f5c3">
+  <java-to-managed>
+    <entry java-name="com/google/common/util/concurrent/ListenableFuture" managed-name="Google.Common.Util.Concurrent.IListenableFuture, Xamarin.Google.Guava.ListenableFuture" skip-in-java-to-managed="True" managed-type-token-id="33554440" />
+    <entry java-name="com/google/common/util/concurrent/ListenableFuture" managed-name="Google.Common.Util.Concurrent.IListenableFutureInvoker, Xamarin.Google.Guava.ListenableFuture" managed-type-token-id="33554441" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="com/google/common/util/concurrent/ListenableFuture" managed-name="Google.Common.Util.Concurrent.IListenableFuture, Xamarin.Google.Guava.ListenableFuture" skip-in-java-to-managed="True" managed-type-token-id="33554440" />
+    <entry java-name="com/google/common/util/concurrent/ListenableFuture" managed-name="Google.Common.Util.Concurrent.IListenableFutureInvoker, Xamarin.Google.Guava.ListenableFuture" managed-type-token-id="33554441" />
+  </managed-to-java>
+</api>

@@ -1,0 +1,20 @@
+<api>
+  <jcw-types>
+    <type name="AppBarConfiguration_OnNavigateUpListenerImplementor" package="mono.androidx.navigation.ui" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.Navigation.UI.AppBarConfiguration+IOnNavigateUpListenerImplementor, Xamarin.AndroidX.Navigation.UI">
+      <implemented_interfaces>
+        <interface name="androidx.navigation.ui.AppBarConfiguration.OnNavigateUpListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="AppBarConfiguration_OnNavigateUpListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onNavigateUp" method="n_onNavigateUp:()Z:GetOnNavigateUpHandler:AndroidX.Navigation.UI.AppBarConfiguration+IOnNavigateUpListenerInvoker, Xamarin.AndroidX.Navigation.UI" jni_signature="()Z" retval="boolean" is_dynamically_registered="True" />
+      </methods>
+    </type>
+  </jcw-types>
+  <acw-types partial-assembly-name="Xamarin.AndroidX.Navigation.UI" module-name="Xamarin.AndroidX.Navigation.UI.dll">
+    <type assembly-qualified-name="AndroidX.Navigation.UI.AppBarConfiguration+IOnNavigateUpListener, Xamarin.AndroidX.Navigation.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.navigation.ui.AppBarConfiguration$OnNavigateUpListener" java-key="androidx.navigation.ui.AppBarConfiguration$OnNavigateUpListener" managed-key="AndroidX.Navigation.UI.AppBarConfiguration.IOnNavigateUpListener" partial-assembly-qualified-name="AndroidX.Navigation.UI.AppBarConfiguration+IOnNavigateUpListener, Xamarin.AndroidX.Navigation.UI" />
+    <type assembly-qualified-name="AndroidX.Navigation.UI.AppBarConfiguration+IOnNavigateUpListenerImplementor, Xamarin.AndroidX.Navigation.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="mono.androidx.navigation.ui.AppBarConfiguration_OnNavigateUpListenerImplementor" java-key="mono.androidx.navigation.ui.AppBarConfiguration_OnNavigateUpListenerImplementor" managed-key="AndroidX.Navigation.UI.AppBarConfiguration.IOnNavigateUpListenerImplementor" partial-assembly-qualified-name="AndroidX.Navigation.UI.AppBarConfiguration+IOnNavigateUpListenerImplementor, Xamarin.AndroidX.Navigation.UI" />
+    <type assembly-qualified-name="AndroidX.Navigation.UI.INavigationUiSaveStateControl, Xamarin.AndroidX.Navigation.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.navigation.ui.NavigationUiSaveStateControl" java-key="androidx.navigation.ui.NavigationUiSaveStateControl" managed-key="AndroidX.Navigation.UI.INavigationUiSaveStateControl" partial-assembly-qualified-name="AndroidX.Navigation.UI.INavigationUiSaveStateControl, Xamarin.AndroidX.Navigation.UI" />
+  </acw-types>
+</api>

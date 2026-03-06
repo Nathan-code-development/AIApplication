@@ -1,0 +1,5 @@
+<api>
+  <acw-types partial-assembly-name="Xamarin.AndroidX.Lifecycle.LiveData" module-name="Xamarin.AndroidX.Lifecycle.LiveData.dll">
+    <type assembly-qualified-name="AndroidX.Lifecycle.ILiveDataScope, Xamarin.AndroidX.Lifecycle.LiveData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.lifecycle.LiveDataScope" java-key="androidx.lifecycle.LiveDataScope" managed-key="AndroidX.Lifecycle.ILiveDataScope" partial-assembly-qualified-name="AndroidX.Lifecycle.ILiveDataScope, Xamarin.AndroidX.Lifecycle.LiveData" />
+  </acw-types>
+</api>

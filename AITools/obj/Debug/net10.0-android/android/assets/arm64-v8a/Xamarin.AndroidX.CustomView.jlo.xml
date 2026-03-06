@@ -1,0 +1,5 @@
+<api>
+  <acw-types partial-assembly-name="Xamarin.AndroidX.CustomView" module-name="Xamarin.AndroidX.CustomView.dll">
+    <type assembly-qualified-name="AndroidX.CustomView.Widget.IOpenable, Xamarin.AndroidX.CustomView, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.customview.widget.Openable" java-key="androidx.customview.widget.Openable" managed-key="AndroidX.CustomView.Widget.IOpenable" partial-assembly-qualified-name="AndroidX.CustomView.Widget.IOpenable, Xamarin.AndroidX.CustomView" />
+  </acw-types>
+</api>

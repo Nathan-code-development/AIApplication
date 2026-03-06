@@ -1,0 +1,19 @@
+<api>
+  <jcw-types>
+    <type name="PoolingContainerListenerImplementor" package="mono.androidx.customview.poolingcontainer" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.CustomView.PoolingContainer.IPoolingContainerListenerImplementor, Xamarin.AndroidX.CustomView.PoolingContainer">
+      <implemented_interfaces>
+        <interface name="androidx.customview.poolingcontainer.PoolingContainerListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="PoolingContainerListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onRelease" method="n_onRelease:()V:GetOnReleaseHandler:AndroidX.CustomView.PoolingContainer.IPoolingContainerListenerInvoker, Xamarin.AndroidX.CustomView.PoolingContainer" jni_signature="()V" retval="void" is_dynamically_registered="True" />
+      </methods>
+    </type>
+  </jcw-types>
+  <acw-types partial-assembly-name="Xamarin.AndroidX.CustomView.PoolingContainer" module-name="Xamarin.AndroidX.CustomView.PoolingContainer.dll">
+    <type assembly-qualified-name="AndroidX.CustomView.PoolingContainer.IPoolingContainerListener, Xamarin.AndroidX.CustomView.PoolingContainer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.customview.poolingcontainer.PoolingContainerListener" java-key="androidx.customview.poolingcontainer.PoolingContainerListener" managed-key="AndroidX.CustomView.PoolingContainer.IPoolingContainerListener" partial-assembly-qualified-name="AndroidX.CustomView.PoolingContainer.IPoolingContainerListener, Xamarin.AndroidX.CustomView.PoolingContainer" />
+    <type assembly-qualified-name="AndroidX.CustomView.PoolingContainer.IPoolingContainerListenerImplementor, Xamarin.AndroidX.CustomView.PoolingContainer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="mono.androidx.customview.poolingcontainer.PoolingContainerListenerImplementor" java-key="mono.androidx.customview.poolingcontainer.PoolingContainerListenerImplementor" managed-key="AndroidX.CustomView.PoolingContainer.IPoolingContainerListenerImplementor" partial-assembly-qualified-name="AndroidX.CustomView.PoolingContainer.IPoolingContainerListenerImplementor, Xamarin.AndroidX.CustomView.PoolingContainer" />
+  </acw-types>
+</api>

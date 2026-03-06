@@ -1,0 +1,21 @@
+<api>
+  <jcw-types>
+    <type name="SlidingPaneLayout_PanelSlideListenerImplementor" package="mono.androidx.slidingpanelayout.widget" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.SlidingPaneLayout.Widget.SlidingPaneLayout+IPanelSlideListenerImplementor, Xamarin.AndroidX.SlidingPaneLayout">
+      <implemented_interfaces>
+        <interface name="androidx.slidingpanelayout.widget.SlidingPaneLayout.PanelSlideListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="SlidingPaneLayout_PanelSlideListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onPanelClosed" method="n_onPanelClosed:(Landroid/view/View;)V:GetOnPanelClosed_Landroid_view_View_Handler:AndroidX.SlidingPaneLayout.Widget.SlidingPaneLayout+IPanelSlideListenerInvoker, Xamarin.AndroidX.SlidingPaneLayout" jni_signature="(Landroid/view/View;)V" params="android.view.View p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onPanelOpened" method="n_onPanelOpened:(Landroid/view/View;)V:GetOnPanelOpened_Landroid_view_View_Handler:AndroidX.SlidingPaneLayout.Widget.SlidingPaneLayout+IPanelSlideListenerInvoker, Xamarin.AndroidX.SlidingPaneLayout" jni_signature="(Landroid/view/View;)V" params="android.view.View p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onPanelSlide" method="n_onPanelSlide:(Landroid/view/View;F)V:GetOnPanelSlide_Landroid_view_View_FHandler:AndroidX.SlidingPaneLayout.Widget.SlidingPaneLayout+IPanelSlideListenerInvoker, Xamarin.AndroidX.SlidingPaneLayout" jni_signature="(Landroid/view/View;F)V" params="android.view.View p0, float p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+      </methods>
+    </type>
+  </jcw-types>
+  <acw-types partial-assembly-name="Xamarin.AndroidX.SlidingPaneLayout" module-name="Xamarin.AndroidX.SlidingPaneLayout.dll">
+    <type assembly-qualified-name="AndroidX.SlidingPaneLayout.Widget.SlidingPaneLayout+IPanelSlideListener, Xamarin.AndroidX.SlidingPaneLayout, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.slidingpanelayout.widget.SlidingPaneLayout$PanelSlideListener" java-key="androidx.slidingpanelayout.widget.SlidingPaneLayout$PanelSlideListener" managed-key="AndroidX.SlidingPaneLayout.Widget.SlidingPaneLayout.IPanelSlideListener" partial-assembly-qualified-name="AndroidX.SlidingPaneLayout.Widget.SlidingPaneLayout+IPanelSlideListener, Xamarin.AndroidX.SlidingPaneLayout" />
+    <type assembly-qualified-name="AndroidX.SlidingPaneLayout.Widget.SlidingPaneLayout+IPanelSlideListenerImplementor, Xamarin.AndroidX.SlidingPaneLayout, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="mono.androidx.slidingpanelayout.widget.SlidingPaneLayout_PanelSlideListenerImplementor" java-key="mono.androidx.slidingpanelayout.widget.SlidingPaneLayout_PanelSlideListenerImplementor" managed-key="AndroidX.SlidingPaneLayout.Widget.SlidingPaneLayout.IPanelSlideListenerImplementor" partial-assembly-qualified-name="AndroidX.SlidingPaneLayout.Widget.SlidingPaneLayout+IPanelSlideListenerImplementor, Xamarin.AndroidX.SlidingPaneLayout" />
+  </acw-types>
+</api>

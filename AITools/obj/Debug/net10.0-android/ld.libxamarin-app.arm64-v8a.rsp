@@ -1,0 +1,24 @@
+--shared
+--gc-sections
+--export-dynamic
+-z relro
+-z noexecstack
+-z max-page-size=16384
+-z now
+--enable-new-dtags
+--build-id=sha1
+--warn-shared-textrel
+--fatal-warnings
+--no-rosegment
+--allow-shlib-undefined
+-soname libxamarin-app.so
+--fix-cortex-a53-843419
+-m aarch64linux
+-z max-page-size=16384
+-L "C:\Program Files\dotnet\packs\Microsoft.Android.Runtime.Mono.36.android-arm64\36.1.2\runtimes\android-arm64\native"
+obj\Debug\net10.0-android\android\typemaps.arm64-v8a.o
+obj\Debug\net10.0-android\android\environment.arm64-v8a.o
+obj\Debug\net10.0-android\android\compressed_assemblies.arm64-v8a.o
+obj\Debug\net10.0-android\android\marshal_methods.arm64-v8a.o
+obj\Debug\net10.0-android\android\jni_remap.arm64-v8a.o
+-lc

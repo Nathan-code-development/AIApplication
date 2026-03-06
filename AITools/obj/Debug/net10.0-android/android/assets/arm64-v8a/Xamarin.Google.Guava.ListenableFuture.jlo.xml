@@ -1,0 +1,5 @@
+<api>
+  <acw-types partial-assembly-name="Xamarin.Google.Guava.ListenableFuture" module-name="Xamarin.Google.Guava.ListenableFuture.dll">
+    <type assembly-qualified-name="Google.Common.Util.Concurrent.IListenableFuture, Xamarin.Google.Guava.ListenableFuture, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="com.google.common.util.concurrent.ListenableFuture" java-key="com.google.common.util.concurrent.ListenableFuture" managed-key="Google.Common.Util.Concurrent.IListenableFuture" partial-assembly-qualified-name="Google.Common.Util.Concurrent.IListenableFuture, Xamarin.Google.Guava.ListenableFuture" />
+  </acw-types>
+</api>

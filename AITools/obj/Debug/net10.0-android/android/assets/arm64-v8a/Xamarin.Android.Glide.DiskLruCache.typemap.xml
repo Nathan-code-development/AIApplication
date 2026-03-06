@@ -1,0 +1,12 @@
+<api type="debug" assembly-name="Xamarin.Android.Glide.DiskLruCache" mvid="1967e16701de49388b711436e0e787f6">
+  <java-to-managed>
+    <entry java-name="com/bumptech/glide/disklrucache/DiskLruCache" managed-name="Bumptech.Glide.DiskLruCache.DiskLruCache, Xamarin.Android.Glide.DiskLruCache" managed-type-token-id="33554435" />
+    <entry java-name="com/bumptech/glide/disklrucache/DiskLruCache$Editor" managed-name="Bumptech.Glide.DiskLruCache.DiskLruCache+Editor, Xamarin.Android.Glide.DiskLruCache" managed-type-token-id="33554437" />
+    <entry java-name="com/bumptech/glide/disklrucache/DiskLruCache$Value" managed-name="Bumptech.Glide.DiskLruCache.DiskLruCache+Value, Xamarin.Android.Glide.DiskLruCache" managed-type-token-id="33554438" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="com/bumptech/glide/disklrucache/DiskLruCache" managed-name="Bumptech.Glide.DiskLruCache.DiskLruCache, Xamarin.Android.Glide.DiskLruCache" managed-type-token-id="33554435" />
+    <entry java-name="com/bumptech/glide/disklrucache/DiskLruCache$Editor" managed-name="Bumptech.Glide.DiskLruCache.DiskLruCache+Editor, Xamarin.Android.Glide.DiskLruCache" managed-type-token-id="33554437" />
+    <entry java-name="com/bumptech/glide/disklrucache/DiskLruCache$Value" managed-name="Bumptech.Glide.DiskLruCache.DiskLruCache+Value, Xamarin.Android.Glide.DiskLruCache" managed-type-token-id="33554438" />
+  </managed-to-java>
+</api>

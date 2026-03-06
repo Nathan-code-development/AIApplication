@@ -1,0 +1,24 @@
+<api type="debug" assembly-name="Xamarin.AndroidX.Window.WindowCore.Jvm" mvid="9f1955a207674a35a15f3d5ca6bd7df6">
+  <java-to-managed>
+    <entry java-name="androidx/window/core/ExperimentalWindowCoreApi" managed-name="AndroidX.Window.Core.IExperimentalWindowCoreApi, Xamarin.AndroidX.Window.WindowCore.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554439" />
+    <entry java-name="androidx/window/core/ExperimentalWindowCoreApi" managed-name="AndroidX.Window.Core.IExperimentalWindowCoreApiInvoker, Xamarin.AndroidX.Window.WindowCore.Jvm" managed-type-token-id="33554440" />
+    <entry java-name="androidx/window/core/layout/WindowHeightSizeClass" managed-name="AndroidX.Window.Core.Layout.WindowHeightSizeClass, Xamarin.AndroidX.Window.WindowCore.Jvm" managed-type-token-id="33554441" />
+    <entry java-name="androidx/window/core/layout/WindowHeightSizeClass$Companion" managed-name="AndroidX.Window.Core.Layout.WindowHeightSizeClass+Companion, Xamarin.AndroidX.Window.WindowCore.Jvm" managed-type-token-id="33554446" />
+    <entry java-name="androidx/window/core/layout/WindowSizeClass" managed-name="AndroidX.Window.Core.Layout.WindowSizeClass, Xamarin.AndroidX.Window.WindowCore.Jvm" managed-type-token-id="33554442" />
+    <entry java-name="androidx/window/core/layout/WindowSizeClass$Companion" managed-name="AndroidX.Window.Core.Layout.WindowSizeClass+Companion, Xamarin.AndroidX.Window.WindowCore.Jvm" managed-type-token-id="33554447" />
+    <entry java-name="androidx/window/core/layout/WindowSizeClassSelectors" managed-name="AndroidX.Window.Core.Layout.WindowSizeClassSelectors, Xamarin.AndroidX.Window.WindowCore.Jvm" managed-type-token-id="33554443" />
+    <entry java-name="androidx/window/core/layout/WindowWidthSizeClass" managed-name="AndroidX.Window.Core.Layout.WindowWidthSizeClass, Xamarin.AndroidX.Window.WindowCore.Jvm" managed-type-token-id="33554444" />
+    <entry java-name="androidx/window/core/layout/WindowWidthSizeClass$Companion" managed-name="AndroidX.Window.Core.Layout.WindowWidthSizeClass+Companion, Xamarin.AndroidX.Window.WindowCore.Jvm" managed-type-token-id="33554448" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="androidx/window/core/ExperimentalWindowCoreApi" managed-name="AndroidX.Window.Core.IExperimentalWindowCoreApi, Xamarin.AndroidX.Window.WindowCore.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554439" />
+    <entry java-name="androidx/window/core/ExperimentalWindowCoreApi" managed-name="AndroidX.Window.Core.IExperimentalWindowCoreApiInvoker, Xamarin.AndroidX.Window.WindowCore.Jvm" managed-type-token-id="33554440" />
+    <entry java-name="androidx/window/core/layout/WindowHeightSizeClass" managed-name="AndroidX.Window.Core.Layout.WindowHeightSizeClass, Xamarin.AndroidX.Window.WindowCore.Jvm" managed-type-token-id="33554441" />
+    <entry java-name="androidx/window/core/layout/WindowHeightSizeClass$Companion" managed-name="AndroidX.Window.Core.Layout.WindowHeightSizeClass+Companion, Xamarin.AndroidX.Window.WindowCore.Jvm" managed-type-token-id="33554446" />
+    <entry java-name="androidx/window/core/layout/WindowSizeClass" managed-name="AndroidX.Window.Core.Layout.WindowSizeClass, Xamarin.AndroidX.Window.WindowCore.Jvm" managed-type-token-id="33554442" />
+    <entry java-name="androidx/window/core/layout/WindowSizeClass$Companion" managed-name="AndroidX.Window.Core.Layout.WindowSizeClass+Companion, Xamarin.AndroidX.Window.WindowCore.Jvm" managed-type-token-id="33554447" />
+    <entry java-name="androidx/window/core/layout/WindowSizeClassSelectors" managed-name="AndroidX.Window.Core.Layout.WindowSizeClassSelectors, Xamarin.AndroidX.Window.WindowCore.Jvm" managed-type-token-id="33554443" />
+    <entry java-name="androidx/window/core/layout/WindowWidthSizeClass" managed-name="AndroidX.Window.Core.Layout.WindowWidthSizeClass, Xamarin.AndroidX.Window.WindowCore.Jvm" managed-type-token-id="33554444" />
+    <entry java-name="androidx/window/core/layout/WindowWidthSizeClass$Companion" managed-name="AndroidX.Window.Core.Layout.WindowWidthSizeClass+Companion, Xamarin.AndroidX.Window.WindowCore.Jvm" managed-type-token-id="33554448" />
+  </managed-to-java>
+</api>

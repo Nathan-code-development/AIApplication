@@ -1,0 +1,306 @@
+<api type="debug" assembly-name="Xamarin.AndroidX.Annotation.Jvm" mvid="b36c4701cfaf4e34817242b64c5b37c1">
+  <java-to-managed>
+    <entry java-name="androidx/annotation/AnimatorRes" managed-name="AndroidX.Annotations.IAnimatorRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554470" />
+    <entry java-name="androidx/annotation/AnimatorRes" managed-name="AndroidX.Annotations.IAnimatorResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554471" />
+    <entry java-name="androidx/annotation/AnimRes" managed-name="AndroidX.Annotations.IAnimRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554472" />
+    <entry java-name="androidx/annotation/AnimRes" managed-name="AndroidX.Annotations.IAnimResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554473" />
+    <entry java-name="androidx/annotation/AnyRes" managed-name="AndroidX.Annotations.IAnyRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554474" />
+    <entry java-name="androidx/annotation/AnyRes" managed-name="AndroidX.Annotations.IAnyResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554475" />
+    <entry java-name="androidx/annotation/AnyThread" managed-name="AndroidX.Annotations.IAnyThread, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554476" />
+    <entry java-name="androidx/annotation/AnyThread" managed-name="AndroidX.Annotations.IAnyThreadInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554477" />
+    <entry java-name="androidx/annotation/ArrayRes" managed-name="AndroidX.Annotations.IArrayRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554478" />
+    <entry java-name="androidx/annotation/ArrayRes" managed-name="AndroidX.Annotations.IArrayResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554479" />
+    <entry java-name="androidx/annotation/AttrRes" managed-name="AndroidX.Annotations.IAttrRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554480" />
+    <entry java-name="androidx/annotation/AttrRes" managed-name="AndroidX.Annotations.IAttrResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554481" />
+    <entry java-name="androidx/annotation/BinderThread" managed-name="AndroidX.Annotations.IBinderThread, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554482" />
+    <entry java-name="androidx/annotation/BinderThread" managed-name="AndroidX.Annotations.IBinderThreadInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554483" />
+    <entry java-name="androidx/annotation/BoolRes" managed-name="AndroidX.Annotations.IBoolRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554484" />
+    <entry java-name="androidx/annotation/BoolRes" managed-name="AndroidX.Annotations.IBoolResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554485" />
+    <entry java-name="androidx/annotation/CallSuper" managed-name="AndroidX.Annotations.ICallSuper, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554486" />
+    <entry java-name="androidx/annotation/CallSuper" managed-name="AndroidX.Annotations.ICallSuperInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554487" />
+    <entry java-name="androidx/annotation/CheckResult" managed-name="AndroidX.Annotations.ICheckResult, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554488" />
+    <entry java-name="androidx/annotation/CheckResult" managed-name="AndroidX.Annotations.ICheckResultInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554489" />
+    <entry java-name="androidx/annotation/ChecksSdkIntAtLeast" managed-name="AndroidX.Annotations.IChecksSdkIntAtLeast, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554490" />
+    <entry java-name="androidx/annotation/ChecksSdkIntAtLeast" managed-name="AndroidX.Annotations.IChecksSdkIntAtLeastInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554491" />
+    <entry java-name="androidx/annotation/ColorInt" managed-name="AndroidX.Annotations.IColorInt, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554492" />
+    <entry java-name="androidx/annotation/ColorInt" managed-name="AndroidX.Annotations.IColorIntInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554493" />
+    <entry java-name="androidx/annotation/ColorLong" managed-name="AndroidX.Annotations.IColorLong, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554494" />
+    <entry java-name="androidx/annotation/ColorLong" managed-name="AndroidX.Annotations.IColorLongInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554495" />
+    <entry java-name="androidx/annotation/ColorRes" managed-name="AndroidX.Annotations.IColorRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554496" />
+    <entry java-name="androidx/annotation/ColorRes" managed-name="AndroidX.Annotations.IColorResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554497" />
+    <entry java-name="androidx/annotation/ContentView" managed-name="AndroidX.Annotations.IContentView, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554498" />
+    <entry java-name="androidx/annotation/ContentView" managed-name="AndroidX.Annotations.IContentViewInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554499" />
+    <entry java-name="androidx/annotation/DeprecatedSinceApi" managed-name="AndroidX.Annotations.IDeprecatedSinceApi, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554500" />
+    <entry java-name="androidx/annotation/DeprecatedSinceApi" managed-name="AndroidX.Annotations.IDeprecatedSinceApiInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554501" />
+    <entry java-name="androidx/annotation/DimenRes" managed-name="AndroidX.Annotations.IDimenRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554502" />
+    <entry java-name="androidx/annotation/DimenRes" managed-name="AndroidX.Annotations.IDimenResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554503" />
+    <entry java-name="androidx/annotation/Dimension$Companion" managed-name="AndroidX.Annotations.DimensionCompanion, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554504" />
+    <entry java-name="mono/internal/androidx/annotation/Dimension" managed-name="AndroidX.Annotations.Dimension, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554505" />
+    <entry java-name="mono/internal/androidx/annotation/Dimension" managed-name="AndroidX.Annotations.DimensionConsts, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554506" />
+    <entry java-name="androidx/annotation/Dimension" managed-name="AndroidX.Annotations.IDimension, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554507" />
+    <entry java-name="androidx/annotation/Dimension" managed-name="AndroidX.Annotations.IDimensionInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554508" />
+    <entry java-name="androidx/annotation/Discouraged" managed-name="AndroidX.Annotations.IDiscouraged, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554509" />
+    <entry java-name="androidx/annotation/Discouraged" managed-name="AndroidX.Annotations.IDiscouragedInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554510" />
+    <entry java-name="androidx/annotation/DisplayContext" managed-name="AndroidX.Annotations.IDisplayContext, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554511" />
+    <entry java-name="androidx/annotation/DisplayContext" managed-name="AndroidX.Annotations.IDisplayContextInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554512" />
+    <entry java-name="androidx/annotation/DoNotInline" managed-name="AndroidX.Annotations.IDoNotInline, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554513" />
+    <entry java-name="androidx/annotation/DoNotInline" managed-name="AndroidX.Annotations.IDoNotInlineInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554514" />
+    <entry java-name="androidx/annotation/DrawableRes" managed-name="AndroidX.Annotations.IDrawableRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554515" />
+    <entry java-name="androidx/annotation/DrawableRes" managed-name="AndroidX.Annotations.IDrawableResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554516" />
+    <entry java-name="androidx/annotation/EmptySuper" managed-name="AndroidX.Annotations.IEmptySuper, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554518" />
+    <entry java-name="androidx/annotation/EmptySuper" managed-name="AndroidX.Annotations.IEmptySuperInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554519" />
+    <entry java-name="androidx/annotation/FloatRange" managed-name="AndroidX.Annotations.IFloatRange, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554520" />
+    <entry java-name="androidx/annotation/FloatRange" managed-name="AndroidX.Annotations.IFloatRangeInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554521" />
+    <entry java-name="androidx/annotation/FontRes" managed-name="AndroidX.Annotations.IFontRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554522" />
+    <entry java-name="androidx/annotation/FontRes" managed-name="AndroidX.Annotations.IFontResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554523" />
+    <entry java-name="androidx/annotation/FractionRes" managed-name="AndroidX.Annotations.IFractionRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554524" />
+    <entry java-name="androidx/annotation/FractionRes" managed-name="AndroidX.Annotations.IFractionResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554525" />
+    <entry java-name="androidx/annotation/GravityInt" managed-name="AndroidX.Annotations.IGravityInt, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554526" />
+    <entry java-name="androidx/annotation/GravityInt" managed-name="AndroidX.Annotations.IGravityIntInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554527" />
+    <entry java-name="androidx/annotation/GuardedBy" managed-name="AndroidX.Annotations.IGuardedBy, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554528" />
+    <entry java-name="androidx/annotation/GuardedBy" managed-name="AndroidX.Annotations.IGuardedByInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554529" />
+    <entry java-name="androidx/annotation/HalfFloat" managed-name="AndroidX.Annotations.IHalfFloat, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554530" />
+    <entry java-name="androidx/annotation/HalfFloat" managed-name="AndroidX.Annotations.IHalfFloatInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554531" />
+    <entry java-name="androidx/annotation/IdRes" managed-name="AndroidX.Annotations.IIdRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554532" />
+    <entry java-name="androidx/annotation/IdRes" managed-name="AndroidX.Annotations.IIdResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554533" />
+    <entry java-name="androidx/annotation/InspectableProperty$EnumEntry" managed-name="AndroidX.Annotations.IInspectablePropertyEnumEntry, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554534" />
+    <entry java-name="androidx/annotation/InspectableProperty$EnumEntry" managed-name="AndroidX.Annotations.IInspectablePropertyEnumEntryInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554535" />
+    <entry java-name="androidx/annotation/InspectableProperty$FlagEntry" managed-name="AndroidX.Annotations.IInspectablePropertyFlagEntry, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554536" />
+    <entry java-name="androidx/annotation/InspectableProperty$FlagEntry" managed-name="AndroidX.Annotations.IInspectablePropertyFlagEntryInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554537" />
+    <entry java-name="androidx/annotation/InspectableProperty$ValueType" managed-name="AndroidX.Annotations.InspectablePropertyValueType, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554538" />
+    <entry java-name="androidx/annotation/InspectableProperty" managed-name="AndroidX.Annotations.IInspectableProperty, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554539" />
+    <entry java-name="androidx/annotation/InspectableProperty" managed-name="AndroidX.Annotations.IInspectablePropertyInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554540" />
+    <entry java-name="androidx/annotation/IntDef" managed-name="AndroidX.Annotations.IIntDef, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554541" />
+    <entry java-name="androidx/annotation/IntDef" managed-name="AndroidX.Annotations.IIntDefInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554542" />
+    <entry java-name="androidx/annotation/IntegerRes" managed-name="AndroidX.Annotations.IIntegerRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554543" />
+    <entry java-name="androidx/annotation/IntegerRes" managed-name="AndroidX.Annotations.IIntegerResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554544" />
+    <entry java-name="androidx/annotation/InterpolatorRes" managed-name="AndroidX.Annotations.IInterpolatorRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554545" />
+    <entry java-name="androidx/annotation/InterpolatorRes" managed-name="AndroidX.Annotations.IInterpolatorResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554546" />
+    <entry java-name="androidx/annotation/IntRange" managed-name="AndroidX.Annotations.IIntRange, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554547" />
+    <entry java-name="androidx/annotation/IntRange" managed-name="AndroidX.Annotations.IIntRangeInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554548" />
+    <entry java-name="androidx/annotation/Keep" managed-name="AndroidX.Annotations.IKeep, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554549" />
+    <entry java-name="androidx/annotation/Keep" managed-name="AndroidX.Annotations.IKeepInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554550" />
+    <entry java-name="androidx/annotation/LayoutRes" managed-name="AndroidX.Annotations.ILayoutRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554551" />
+    <entry java-name="androidx/annotation/LayoutRes" managed-name="AndroidX.Annotations.ILayoutResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554552" />
+    <entry java-name="androidx/annotation/LongDef" managed-name="AndroidX.Annotations.ILongDef, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554553" />
+    <entry java-name="androidx/annotation/LongDef" managed-name="AndroidX.Annotations.ILongDefInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554554" />
+    <entry java-name="androidx/annotation/MainThread" managed-name="AndroidX.Annotations.IMainThread, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554555" />
+    <entry java-name="androidx/annotation/MainThread" managed-name="AndroidX.Annotations.IMainThreadInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554556" />
+    <entry java-name="androidx/annotation/MenuRes" managed-name="AndroidX.Annotations.IMenuRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554557" />
+    <entry java-name="androidx/annotation/MenuRes" managed-name="AndroidX.Annotations.IMenuResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554558" />
+    <entry java-name="androidx/annotation/NavigationRes" managed-name="AndroidX.Annotations.INavigationRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554559" />
+    <entry java-name="androidx/annotation/NavigationRes" managed-name="AndroidX.Annotations.INavigationResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554560" />
+    <entry java-name="androidx/annotation/NonNull" managed-name="AndroidX.Annotations.INonNull, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554561" />
+    <entry java-name="androidx/annotation/NonNull" managed-name="AndroidX.Annotations.INonNullInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554562" />
+    <entry java-name="androidx/annotation/NonUiContext" managed-name="AndroidX.Annotations.INonUiContext, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554563" />
+    <entry java-name="androidx/annotation/NonUiContext" managed-name="AndroidX.Annotations.INonUiContextInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554564" />
+    <entry java-name="androidx/annotation/Nullable" managed-name="AndroidX.Annotations.INullable, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554570" />
+    <entry java-name="androidx/annotation/Nullable" managed-name="AndroidX.Annotations.INullableInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554571" />
+    <entry java-name="androidx/annotation/OpenForTesting" managed-name="AndroidX.Annotations.IOpenForTesting, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554572" />
+    <entry java-name="androidx/annotation/OpenForTesting" managed-name="AndroidX.Annotations.IOpenForTestingInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554573" />
+    <entry java-name="androidx/annotation/PluralsRes" managed-name="AndroidX.Annotations.IPluralsRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554574" />
+    <entry java-name="androidx/annotation/PluralsRes" managed-name="AndroidX.Annotations.IPluralsResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554575" />
+    <entry java-name="androidx/annotation/Px" managed-name="AndroidX.Annotations.IPx, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554576" />
+    <entry java-name="androidx/annotation/Px" managed-name="AndroidX.Annotations.IPxInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554577" />
+    <entry java-name="androidx/annotation/RawRes" managed-name="AndroidX.Annotations.IRawRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554578" />
+    <entry java-name="androidx/annotation/RawRes" managed-name="AndroidX.Annotations.IRawResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554579" />
+    <entry java-name="androidx/annotation/ReplaceWith" managed-name="AndroidX.Annotations.IReplaceWith, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554580" />
+    <entry java-name="androidx/annotation/ReplaceWith" managed-name="AndroidX.Annotations.IReplaceWithInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554581" />
+    <entry java-name="androidx/annotation/RequiresApi" managed-name="AndroidX.Annotations.IRequiresApi, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554582" />
+    <entry java-name="androidx/annotation/RequiresApi" managed-name="AndroidX.Annotations.IRequiresApiInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554583" />
+    <entry java-name="androidx/annotation/RequiresExtension$Container" managed-name="AndroidX.Annotations.IRequiresExtensionContainer, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554584" />
+    <entry java-name="androidx/annotation/RequiresExtension$Container" managed-name="AndroidX.Annotations.IRequiresExtensionContainerInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554585" />
+    <entry java-name="androidx/annotation/RequiresExtension" managed-name="AndroidX.Annotations.IRequiresExtension, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554586" />
+    <entry java-name="androidx/annotation/RequiresExtension" managed-name="AndroidX.Annotations.IRequiresExtensionInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554587" />
+    <entry java-name="androidx/annotation/RequiresFeature" managed-name="AndroidX.Annotations.IRequiresFeature, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554588" />
+    <entry java-name="androidx/annotation/RequiresFeature" managed-name="AndroidX.Annotations.IRequiresFeatureInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554589" />
+    <entry java-name="androidx/annotation/RequiresPermission$Read" managed-name="AndroidX.Annotations.IRequiresPermissionRead, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554590" />
+    <entry java-name="androidx/annotation/RequiresPermission$Read" managed-name="AndroidX.Annotations.IRequiresPermissionReadInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554591" />
+    <entry java-name="androidx/annotation/RequiresPermission$Write" managed-name="AndroidX.Annotations.IRequiresPermissionWrite, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554592" />
+    <entry java-name="androidx/annotation/RequiresPermission$Write" managed-name="AndroidX.Annotations.IRequiresPermissionWriteInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554593" />
+    <entry java-name="androidx/annotation/RequiresPermission" managed-name="AndroidX.Annotations.IRequiresPermission, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554594" />
+    <entry java-name="androidx/annotation/RequiresPermission" managed-name="AndroidX.Annotations.IRequiresPermissionInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554595" />
+    <entry java-name="androidx/annotation/RestrictTo$Scope" managed-name="AndroidX.Annotations.RestrictToScope, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554596" />
+    <entry java-name="androidx/annotation/RestrictTo" managed-name="AndroidX.Annotations.IRestrictTo, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554597" />
+    <entry java-name="androidx/annotation/RestrictTo" managed-name="AndroidX.Annotations.IRestrictToInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554598" />
+    <entry java-name="androidx/annotation/ReturnThis" managed-name="AndroidX.Annotations.IReturnThis, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554599" />
+    <entry java-name="androidx/annotation/ReturnThis" managed-name="AndroidX.Annotations.IReturnThisInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554600" />
+    <entry java-name="androidx/annotation/Size" managed-name="AndroidX.Annotations.ISize, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554601" />
+    <entry java-name="androidx/annotation/Size" managed-name="AndroidX.Annotations.ISizeInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554602" />
+    <entry java-name="androidx/annotation/StringDef" managed-name="AndroidX.Annotations.IStringDef, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554603" />
+    <entry java-name="androidx/annotation/StringDef" managed-name="AndroidX.Annotations.IStringDefInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554604" />
+    <entry java-name="androidx/annotation/StringRes" managed-name="AndroidX.Annotations.IStringRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554605" />
+    <entry java-name="androidx/annotation/StringRes" managed-name="AndroidX.Annotations.IStringResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554606" />
+    <entry java-name="androidx/annotation/StyleableRes" managed-name="AndroidX.Annotations.IStyleableRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554607" />
+    <entry java-name="androidx/annotation/StyleableRes" managed-name="AndroidX.Annotations.IStyleableResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554608" />
+    <entry java-name="androidx/annotation/StyleRes" managed-name="AndroidX.Annotations.IStyleRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554609" />
+    <entry java-name="androidx/annotation/StyleRes" managed-name="AndroidX.Annotations.IStyleResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554610" />
+    <entry java-name="androidx/annotation/TransitionRes" managed-name="AndroidX.Annotations.ITransitionRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554611" />
+    <entry java-name="androidx/annotation/TransitionRes" managed-name="AndroidX.Annotations.ITransitionResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554612" />
+    <entry java-name="androidx/annotation/UiContext" managed-name="AndroidX.Annotations.IUiContext, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554613" />
+    <entry java-name="androidx/annotation/UiContext" managed-name="AndroidX.Annotations.IUiContextInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554614" />
+    <entry java-name="androidx/annotation/UiThread" managed-name="AndroidX.Annotations.IUiThread, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554615" />
+    <entry java-name="androidx/annotation/UiThread" managed-name="AndroidX.Annotations.IUiThreadInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554616" />
+    <entry java-name="androidx/annotation/VisibleForTesting$Companion" managed-name="AndroidX.Annotations.VisibleForTestingCompanion, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554617" />
+    <entry java-name="mono/internal/androidx/annotation/VisibleForTesting" managed-name="AndroidX.Annotations.VisibleForTesting, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554618" />
+    <entry java-name="mono/internal/androidx/annotation/VisibleForTesting" managed-name="AndroidX.Annotations.VisibleForTestingConsts, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554619" />
+    <entry java-name="androidx/annotation/VisibleForTesting" managed-name="AndroidX.Annotations.IVisibleForTesting, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554620" />
+    <entry java-name="androidx/annotation/VisibleForTesting" managed-name="AndroidX.Annotations.IVisibleForTestingInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554621" />
+    <entry java-name="androidx/annotation/WorkerThread" managed-name="AndroidX.Annotations.IWorkerThread, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554622" />
+    <entry java-name="androidx/annotation/WorkerThread" managed-name="AndroidX.Annotations.IWorkerThreadInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554623" />
+    <entry java-name="androidx/annotation/XmlRes" managed-name="AndroidX.Annotations.IXmlRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554624" />
+    <entry java-name="androidx/annotation/XmlRes" managed-name="AndroidX.Annotations.IXmlResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554625" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="androidx/annotation/AnimatorRes" managed-name="AndroidX.Annotations.IAnimatorRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554470" />
+    <entry java-name="androidx/annotation/AnimatorRes" managed-name="AndroidX.Annotations.IAnimatorResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554471" />
+    <entry java-name="androidx/annotation/AnimRes" managed-name="AndroidX.Annotations.IAnimRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554472" />
+    <entry java-name="androidx/annotation/AnimRes" managed-name="AndroidX.Annotations.IAnimResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554473" />
+    <entry java-name="androidx/annotation/AnyRes" managed-name="AndroidX.Annotations.IAnyRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554474" />
+    <entry java-name="androidx/annotation/AnyRes" managed-name="AndroidX.Annotations.IAnyResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554475" />
+    <entry java-name="androidx/annotation/AnyThread" managed-name="AndroidX.Annotations.IAnyThread, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554476" />
+    <entry java-name="androidx/annotation/AnyThread" managed-name="AndroidX.Annotations.IAnyThreadInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554477" />
+    <entry java-name="androidx/annotation/ArrayRes" managed-name="AndroidX.Annotations.IArrayRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554478" />
+    <entry java-name="androidx/annotation/ArrayRes" managed-name="AndroidX.Annotations.IArrayResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554479" />
+    <entry java-name="androidx/annotation/AttrRes" managed-name="AndroidX.Annotations.IAttrRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554480" />
+    <entry java-name="androidx/annotation/AttrRes" managed-name="AndroidX.Annotations.IAttrResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554481" />
+    <entry java-name="androidx/annotation/BinderThread" managed-name="AndroidX.Annotations.IBinderThread, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554482" />
+    <entry java-name="androidx/annotation/BinderThread" managed-name="AndroidX.Annotations.IBinderThreadInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554483" />
+    <entry java-name="androidx/annotation/BoolRes" managed-name="AndroidX.Annotations.IBoolRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554484" />
+    <entry java-name="androidx/annotation/BoolRes" managed-name="AndroidX.Annotations.IBoolResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554485" />
+    <entry java-name="androidx/annotation/CallSuper" managed-name="AndroidX.Annotations.ICallSuper, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554486" />
+    <entry java-name="androidx/annotation/CallSuper" managed-name="AndroidX.Annotations.ICallSuperInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554487" />
+    <entry java-name="androidx/annotation/CheckResult" managed-name="AndroidX.Annotations.ICheckResult, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554488" />
+    <entry java-name="androidx/annotation/CheckResult" managed-name="AndroidX.Annotations.ICheckResultInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554489" />
+    <entry java-name="androidx/annotation/ChecksSdkIntAtLeast" managed-name="AndroidX.Annotations.IChecksSdkIntAtLeast, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554490" />
+    <entry java-name="androidx/annotation/ChecksSdkIntAtLeast" managed-name="AndroidX.Annotations.IChecksSdkIntAtLeastInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554491" />
+    <entry java-name="androidx/annotation/ColorInt" managed-name="AndroidX.Annotations.IColorInt, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554492" />
+    <entry java-name="androidx/annotation/ColorInt" managed-name="AndroidX.Annotations.IColorIntInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554493" />
+    <entry java-name="androidx/annotation/ColorLong" managed-name="AndroidX.Annotations.IColorLong, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554494" />
+    <entry java-name="androidx/annotation/ColorLong" managed-name="AndroidX.Annotations.IColorLongInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554495" />
+    <entry java-name="androidx/annotation/ColorRes" managed-name="AndroidX.Annotations.IColorRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554496" />
+    <entry java-name="androidx/annotation/ColorRes" managed-name="AndroidX.Annotations.IColorResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554497" />
+    <entry java-name="androidx/annotation/ContentView" managed-name="AndroidX.Annotations.IContentView, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554498" />
+    <entry java-name="androidx/annotation/ContentView" managed-name="AndroidX.Annotations.IContentViewInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554499" />
+    <entry java-name="androidx/annotation/DeprecatedSinceApi" managed-name="AndroidX.Annotations.IDeprecatedSinceApi, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554500" />
+    <entry java-name="androidx/annotation/DeprecatedSinceApi" managed-name="AndroidX.Annotations.IDeprecatedSinceApiInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554501" />
+    <entry java-name="androidx/annotation/DimenRes" managed-name="AndroidX.Annotations.IDimenRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554502" />
+    <entry java-name="androidx/annotation/DimenRes" managed-name="AndroidX.Annotations.IDimenResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554503" />
+    <entry java-name="androidx/annotation/Dimension$Companion" managed-name="AndroidX.Annotations.DimensionCompanion, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554504" />
+    <entry java-name="mono/internal/androidx/annotation/Dimension" managed-name="AndroidX.Annotations.Dimension, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554505" />
+    <entry java-name="mono/internal/androidx/annotation/Dimension" managed-name="AndroidX.Annotations.DimensionConsts, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554506" />
+    <entry java-name="androidx/annotation/Dimension" managed-name="AndroidX.Annotations.IDimension, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554507" />
+    <entry java-name="androidx/annotation/Dimension" managed-name="AndroidX.Annotations.IDimensionInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554508" />
+    <entry java-name="androidx/annotation/Discouraged" managed-name="AndroidX.Annotations.IDiscouraged, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554509" />
+    <entry java-name="androidx/annotation/Discouraged" managed-name="AndroidX.Annotations.IDiscouragedInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554510" />
+    <entry java-name="androidx/annotation/DisplayContext" managed-name="AndroidX.Annotations.IDisplayContext, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554511" />
+    <entry java-name="androidx/annotation/DisplayContext" managed-name="AndroidX.Annotations.IDisplayContextInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554512" />
+    <entry java-name="androidx/annotation/DoNotInline" managed-name="AndroidX.Annotations.IDoNotInline, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554513" />
+    <entry java-name="androidx/annotation/DoNotInline" managed-name="AndroidX.Annotations.IDoNotInlineInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554514" />
+    <entry java-name="androidx/annotation/DrawableRes" managed-name="AndroidX.Annotations.IDrawableRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554515" />
+    <entry java-name="androidx/annotation/DrawableRes" managed-name="AndroidX.Annotations.IDrawableResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554516" />
+    <entry java-name="androidx/annotation/EmptySuper" managed-name="AndroidX.Annotations.IEmptySuper, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554518" />
+    <entry java-name="androidx/annotation/EmptySuper" managed-name="AndroidX.Annotations.IEmptySuperInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554519" />
+    <entry java-name="androidx/annotation/FloatRange" managed-name="AndroidX.Annotations.IFloatRange, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554520" />
+    <entry java-name="androidx/annotation/FloatRange" managed-name="AndroidX.Annotations.IFloatRangeInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554521" />
+    <entry java-name="androidx/annotation/FontRes" managed-name="AndroidX.Annotations.IFontRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554522" />
+    <entry java-name="androidx/annotation/FontRes" managed-name="AndroidX.Annotations.IFontResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554523" />
+    <entry java-name="androidx/annotation/FractionRes" managed-name="AndroidX.Annotations.IFractionRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554524" />
+    <entry java-name="androidx/annotation/FractionRes" managed-name="AndroidX.Annotations.IFractionResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554525" />
+    <entry java-name="androidx/annotation/GravityInt" managed-name="AndroidX.Annotations.IGravityInt, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554526" />
+    <entry java-name="androidx/annotation/GravityInt" managed-name="AndroidX.Annotations.IGravityIntInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554527" />
+    <entry java-name="androidx/annotation/GuardedBy" managed-name="AndroidX.Annotations.IGuardedBy, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554528" />
+    <entry java-name="androidx/annotation/GuardedBy" managed-name="AndroidX.Annotations.IGuardedByInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554529" />
+    <entry java-name="androidx/annotation/HalfFloat" managed-name="AndroidX.Annotations.IHalfFloat, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554530" />
+    <entry java-name="androidx/annotation/HalfFloat" managed-name="AndroidX.Annotations.IHalfFloatInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554531" />
+    <entry java-name="androidx/annotation/IdRes" managed-name="AndroidX.Annotations.IIdRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554532" />
+    <entry java-name="androidx/annotation/IdRes" managed-name="AndroidX.Annotations.IIdResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554533" />
+    <entry java-name="androidx/annotation/InspectableProperty$EnumEntry" managed-name="AndroidX.Annotations.IInspectablePropertyEnumEntry, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554534" />
+    <entry java-name="androidx/annotation/InspectableProperty$EnumEntry" managed-name="AndroidX.Annotations.IInspectablePropertyEnumEntryInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554535" />
+    <entry java-name="androidx/annotation/InspectableProperty$FlagEntry" managed-name="AndroidX.Annotations.IInspectablePropertyFlagEntry, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554536" />
+    <entry java-name="androidx/annotation/InspectableProperty$FlagEntry" managed-name="AndroidX.Annotations.IInspectablePropertyFlagEntryInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554537" />
+    <entry java-name="androidx/annotation/InspectableProperty$ValueType" managed-name="AndroidX.Annotations.InspectablePropertyValueType, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554538" />
+    <entry java-name="androidx/annotation/InspectableProperty" managed-name="AndroidX.Annotations.IInspectableProperty, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554539" />
+    <entry java-name="androidx/annotation/InspectableProperty" managed-name="AndroidX.Annotations.IInspectablePropertyInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554540" />
+    <entry java-name="androidx/annotation/IntDef" managed-name="AndroidX.Annotations.IIntDef, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554541" />
+    <entry java-name="androidx/annotation/IntDef" managed-name="AndroidX.Annotations.IIntDefInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554542" />
+    <entry java-name="androidx/annotation/IntegerRes" managed-name="AndroidX.Annotations.IIntegerRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554543" />
+    <entry java-name="androidx/annotation/IntegerRes" managed-name="AndroidX.Annotations.IIntegerResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554544" />
+    <entry java-name="androidx/annotation/InterpolatorRes" managed-name="AndroidX.Annotations.IInterpolatorRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554545" />
+    <entry java-name="androidx/annotation/InterpolatorRes" managed-name="AndroidX.Annotations.IInterpolatorResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554546" />
+    <entry java-name="androidx/annotation/IntRange" managed-name="AndroidX.Annotations.IIntRange, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554547" />
+    <entry java-name="androidx/annotation/IntRange" managed-name="AndroidX.Annotations.IIntRangeInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554548" />
+    <entry java-name="androidx/annotation/Keep" managed-name="AndroidX.Annotations.IKeep, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554549" />
+    <entry java-name="androidx/annotation/Keep" managed-name="AndroidX.Annotations.IKeepInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554550" />
+    <entry java-name="androidx/annotation/LayoutRes" managed-name="AndroidX.Annotations.ILayoutRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554551" />
+    <entry java-name="androidx/annotation/LayoutRes" managed-name="AndroidX.Annotations.ILayoutResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554552" />
+    <entry java-name="androidx/annotation/LongDef" managed-name="AndroidX.Annotations.ILongDef, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554553" />
+    <entry java-name="androidx/annotation/LongDef" managed-name="AndroidX.Annotations.ILongDefInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554554" />
+    <entry java-name="androidx/annotation/MainThread" managed-name="AndroidX.Annotations.IMainThread, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554555" />
+    <entry java-name="androidx/annotation/MainThread" managed-name="AndroidX.Annotations.IMainThreadInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554556" />
+    <entry java-name="androidx/annotation/MenuRes" managed-name="AndroidX.Annotations.IMenuRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554557" />
+    <entry java-name="androidx/annotation/MenuRes" managed-name="AndroidX.Annotations.IMenuResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554558" />
+    <entry java-name="androidx/annotation/NavigationRes" managed-name="AndroidX.Annotations.INavigationRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554559" />
+    <entry java-name="androidx/annotation/NavigationRes" managed-name="AndroidX.Annotations.INavigationResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554560" />
+    <entry java-name="androidx/annotation/NonNull" managed-name="AndroidX.Annotations.INonNull, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554561" />
+    <entry java-name="androidx/annotation/NonNull" managed-name="AndroidX.Annotations.INonNullInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554562" />
+    <entry java-name="androidx/annotation/NonUiContext" managed-name="AndroidX.Annotations.INonUiContext, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554563" />
+    <entry java-name="androidx/annotation/NonUiContext" managed-name="AndroidX.Annotations.INonUiContextInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554564" />
+    <entry java-name="androidx/annotation/Nullable" managed-name="AndroidX.Annotations.INullable, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554570" />
+    <entry java-name="androidx/annotation/Nullable" managed-name="AndroidX.Annotations.INullableInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554571" />
+    <entry java-name="androidx/annotation/OpenForTesting" managed-name="AndroidX.Annotations.IOpenForTesting, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554572" />
+    <entry java-name="androidx/annotation/OpenForTesting" managed-name="AndroidX.Annotations.IOpenForTestingInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554573" />
+    <entry java-name="androidx/annotation/PluralsRes" managed-name="AndroidX.Annotations.IPluralsRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554574" />
+    <entry java-name="androidx/annotation/PluralsRes" managed-name="AndroidX.Annotations.IPluralsResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554575" />
+    <entry java-name="androidx/annotation/Px" managed-name="AndroidX.Annotations.IPx, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554576" />
+    <entry java-name="androidx/annotation/Px" managed-name="AndroidX.Annotations.IPxInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554577" />
+    <entry java-name="androidx/annotation/RawRes" managed-name="AndroidX.Annotations.IRawRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554578" />
+    <entry java-name="androidx/annotation/RawRes" managed-name="AndroidX.Annotations.IRawResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554579" />
+    <entry java-name="androidx/annotation/ReplaceWith" managed-name="AndroidX.Annotations.IReplaceWith, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554580" />
+    <entry java-name="androidx/annotation/ReplaceWith" managed-name="AndroidX.Annotations.IReplaceWithInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554581" />
+    <entry java-name="androidx/annotation/RequiresApi" managed-name="AndroidX.Annotations.IRequiresApi, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554582" />
+    <entry java-name="androidx/annotation/RequiresApi" managed-name="AndroidX.Annotations.IRequiresApiInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554583" />
+    <entry java-name="androidx/annotation/RequiresExtension$Container" managed-name="AndroidX.Annotations.IRequiresExtensionContainer, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554584" />
+    <entry java-name="androidx/annotation/RequiresExtension$Container" managed-name="AndroidX.Annotations.IRequiresExtensionContainerInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554585" />
+    <entry java-name="androidx/annotation/RequiresExtension" managed-name="AndroidX.Annotations.IRequiresExtension, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554586" />
+    <entry java-name="androidx/annotation/RequiresExtension" managed-name="AndroidX.Annotations.IRequiresExtensionInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554587" />
+    <entry java-name="androidx/annotation/RequiresFeature" managed-name="AndroidX.Annotations.IRequiresFeature, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554588" />
+    <entry java-name="androidx/annotation/RequiresFeature" managed-name="AndroidX.Annotations.IRequiresFeatureInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554589" />
+    <entry java-name="androidx/annotation/RequiresPermission$Read" managed-name="AndroidX.Annotations.IRequiresPermissionRead, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554590" />
+    <entry java-name="androidx/annotation/RequiresPermission$Read" managed-name="AndroidX.Annotations.IRequiresPermissionReadInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554591" />
+    <entry java-name="androidx/annotation/RequiresPermission$Write" managed-name="AndroidX.Annotations.IRequiresPermissionWrite, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554592" />
+    <entry java-name="androidx/annotation/RequiresPermission$Write" managed-name="AndroidX.Annotations.IRequiresPermissionWriteInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554593" />
+    <entry java-name="androidx/annotation/RequiresPermission" managed-name="AndroidX.Annotations.IRequiresPermission, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554594" />
+    <entry java-name="androidx/annotation/RequiresPermission" managed-name="AndroidX.Annotations.IRequiresPermissionInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554595" />
+    <entry java-name="androidx/annotation/RestrictTo$Scope" managed-name="AndroidX.Annotations.RestrictToScope, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554596" />
+    <entry java-name="androidx/annotation/RestrictTo" managed-name="AndroidX.Annotations.IRestrictTo, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554597" />
+    <entry java-name="androidx/annotation/RestrictTo" managed-name="AndroidX.Annotations.IRestrictToInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554598" />
+    <entry java-name="androidx/annotation/ReturnThis" managed-name="AndroidX.Annotations.IReturnThis, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554599" />
+    <entry java-name="androidx/annotation/ReturnThis" managed-name="AndroidX.Annotations.IReturnThisInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554600" />
+    <entry java-name="androidx/annotation/Size" managed-name="AndroidX.Annotations.ISize, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554601" />
+    <entry java-name="androidx/annotation/Size" managed-name="AndroidX.Annotations.ISizeInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554602" />
+    <entry java-name="androidx/annotation/StringDef" managed-name="AndroidX.Annotations.IStringDef, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554603" />
+    <entry java-name="androidx/annotation/StringDef" managed-name="AndroidX.Annotations.IStringDefInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554604" />
+    <entry java-name="androidx/annotation/StringRes" managed-name="AndroidX.Annotations.IStringRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554605" />
+    <entry java-name="androidx/annotation/StringRes" managed-name="AndroidX.Annotations.IStringResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554606" />
+    <entry java-name="androidx/annotation/StyleableRes" managed-name="AndroidX.Annotations.IStyleableRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554607" />
+    <entry java-name="androidx/annotation/StyleableRes" managed-name="AndroidX.Annotations.IStyleableResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554608" />
+    <entry java-name="androidx/annotation/StyleRes" managed-name="AndroidX.Annotations.IStyleRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554609" />
+    <entry java-name="androidx/annotation/StyleRes" managed-name="AndroidX.Annotations.IStyleResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554610" />
+    <entry java-name="androidx/annotation/TransitionRes" managed-name="AndroidX.Annotations.ITransitionRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554611" />
+    <entry java-name="androidx/annotation/TransitionRes" managed-name="AndroidX.Annotations.ITransitionResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554612" />
+    <entry java-name="androidx/annotation/UiContext" managed-name="AndroidX.Annotations.IUiContext, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554613" />
+    <entry java-name="androidx/annotation/UiContext" managed-name="AndroidX.Annotations.IUiContextInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554614" />
+    <entry java-name="androidx/annotation/UiThread" managed-name="AndroidX.Annotations.IUiThread, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554615" />
+    <entry java-name="androidx/annotation/UiThread" managed-name="AndroidX.Annotations.IUiThreadInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554616" />
+    <entry java-name="androidx/annotation/VisibleForTesting$Companion" managed-name="AndroidX.Annotations.VisibleForTestingCompanion, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554617" />
+    <entry java-name="mono/internal/androidx/annotation/VisibleForTesting" managed-name="AndroidX.Annotations.VisibleForTesting, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554618" />
+    <entry java-name="mono/internal/androidx/annotation/VisibleForTesting" managed-name="AndroidX.Annotations.VisibleForTestingConsts, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554619" />
+    <entry java-name="androidx/annotation/VisibleForTesting" managed-name="AndroidX.Annotations.IVisibleForTesting, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554620" />
+    <entry java-name="androidx/annotation/VisibleForTesting" managed-name="AndroidX.Annotations.IVisibleForTestingInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554621" />
+    <entry java-name="androidx/annotation/WorkerThread" managed-name="AndroidX.Annotations.IWorkerThread, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554622" />
+    <entry java-name="androidx/annotation/WorkerThread" managed-name="AndroidX.Annotations.IWorkerThreadInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554623" />
+    <entry java-name="androidx/annotation/XmlRes" managed-name="AndroidX.Annotations.IXmlRes, Xamarin.AndroidX.Annotation.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554624" />
+    <entry java-name="androidx/annotation/XmlRes" managed-name="AndroidX.Annotations.IXmlResInvoker, Xamarin.AndroidX.Annotation.Jvm" managed-type-token-id="33554625" />
+  </managed-to-java>
+</api>

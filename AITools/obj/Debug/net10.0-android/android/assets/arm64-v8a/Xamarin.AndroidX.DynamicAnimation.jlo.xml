@@ -1,0 +1,47 @@
+<api>
+  <jcw-types>
+    <type name="AnimationHandler_DurationScaleChangeListenerImplementor" package="mono.androidx.dynamicanimation.animation" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.DynamicAnimation.AnimationHandler+IDurationScaleChangeListenerImplementor, Xamarin.AndroidX.DynamicAnimation">
+      <implemented_interfaces>
+        <interface name="androidx.dynamicanimation.animation.AnimationHandler.DurationScaleChangeListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="AnimationHandler_DurationScaleChangeListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="register" method="n_register:()Z:GetRegisterHandler:AndroidX.DynamicAnimation.AnimationHandler+IDurationScaleChangeListenerInvoker, Xamarin.AndroidX.DynamicAnimation" jni_signature="()Z" retval="boolean" is_dynamically_registered="True" />
+        <method name="unregister" method="n_unregister:()Z:GetUnregisterHandler:AndroidX.DynamicAnimation.AnimationHandler+IDurationScaleChangeListenerInvoker, Xamarin.AndroidX.DynamicAnimation" jni_signature="()Z" retval="boolean" is_dynamically_registered="True" />
+      </methods>
+    </type>
+    <type name="DynamicAnimation_OnAnimationEndListenerImplementor" package="mono.androidx.dynamicanimation.animation" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.DynamicAnimation.DynamicAnimation+IOnAnimationEndListenerImplementor, Xamarin.AndroidX.DynamicAnimation">
+      <implemented_interfaces>
+        <interface name="androidx.dynamicanimation.animation.DynamicAnimation.OnAnimationEndListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="DynamicAnimation_OnAnimationEndListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onAnimationEnd" method="n_onAnimationEnd:(Landroidx/dynamicanimation/animation/DynamicAnimation;ZFF)V:GetOnAnimationEnd_Landroidx_dynamicanimation_animation_DynamicAnimation_ZFFHandler:AndroidX.DynamicAnimation.DynamicAnimation+IOnAnimationEndListenerInvoker, Xamarin.AndroidX.DynamicAnimation" jni_signature="(Landroidx/dynamicanimation/animation/DynamicAnimation;ZFF)V" params="androidx.dynamicanimation.animation.DynamicAnimation p0, boolean p1, float p2, float p3" retval="void" is_dynamically_registered="True" super_call="p0, p1, p2, p3" activate_call="p0, p1, p2, p3" />
+      </methods>
+    </type>
+    <type name="DynamicAnimation_OnAnimationUpdateListenerImplementor" package="mono.androidx.dynamicanimation.animation" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.DynamicAnimation.DynamicAnimation+IOnAnimationUpdateListenerImplementor, Xamarin.AndroidX.DynamicAnimation">
+      <implemented_interfaces>
+        <interface name="androidx.dynamicanimation.animation.DynamicAnimation.OnAnimationUpdateListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="DynamicAnimation_OnAnimationUpdateListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onAnimationUpdate" method="n_onAnimationUpdate:(Landroidx/dynamicanimation/animation/DynamicAnimation;FF)V:GetOnAnimationUpdate_Landroidx_dynamicanimation_animation_DynamicAnimation_FFHandler:AndroidX.DynamicAnimation.DynamicAnimation+IOnAnimationUpdateListenerInvoker, Xamarin.AndroidX.DynamicAnimation" jni_signature="(Landroidx/dynamicanimation/animation/DynamicAnimation;FF)V" params="androidx.dynamicanimation.animation.DynamicAnimation p0, float p1, float p2" retval="void" is_dynamically_registered="True" super_call="p0, p1, p2" activate_call="p0, p1, p2" />
+      </methods>
+    </type>
+  </jcw-types>
+  <acw-types partial-assembly-name="Xamarin.AndroidX.DynamicAnimation" module-name="Xamarin.AndroidX.DynamicAnimation.dll">
+    <type assembly-qualified-name="AndroidX.DynamicAnimation.AnimationHandler+IDurationScaleChangeListener, Xamarin.AndroidX.DynamicAnimation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.dynamicanimation.animation.AnimationHandler$DurationScaleChangeListener" java-key="androidx.dynamicanimation.animation.AnimationHandler$DurationScaleChangeListener" managed-key="AndroidX.DynamicAnimation.AnimationHandler.IDurationScaleChangeListener" partial-assembly-qualified-name="AndroidX.DynamicAnimation.AnimationHandler+IDurationScaleChangeListener, Xamarin.AndroidX.DynamicAnimation" />
+    <type assembly-qualified-name="AndroidX.DynamicAnimation.AnimationHandler+IDurationScaleChangeListenerImplementor, Xamarin.AndroidX.DynamicAnimation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="mono.androidx.dynamicanimation.animation.AnimationHandler_DurationScaleChangeListenerImplementor" java-key="mono.androidx.dynamicanimation.animation.AnimationHandler_DurationScaleChangeListenerImplementor" managed-key="AndroidX.DynamicAnimation.AnimationHandler.IDurationScaleChangeListenerImplementor" partial-assembly-qualified-name="AndroidX.DynamicAnimation.AnimationHandler+IDurationScaleChangeListenerImplementor, Xamarin.AndroidX.DynamicAnimation" />
+    <type assembly-qualified-name="AndroidX.DynamicAnimation.DynamicAnimation+IOnAnimationEndListener, Xamarin.AndroidX.DynamicAnimation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.dynamicanimation.animation.DynamicAnimation$OnAnimationEndListener" java-key="androidx.dynamicanimation.animation.DynamicAnimation$OnAnimationEndListener" managed-key="AndroidX.DynamicAnimation.DynamicAnimation.IOnAnimationEndListener" partial-assembly-qualified-name="AndroidX.DynamicAnimation.DynamicAnimation+IOnAnimationEndListener, Xamarin.AndroidX.DynamicAnimation" />
+    <type assembly-qualified-name="AndroidX.DynamicAnimation.DynamicAnimation+IOnAnimationEndListenerImplementor, Xamarin.AndroidX.DynamicAnimation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="mono.androidx.dynamicanimation.animation.DynamicAnimation_OnAnimationEndListenerImplementor" java-key="mono.androidx.dynamicanimation.animation.DynamicAnimation_OnAnimationEndListenerImplementor" managed-key="AndroidX.DynamicAnimation.DynamicAnimation.IOnAnimationEndListenerImplementor" partial-assembly-qualified-name="AndroidX.DynamicAnimation.DynamicAnimation+IOnAnimationEndListenerImplementor, Xamarin.AndroidX.DynamicAnimation" />
+    <type assembly-qualified-name="AndroidX.DynamicAnimation.DynamicAnimation+IOnAnimationUpdateListener, Xamarin.AndroidX.DynamicAnimation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.dynamicanimation.animation.DynamicAnimation$OnAnimationUpdateListener" java-key="androidx.dynamicanimation.animation.DynamicAnimation$OnAnimationUpdateListener" managed-key="AndroidX.DynamicAnimation.DynamicAnimation.IOnAnimationUpdateListener" partial-assembly-qualified-name="AndroidX.DynamicAnimation.DynamicAnimation+IOnAnimationUpdateListener, Xamarin.AndroidX.DynamicAnimation" />
+    <type assembly-qualified-name="AndroidX.DynamicAnimation.DynamicAnimation+IOnAnimationUpdateListenerImplementor, Xamarin.AndroidX.DynamicAnimation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="mono.androidx.dynamicanimation.animation.DynamicAnimation_OnAnimationUpdateListenerImplementor" java-key="mono.androidx.dynamicanimation.animation.DynamicAnimation_OnAnimationUpdateListenerImplementor" managed-key="AndroidX.DynamicAnimation.DynamicAnimation.IOnAnimationUpdateListenerImplementor" partial-assembly-qualified-name="AndroidX.DynamicAnimation.DynamicAnimation+IOnAnimationUpdateListenerImplementor, Xamarin.AndroidX.DynamicAnimation" />
+    <type assembly-qualified-name="AndroidX.DynamicAnimation.IFrameCallbackScheduler, Xamarin.AndroidX.DynamicAnimation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.dynamicanimation.animation.FrameCallbackScheduler" java-key="androidx.dynamicanimation.animation.FrameCallbackScheduler" managed-key="AndroidX.DynamicAnimation.IFrameCallbackScheduler" partial-assembly-qualified-name="AndroidX.DynamicAnimation.IFrameCallbackScheduler, Xamarin.AndroidX.DynamicAnimation" />
+  </acw-types>
+</api>

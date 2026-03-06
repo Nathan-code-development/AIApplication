@@ -1,0 +1,18 @@
+<api type="debug" assembly-name="Xamarin.AndroidX.Startup.StartupRuntime" mvid="895013b1faa547e98aec427a8774360c">
+  <java-to-managed>
+    <entry java-name="androidx/startup/AppInitializer" managed-name="AndroidX.Startup.AppInitializer, Xamarin.AndroidX.Startup.StartupRuntime" managed-type-token-id="33554437" />
+    <entry java-name="androidx/startup/Initializer" managed-name="AndroidX.Startup.IInitializer, Xamarin.AndroidX.Startup.StartupRuntime" skip-in-java-to-managed="True" managed-type-token-id="33554438" />
+    <entry java-name="androidx/startup/Initializer" managed-name="AndroidX.Startup.IInitializerInvoker, Xamarin.AndroidX.Startup.StartupRuntime" managed-type-token-id="33554439" />
+    <entry java-name="androidx/startup/InitializationProvider" managed-name="AndroidX.Startup.InitializationProvider, Xamarin.AndroidX.Startup.StartupRuntime" managed-type-token-id="33554440" />
+    <entry java-name="androidx/startup/StartupException" managed-name="AndroidX.Startup.StartupException, Xamarin.AndroidX.Startup.StartupRuntime" managed-type-token-id="33554441" />
+    <entry java-name="androidx/startup/StartupLogger" managed-name="AndroidX.Startup.StartupLogger, Xamarin.AndroidX.Startup.StartupRuntime" managed-type-token-id="33554442" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="androidx/startup/AppInitializer" managed-name="AndroidX.Startup.AppInitializer, Xamarin.AndroidX.Startup.StartupRuntime" managed-type-token-id="33554437" />
+    <entry java-name="androidx/startup/Initializer" managed-name="AndroidX.Startup.IInitializer, Xamarin.AndroidX.Startup.StartupRuntime" skip-in-java-to-managed="True" managed-type-token-id="33554438" />
+    <entry java-name="androidx/startup/Initializer" managed-name="AndroidX.Startup.IInitializerInvoker, Xamarin.AndroidX.Startup.StartupRuntime" managed-type-token-id="33554439" />
+    <entry java-name="androidx/startup/InitializationProvider" managed-name="AndroidX.Startup.InitializationProvider, Xamarin.AndroidX.Startup.StartupRuntime" managed-type-token-id="33554440" />
+    <entry java-name="androidx/startup/StartupException" managed-name="AndroidX.Startup.StartupException, Xamarin.AndroidX.Startup.StartupRuntime" managed-type-token-id="33554441" />
+    <entry java-name="androidx/startup/StartupLogger" managed-name="AndroidX.Startup.StartupLogger, Xamarin.AndroidX.Startup.StartupRuntime" managed-type-token-id="33554442" />
+  </managed-to-java>
+</api>

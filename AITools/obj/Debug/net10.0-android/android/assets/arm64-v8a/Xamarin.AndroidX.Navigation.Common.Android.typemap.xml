@@ -1,0 +1,184 @@
+<api type="debug" assembly-name="Xamarin.AndroidX.Navigation.Common.Android" mvid="408e8f8918bc40198901eade3a930c1c">
+  <java-to-managed>
+    <entry java-name="androidx/navigation/ActionOnlyNavDirections" managed-name="AndroidX.Navigation.ActionOnlyNavDirections, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554447" />
+    <entry java-name="androidx/navigation/AnimBuilder" managed-name="AndroidX.Navigation.AnimBuilder, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554448" />
+    <entry java-name="androidx/navigation/CollectionNavType" managed-name="AndroidX.Navigation.CollectionNavType, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554449" />
+    <entry java-name="androidx/navigation/CollectionNavType" managed-name="AndroidX.Navigation.CollectionNavTypeInvoker, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554450" />
+    <entry java-name="androidx/navigation/FloatingWindow" managed-name="AndroidX.Navigation.IFloatingWindow, Xamarin.AndroidX.Navigation.Common.Android" skip-in-java-to-managed="True" managed-type-token-id="33554451" />
+    <entry java-name="androidx/navigation/FloatingWindow" managed-name="AndroidX.Navigation.IFloatingWindowInvoker, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554452" />
+    <entry java-name="androidx/navigation/NavArgs" managed-name="AndroidX.Navigation.INavArgs, Xamarin.AndroidX.Navigation.Common.Android" skip-in-java-to-managed="True" managed-type-token-id="33554453" />
+    <entry java-name="androidx/navigation/NavArgs" managed-name="AndroidX.Navigation.INavArgsInvoker, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554454" />
+    <entry java-name="androidx/navigation/NavDeepLinkDsl" managed-name="AndroidX.Navigation.INavDeepLinkDsl, Xamarin.AndroidX.Navigation.Common.Android" skip-in-java-to-managed="True" managed-type-token-id="33554455" />
+    <entry java-name="androidx/navigation/NavDeepLinkDsl" managed-name="AndroidX.Navigation.INavDeepLinkDslInvoker, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554456" />
+    <entry java-name="androidx/navigation/NavDestinationDsl" managed-name="AndroidX.Navigation.INavDestinationDsl, Xamarin.AndroidX.Navigation.Common.Android" skip-in-java-to-managed="True" managed-type-token-id="33554457" />
+    <entry java-name="androidx/navigation/NavDestinationDsl" managed-name="AndroidX.Navigation.INavDestinationDslInvoker, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554458" />
+    <entry java-name="androidx/navigation/NavDirections" managed-name="AndroidX.Navigation.INavDirections, Xamarin.AndroidX.Navigation.Common.Android" skip-in-java-to-managed="True" managed-type-token-id="33554459" />
+    <entry java-name="androidx/navigation/NavDirections" managed-name="AndroidX.Navigation.INavDirectionsInvoker, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554460" />
+    <entry java-name="androidx/navigation/NavOptionsDsl" managed-name="AndroidX.Navigation.INavOptionsDsl, Xamarin.AndroidX.Navigation.Common.Android" skip-in-java-to-managed="True" managed-type-token-id="33554461" />
+    <entry java-name="androidx/navigation/NavOptionsDsl" managed-name="AndroidX.Navigation.INavOptionsDslInvoker, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554462" />
+    <entry java-name="androidx/navigation/NavViewModelStoreProvider" managed-name="AndroidX.Navigation.INavViewModelStoreProvider, Xamarin.AndroidX.Navigation.Common.Android" skip-in-java-to-managed="True" managed-type-token-id="33554463" />
+    <entry java-name="androidx/navigation/NavViewModelStoreProvider" managed-name="AndroidX.Navigation.INavViewModelStoreProviderInvoker, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554464" />
+    <entry java-name="androidx/navigation/SupportingPane" managed-name="AndroidX.Navigation.ISupportingPane, Xamarin.AndroidX.Navigation.Common.Android" skip-in-java-to-managed="True" managed-type-token-id="33554465" />
+    <entry java-name="androidx/navigation/SupportingPane" managed-name="AndroidX.Navigation.ISupportingPaneInvoker, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554466" />
+    <entry java-name="androidx/navigation/NamedNavArgument" managed-name="AndroidX.Navigation.NamedNavArgument, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554467" />
+    <entry java-name="androidx/navigation/NamedNavArgumentKt" managed-name="AndroidX.Navigation.NamedNavArgumentKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554468" />
+    <entry java-name="androidx/navigation/NavAction" managed-name="AndroidX.Navigation.NavAction, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554469" />
+    <entry java-name="androidx/navigation/NavActionBuilder" managed-name="AndroidX.Navigation.NavActionBuilder, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554470" />
+    <entry java-name="androidx/navigation/NavArgsLazy" managed-name="AndroidX.Navigation.NavArgsLazy, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554471" />
+    <entry java-name="androidx/navigation/NavArgsLazy_androidKt" managed-name="AndroidX.Navigation.NavArgsLazy_androidKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554472" />
+    <entry java-name="androidx/navigation/NavArgument" managed-name="AndroidX.Navigation.NavArgument, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554473" />
+    <entry java-name="androidx/navigation/NavArgument$Builder" managed-name="AndroidX.Navigation.NavArgument+Builder, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554518" />
+    <entry java-name="androidx/navigation/NavArgumentBuilder" managed-name="AndroidX.Navigation.NavArgumentBuilder, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554474" />
+    <entry java-name="androidx/navigation/NavArgumentKt" managed-name="AndroidX.Navigation.NavArgumentKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554475" />
+    <entry java-name="androidx/navigation/NavBackStackEntry" managed-name="AndroidX.Navigation.NavBackStackEntry, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554476" />
+    <entry java-name="androidx/navigation/NavBackStackEntry$Companion" managed-name="AndroidX.Navigation.NavBackStackEntry+Companion, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554519" />
+    <entry java-name="androidx/navigation/NavBackStackEntryKt" managed-name="AndroidX.Navigation.NavBackStackEntryKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554477" />
+    <entry java-name="androidx/navigation/NavDeepLink" managed-name="AndroidX.Navigation.NavDeepLink, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554478" />
+    <entry java-name="androidx/navigation/NavDeepLink$Builder" managed-name="AndroidX.Navigation.NavDeepLink+Builder, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554520" />
+    <entry java-name="androidx/navigation/NavDeepLinkDslBuilder" managed-name="AndroidX.Navigation.NavDeepLinkDslBuilder, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554480" />
+    <entry java-name="androidx/navigation/NavDeepLinkDslBuilderKt" managed-name="AndroidX.Navigation.NavDeepLinkDslBuilderKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554481" />
+    <entry java-name="androidx/navigation/NavDeepLinkRequest" managed-name="AndroidX.Navigation.NavDeepLinkRequest, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554482" />
+    <entry java-name="androidx/navigation/NavDeepLinkRequest$Builder" managed-name="AndroidX.Navigation.NavDeepLinkRequest+Builder, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554521" />
+    <entry java-name="androidx/navigation/NavDeepLinkRequest$Builder$Companion" managed-name="AndroidX.Navigation.NavDeepLinkRequest+Builder+Companion, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554539" />
+    <entry java-name="androidx/navigation/NavDestination" managed-name="AndroidX.Navigation.NavDestination, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554483" />
+    <entry java-name="androidx/navigation/NavDestination$ClassType" managed-name="AndroidX.Navigation.NavDestination+IClassType, Xamarin.AndroidX.Navigation.Common.Android" skip-in-java-to-managed="True" managed-type-token-id="33554522" />
+    <entry java-name="androidx/navigation/NavDestination$ClassType" managed-name="AndroidX.Navigation.NavDestination+IClassTypeInvoker, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554523" />
+    <entry java-name="androidx/navigation/NavDestination$Companion" managed-name="AndroidX.Navigation.NavDestination+Companion, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554524" />
+    <entry java-name="androidx/navigation/NavDestination$DeepLinkMatch" managed-name="AndroidX.Navigation.NavDestination+DeepLinkMatch, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554525" />
+    <entry java-name="androidx/navigation/NavDestinationBuilder" managed-name="AndroidX.Navigation.NavDestinationBuilder, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554484" />
+    <entry java-name="androidx/navigation/NavGraph" managed-name="AndroidX.Navigation.NavGraph, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554486" />
+    <entry java-name="androidx/navigation/NavGraph$Companion" managed-name="AndroidX.Navigation.NavGraph+Companion, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554526" />
+    <entry java-name="androidx/navigation/NavGraphBuilder" managed-name="AndroidX.Navigation.NavGraphBuilder, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554487" />
+    <entry java-name="androidx/navigation/NavGraphBuilderKt" managed-name="AndroidX.Navigation.NavGraphBuilderKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554488" />
+    <entry java-name="androidx/navigation/NavGraphKt" managed-name="AndroidX.Navigation.NavGraphKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554489" />
+    <entry java-name="androidx/navigation/NavGraphNavigator" managed-name="AndroidX.Navigation.NavGraphNavigator, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554490" />
+    <entry java-name="androidx/navigation/Navigator" managed-name="AndroidX.Navigation.Navigator, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554491" />
+    <entry java-name="androidx/navigation/Navigator$Extras" managed-name="AndroidX.Navigation.Navigator+IExtras, Xamarin.AndroidX.Navigation.Common.Android" skip-in-java-to-managed="True" managed-type-token-id="33554527" />
+    <entry java-name="androidx/navigation/Navigator$Extras" managed-name="AndroidX.Navigation.Navigator+IExtrasInvoker, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554528" />
+    <entry java-name="androidx/navigation/Navigator$Name" managed-name="AndroidX.Navigation.Navigator+IName, Xamarin.AndroidX.Navigation.Common.Android" skip-in-java-to-managed="True" managed-type-token-id="33554529" />
+    <entry java-name="androidx/navigation/Navigator$Name" managed-name="AndroidX.Navigation.Navigator+INameInvoker, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554530" />
+    <entry java-name="androidx/navigation/Navigator" managed-name="AndroidX.Navigation.NavigatorInvoker, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554492" />
+    <entry java-name="androidx/navigation/NavigatorProvider" managed-name="AndroidX.Navigation.NavigatorProvider, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554493" />
+    <entry java-name="androidx/navigation/NavigatorProviderKt" managed-name="AndroidX.Navigation.NavigatorProviderKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554494" />
+    <entry java-name="androidx/navigation/NavigatorState" managed-name="AndroidX.Navigation.NavigatorState, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554495" />
+    <entry java-name="androidx/navigation/NavigatorState" managed-name="AndroidX.Navigation.NavigatorStateInvoker, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554496" />
+    <entry java-name="androidx/navigation/NavOptions" managed-name="AndroidX.Navigation.NavOptions, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554497" />
+    <entry java-name="androidx/navigation/NavOptions$Builder" managed-name="AndroidX.Navigation.NavOptions+Builder, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554531" />
+    <entry java-name="androidx/navigation/NavOptionsBuilder" managed-name="AndroidX.Navigation.NavOptionsBuilder, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554498" />
+    <entry java-name="androidx/navigation/NavOptionsBuilderKt" managed-name="AndroidX.Navigation.NavOptionsBuilderKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554499" />
+    <entry java-name="androidx/navigation/NavType" managed-name="AndroidX.Navigation.NavType, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554501" />
+    <entry java-name="androidx/navigation/NavType$Companion" managed-name="AndroidX.Navigation.NavType+Companion, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554532" />
+    <entry java-name="androidx/navigation/NavType$EnumType" managed-name="AndroidX.Navigation.NavType+EnumType, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554533" />
+    <entry java-name="androidx/navigation/NavType$ParcelableArrayType" managed-name="AndroidX.Navigation.NavType+ParcelableArrayType, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554534" />
+    <entry java-name="androidx/navigation/NavType$ParcelableType" managed-name="AndroidX.Navigation.NavType+ParcelableType, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554535" />
+    <entry java-name="androidx/navigation/NavType$SerializableArrayType" managed-name="AndroidX.Navigation.NavType+SerializableArrayType, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554536" />
+    <entry java-name="androidx/navigation/NavType$SerializableType" managed-name="AndroidX.Navigation.NavType+SerializableType, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554537" />
+    <entry java-name="androidx/navigation/NavType" managed-name="AndroidX.Navigation.NavTypeInvoker, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554502" />
+    <entry java-name="androidx/navigation/NavTypeKt" managed-name="AndroidX.Navigation.NavTypeKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554503" />
+    <entry java-name="androidx/navigation/NavUriKt" managed-name="AndroidX.Navigation.NavUriKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554504" />
+    <entry java-name="androidx/navigation/NavUri_androidKt" managed-name="AndroidX.Navigation.NavUri_androidKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554505" />
+    <entry java-name="androidx/navigation/NoOpNavigator" managed-name="AndroidX.Navigation.NoOpNavigator, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554506" />
+    <entry java-name="androidx/navigation/PopUpToBuilder" managed-name="AndroidX.Navigation.PopUpToBuilder, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554507" />
+    <entry java-name="androidx/navigation/SavedStateHandleKt" managed-name="AndroidX.Navigation.SavedStateHandleKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554508" />
+    <entry java-name="androidx/navigation/serialization/NavTypeConverterKt" managed-name="AndroidX.Navigation.Serialization.NavTypeConverterKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554509" />
+    <entry java-name="androidx/navigation/serialization/NavTypeConverterKt$WhenMappings" managed-name="AndroidX.Navigation.Serialization.NavTypeConverterKt+WhenMappings, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554538" />
+    <entry java-name="androidx/navigation/serialization/NavTypeConverter_androidKt" managed-name="AndroidX.Navigation.Serialization.NavTypeConverter_androidKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554510" />
+    <entry java-name="androidx/navigation/serialization/RouteDeserializerKt" managed-name="AndroidX.Navigation.Serialization.RouteDeserializerKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554511" />
+    <entry java-name="androidx/navigation/serialization/RouteEncoder" managed-name="AndroidX.Navigation.Serialization.RouteEncoder, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554512" />
+    <entry java-name="androidx/navigation/serialization/RouteSerializerKt" managed-name="AndroidX.Navigation.Serialization.RouteSerializerKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554513" />
+    <entry java-name="androidx/navigation/internal/NavContext" managed-name="AndroidX.Navigation.Internal.NavContext, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554514" />
+    <entry java-name="androidx/navigation/internal/SynchronizedObjectKt" managed-name="AndroidX.Navigation.Internal.SynchronizedObjectKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554515" />
+    <entry java-name="androidx/navigation/internal/SynchronizedObject_jvmCommonKt" managed-name="AndroidX.Navigation.Internal.SynchronizedObject_jvmCommonKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554516" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="androidx/navigation/ActionOnlyNavDirections" managed-name="AndroidX.Navigation.ActionOnlyNavDirections, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554447" />
+    <entry java-name="androidx/navigation/AnimBuilder" managed-name="AndroidX.Navigation.AnimBuilder, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554448" />
+    <entry java-name="androidx/navigation/CollectionNavType" managed-name="AndroidX.Navigation.CollectionNavType, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554449" />
+    <entry java-name="androidx/navigation/CollectionNavType" managed-name="AndroidX.Navigation.CollectionNavTypeInvoker, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554450" />
+    <entry java-name="androidx/navigation/FloatingWindow" managed-name="AndroidX.Navigation.IFloatingWindow, Xamarin.AndroidX.Navigation.Common.Android" skip-in-java-to-managed="True" managed-type-token-id="33554451" />
+    <entry java-name="androidx/navigation/FloatingWindow" managed-name="AndroidX.Navigation.IFloatingWindowInvoker, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554452" />
+    <entry java-name="androidx/navigation/NavArgs" managed-name="AndroidX.Navigation.INavArgs, Xamarin.AndroidX.Navigation.Common.Android" skip-in-java-to-managed="True" managed-type-token-id="33554453" />
+    <entry java-name="androidx/navigation/NavArgs" managed-name="AndroidX.Navigation.INavArgsInvoker, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554454" />
+    <entry java-name="androidx/navigation/NavDeepLinkDsl" managed-name="AndroidX.Navigation.INavDeepLinkDsl, Xamarin.AndroidX.Navigation.Common.Android" skip-in-java-to-managed="True" managed-type-token-id="33554455" />
+    <entry java-name="androidx/navigation/NavDeepLinkDsl" managed-name="AndroidX.Navigation.INavDeepLinkDslInvoker, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554456" />
+    <entry java-name="androidx/navigation/NavDestinationDsl" managed-name="AndroidX.Navigation.INavDestinationDsl, Xamarin.AndroidX.Navigation.Common.Android" skip-in-java-to-managed="True" managed-type-token-id="33554457" />
+    <entry java-name="androidx/navigation/NavDestinationDsl" managed-name="AndroidX.Navigation.INavDestinationDslInvoker, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554458" />
+    <entry java-name="androidx/navigation/NavDirections" managed-name="AndroidX.Navigation.INavDirections, Xamarin.AndroidX.Navigation.Common.Android" skip-in-java-to-managed="True" managed-type-token-id="33554459" />
+    <entry java-name="androidx/navigation/NavDirections" managed-name="AndroidX.Navigation.INavDirectionsInvoker, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554460" />
+    <entry java-name="androidx/navigation/NavOptionsDsl" managed-name="AndroidX.Navigation.INavOptionsDsl, Xamarin.AndroidX.Navigation.Common.Android" skip-in-java-to-managed="True" managed-type-token-id="33554461" />
+    <entry java-name="androidx/navigation/NavOptionsDsl" managed-name="AndroidX.Navigation.INavOptionsDslInvoker, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554462" />
+    <entry java-name="androidx/navigation/NavViewModelStoreProvider" managed-name="AndroidX.Navigation.INavViewModelStoreProvider, Xamarin.AndroidX.Navigation.Common.Android" skip-in-java-to-managed="True" managed-type-token-id="33554463" />
+    <entry java-name="androidx/navigation/NavViewModelStoreProvider" managed-name="AndroidX.Navigation.INavViewModelStoreProviderInvoker, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554464" />
+    <entry java-name="androidx/navigation/SupportingPane" managed-name="AndroidX.Navigation.ISupportingPane, Xamarin.AndroidX.Navigation.Common.Android" skip-in-java-to-managed="True" managed-type-token-id="33554465" />
+    <entry java-name="androidx/navigation/SupportingPane" managed-name="AndroidX.Navigation.ISupportingPaneInvoker, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554466" />
+    <entry java-name="androidx/navigation/NamedNavArgument" managed-name="AndroidX.Navigation.NamedNavArgument, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554467" />
+    <entry java-name="androidx/navigation/NamedNavArgumentKt" managed-name="AndroidX.Navigation.NamedNavArgumentKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554468" />
+    <entry java-name="androidx/navigation/NavAction" managed-name="AndroidX.Navigation.NavAction, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554469" />
+    <entry java-name="androidx/navigation/NavActionBuilder" managed-name="AndroidX.Navigation.NavActionBuilder, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554470" />
+    <entry java-name="androidx/navigation/NavArgsLazy" managed-name="AndroidX.Navigation.NavArgsLazy, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554471" />
+    <entry java-name="androidx/navigation/NavArgsLazy_androidKt" managed-name="AndroidX.Navigation.NavArgsLazy_androidKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554472" />
+    <entry java-name="androidx/navigation/NavArgument" managed-name="AndroidX.Navigation.NavArgument, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554473" />
+    <entry java-name="androidx/navigation/NavArgument$Builder" managed-name="AndroidX.Navigation.NavArgument+Builder, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554518" />
+    <entry java-name="androidx/navigation/NavArgumentBuilder" managed-name="AndroidX.Navigation.NavArgumentBuilder, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554474" />
+    <entry java-name="androidx/navigation/NavArgumentKt" managed-name="AndroidX.Navigation.NavArgumentKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554475" />
+    <entry java-name="androidx/navigation/NavBackStackEntry" managed-name="AndroidX.Navigation.NavBackStackEntry, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554476" />
+    <entry java-name="androidx/navigation/NavBackStackEntry$Companion" managed-name="AndroidX.Navigation.NavBackStackEntry+Companion, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554519" />
+    <entry java-name="androidx/navigation/NavBackStackEntryKt" managed-name="AndroidX.Navigation.NavBackStackEntryKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554477" />
+    <entry java-name="androidx/navigation/NavDeepLink" managed-name="AndroidX.Navigation.NavDeepLink, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554478" />
+    <entry java-name="androidx/navigation/NavDeepLink$Builder" managed-name="AndroidX.Navigation.NavDeepLink+Builder, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554520" />
+    <entry java-name="androidx/navigation/NavDeepLinkDslBuilder" managed-name="AndroidX.Navigation.NavDeepLinkDslBuilder, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554480" />
+    <entry java-name="androidx/navigation/NavDeepLinkDslBuilderKt" managed-name="AndroidX.Navigation.NavDeepLinkDslBuilderKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554481" />
+    <entry java-name="androidx/navigation/NavDeepLinkRequest" managed-name="AndroidX.Navigation.NavDeepLinkRequest, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554482" />
+    <entry java-name="androidx/navigation/NavDeepLinkRequest$Builder" managed-name="AndroidX.Navigation.NavDeepLinkRequest+Builder, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554521" />
+    <entry java-name="androidx/navigation/NavDeepLinkRequest$Builder$Companion" managed-name="AndroidX.Navigation.NavDeepLinkRequest+Builder+Companion, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554539" />
+    <entry java-name="androidx/navigation/NavDestination" managed-name="AndroidX.Navigation.NavDestination, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554483" />
+    <entry java-name="androidx/navigation/NavDestination$ClassType" managed-name="AndroidX.Navigation.NavDestination+IClassType, Xamarin.AndroidX.Navigation.Common.Android" skip-in-java-to-managed="True" managed-type-token-id="33554522" />
+    <entry java-name="androidx/navigation/NavDestination$ClassType" managed-name="AndroidX.Navigation.NavDestination+IClassTypeInvoker, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554523" />
+    <entry java-name="androidx/navigation/NavDestination$Companion" managed-name="AndroidX.Navigation.NavDestination+Companion, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554524" />
+    <entry java-name="androidx/navigation/NavDestination$DeepLinkMatch" managed-name="AndroidX.Navigation.NavDestination+DeepLinkMatch, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554525" />
+    <entry java-name="androidx/navigation/NavDestinationBuilder" managed-name="AndroidX.Navigation.NavDestinationBuilder, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554484" />
+    <entry java-name="androidx/navigation/NavGraph" managed-name="AndroidX.Navigation.NavGraph, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554486" />
+    <entry java-name="androidx/navigation/NavGraph$Companion" managed-name="AndroidX.Navigation.NavGraph+Companion, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554526" />
+    <entry java-name="androidx/navigation/NavGraphBuilder" managed-name="AndroidX.Navigation.NavGraphBuilder, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554487" />
+    <entry java-name="androidx/navigation/NavGraphBuilderKt" managed-name="AndroidX.Navigation.NavGraphBuilderKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554488" />
+    <entry java-name="androidx/navigation/NavGraphKt" managed-name="AndroidX.Navigation.NavGraphKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554489" />
+    <entry java-name="androidx/navigation/NavGraphNavigator" managed-name="AndroidX.Navigation.NavGraphNavigator, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554490" />
+    <entry java-name="androidx/navigation/Navigator" managed-name="AndroidX.Navigation.Navigator, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554491" />
+    <entry java-name="androidx/navigation/Navigator$Extras" managed-name="AndroidX.Navigation.Navigator+IExtras, Xamarin.AndroidX.Navigation.Common.Android" skip-in-java-to-managed="True" managed-type-token-id="33554527" />
+    <entry java-name="androidx/navigation/Navigator$Extras" managed-name="AndroidX.Navigation.Navigator+IExtrasInvoker, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554528" />
+    <entry java-name="androidx/navigation/Navigator$Name" managed-name="AndroidX.Navigation.Navigator+IName, Xamarin.AndroidX.Navigation.Common.Android" skip-in-java-to-managed="True" managed-type-token-id="33554529" />
+    <entry java-name="androidx/navigation/Navigator$Name" managed-name="AndroidX.Navigation.Navigator+INameInvoker, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554530" />
+    <entry java-name="androidx/navigation/Navigator" managed-name="AndroidX.Navigation.NavigatorInvoker, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554492" />
+    <entry java-name="androidx/navigation/NavigatorProvider" managed-name="AndroidX.Navigation.NavigatorProvider, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554493" />
+    <entry java-name="androidx/navigation/NavigatorProviderKt" managed-name="AndroidX.Navigation.NavigatorProviderKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554494" />
+    <entry java-name="androidx/navigation/NavigatorState" managed-name="AndroidX.Navigation.NavigatorState, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554495" />
+    <entry java-name="androidx/navigation/NavigatorState" managed-name="AndroidX.Navigation.NavigatorStateInvoker, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554496" />
+    <entry java-name="androidx/navigation/NavOptions" managed-name="AndroidX.Navigation.NavOptions, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554497" />
+    <entry java-name="androidx/navigation/NavOptions$Builder" managed-name="AndroidX.Navigation.NavOptions+Builder, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554531" />
+    <entry java-name="androidx/navigation/NavOptionsBuilder" managed-name="AndroidX.Navigation.NavOptionsBuilder, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554498" />
+    <entry java-name="androidx/navigation/NavOptionsBuilderKt" managed-name="AndroidX.Navigation.NavOptionsBuilderKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554499" />
+    <entry java-name="androidx/navigation/NavType" managed-name="AndroidX.Navigation.NavType, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554501" />
+    <entry java-name="androidx/navigation/NavType$Companion" managed-name="AndroidX.Navigation.NavType+Companion, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554532" />
+    <entry java-name="androidx/navigation/NavType$EnumType" managed-name="AndroidX.Navigation.NavType+EnumType, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554533" />
+    <entry java-name="androidx/navigation/NavType$ParcelableArrayType" managed-name="AndroidX.Navigation.NavType+ParcelableArrayType, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554534" />
+    <entry java-name="androidx/navigation/NavType$ParcelableType" managed-name="AndroidX.Navigation.NavType+ParcelableType, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554535" />
+    <entry java-name="androidx/navigation/NavType$SerializableArrayType" managed-name="AndroidX.Navigation.NavType+SerializableArrayType, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554536" />
+    <entry java-name="androidx/navigation/NavType$SerializableType" managed-name="AndroidX.Navigation.NavType+SerializableType, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554537" />
+    <entry java-name="androidx/navigation/NavType" managed-name="AndroidX.Navigation.NavTypeInvoker, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554502" />
+    <entry java-name="androidx/navigation/NavTypeKt" managed-name="AndroidX.Navigation.NavTypeKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554503" />
+    <entry java-name="androidx/navigation/NavUriKt" managed-name="AndroidX.Navigation.NavUriKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554504" />
+    <entry java-name="androidx/navigation/NavUri_androidKt" managed-name="AndroidX.Navigation.NavUri_androidKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554505" />
+    <entry java-name="androidx/navigation/NoOpNavigator" managed-name="AndroidX.Navigation.NoOpNavigator, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554506" />
+    <entry java-name="androidx/navigation/PopUpToBuilder" managed-name="AndroidX.Navigation.PopUpToBuilder, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554507" />
+    <entry java-name="androidx/navigation/SavedStateHandleKt" managed-name="AndroidX.Navigation.SavedStateHandleKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554508" />
+    <entry java-name="androidx/navigation/serialization/NavTypeConverterKt" managed-name="AndroidX.Navigation.Serialization.NavTypeConverterKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554509" />
+    <entry java-name="androidx/navigation/serialization/NavTypeConverterKt$WhenMappings" managed-name="AndroidX.Navigation.Serialization.NavTypeConverterKt+WhenMappings, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554538" />
+    <entry java-name="androidx/navigation/serialization/NavTypeConverter_androidKt" managed-name="AndroidX.Navigation.Serialization.NavTypeConverter_androidKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554510" />
+    <entry java-name="androidx/navigation/serialization/RouteDeserializerKt" managed-name="AndroidX.Navigation.Serialization.RouteDeserializerKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554511" />
+    <entry java-name="androidx/navigation/serialization/RouteEncoder" managed-name="AndroidX.Navigation.Serialization.RouteEncoder, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554512" />
+    <entry java-name="androidx/navigation/serialization/RouteSerializerKt" managed-name="AndroidX.Navigation.Serialization.RouteSerializerKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554513" />
+    <entry java-name="androidx/navigation/internal/NavContext" managed-name="AndroidX.Navigation.Internal.NavContext, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554514" />
+    <entry java-name="androidx/navigation/internal/SynchronizedObjectKt" managed-name="AndroidX.Navigation.Internal.SynchronizedObjectKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554515" />
+    <entry java-name="androidx/navigation/internal/SynchronizedObject_jvmCommonKt" managed-name="AndroidX.Navigation.Internal.SynchronizedObject_jvmCommonKt, Xamarin.AndroidX.Navigation.Common.Android" managed-type-token-id="33554516" />
+  </managed-to-java>
+</api>

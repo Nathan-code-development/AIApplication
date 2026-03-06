@@ -1,0 +1,38 @@
+<api type="debug" assembly-name="Java.Interop" mvid="140a0dce93bf4027994f37f0ba96c906">
+  <java-to-managed>
+    <entry java-name="[Ljava/lang/Object;" managed-name="Java.Interop.JavaArray`1, Java.Interop" skip-in-java-to-managed="True" managed-type-token-id="33554435" />
+    <entry java-name="[Ljava/lang/Object;" managed-name="Java.Interop.JavaPrimitiveArray`1, Java.Interop" skip-in-java-to-managed="True" managed-type-token-id="33554437" />
+    <entry java-name="java/lang/Throwable" managed-name="Java.Interop.JavaException, Java.Interop" managed-type-token-id="33554438" />
+    <entry java-name="java/lang/Object" managed-name="Java.Interop.JavaObject, Java.Interop" managed-type-token-id="33554439" />
+    <entry java-name="[Ljava/lang/Object;" managed-name="Java.Interop.JavaObjectArray`1, Java.Interop" skip-in-java-to-managed="True" managed-type-token-id="33554440" />
+    <entry java-name="[Z" managed-name="Java.Interop.JavaBooleanArray, Java.Interop" managed-type-token-id="33554445" />
+    <entry java-name="[B" managed-name="Java.Interop.JavaSByteArray, Java.Interop" managed-type-token-id="33554447" />
+    <entry java-name="[C" managed-name="Java.Interop.JavaCharArray, Java.Interop" managed-type-token-id="33554449" />
+    <entry java-name="[S" managed-name="Java.Interop.JavaInt16Array, Java.Interop" managed-type-token-id="33554451" />
+    <entry java-name="[I" managed-name="Java.Interop.JavaInt32Array, Java.Interop" managed-type-token-id="33554453" />
+    <entry java-name="[J" managed-name="Java.Interop.JavaInt64Array, Java.Interop" managed-type-token-id="33554455" />
+    <entry java-name="[F" managed-name="Java.Interop.JavaSingleArray, Java.Interop" managed-type-token-id="33554457" />
+    <entry java-name="[D" managed-name="Java.Interop.JavaDoubleArray, Java.Interop" managed-type-token-id="33554459" />
+    <entry java-name="net/dot/jni/internal/JavaProxyObject" managed-name="Java.Interop.JavaProxyObject, Java.Interop" managed-type-token-id="33554460" />
+    <entry java-name="net/dot/jni/internal/JavaProxyThrowable" managed-name="Java.Interop.JavaProxyThrowable, Java.Interop" managed-type-token-id="33554461" />
+    <entry java-name="net/dot/jni/ManagedPeer" managed-name="Java.Interop.ManagedPeer, Java.Interop" managed-type-token-id="33554531" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="[Ljava/lang/Object;" managed-name="Java.Interop.JavaArray`1, Java.Interop" skip-in-java-to-managed="True" managed-type-token-id="33554435" />
+    <entry java-name="[Ljava/lang/Object;" managed-name="Java.Interop.JavaPrimitiveArray`1, Java.Interop" skip-in-java-to-managed="True" managed-type-token-id="33554437" />
+    <entry java-name="java/lang/Throwable" managed-name="Java.Interop.JavaException, Java.Interop" managed-type-token-id="33554438" />
+    <entry java-name="java/lang/Object" managed-name="Java.Interop.JavaObject, Java.Interop" managed-type-token-id="33554439" />
+    <entry java-name="[Ljava/lang/Object;" managed-name="Java.Interop.JavaObjectArray`1, Java.Interop" skip-in-java-to-managed="True" managed-type-token-id="33554440" />
+    <entry java-name="[Z" managed-name="Java.Interop.JavaBooleanArray, Java.Interop" managed-type-token-id="33554445" />
+    <entry java-name="[B" managed-name="Java.Interop.JavaSByteArray, Java.Interop" managed-type-token-id="33554447" />
+    <entry java-name="[C" managed-name="Java.Interop.JavaCharArray, Java.Interop" managed-type-token-id="33554449" />
+    <entry java-name="[S" managed-name="Java.Interop.JavaInt16Array, Java.Interop" managed-type-token-id="33554451" />
+    <entry java-name="[I" managed-name="Java.Interop.JavaInt32Array, Java.Interop" managed-type-token-id="33554453" />
+    <entry java-name="[J" managed-name="Java.Interop.JavaInt64Array, Java.Interop" managed-type-token-id="33554455" />
+    <entry java-name="[F" managed-name="Java.Interop.JavaSingleArray, Java.Interop" managed-type-token-id="33554457" />
+    <entry java-name="[D" managed-name="Java.Interop.JavaDoubleArray, Java.Interop" managed-type-token-id="33554459" />
+    <entry java-name="net/dot/jni/internal/JavaProxyObject" managed-name="Java.Interop.JavaProxyObject, Java.Interop" managed-type-token-id="33554460" />
+    <entry java-name="net/dot/jni/internal/JavaProxyThrowable" managed-name="Java.Interop.JavaProxyThrowable, Java.Interop" managed-type-token-id="33554461" />
+    <entry java-name="net/dot/jni/ManagedPeer" managed-name="Java.Interop.ManagedPeer, Java.Interop" managed-type-token-id="33554531" />
+  </managed-to-java>
+</api>

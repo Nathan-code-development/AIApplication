@@ -1,0 +1,16 @@
+<api type="debug" assembly-name="Xamarin.AndroidX.ExifInterface" mvid="242a26c616724e48a004d9d8a73f478b">
+  <java-to-managed>
+    <entry java-name="androidx/exifinterface/media/ExifInterface" managed-name="AndroidX.ExifInterface.Media.ExifInterface, Xamarin.AndroidX.ExifInterface" managed-type-token-id="33554449" />
+    <entry java-name="androidx/exifinterface/media/ExifInterface$ExifStreamType" managed-name="AndroidX.ExifInterface.Media.ExifInterface+IExifStreamType, Xamarin.AndroidX.ExifInterface" skip-in-java-to-managed="True" managed-type-token-id="33554451" />
+    <entry java-name="androidx/exifinterface/media/ExifInterface$ExifStreamType" managed-name="AndroidX.ExifInterface.Media.ExifInterface+IExifStreamTypeInvoker, Xamarin.AndroidX.ExifInterface" managed-type-token-id="33554452" />
+    <entry java-name="androidx/exifinterface/media/ExifInterface$IfdType" managed-name="AndroidX.ExifInterface.Media.ExifInterface+IIfdType, Xamarin.AndroidX.ExifInterface" skip-in-java-to-managed="True" managed-type-token-id="33554453" />
+    <entry java-name="androidx/exifinterface/media/ExifInterface$IfdType" managed-name="AndroidX.ExifInterface.Media.ExifInterface+IIfdTypeInvoker, Xamarin.AndroidX.ExifInterface" managed-type-token-id="33554454" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="androidx/exifinterface/media/ExifInterface" managed-name="AndroidX.ExifInterface.Media.ExifInterface, Xamarin.AndroidX.ExifInterface" managed-type-token-id="33554449" />
+    <entry java-name="androidx/exifinterface/media/ExifInterface$ExifStreamType" managed-name="AndroidX.ExifInterface.Media.ExifInterface+IExifStreamType, Xamarin.AndroidX.ExifInterface" skip-in-java-to-managed="True" managed-type-token-id="33554451" />
+    <entry java-name="androidx/exifinterface/media/ExifInterface$ExifStreamType" managed-name="AndroidX.ExifInterface.Media.ExifInterface+IExifStreamTypeInvoker, Xamarin.AndroidX.ExifInterface" managed-type-token-id="33554452" />
+    <entry java-name="androidx/exifinterface/media/ExifInterface$IfdType" managed-name="AndroidX.ExifInterface.Media.ExifInterface+IIfdType, Xamarin.AndroidX.ExifInterface" skip-in-java-to-managed="True" managed-type-token-id="33554453" />
+    <entry java-name="androidx/exifinterface/media/ExifInterface$IfdType" managed-name="AndroidX.ExifInterface.Media.ExifInterface+IIfdTypeInvoker, Xamarin.AndroidX.ExifInterface" managed-type-token-id="33554454" />
+  </managed-to-java>
+</api>

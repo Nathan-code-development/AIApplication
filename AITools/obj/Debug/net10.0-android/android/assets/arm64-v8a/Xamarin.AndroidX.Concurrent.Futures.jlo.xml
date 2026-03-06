@@ -1,0 +1,5 @@
+<api>
+  <acw-types partial-assembly-name="Xamarin.AndroidX.Concurrent.Futures" module-name="Xamarin.AndroidX.Concurrent.Futures.dll">
+    <type assembly-qualified-name="AndroidX.Concurrent.Futures.CallbackToFutureAdapter+IResolver, Xamarin.AndroidX.Concurrent.Futures, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.concurrent.futures.CallbackToFutureAdapter$Resolver" java-key="androidx.concurrent.futures.CallbackToFutureAdapter$Resolver" managed-key="AndroidX.Concurrent.Futures.CallbackToFutureAdapter.IResolver" partial-assembly-qualified-name="AndroidX.Concurrent.Futures.CallbackToFutureAdapter+IResolver, Xamarin.AndroidX.Concurrent.Futures" />
+  </acw-types>
+</api>

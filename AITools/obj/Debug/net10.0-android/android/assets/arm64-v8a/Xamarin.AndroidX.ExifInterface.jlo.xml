@@ -1,0 +1,6 @@
+<api>
+  <acw-types partial-assembly-name="Xamarin.AndroidX.ExifInterface" module-name="Xamarin.AndroidX.ExifInterface.dll">
+    <type assembly-qualified-name="AndroidX.ExifInterface.Media.ExifInterface+IExifStreamType, Xamarin.AndroidX.ExifInterface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.exifinterface.media.ExifInterface$ExifStreamType" java-key="androidx.exifinterface.media.ExifInterface$ExifStreamType" managed-key="AndroidX.ExifInterface.Media.ExifInterface.IExifStreamType" partial-assembly-qualified-name="AndroidX.ExifInterface.Media.ExifInterface+IExifStreamType, Xamarin.AndroidX.ExifInterface" />
+    <type assembly-qualified-name="AndroidX.ExifInterface.Media.ExifInterface+IIfdType, Xamarin.AndroidX.ExifInterface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.exifinterface.media.ExifInterface$IfdType" java-key="androidx.exifinterface.media.ExifInterface$IfdType" managed-key="AndroidX.ExifInterface.Media.ExifInterface.IIfdType" partial-assembly-qualified-name="AndroidX.ExifInterface.Media.ExifInterface+IIfdType, Xamarin.AndroidX.ExifInterface" />
+  </acw-types>
+</api>

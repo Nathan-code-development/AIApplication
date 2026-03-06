@@ -1,0 +1,12 @@
+<api type="debug" assembly-name="Xamarin.KotlinX.Coroutines.Android" mvid="57ba27a662d04105a6f71e666c04a936">
+  <java-to-managed>
+    <entry java-name="kotlinx/coroutines/android/HandlerDispatcher" managed-name="Xamarin.KotlinX.Coroutines.CoroutinesAndroid.HandlerDispatcher, Xamarin.KotlinX.Coroutines.Android" managed-type-token-id="33554437" />
+    <entry java-name="kotlinx/coroutines/android/HandlerDispatcher" managed-name="Xamarin.KotlinX.Coroutines.CoroutinesAndroid.HandlerDispatcherInvoker, Xamarin.KotlinX.Coroutines.Android" managed-type-token-id="33554438" />
+    <entry java-name="kotlinx/coroutines/android/HandlerDispatcherKt" managed-name="Xamarin.KotlinX.Coroutines.CoroutinesAndroid.HandlerDispatcherKt, Xamarin.KotlinX.Coroutines.Android" managed-type-token-id="33554439" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="kotlinx/coroutines/android/HandlerDispatcher" managed-name="Xamarin.KotlinX.Coroutines.CoroutinesAndroid.HandlerDispatcher, Xamarin.KotlinX.Coroutines.Android" managed-type-token-id="33554437" />
+    <entry java-name="kotlinx/coroutines/android/HandlerDispatcher" managed-name="Xamarin.KotlinX.Coroutines.CoroutinesAndroid.HandlerDispatcherInvoker, Xamarin.KotlinX.Coroutines.Android" managed-type-token-id="33554438" />
+    <entry java-name="kotlinx/coroutines/android/HandlerDispatcherKt" managed-name="Xamarin.KotlinX.Coroutines.CoroutinesAndroid.HandlerDispatcherKt, Xamarin.KotlinX.Coroutines.Android" managed-type-token-id="33554439" />
+  </managed-to-java>
+</api>

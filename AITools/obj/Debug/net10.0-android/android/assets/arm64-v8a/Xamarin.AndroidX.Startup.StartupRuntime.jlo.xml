@@ -1,0 +1,5 @@
+<api>
+  <acw-types partial-assembly-name="Xamarin.AndroidX.Startup.StartupRuntime" module-name="Xamarin.AndroidX.Startup.StartupRuntime.dll">
+    <type assembly-qualified-name="AndroidX.Startup.IInitializer, Xamarin.AndroidX.Startup.StartupRuntime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.startup.Initializer" java-key="androidx.startup.Initializer" managed-key="AndroidX.Startup.IInitializer" partial-assembly-qualified-name="AndroidX.Startup.IInitializer, Xamarin.AndroidX.Startup.StartupRuntime" />
+  </acw-types>
+</api>

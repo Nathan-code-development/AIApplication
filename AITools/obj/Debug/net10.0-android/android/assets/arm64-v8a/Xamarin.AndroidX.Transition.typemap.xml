@@ -1,0 +1,100 @@
+<api type="debug" assembly-name="Xamarin.AndroidX.Transition" mvid="93d8b58dcb2d48239add74f5b83a9d56">
+  <java-to-managed>
+    <entry java-name="crc64a25b61d9f8ee364f/FloatArrayEvaluator" managed-name="AndroidX.Transitions.FloatArrayEvaluator, Xamarin.AndroidX.Transition" managed-type-token-id="33554464" />
+    <entry java-name="crc64a25b61d9f8ee364f/TransitionUtils" managed-name="AndroidX.Transitions.TransitionUtils, Xamarin.AndroidX.Transition" managed-type-token-id="33554465" />
+    <entry java-name="crc64a25b61d9f8ee364f/TransitionUtils_MatrixEvaluator" managed-name="AndroidX.Transitions.TransitionUtils+MatrixEvaluator, Xamarin.AndroidX.Transition" managed-type-token-id="33554500" />
+    <entry java-name="crc64a25b61d9f8ee364f/RectEvaluator" managed-name="AndroidX.Transitions.RectEvaluator, Xamarin.AndroidX.Transition" managed-type-token-id="33554466" />
+    <entry java-name="androidx/transition/ArcMotion" managed-name="AndroidX.Transitions.ArcMotion, Xamarin.AndroidX.Transition" managed-type-token-id="33554467" />
+    <entry java-name="androidx/transition/AutoTransition" managed-name="AndroidX.Transitions.AutoTransition, Xamarin.AndroidX.Transition" managed-type-token-id="33554468" />
+    <entry java-name="androidx/transition/ChangeBounds" managed-name="AndroidX.Transitions.ChangeBounds, Xamarin.AndroidX.Transition" managed-type-token-id="33554469" />
+    <entry java-name="androidx/transition/ChangeClipBounds" managed-name="AndroidX.Transitions.ChangeClipBounds, Xamarin.AndroidX.Transition" managed-type-token-id="33554470" />
+    <entry java-name="androidx/transition/ChangeImageTransform" managed-name="AndroidX.Transitions.ChangeImageTransform, Xamarin.AndroidX.Transition" managed-type-token-id="33554471" />
+    <entry java-name="androidx/transition/ChangeScroll" managed-name="AndroidX.Transitions.ChangeScroll, Xamarin.AndroidX.Transition" managed-type-token-id="33554472" />
+    <entry java-name="androidx/transition/ChangeTransform" managed-name="AndroidX.Transitions.ChangeTransform, Xamarin.AndroidX.Transition" managed-type-token-id="33554473" />
+    <entry java-name="androidx/transition/CircularPropagation" managed-name="AndroidX.Transitions.CircularPropagation, Xamarin.AndroidX.Transition" managed-type-token-id="33554474" />
+    <entry java-name="androidx/transition/Explode" managed-name="AndroidX.Transitions.Explode, Xamarin.AndroidX.Transition" managed-type-token-id="33554475" />
+    <entry java-name="androidx/transition/Fade" managed-name="AndroidX.Transitions.Fade, Xamarin.AndroidX.Transition" managed-type-token-id="33554476" />
+    <entry java-name="androidx/transition/FragmentTransitionSupport" managed-name="AndroidX.Transitions.FragmentTransitionSupport, Xamarin.AndroidX.Transition" managed-type-token-id="33554477" />
+    <entry java-name="androidx/transition/TransitionSeekController" managed-name="AndroidX.Transitions.ITransitionSeekController, Xamarin.AndroidX.Transition" skip-in-java-to-managed="True" managed-type-token-id="33554478" />
+    <entry java-name="androidx/transition/TransitionSeekController" managed-name="AndroidX.Transitions.ITransitionSeekControllerInvoker, Xamarin.AndroidX.Transition" managed-type-token-id="33554479" />
+    <entry java-name="androidx/transition/PathMotion" managed-name="AndroidX.Transitions.PathMotion, Xamarin.AndroidX.Transition" managed-type-token-id="33554480" />
+    <entry java-name="androidx/transition/PathMotion" managed-name="AndroidX.Transitions.PathMotionInvoker, Xamarin.AndroidX.Transition" managed-type-token-id="33554481" />
+    <entry java-name="androidx/transition/PatternPathMotion" managed-name="AndroidX.Transitions.PatternPathMotion, Xamarin.AndroidX.Transition" managed-type-token-id="33554482" />
+    <entry java-name="androidx/transition/Scene" managed-name="AndroidX.Transitions.Scene, Xamarin.AndroidX.Transition" managed-type-token-id="33554483" />
+    <entry java-name="androidx/transition/SidePropagation" managed-name="AndroidX.Transitions.SidePropagation, Xamarin.AndroidX.Transition" managed-type-token-id="33554484" />
+    <entry java-name="androidx/transition/Slide" managed-name="AndroidX.Transitions.Slide, Xamarin.AndroidX.Transition" managed-type-token-id="33554485" />
+    <entry java-name="androidx/transition/Slide$GravityFlag" managed-name="AndroidX.Transitions.Slide+IGravityFlag, Xamarin.AndroidX.Transition" skip-in-java-to-managed="True" managed-type-token-id="33554501" />
+    <entry java-name="androidx/transition/Slide$GravityFlag" managed-name="AndroidX.Transitions.Slide+IGravityFlagInvoker, Xamarin.AndroidX.Transition" managed-type-token-id="33554502" />
+    <entry java-name="androidx/transition/Transition" managed-name="AndroidX.Transitions.Transition, Xamarin.AndroidX.Transition" managed-type-token-id="33554486" />
+    <entry java-name="androidx/transition/Transition$EpicenterCallback" managed-name="AndroidX.Transitions.Transition+EpicenterCallback, Xamarin.AndroidX.Transition" managed-type-token-id="33554503" />
+    <entry java-name="androidx/transition/Transition$EpicenterCallback" managed-name="AndroidX.Transitions.Transition+EpicenterCallbackInvoker, Xamarin.AndroidX.Transition" managed-type-token-id="33554504" />
+    <entry java-name="androidx/transition/Transition$MatchOrder" managed-name="AndroidX.Transitions.Transition+IMatchOrder, Xamarin.AndroidX.Transition" skip-in-java-to-managed="True" managed-type-token-id="33554505" />
+    <entry java-name="androidx/transition/Transition$MatchOrder" managed-name="AndroidX.Transitions.Transition+IMatchOrderInvoker, Xamarin.AndroidX.Transition" managed-type-token-id="33554506" />
+    <entry java-name="androidx/transition/Transition$TransitionListener" managed-name="AndroidX.Transitions.Transition+ITransitionListener, Xamarin.AndroidX.Transition" skip-in-java-to-managed="True" managed-type-token-id="33554507" />
+    <entry java-name="androidx/transition/Transition$TransitionListener" managed-name="AndroidX.Transitions.Transition+ITransitionListenerInvoker, Xamarin.AndroidX.Transition" managed-type-token-id="33554508" />
+    <entry java-name="mono/androidx/transition/Transition_TransitionListenerImplementor" managed-name="AndroidX.Transitions.Transition+ITransitionListenerImplementor, Xamarin.AndroidX.Transition" managed-type-token-id="33554516" />
+    <entry java-name="androidx/transition/Transition" managed-name="AndroidX.Transitions.TransitionInvoker, Xamarin.AndroidX.Transition" managed-type-token-id="33554487" />
+    <entry java-name="androidx/transition/TransitionInflater" managed-name="AndroidX.Transitions.TransitionInflater, Xamarin.AndroidX.Transition" managed-type-token-id="33554488" />
+    <entry java-name="androidx/transition/TransitionListenerAdapter" managed-name="AndroidX.Transitions.TransitionListenerAdapter, Xamarin.AndroidX.Transition" managed-type-token-id="33554489" />
+    <entry java-name="androidx/transition/TransitionManager" managed-name="AndroidX.Transitions.TransitionManager, Xamarin.AndroidX.Transition" managed-type-token-id="33554490" />
+    <entry java-name="androidx/transition/TransitionPropagation" managed-name="AndroidX.Transitions.TransitionPropagation, Xamarin.AndroidX.Transition" managed-type-token-id="33554491" />
+    <entry java-name="androidx/transition/TransitionPropagation" managed-name="AndroidX.Transitions.TransitionPropagationInvoker, Xamarin.AndroidX.Transition" managed-type-token-id="33554492" />
+    <entry java-name="androidx/transition/TransitionSet" managed-name="AndroidX.Transitions.TransitionSet, Xamarin.AndroidX.Transition" managed-type-token-id="33554493" />
+    <entry java-name="androidx/transition/TransitionValues" managed-name="AndroidX.Transitions.TransitionValues, Xamarin.AndroidX.Transition" managed-type-token-id="33554494" />
+    <entry java-name="androidx/transition/Visibility" managed-name="AndroidX.Transitions.Visibility, Xamarin.AndroidX.Transition" managed-type-token-id="33554495" />
+    <entry java-name="androidx/transition/Visibility$Mode" managed-name="AndroidX.Transitions.Visibility+IMode, Xamarin.AndroidX.Transition" skip-in-java-to-managed="True" managed-type-token-id="33554517" />
+    <entry java-name="androidx/transition/Visibility$Mode" managed-name="AndroidX.Transitions.Visibility+IModeInvoker, Xamarin.AndroidX.Transition" managed-type-token-id="33554518" />
+    <entry java-name="androidx/transition/Visibility" managed-name="AndroidX.Transitions.VisibilityInvoker, Xamarin.AndroidX.Transition" managed-type-token-id="33554496" />
+    <entry java-name="androidx/transition/VisibilityPropagation" managed-name="AndroidX.Transitions.VisibilityPropagation, Xamarin.AndroidX.Transition" managed-type-token-id="33554497" />
+    <entry java-name="androidx/transition/VisibilityPropagation" managed-name="AndroidX.Transitions.VisibilityPropagationInvoker, Xamarin.AndroidX.Transition" managed-type-token-id="33554498" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="crc64a25b61d9f8ee364f/FloatArrayEvaluator" managed-name="AndroidX.Transitions.FloatArrayEvaluator, Xamarin.AndroidX.Transition" managed-type-token-id="33554464" />
+    <entry java-name="crc64a25b61d9f8ee364f/TransitionUtils" managed-name="AndroidX.Transitions.TransitionUtils, Xamarin.AndroidX.Transition" managed-type-token-id="33554465" />
+    <entry java-name="crc64a25b61d9f8ee364f/TransitionUtils_MatrixEvaluator" managed-name="AndroidX.Transitions.TransitionUtils+MatrixEvaluator, Xamarin.AndroidX.Transition" managed-type-token-id="33554500" />
+    <entry java-name="crc64a25b61d9f8ee364f/RectEvaluator" managed-name="AndroidX.Transitions.RectEvaluator, Xamarin.AndroidX.Transition" managed-type-token-id="33554466" />
+    <entry java-name="androidx/transition/ArcMotion" managed-name="AndroidX.Transitions.ArcMotion, Xamarin.AndroidX.Transition" managed-type-token-id="33554467" />
+    <entry java-name="androidx/transition/AutoTransition" managed-name="AndroidX.Transitions.AutoTransition, Xamarin.AndroidX.Transition" managed-type-token-id="33554468" />
+    <entry java-name="androidx/transition/ChangeBounds" managed-name="AndroidX.Transitions.ChangeBounds, Xamarin.AndroidX.Transition" managed-type-token-id="33554469" />
+    <entry java-name="androidx/transition/ChangeClipBounds" managed-name="AndroidX.Transitions.ChangeClipBounds, Xamarin.AndroidX.Transition" managed-type-token-id="33554470" />
+    <entry java-name="androidx/transition/ChangeImageTransform" managed-name="AndroidX.Transitions.ChangeImageTransform, Xamarin.AndroidX.Transition" managed-type-token-id="33554471" />
+    <entry java-name="androidx/transition/ChangeScroll" managed-name="AndroidX.Transitions.ChangeScroll, Xamarin.AndroidX.Transition" managed-type-token-id="33554472" />
+    <entry java-name="androidx/transition/ChangeTransform" managed-name="AndroidX.Transitions.ChangeTransform, Xamarin.AndroidX.Transition" managed-type-token-id="33554473" />
+    <entry java-name="androidx/transition/CircularPropagation" managed-name="AndroidX.Transitions.CircularPropagation, Xamarin.AndroidX.Transition" managed-type-token-id="33554474" />
+    <entry java-name="androidx/transition/Explode" managed-name="AndroidX.Transitions.Explode, Xamarin.AndroidX.Transition" managed-type-token-id="33554475" />
+    <entry java-name="androidx/transition/Fade" managed-name="AndroidX.Transitions.Fade, Xamarin.AndroidX.Transition" managed-type-token-id="33554476" />
+    <entry java-name="androidx/transition/FragmentTransitionSupport" managed-name="AndroidX.Transitions.FragmentTransitionSupport, Xamarin.AndroidX.Transition" managed-type-token-id="33554477" />
+    <entry java-name="androidx/transition/TransitionSeekController" managed-name="AndroidX.Transitions.ITransitionSeekController, Xamarin.AndroidX.Transition" skip-in-java-to-managed="True" managed-type-token-id="33554478" />
+    <entry java-name="androidx/transition/TransitionSeekController" managed-name="AndroidX.Transitions.ITransitionSeekControllerInvoker, Xamarin.AndroidX.Transition" managed-type-token-id="33554479" />
+    <entry java-name="androidx/transition/PathMotion" managed-name="AndroidX.Transitions.PathMotion, Xamarin.AndroidX.Transition" managed-type-token-id="33554480" />
+    <entry java-name="androidx/transition/PathMotion" managed-name="AndroidX.Transitions.PathMotionInvoker, Xamarin.AndroidX.Transition" managed-type-token-id="33554481" />
+    <entry java-name="androidx/transition/PatternPathMotion" managed-name="AndroidX.Transitions.PatternPathMotion, Xamarin.AndroidX.Transition" managed-type-token-id="33554482" />
+    <entry java-name="androidx/transition/Scene" managed-name="AndroidX.Transitions.Scene, Xamarin.AndroidX.Transition" managed-type-token-id="33554483" />
+    <entry java-name="androidx/transition/SidePropagation" managed-name="AndroidX.Transitions.SidePropagation, Xamarin.AndroidX.Transition" managed-type-token-id="33554484" />
+    <entry java-name="androidx/transition/Slide" managed-name="AndroidX.Transitions.Slide, Xamarin.AndroidX.Transition" managed-type-token-id="33554485" />
+    <entry java-name="androidx/transition/Slide$GravityFlag" managed-name="AndroidX.Transitions.Slide+IGravityFlag, Xamarin.AndroidX.Transition" skip-in-java-to-managed="True" managed-type-token-id="33554501" />
+    <entry java-name="androidx/transition/Slide$GravityFlag" managed-name="AndroidX.Transitions.Slide+IGravityFlagInvoker, Xamarin.AndroidX.Transition" managed-type-token-id="33554502" />
+    <entry java-name="androidx/transition/Transition" managed-name="AndroidX.Transitions.Transition, Xamarin.AndroidX.Transition" managed-type-token-id="33554486" />
+    <entry java-name="androidx/transition/Transition$EpicenterCallback" managed-name="AndroidX.Transitions.Transition+EpicenterCallback, Xamarin.AndroidX.Transition" managed-type-token-id="33554503" />
+    <entry java-name="androidx/transition/Transition$EpicenterCallback" managed-name="AndroidX.Transitions.Transition+EpicenterCallbackInvoker, Xamarin.AndroidX.Transition" managed-type-token-id="33554504" />
+    <entry java-name="androidx/transition/Transition$MatchOrder" managed-name="AndroidX.Transitions.Transition+IMatchOrder, Xamarin.AndroidX.Transition" skip-in-java-to-managed="True" managed-type-token-id="33554505" />
+    <entry java-name="androidx/transition/Transition$MatchOrder" managed-name="AndroidX.Transitions.Transition+IMatchOrderInvoker, Xamarin.AndroidX.Transition" managed-type-token-id="33554506" />
+    <entry java-name="androidx/transition/Transition$TransitionListener" managed-name="AndroidX.Transitions.Transition+ITransitionListener, Xamarin.AndroidX.Transition" skip-in-java-to-managed="True" managed-type-token-id="33554507" />
+    <entry java-name="androidx/transition/Transition$TransitionListener" managed-name="AndroidX.Transitions.Transition+ITransitionListenerInvoker, Xamarin.AndroidX.Transition" managed-type-token-id="33554508" />
+    <entry java-name="mono/androidx/transition/Transition_TransitionListenerImplementor" managed-name="AndroidX.Transitions.Transition+ITransitionListenerImplementor, Xamarin.AndroidX.Transition" managed-type-token-id="33554516" />
+    <entry java-name="androidx/transition/Transition" managed-name="AndroidX.Transitions.TransitionInvoker, Xamarin.AndroidX.Transition" managed-type-token-id="33554487" />
+    <entry java-name="androidx/transition/TransitionInflater" managed-name="AndroidX.Transitions.TransitionInflater, Xamarin.AndroidX.Transition" managed-type-token-id="33554488" />
+    <entry java-name="androidx/transition/TransitionListenerAdapter" managed-name="AndroidX.Transitions.TransitionListenerAdapter, Xamarin.AndroidX.Transition" managed-type-token-id="33554489" />
+    <entry java-name="androidx/transition/TransitionManager" managed-name="AndroidX.Transitions.TransitionManager, Xamarin.AndroidX.Transition" managed-type-token-id="33554490" />
+    <entry java-name="androidx/transition/TransitionPropagation" managed-name="AndroidX.Transitions.TransitionPropagation, Xamarin.AndroidX.Transition" managed-type-token-id="33554491" />
+    <entry java-name="androidx/transition/TransitionPropagation" managed-name="AndroidX.Transitions.TransitionPropagationInvoker, Xamarin.AndroidX.Transition" managed-type-token-id="33554492" />
+    <entry java-name="androidx/transition/TransitionSet" managed-name="AndroidX.Transitions.TransitionSet, Xamarin.AndroidX.Transition" managed-type-token-id="33554493" />
+    <entry java-name="androidx/transition/TransitionValues" managed-name="AndroidX.Transitions.TransitionValues, Xamarin.AndroidX.Transition" managed-type-token-id="33554494" />
+    <entry java-name="androidx/transition/Visibility" managed-name="AndroidX.Transitions.Visibility, Xamarin.AndroidX.Transition" managed-type-token-id="33554495" />
+    <entry java-name="androidx/transition/Visibility$Mode" managed-name="AndroidX.Transitions.Visibility+IMode, Xamarin.AndroidX.Transition" skip-in-java-to-managed="True" managed-type-token-id="33554517" />
+    <entry java-name="androidx/transition/Visibility$Mode" managed-name="AndroidX.Transitions.Visibility+IModeInvoker, Xamarin.AndroidX.Transition" managed-type-token-id="33554518" />
+    <entry java-name="androidx/transition/Visibility" managed-name="AndroidX.Transitions.VisibilityInvoker, Xamarin.AndroidX.Transition" managed-type-token-id="33554496" />
+    <entry java-name="androidx/transition/VisibilityPropagation" managed-name="AndroidX.Transitions.VisibilityPropagation, Xamarin.AndroidX.Transition" managed-type-token-id="33554497" />
+    <entry java-name="androidx/transition/VisibilityPropagation" managed-name="AndroidX.Transitions.VisibilityPropagationInvoker, Xamarin.AndroidX.Transition" managed-type-token-id="33554498" />
+  </managed-to-java>
+</api>

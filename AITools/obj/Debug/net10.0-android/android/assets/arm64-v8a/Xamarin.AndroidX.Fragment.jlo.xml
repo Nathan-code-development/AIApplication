@@ -1,0 +1,65 @@
+<api>
+  <jcw-types>
+    <type name="FragmentManager_OnBackStackChangedListenerImplementor" package="mono.androidx.fragment.app" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.Fragment.App.FragmentManager+IOnBackStackChangedListenerImplementor, Xamarin.AndroidX.Fragment">
+      <implemented_interfaces>
+        <interface name="androidx.fragment.app.FragmentManager.OnBackStackChangedListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="FragmentManager_OnBackStackChangedListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onBackStackChanged" method="n_onBackStackChanged:()V:GetOnBackStackChangedHandler:AndroidX.Fragment.App.FragmentManager+IOnBackStackChangedListenerInvoker, Xamarin.AndroidX.Fragment" jni_signature="()V" retval="void" is_dynamically_registered="True" />
+        <method name="onBackStackChangeCancelled" method="n_onBackStackChangeCancelled:()V:GetOnBackStackChangeCancelledHandler:AndroidX.Fragment.App.FragmentManager+IOnBackStackChangedListener, Xamarin.AndroidX.Fragment" jni_signature="()V" retval="void" is_dynamically_registered="True" />
+        <method name="onBackStackChangeCommitted" method="n_onBackStackChangeCommitted:(Landroidx/fragment/app/Fragment;Z)V:GetOnBackStackChangeCommitted_Landroidx_fragment_app_Fragment_ZHandler:AndroidX.Fragment.App.FragmentManager+IOnBackStackChangedListener, Xamarin.AndroidX.Fragment" jni_signature="(Landroidx/fragment/app/Fragment;Z)V" params="androidx.fragment.app.Fragment p0, boolean p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onBackStackChangeProgressed" method="n_onBackStackChangeProgressed:(Landroidx/activity/BackEventCompat;)V:GetOnBackStackChangeProgressed_Landroidx_activity_BackEventCompat_Handler:AndroidX.Fragment.App.FragmentManager+IOnBackStackChangedListener, Xamarin.AndroidX.Fragment" jni_signature="(Landroidx/activity/BackEventCompat;)V" params="androidx.activity.BackEventCompat p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onBackStackChangeStarted" method="n_onBackStackChangeStarted:(Landroidx/fragment/app/Fragment;Z)V:GetOnBackStackChangeStarted_Landroidx_fragment_app_Fragment_ZHandler:AndroidX.Fragment.App.FragmentManager+IOnBackStackChangedListener, Xamarin.AndroidX.Fragment" jni_signature="(Landroidx/fragment/app/Fragment;Z)V" params="androidx.fragment.app.Fragment p0, boolean p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+      </methods>
+    </type>
+    <type name="FragmentOnAttachListenerImplementor" package="mono.androidx.fragment.app" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.Fragment.App.IFragmentOnAttachListenerImplementor, Xamarin.AndroidX.Fragment">
+      <implemented_interfaces>
+        <interface name="androidx.fragment.app.FragmentOnAttachListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="FragmentOnAttachListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onAttachFragment" method="n_onAttachFragment:(Landroidx/fragment/app/FragmentManager;Landroidx/fragment/app/Fragment;)V:GetOnAttachFragment_Landroidx_fragment_app_FragmentManager_Landroidx_fragment_app_Fragment_Handler:AndroidX.Fragment.App.IFragmentOnAttachListenerInvoker, Xamarin.AndroidX.Fragment" jni_signature="(Landroidx/fragment/app/FragmentManager;Landroidx/fragment/app/Fragment;)V" params="androidx.fragment.app.FragmentManager p0, androidx.fragment.app.Fragment p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+      </methods>
+    </type>
+    <type name="FragmentResultListenerImplementor" package="mono.androidx.fragment.app" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.Fragment.App.IFragmentResultListenerImplementor, Xamarin.AndroidX.Fragment">
+      <implemented_interfaces>
+        <interface name="androidx.fragment.app.FragmentResultListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="FragmentResultListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onFragmentResult" method="n_onFragmentResult:(Ljava/lang/String;Landroid/os/Bundle;)V:GetOnFragmentResult_Ljava_lang_String_Landroid_os_Bundle_Handler:AndroidX.Fragment.App.IFragmentResultListenerInvoker, Xamarin.AndroidX.Fragment" jni_signature="(Ljava/lang/String;Landroid/os/Bundle;)V" params="java.lang.String p0, android.os.Bundle p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+      </methods>
+    </type>
+    <type name="FragmentStrictMode_OnViolationListenerImplementor" package="mono.androidx.fragment.app.strictmode" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.Fragment.App.StrictMode.FragmentStrictMode+IOnViolationListenerImplementor, Xamarin.AndroidX.Fragment">
+      <implemented_interfaces>
+        <interface name="androidx.fragment.app.strictmode.FragmentStrictMode.OnViolationListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="FragmentStrictMode_OnViolationListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onViolation" method="n_onViolation:(Landroidx/fragment/app/strictmode/Violation;)V:GetOnViolation_Landroidx_fragment_app_strictmode_Violation_Handler:AndroidX.Fragment.App.StrictMode.FragmentStrictMode+IOnViolationListenerInvoker, Xamarin.AndroidX.Fragment" jni_signature="(Landroidx/fragment/app/strictmode/Violation;)V" params="androidx.fragment.app.strictmode.Violation p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+  </jcw-types>
+  <acw-types partial-assembly-name="Xamarin.AndroidX.Fragment" module-name="Xamarin.AndroidX.Fragment.dll">
+    <type assembly-qualified-name="AndroidX.Fragment.App.FragmentManager+IBackStackEntry, Xamarin.AndroidX.Fragment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.fragment.app.FragmentManager$BackStackEntry" java-key="androidx.fragment.app.FragmentManager$BackStackEntry" managed-key="AndroidX.Fragment.App.FragmentManager.IBackStackEntry" partial-assembly-qualified-name="AndroidX.Fragment.App.FragmentManager+IBackStackEntry, Xamarin.AndroidX.Fragment" />
+    <type assembly-qualified-name="AndroidX.Fragment.App.FragmentManager+IOnBackStackChangedListener, Xamarin.AndroidX.Fragment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.fragment.app.FragmentManager$OnBackStackChangedListener" java-key="androidx.fragment.app.FragmentManager$OnBackStackChangedListener" managed-key="AndroidX.Fragment.App.FragmentManager.IOnBackStackChangedListener" partial-assembly-qualified-name="AndroidX.Fragment.App.FragmentManager+IOnBackStackChangedListener, Xamarin.AndroidX.Fragment" />
+    <type assembly-qualified-name="AndroidX.Fragment.App.FragmentManager+IOnBackStackChangedListenerImplementor, Xamarin.AndroidX.Fragment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="mono.androidx.fragment.app.FragmentManager_OnBackStackChangedListenerImplementor" java-key="mono.androidx.fragment.app.FragmentManager_OnBackStackChangedListenerImplementor" managed-key="AndroidX.Fragment.App.FragmentManager.IOnBackStackChangedListenerImplementor" partial-assembly-qualified-name="AndroidX.Fragment.App.FragmentManager+IOnBackStackChangedListenerImplementor, Xamarin.AndroidX.Fragment" />
+    <type assembly-qualified-name="AndroidX.Fragment.App.IFragmentOnAttachListener, Xamarin.AndroidX.Fragment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.fragment.app.FragmentOnAttachListener" java-key="androidx.fragment.app.FragmentOnAttachListener" managed-key="AndroidX.Fragment.App.IFragmentOnAttachListener" partial-assembly-qualified-name="AndroidX.Fragment.App.IFragmentOnAttachListener, Xamarin.AndroidX.Fragment" />
+    <type assembly-qualified-name="AndroidX.Fragment.App.IFragmentOnAttachListenerImplementor, Xamarin.AndroidX.Fragment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="mono.androidx.fragment.app.FragmentOnAttachListenerImplementor" java-key="mono.androidx.fragment.app.FragmentOnAttachListenerImplementor" managed-key="AndroidX.Fragment.App.IFragmentOnAttachListenerImplementor" partial-assembly-qualified-name="AndroidX.Fragment.App.IFragmentOnAttachListenerImplementor, Xamarin.AndroidX.Fragment" />
+    <type assembly-qualified-name="AndroidX.Fragment.App.IFragmentResultListener, Xamarin.AndroidX.Fragment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.fragment.app.FragmentResultListener" java-key="androidx.fragment.app.FragmentResultListener" managed-key="AndroidX.Fragment.App.IFragmentResultListener" partial-assembly-qualified-name="AndroidX.Fragment.App.IFragmentResultListener, Xamarin.AndroidX.Fragment" />
+    <type assembly-qualified-name="AndroidX.Fragment.App.IFragmentResultListenerImplementor, Xamarin.AndroidX.Fragment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="mono.androidx.fragment.app.FragmentResultListenerImplementor" java-key="mono.androidx.fragment.app.FragmentResultListenerImplementor" managed-key="AndroidX.Fragment.App.IFragmentResultListenerImplementor" partial-assembly-qualified-name="AndroidX.Fragment.App.IFragmentResultListenerImplementor, Xamarin.AndroidX.Fragment" />
+    <type assembly-qualified-name="AndroidX.Fragment.App.IFragmentResultOwner, Xamarin.AndroidX.Fragment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.fragment.app.FragmentResultOwner" java-key="androidx.fragment.app.FragmentResultOwner" managed-key="AndroidX.Fragment.App.IFragmentResultOwner" partial-assembly-qualified-name="AndroidX.Fragment.App.IFragmentResultOwner, Xamarin.AndroidX.Fragment" />
+    <type assembly-qualified-name="AndroidX.Fragment.App.IPredictiveBackControl, Xamarin.AndroidX.Fragment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.fragment.app.PredictiveBackControl" java-key="androidx.fragment.app.PredictiveBackControl" managed-key="AndroidX.Fragment.App.IPredictiveBackControl" partial-assembly-qualified-name="AndroidX.Fragment.App.IPredictiveBackControl, Xamarin.AndroidX.Fragment" />
+    <type assembly-qualified-name="AndroidX.Fragment.App.StrictMode.FragmentStrictMode+IOnViolationListener, Xamarin.AndroidX.Fragment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.fragment.app.strictmode.FragmentStrictMode$OnViolationListener" java-key="androidx.fragment.app.strictmode.FragmentStrictMode$OnViolationListener" managed-key="AndroidX.Fragment.App.StrictMode.FragmentStrictMode.IOnViolationListener" partial-assembly-qualified-name="AndroidX.Fragment.App.StrictMode.FragmentStrictMode+IOnViolationListener, Xamarin.AndroidX.Fragment" />
+    <type assembly-qualified-name="AndroidX.Fragment.App.StrictMode.FragmentStrictMode+IOnViolationListenerImplementor, Xamarin.AndroidX.Fragment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="mono.androidx.fragment.app.strictmode.FragmentStrictMode_OnViolationListenerImplementor" java-key="mono.androidx.fragment.app.strictmode.FragmentStrictMode_OnViolationListenerImplementor" managed-key="AndroidX.Fragment.App.StrictMode.FragmentStrictMode.IOnViolationListenerImplementor" partial-assembly-qualified-name="AndroidX.Fragment.App.StrictMode.FragmentStrictMode+IOnViolationListenerImplementor, Xamarin.AndroidX.Fragment" />
+  </acw-types>
+</api>

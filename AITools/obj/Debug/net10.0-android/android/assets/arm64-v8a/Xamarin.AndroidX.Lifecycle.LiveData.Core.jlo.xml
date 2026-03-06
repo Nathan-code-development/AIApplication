@@ -1,0 +1,5 @@
+<api>
+  <acw-types partial-assembly-name="Xamarin.AndroidX.Lifecycle.LiveData.Core" module-name="Xamarin.AndroidX.Lifecycle.LiveData.Core.dll">
+    <type assembly-qualified-name="AndroidX.Lifecycle.IObserver, Xamarin.AndroidX.Lifecycle.LiveData.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.lifecycle.Observer" java-key="androidx.lifecycle.Observer" managed-key="AndroidX.Lifecycle.IObserver" partial-assembly-qualified-name="AndroidX.Lifecycle.IObserver, Xamarin.AndroidX.Lifecycle.LiveData.Core" />
+  </acw-types>
+</api>

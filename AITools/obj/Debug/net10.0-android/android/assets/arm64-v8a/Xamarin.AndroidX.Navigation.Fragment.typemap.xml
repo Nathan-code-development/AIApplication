@@ -1,0 +1,42 @@
+<api type="debug" assembly-name="Xamarin.AndroidX.Navigation.Fragment" mvid="3c72a605208e46ce8a359af51890b770">
+  <java-to-managed>
+    <entry java-name="androidx/navigation/NavGraphViewModelLazyKt" managed-name="AndroidX.Navigation.NavGraphViewModelLazyKt, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554441" />
+    <entry java-name="androidx/navigation/fragment/AbstractListDetailFragment" managed-name="AndroidX.Navigation.Fragment.AbstractListDetailFragment, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554442" />
+    <entry java-name="androidx/navigation/fragment/AbstractListDetailFragment" managed-name="AndroidX.Navigation.Fragment.AbstractListDetailFragmentInvoker, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554443" />
+    <entry java-name="androidx/navigation/fragment/DialogFragmentNavigator" managed-name="AndroidX.Navigation.Fragment.DialogFragmentNavigator, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554444" />
+    <entry java-name="androidx/navigation/fragment/DialogFragmentNavigator$Destination" managed-name="AndroidX.Navigation.Fragment.DialogFragmentNavigator+Destination, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554455" />
+    <entry java-name="androidx/navigation/fragment/DialogFragmentNavigatorDestinationBuilder" managed-name="AndroidX.Navigation.Fragment.DialogFragmentNavigatorDestinationBuilder, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554445" />
+    <entry java-name="androidx/navigation/fragment/DialogFragmentNavigatorDestinationBuilderKt" managed-name="AndroidX.Navigation.Fragment.DialogFragmentNavigatorDestinationBuilderKt, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554446" />
+    <entry java-name="androidx/navigation/fragment/FragmentKt" managed-name="AndroidX.Navigation.Fragment.FragmentKt, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554447" />
+    <entry java-name="androidx/navigation/fragment/FragmentNavArgsLazyKt" managed-name="AndroidX.Navigation.Fragment.FragmentNavArgsLazyKt, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554448" />
+    <entry java-name="androidx/navigation/fragment/FragmentNavigator" managed-name="AndroidX.Navigation.Fragment.FragmentNavigator, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554449" />
+    <entry java-name="androidx/navigation/fragment/FragmentNavigator$Destination" managed-name="AndroidX.Navigation.Fragment.FragmentNavigator+Destination, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554456" />
+    <entry java-name="androidx/navigation/fragment/FragmentNavigator$Extras" managed-name="AndroidX.Navigation.Fragment.FragmentNavigator+Extras, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554457" />
+    <entry java-name="androidx/navigation/fragment/FragmentNavigator$Extras$Builder" managed-name="AndroidX.Navigation.Fragment.FragmentNavigator+Extras+Builder, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554459" />
+    <entry java-name="androidx/navigation/fragment/FragmentNavigatorDestinationBuilder" managed-name="AndroidX.Navigation.Fragment.FragmentNavigatorDestinationBuilder, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554450" />
+    <entry java-name="androidx/navigation/fragment/FragmentNavigatorDestinationBuilderKt" managed-name="AndroidX.Navigation.Fragment.FragmentNavigatorDestinationBuilderKt, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554451" />
+    <entry java-name="androidx/navigation/fragment/FragmentNavigatorExtrasKt" managed-name="AndroidX.Navigation.Fragment.FragmentNavigatorExtrasKt, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554452" />
+    <entry java-name="androidx/navigation/fragment/NavHostFragment" managed-name="AndroidX.Navigation.Fragment.NavHostFragment, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554453" />
+    <entry java-name="androidx/navigation/fragment/NavHostFragment$Companion" managed-name="AndroidX.Navigation.Fragment.NavHostFragment+Companion, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554458" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="androidx/navigation/NavGraphViewModelLazyKt" managed-name="AndroidX.Navigation.NavGraphViewModelLazyKt, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554441" />
+    <entry java-name="androidx/navigation/fragment/AbstractListDetailFragment" managed-name="AndroidX.Navigation.Fragment.AbstractListDetailFragment, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554442" />
+    <entry java-name="androidx/navigation/fragment/AbstractListDetailFragment" managed-name="AndroidX.Navigation.Fragment.AbstractListDetailFragmentInvoker, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554443" />
+    <entry java-name="androidx/navigation/fragment/DialogFragmentNavigator" managed-name="AndroidX.Navigation.Fragment.DialogFragmentNavigator, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554444" />
+    <entry java-name="androidx/navigation/fragment/DialogFragmentNavigator$Destination" managed-name="AndroidX.Navigation.Fragment.DialogFragmentNavigator+Destination, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554455" />
+    <entry java-name="androidx/navigation/fragment/DialogFragmentNavigatorDestinationBuilder" managed-name="AndroidX.Navigation.Fragment.DialogFragmentNavigatorDestinationBuilder, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554445" />
+    <entry java-name="androidx/navigation/fragment/DialogFragmentNavigatorDestinationBuilderKt" managed-name="AndroidX.Navigation.Fragment.DialogFragmentNavigatorDestinationBuilderKt, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554446" />
+    <entry java-name="androidx/navigation/fragment/FragmentKt" managed-name="AndroidX.Navigation.Fragment.FragmentKt, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554447" />
+    <entry java-name="androidx/navigation/fragment/FragmentNavArgsLazyKt" managed-name="AndroidX.Navigation.Fragment.FragmentNavArgsLazyKt, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554448" />
+    <entry java-name="androidx/navigation/fragment/FragmentNavigator" managed-name="AndroidX.Navigation.Fragment.FragmentNavigator, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554449" />
+    <entry java-name="androidx/navigation/fragment/FragmentNavigator$Destination" managed-name="AndroidX.Navigation.Fragment.FragmentNavigator+Destination, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554456" />
+    <entry java-name="androidx/navigation/fragment/FragmentNavigator$Extras" managed-name="AndroidX.Navigation.Fragment.FragmentNavigator+Extras, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554457" />
+    <entry java-name="androidx/navigation/fragment/FragmentNavigator$Extras$Builder" managed-name="AndroidX.Navigation.Fragment.FragmentNavigator+Extras+Builder, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554459" />
+    <entry java-name="androidx/navigation/fragment/FragmentNavigatorDestinationBuilder" managed-name="AndroidX.Navigation.Fragment.FragmentNavigatorDestinationBuilder, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554450" />
+    <entry java-name="androidx/navigation/fragment/FragmentNavigatorDestinationBuilderKt" managed-name="AndroidX.Navigation.Fragment.FragmentNavigatorDestinationBuilderKt, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554451" />
+    <entry java-name="androidx/navigation/fragment/FragmentNavigatorExtrasKt" managed-name="AndroidX.Navigation.Fragment.FragmentNavigatorExtrasKt, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554452" />
+    <entry java-name="androidx/navigation/fragment/NavHostFragment" managed-name="AndroidX.Navigation.Fragment.NavHostFragment, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554453" />
+    <entry java-name="androidx/navigation/fragment/NavHostFragment$Companion" managed-name="AndroidX.Navigation.Fragment.NavHostFragment+Companion, Xamarin.AndroidX.Navigation.Fragment" managed-type-token-id="33554458" />
+  </managed-to-java>
+</api>

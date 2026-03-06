@@ -1,0 +1,277 @@
+<api>
+  <jcw-types>
+    <type name="WebAuthenticatorCallbackActivity" package="crc6468b6408a11370c2f" is_abstract="True" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="android.app.Activity" partial_assembly_qualified_name="Microsoft.Maui.Authentication.WebAuthenticatorCallbackActivity, Microsoft.Maui.Essentials">
+      <constructors>
+        <constructor name="WebAuthenticatorCallbackActivity" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onCreate" method="n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler" jni_signature="(Landroid/os/Bundle;)V" params="android.os.Bundle p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="WebAuthenticatorIntermediateActivity" package="crc6468b6408a11370c2f" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="android.app.Activity" partial_assembly_qualified_name="Microsoft.Maui.Authentication.WebAuthenticatorIntermediateActivity, Microsoft.Maui.Essentials">
+      <constructors>
+        <constructor name="WebAuthenticatorIntermediateActivity" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onCreate" method="n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler" jni_signature="(Landroid/os/Bundle;)V" params="android.os.Bundle p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onResume" method="n_onResume:()V:GetOnResumeHandler" jni_signature="()V" retval="void" is_dynamically_registered="True" />
+        <method name="onNewIntent" method="n_onNewIntent:(Landroid/content/Intent;)V:GetOnNewIntent_Landroid_content_Intent_Handler" jni_signature="(Landroid/content/Intent;)V" params="android.content.Intent p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onSaveInstanceState" method="n_onSaveInstanceState:(Landroid/os/Bundle;)V:GetOnSaveInstanceState_Landroid_os_Bundle_Handler" jni_signature="(Landroid/os/Bundle;)V" params="android.os.Bundle p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="TextToSpeechInternalImplementation" package="crc6493855b22b6fa0721" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Microsoft.Maui.Media.TextToSpeechInternalImplementation, Microsoft.Maui.Essentials">
+      <implemented_interfaces>
+        <interface name="android.speech.tts.TextToSpeech.OnInitListener" />
+        <interface name="android.speech.tts.TextToSpeech.OnUtteranceCompletedListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="TextToSpeechInternalImplementation" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onInit" method="n_onInit:(I)V:GetOnInit_IHandler:Android.Speech.Tts.TextToSpeech+IOnInitListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(I)V" params="int p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onUtteranceCompleted" method="n_onUtteranceCompleted:(Ljava/lang/String;)V:GetOnUtteranceCompleted_Ljava_lang_String_Handler:Android.Speech.Tts.TextToSpeech+IOnUtteranceCompletedListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Ljava/lang/String;)V" params="java.lang.String p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="fileProvider" package="microsoft.maui.essentials" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="androidx.core.content.FileProvider" partial_assembly_qualified_name="Microsoft.Maui.Storage.FileProvider, Microsoft.Maui.Essentials">
+      <constructors>
+        <constructor name="fileProvider" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+        <constructor name="fileProvider" method="n_.ctor:(I)V:" jni_signature="(I)V" managed_parameters="System.Int32, System.Private.CoreLib" params="int p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </constructors>
+    </type>
+    <type name="ConnectivityImplementation_EssentialsNetworkCallback" package="crc64e53d2f592022988e" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="android.net.ConnectivityManager.NetworkCallback" partial_assembly_qualified_name="Microsoft.Maui.Networking.ConnectivityImplementation+EssentialsNetworkCallback, Microsoft.Maui.Essentials">
+      <constructors>
+        <constructor name="ConnectivityImplementation_EssentialsNetworkCallback" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+        <constructor name="ConnectivityImplementation_EssentialsNetworkCallback" method="n_.ctor:(I)V:" jni_signature="(I)V" managed_parameters="System.Int32, System.Private.CoreLib" params="int p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </constructors>
+      <methods>
+        <method name="onAvailable" method="n_onAvailable:(Landroid/net/Network;)V:GetOnAvailable_Landroid_net_Network_Handler" jni_signature="(Landroid/net/Network;)V" params="android.net.Network p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onLost" method="n_onLost:(Landroid/net/Network;)V:GetOnLost_Landroid_net_Network_Handler" jni_signature="(Landroid/net/Network;)V" params="android.net.Network p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onCapabilitiesChanged" method="n_onCapabilitiesChanged:(Landroid/net/Network;Landroid/net/NetworkCapabilities;)V:GetOnCapabilitiesChanged_Landroid_net_Network_Landroid_net_NetworkCapabilities_Handler" jni_signature="(Landroid/net/Network;Landroid/net/NetworkCapabilities;)V" params="android.net.Network p0, android.net.NetworkCapabilities p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onUnavailable" method="n_onUnavailable:()V:GetOnUnavailableHandler" jni_signature="()V" retval="void" is_dynamically_registered="True" />
+        <method name="onLinkPropertiesChanged" method="n_onLinkPropertiesChanged:(Landroid/net/Network;Landroid/net/LinkProperties;)V:GetOnLinkPropertiesChanged_Landroid_net_Network_Landroid_net_LinkProperties_Handler" jni_signature="(Landroid/net/Network;Landroid/net/LinkProperties;)V" params="android.net.Network p0, android.net.LinkProperties p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onLosing" method="n_onLosing:(Landroid/net/Network;I)V:GetOnLosing_Landroid_net_Network_IHandler" jni_signature="(Landroid/net/Network;I)V" params="android.net.Network p0, int p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+      </methods>
+    </type>
+    <type name="ConnectivityBroadcastReceiver" package="crc64e53d2f592022988e" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="android.content.BroadcastReceiver" partial_assembly_qualified_name="Microsoft.Maui.Networking.ConnectivityBroadcastReceiver, Microsoft.Maui.Essentials">
+      <constructors>
+        <constructor name="ConnectivityBroadcastReceiver" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onReceive" method="n_onReceive:(Landroid/content/Context;Landroid/content/Intent;)V:GetOnReceive_Landroid_content_Context_Landroid_content_Intent_Handler" jni_signature="(Landroid/content/Context;Landroid/content/Intent;)V" params="android.content.Context p0, android.content.Intent p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+      </methods>
+    </type>
+    <type name="ActivityResultCallback_1" package="crc64ba438d8f48cf7e75" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Microsoft.Maui.ApplicationModel.ActivityResultCallback`1, Microsoft.Maui.Essentials">
+      <implemented_interfaces>
+        <interface name="androidx.activity.result.ActivityResultCallback" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="ActivityResultCallback_1" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onActivityResult" method="n_onActivityResult:(Ljava/lang/Object;)V:GetOnActivityResult_Ljava_lang_Object_Handler:AndroidX.Activity.Result.IActivityResultCallbackInvoker, Xamarin.AndroidX.Activity" jni_signature="(Ljava/lang/Object;)V" params="java.lang.Object p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="ActivityLifecycleContextListener" package="crc64ba438d8f48cf7e75" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Microsoft.Maui.ApplicationModel.ActivityLifecycleContextListener, Microsoft.Maui.Essentials">
+      <implemented_interfaces>
+        <interface name="android.app.Application.ActivityLifecycleCallbacks" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="ActivityLifecycleContextListener" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onActivityCreated" method="n_onActivityCreated:(Landroid/app/Activity;Landroid/os/Bundle;)V:GetOnActivityCreated_Landroid_app_Activity_Landroid_os_Bundle_Handler:Android.App.Application+IActivityLifecycleCallbacksInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/app/Activity;Landroid/os/Bundle;)V" params="android.app.Activity p0, android.os.Bundle p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onActivityDestroyed" method="n_onActivityDestroyed:(Landroid/app/Activity;)V:GetOnActivityDestroyed_Landroid_app_Activity_Handler:Android.App.Application+IActivityLifecycleCallbacksInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/app/Activity;)V" params="android.app.Activity p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onActivityPaused" method="n_onActivityPaused:(Landroid/app/Activity;)V:GetOnActivityPaused_Landroid_app_Activity_Handler:Android.App.Application+IActivityLifecycleCallbacksInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/app/Activity;)V" params="android.app.Activity p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onActivityResumed" method="n_onActivityResumed:(Landroid/app/Activity;)V:GetOnActivityResumed_Landroid_app_Activity_Handler:Android.App.Application+IActivityLifecycleCallbacksInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/app/Activity;)V" params="android.app.Activity p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onActivitySaveInstanceState" method="n_onActivitySaveInstanceState:(Landroid/app/Activity;Landroid/os/Bundle;)V:GetOnActivitySaveInstanceState_Landroid_app_Activity_Landroid_os_Bundle_Handler:Android.App.Application+IActivityLifecycleCallbacksInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/app/Activity;Landroid/os/Bundle;)V" params="android.app.Activity p0, android.os.Bundle p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onActivityStarted" method="n_onActivityStarted:(Landroid/app/Activity;)V:GetOnActivityStarted_Landroid_app_Activity_Handler:Android.App.Application+IActivityLifecycleCallbacksInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/app/Activity;)V" params="android.app.Activity p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onActivityStopped" method="n_onActivityStopped:(Landroid/app/Activity;)V:GetOnActivityStopped_Landroid_app_Activity_Handler:Android.App.Application+IActivityLifecycleCallbacksInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/app/Activity;)V" params="android.app.Activity p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onActivityPostCreated" method="n_onActivityPostCreated:(Landroid/app/Activity;Landroid/os/Bundle;)V:GetOnActivityPostCreated_Landroid_app_Activity_Landroid_os_Bundle_Handler:Android.App.Application+IActivityLifecycleCallbacks, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/app/Activity;Landroid/os/Bundle;)V" params="android.app.Activity p0, android.os.Bundle p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onActivityPostDestroyed" method="n_onActivityPostDestroyed:(Landroid/app/Activity;)V:GetOnActivityPostDestroyed_Landroid_app_Activity_Handler:Android.App.Application+IActivityLifecycleCallbacks, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/app/Activity;)V" params="android.app.Activity p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onActivityPostPaused" method="n_onActivityPostPaused:(Landroid/app/Activity;)V:GetOnActivityPostPaused_Landroid_app_Activity_Handler:Android.App.Application+IActivityLifecycleCallbacks, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/app/Activity;)V" params="android.app.Activity p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onActivityPostResumed" method="n_onActivityPostResumed:(Landroid/app/Activity;)V:GetOnActivityPostResumed_Landroid_app_Activity_Handler:Android.App.Application+IActivityLifecycleCallbacks, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/app/Activity;)V" params="android.app.Activity p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onActivityPostSaveInstanceState" method="n_onActivityPostSaveInstanceState:(Landroid/app/Activity;Landroid/os/Bundle;)V:GetOnActivityPostSaveInstanceState_Landroid_app_Activity_Landroid_os_Bundle_Handler:Android.App.Application+IActivityLifecycleCallbacks, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/app/Activity;Landroid/os/Bundle;)V" params="android.app.Activity p0, android.os.Bundle p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onActivityPostStarted" method="n_onActivityPostStarted:(Landroid/app/Activity;)V:GetOnActivityPostStarted_Landroid_app_Activity_Handler:Android.App.Application+IActivityLifecycleCallbacks, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/app/Activity;)V" params="android.app.Activity p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onActivityPostStopped" method="n_onActivityPostStopped:(Landroid/app/Activity;)V:GetOnActivityPostStopped_Landroid_app_Activity_Handler:Android.App.Application+IActivityLifecycleCallbacks, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/app/Activity;)V" params="android.app.Activity p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onActivityPreCreated" method="n_onActivityPreCreated:(Landroid/app/Activity;Landroid/os/Bundle;)V:GetOnActivityPreCreated_Landroid_app_Activity_Landroid_os_Bundle_Handler:Android.App.Application+IActivityLifecycleCallbacks, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/app/Activity;Landroid/os/Bundle;)V" params="android.app.Activity p0, android.os.Bundle p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onActivityPreDestroyed" method="n_onActivityPreDestroyed:(Landroid/app/Activity;)V:GetOnActivityPreDestroyed_Landroid_app_Activity_Handler:Android.App.Application+IActivityLifecycleCallbacks, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/app/Activity;)V" params="android.app.Activity p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onActivityPrePaused" method="n_onActivityPrePaused:(Landroid/app/Activity;)V:GetOnActivityPrePaused_Landroid_app_Activity_Handler:Android.App.Application+IActivityLifecycleCallbacks, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/app/Activity;)V" params="android.app.Activity p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onActivityPreResumed" method="n_onActivityPreResumed:(Landroid/app/Activity;)V:GetOnActivityPreResumed_Landroid_app_Activity_Handler:Android.App.Application+IActivityLifecycleCallbacks, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/app/Activity;)V" params="android.app.Activity p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onActivityPreSaveInstanceState" method="n_onActivityPreSaveInstanceState:(Landroid/app/Activity;Landroid/os/Bundle;)V:GetOnActivityPreSaveInstanceState_Landroid_app_Activity_Landroid_os_Bundle_Handler:Android.App.Application+IActivityLifecycleCallbacks, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/app/Activity;Landroid/os/Bundle;)V" params="android.app.Activity p0, android.os.Bundle p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onActivityPreStarted" method="n_onActivityPreStarted:(Landroid/app/Activity;)V:GetOnActivityPreStarted_Landroid_app_Activity_Handler:Android.App.Application+IActivityLifecycleCallbacks, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/app/Activity;)V" params="android.app.Activity p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onActivityPreStopped" method="n_onActivityPreStopped:(Landroid/app/Activity;)V:GetOnActivityPreStopped_Landroid_app_Activity_Handler:Android.App.Application+IActivityLifecycleCallbacks, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/app/Activity;)V" params="android.app.Activity p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="IntermediateActivity" package="crc64ba438d8f48cf7e75" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="android.app.Activity" partial_assembly_qualified_name="Microsoft.Maui.ApplicationModel.IntermediateActivity, Microsoft.Maui.Essentials">
+      <constructors>
+        <constructor name="IntermediateActivity" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onCreate" method="n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler" jni_signature="(Landroid/os/Bundle;)V" params="android.os.Bundle p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onSaveInstanceState" method="n_onSaveInstanceState:(Landroid/os/Bundle;)V:GetOnSaveInstanceState_Landroid_os_Bundle_Handler" jni_signature="(Landroid/os/Bundle;)V" params="android.os.Bundle p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onActivityResult" method="n_onActivityResult:(IILandroid/content/Intent;)V:GetOnActivityResult_IILandroid_content_Intent_Handler" jni_signature="(IILandroid/content/Intent;)V" params="int p0, int p1, android.content.Intent p2" retval="void" is_dynamically_registered="True" super_call="p0, p1, p2" activate_call="p0, p1, p2" />
+      </methods>
+    </type>
+    <type name="ClipboardChangeListener" package="crc640a1f4d108c17e3f1" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Microsoft.Maui.ApplicationModel.DataTransfer.ClipboardChangeListener, Microsoft.Maui.Essentials">
+      <implemented_interfaces>
+        <interface name="android.content.ClipboardManager.OnPrimaryClipChangedListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="ClipboardChangeListener" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onPrimaryClipChanged" method="n_onPrimaryClipChanged:()V:GetOnPrimaryClipChangedHandler:Android.Content.ClipboardManager+IOnPrimaryClipChangedListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="()V" retval="void" is_dynamically_registered="True" />
+      </methods>
+    </type>
+    <type name="DeviceDisplayImplementation_Listener" package="crc640a8d9a12ddbf2cf2" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="android.view.OrientationEventListener" partial_assembly_qualified_name="Microsoft.Maui.Devices.DeviceDisplayImplementation+Listener, Microsoft.Maui.Essentials">
+      <constructors>
+        <constructor name="DeviceDisplayImplementation_Listener" method="n_.ctor:(Landroid/content/Context;I)V:" jni_signature="(Landroid/content/Context;I)V" managed_parameters="Android.Content.Context, Mono.Android:Android.Hardware.SensorDelay, Mono.Android" params="android.content.Context p0, int p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <constructor name="DeviceDisplayImplementation_Listener" method="n_.ctor:(Landroid/content/Context;)V:" jni_signature="(Landroid/content/Context;)V" managed_parameters="Android.Content.Context, Mono.Android" params="android.content.Context p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </constructors>
+      <methods>
+        <method name="onOrientationChanged" method="n_onOrientationChanged:(I)V:GetOnOrientationChanged_IHandler" jni_signature="(I)V" params="int p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="BatteryBroadcastReceiver" package="crc640a8d9a12ddbf2cf2" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="android.content.BroadcastReceiver" partial_assembly_qualified_name="Microsoft.Maui.Devices.BatteryBroadcastReceiver, Microsoft.Maui.Essentials">
+      <constructors>
+        <constructor name="BatteryBroadcastReceiver" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onReceive" method="n_onReceive:(Landroid/content/Context;Landroid/content/Intent;)V:GetOnReceive_Landroid_content_Context_Landroid_content_Intent_Handler" jni_signature="(Landroid/content/Context;Landroid/content/Intent;)V" params="android.content.Context p0, android.content.Intent p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+      </methods>
+    </type>
+    <type name="EnergySaverBroadcastReceiver" package="crc640a8d9a12ddbf2cf2" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="android.content.BroadcastReceiver" partial_assembly_qualified_name="Microsoft.Maui.Devices.EnergySaverBroadcastReceiver, Microsoft.Maui.Essentials">
+      <constructors>
+        <constructor name="EnergySaverBroadcastReceiver" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onReceive" method="n_onReceive:(Landroid/content/Context;Landroid/content/Intent;)V:GetOnReceive_Landroid_content_Context_Landroid_content_Intent_Handler" jni_signature="(Landroid/content/Context;Landroid/content/Intent;)V" params="android.content.Context p0, android.content.Intent p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+      </methods>
+    </type>
+    <type name="AccelerometerListener" package="crc64f62664462a8937a9" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Microsoft.Maui.Devices.Sensors.AccelerometerListener, Microsoft.Maui.Essentials">
+      <implemented_interfaces>
+        <interface name="android.hardware.SensorEventListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="AccelerometerListener" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onAccuracyChanged" method="n_onAccuracyChanged:(Landroid/hardware/Sensor;I)V:GetOnAccuracyChanged_Landroid_hardware_Sensor_IHandler:Android.Hardware.ISensorEventListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/hardware/Sensor;I)V" params="android.hardware.Sensor p0, int p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onSensorChanged" method="n_onSensorChanged:(Landroid/hardware/SensorEvent;)V:GetOnSensorChanged_Landroid_hardware_SensorEvent_Handler:Android.Hardware.ISensorEventListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/hardware/SensorEvent;)V" params="android.hardware.SensorEvent p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="BarometerListener" package="crc64f62664462a8937a9" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Microsoft.Maui.Devices.Sensors.BarometerListener, Microsoft.Maui.Essentials">
+      <implemented_interfaces>
+        <interface name="android.hardware.SensorEventListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="BarometerListener" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onAccuracyChanged" method="n_onAccuracyChanged:(Landroid/hardware/Sensor;I)V:GetOnAccuracyChanged_Landroid_hardware_Sensor_IHandler:Android.Hardware.ISensorEventListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/hardware/Sensor;I)V" params="android.hardware.Sensor p0, int p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onSensorChanged" method="n_onSensorChanged:(Landroid/hardware/SensorEvent;)V:GetOnSensorChanged_Landroid_hardware_SensorEvent_Handler:Android.Hardware.ISensorEventListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/hardware/SensorEvent;)V" params="android.hardware.SensorEvent p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="SensorListener" package="crc64f62664462a8937a9" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Microsoft.Maui.Devices.Sensors.SensorListener, Microsoft.Maui.Essentials">
+      <implemented_interfaces>
+        <interface name="android.hardware.SensorEventListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="SensorListener" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onAccuracyChanged" method="n_onAccuracyChanged:(Landroid/hardware/Sensor;I)V:GetOnAccuracyChanged_Landroid_hardware_Sensor_IHandler:Android.Hardware.ISensorEventListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/hardware/Sensor;I)V" params="android.hardware.Sensor p0, int p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onSensorChanged" method="n_onSensorChanged:(Landroid/hardware/SensorEvent;)V:GetOnSensorChanged_Landroid_hardware_SensorEvent_Handler:Android.Hardware.ISensorEventListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/hardware/SensorEvent;)V" params="android.hardware.SensorEvent p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="SingleLocationListener" package="crc64f62664462a8937a9" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Microsoft.Maui.Devices.Sensors.SingleLocationListener, Microsoft.Maui.Essentials">
+      <implemented_interfaces>
+        <interface name="android.location.LocationListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="SingleLocationListener" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onLocationChanged" method="n_onLocationChanged:(Landroid/location/Location;)V:GetOnLocationChanged_Landroid_location_Location_Handler:Android.Locations.ILocationListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/location/Location;)V" params="android.location.Location p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onProviderDisabled" method="n_onProviderDisabled:(Ljava/lang/String;)V:GetOnProviderDisabled_Ljava_lang_String_Handler:Android.Locations.ILocationListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Ljava/lang/String;)V" params="java.lang.String p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onProviderEnabled" method="n_onProviderEnabled:(Ljava/lang/String;)V:GetOnProviderEnabled_Ljava_lang_String_Handler:Android.Locations.ILocationListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Ljava/lang/String;)V" params="java.lang.String p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onStatusChanged" method="n_onStatusChanged:(Ljava/lang/String;ILandroid/os/Bundle;)V:GetOnStatusChanged_Ljava_lang_String_ILandroid_os_Bundle_Handler:Android.Locations.ILocationListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Ljava/lang/String;ILandroid/os/Bundle;)V" params="java.lang.String p0, int p1, android.os.Bundle p2" retval="void" is_dynamically_registered="True" super_call="p0, p1, p2" activate_call="p0, p1, p2" />
+        <method name="onFlushComplete" method="n_onFlushComplete:(I)V:GetOnFlushComplete_IHandler:Android.Locations.ILocationListener, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(I)V" params="int p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="ContinuousLocationListener" package="crc64f62664462a8937a9" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Microsoft.Maui.Devices.Sensors.ContinuousLocationListener, Microsoft.Maui.Essentials">
+      <implemented_interfaces>
+        <interface name="android.location.LocationListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="ContinuousLocationListener" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onLocationChanged" method="n_onLocationChanged:(Landroid/location/Location;)V:GetOnLocationChanged_Landroid_location_Location_Handler:Android.Locations.ILocationListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/location/Location;)V" params="android.location.Location p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onProviderDisabled" method="n_onProviderDisabled:(Ljava/lang/String;)V:GetOnProviderDisabled_Ljava_lang_String_Handler:Android.Locations.ILocationListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Ljava/lang/String;)V" params="java.lang.String p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onProviderEnabled" method="n_onProviderEnabled:(Ljava/lang/String;)V:GetOnProviderEnabled_Ljava_lang_String_Handler:Android.Locations.ILocationListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Ljava/lang/String;)V" params="java.lang.String p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onStatusChanged" method="n_onStatusChanged:(Ljava/lang/String;ILandroid/os/Bundle;)V:GetOnStatusChanged_Ljava_lang_String_ILandroid_os_Bundle_Handler:Android.Locations.ILocationListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Ljava/lang/String;ILandroid/os/Bundle;)V" params="java.lang.String p0, int p1, android.os.Bundle p2" retval="void" is_dynamically_registered="True" super_call="p0, p1, p2" activate_call="p0, p1, p2" />
+        <method name="onFlushComplete" method="n_onFlushComplete:(I)V:GetOnFlushComplete_IHandler:Android.Locations.ILocationListener, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(I)V" params="int p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="GyroscopeListener" package="crc64f62664462a8937a9" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Microsoft.Maui.Devices.Sensors.GyroscopeListener, Microsoft.Maui.Essentials">
+      <implemented_interfaces>
+        <interface name="android.hardware.SensorEventListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="GyroscopeListener" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onAccuracyChanged" method="n_onAccuracyChanged:(Landroid/hardware/Sensor;I)V:GetOnAccuracyChanged_Landroid_hardware_Sensor_IHandler:Android.Hardware.ISensorEventListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/hardware/Sensor;I)V" params="android.hardware.Sensor p0, int p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onSensorChanged" method="n_onSensorChanged:(Landroid/hardware/SensorEvent;)V:GetOnSensorChanged_Landroid_hardware_SensorEvent_Handler:Android.Hardware.ISensorEventListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/hardware/SensorEvent;)V" params="android.hardware.SensorEvent p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="MagnetometerListener" package="crc64f62664462a8937a9" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Microsoft.Maui.Devices.Sensors.MagnetometerListener, Microsoft.Maui.Essentials">
+      <implemented_interfaces>
+        <interface name="android.hardware.SensorEventListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="MagnetometerListener" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onAccuracyChanged" method="n_onAccuracyChanged:(Landroid/hardware/Sensor;I)V:GetOnAccuracyChanged_Landroid_hardware_Sensor_IHandler:Android.Hardware.ISensorEventListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/hardware/Sensor;I)V" params="android.hardware.Sensor p0, int p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onSensorChanged" method="n_onSensorChanged:(Landroid/hardware/SensorEvent;)V:GetOnSensorChanged_Landroid_hardware_SensorEvent_Handler:Android.Hardware.ISensorEventListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/hardware/SensorEvent;)V" params="android.hardware.SensorEvent p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="OrientationSensorListener" package="crc64f62664462a8937a9" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Microsoft.Maui.Devices.Sensors.OrientationSensorListener, Microsoft.Maui.Essentials">
+      <implemented_interfaces>
+        <interface name="android.hardware.SensorEventListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="OrientationSensorListener" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onAccuracyChanged" method="n_onAccuracyChanged:(Landroid/hardware/Sensor;I)V:GetOnAccuracyChanged_Landroid_hardware_Sensor_IHandler:Android.Hardware.ISensorEventListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/hardware/Sensor;I)V" params="android.hardware.Sensor p0, int p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onSensorChanged" method="n_onSensorChanged:(Landroid/hardware/SensorEvent;)V:GetOnSensorChanged_Landroid_hardware_SensorEvent_Handler:Android.Hardware.ISensorEventListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/hardware/SensorEvent;)V" params="android.hardware.SensorEvent p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+  </jcw-types>
+  <acw-types partial-assembly-name="Microsoft.Maui.Essentials" module-name="Microsoft.Maui.Essentials.dll">
+    <type assembly-qualified-name="Microsoft.Maui.Authentication.WebAuthenticatorCallbackActivity, Microsoft.Maui.Essentials, Version=10.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="microsoft.maui.authentication.WebAuthenticatorCallbackActivity" java-key="crc6468b6408a11370c2f.WebAuthenticatorCallbackActivity" managed-key="Microsoft.Maui.Authentication.WebAuthenticatorCallbackActivity" partial-assembly-qualified-name="Microsoft.Maui.Authentication.WebAuthenticatorCallbackActivity, Microsoft.Maui.Essentials" />
+    <type assembly-qualified-name="Microsoft.Maui.Authentication.WebAuthenticatorIntermediateActivity, Microsoft.Maui.Essentials, Version=10.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="microsoft.maui.authentication.WebAuthenticatorIntermediateActivity" java-key="crc6468b6408a11370c2f.WebAuthenticatorIntermediateActivity" managed-key="Microsoft.Maui.Authentication.WebAuthenticatorIntermediateActivity" partial-assembly-qualified-name="Microsoft.Maui.Authentication.WebAuthenticatorIntermediateActivity, Microsoft.Maui.Essentials" />
+    <type assembly-qualified-name="Microsoft.Maui.Media.TextToSpeechInternalImplementation, Microsoft.Maui.Essentials, Version=10.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="microsoft.maui.media.TextToSpeechInternalImplementation" java-key="crc6493855b22b6fa0721.TextToSpeechInternalImplementation" managed-key="Microsoft.Maui.Media.TextToSpeechInternalImplementation" partial-assembly-qualified-name="Microsoft.Maui.Media.TextToSpeechInternalImplementation, Microsoft.Maui.Essentials" />
+    <type assembly-qualified-name="Microsoft.Maui.Storage.FileProvider, Microsoft.Maui.Essentials, Version=10.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="microsoft.maui.essentials.fileProvider" java-key="microsoft.maui.essentials.fileProvider" managed-key="Microsoft.Maui.Storage.FileProvider" partial-assembly-qualified-name="Microsoft.Maui.Storage.FileProvider, Microsoft.Maui.Essentials" />
+    <type assembly-qualified-name="Microsoft.Maui.Networking.ConnectivityImplementation+EssentialsNetworkCallback, Microsoft.Maui.Essentials, Version=10.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="microsoft.maui.networking.ConnectivityImplementation_EssentialsNetworkCallback" java-key="crc64e53d2f592022988e.ConnectivityImplementation_EssentialsNetworkCallback" managed-key="Microsoft.Maui.Networking.ConnectivityImplementation.EssentialsNetworkCallback" partial-assembly-qualified-name="Microsoft.Maui.Networking.ConnectivityImplementation+EssentialsNetworkCallback, Microsoft.Maui.Essentials" />
+    <type assembly-qualified-name="Microsoft.Maui.Networking.ConnectivityBroadcastReceiver, Microsoft.Maui.Essentials, Version=10.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="microsoft.maui.networking.ConnectivityBroadcastReceiver" java-key="crc64e53d2f592022988e.ConnectivityBroadcastReceiver" managed-key="Microsoft.Maui.Networking.ConnectivityBroadcastReceiver" partial-assembly-qualified-name="Microsoft.Maui.Networking.ConnectivityBroadcastReceiver, Microsoft.Maui.Essentials" />
+    <type assembly-qualified-name="Microsoft.Maui.ApplicationModel.ActivityResultCallback`1, Microsoft.Maui.Essentials, Version=10.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="microsoft.maui.applicationmodel.ActivityResultCallback_1" java-key="crc64ba438d8f48cf7e75.ActivityResultCallback_1" managed-key="Microsoft.Maui.ApplicationModel.ActivityResultCallback`1" partial-assembly-qualified-name="Microsoft.Maui.ApplicationModel.ActivityResultCallback`1, Microsoft.Maui.Essentials" />
+    <type assembly-qualified-name="Microsoft.Maui.ApplicationModel.ActivityLifecycleContextListener, Microsoft.Maui.Essentials, Version=10.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="microsoft.maui.applicationmodel.ActivityLifecycleContextListener" java-key="crc64ba438d8f48cf7e75.ActivityLifecycleContextListener" managed-key="Microsoft.Maui.ApplicationModel.ActivityLifecycleContextListener" partial-assembly-qualified-name="Microsoft.Maui.ApplicationModel.ActivityLifecycleContextListener, Microsoft.Maui.Essentials" />
+    <type assembly-qualified-name="Microsoft.Maui.ApplicationModel.IntermediateActivity, Microsoft.Maui.Essentials, Version=10.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="microsoft.maui.applicationmodel.IntermediateActivity" java-key="crc64ba438d8f48cf7e75.IntermediateActivity" managed-key="Microsoft.Maui.ApplicationModel.IntermediateActivity" partial-assembly-qualified-name="Microsoft.Maui.ApplicationModel.IntermediateActivity, Microsoft.Maui.Essentials" />
+    <type assembly-qualified-name="Microsoft.Maui.ApplicationModel.DataTransfer.ClipboardChangeListener, Microsoft.Maui.Essentials, Version=10.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="microsoft.maui.applicationmodel.datatransfer.ClipboardChangeListener" java-key="crc640a1f4d108c17e3f1.ClipboardChangeListener" managed-key="Microsoft.Maui.ApplicationModel.DataTransfer.ClipboardChangeListener" partial-assembly-qualified-name="Microsoft.Maui.ApplicationModel.DataTransfer.ClipboardChangeListener, Microsoft.Maui.Essentials" />
+    <type assembly-qualified-name="Microsoft.Maui.Devices.DeviceDisplayImplementation+Listener, Microsoft.Maui.Essentials, Version=10.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="microsoft.maui.devices.DeviceDisplayImplementation_Listener" java-key="crc640a8d9a12ddbf2cf2.DeviceDisplayImplementation_Listener" managed-key="Microsoft.Maui.Devices.DeviceDisplayImplementation.Listener" partial-assembly-qualified-name="Microsoft.Maui.Devices.DeviceDisplayImplementation+Listener, Microsoft.Maui.Essentials" />
+    <type assembly-qualified-name="Microsoft.Maui.Devices.BatteryBroadcastReceiver, Microsoft.Maui.Essentials, Version=10.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="microsoft.maui.devices.BatteryBroadcastReceiver" java-key="crc640a8d9a12ddbf2cf2.BatteryBroadcastReceiver" managed-key="Microsoft.Maui.Devices.BatteryBroadcastReceiver" partial-assembly-qualified-name="Microsoft.Maui.Devices.BatteryBroadcastReceiver, Microsoft.Maui.Essentials" />
+    <type assembly-qualified-name="Microsoft.Maui.Devices.EnergySaverBroadcastReceiver, Microsoft.Maui.Essentials, Version=10.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="microsoft.maui.devices.EnergySaverBroadcastReceiver" java-key="crc640a8d9a12ddbf2cf2.EnergySaverBroadcastReceiver" managed-key="Microsoft.Maui.Devices.EnergySaverBroadcastReceiver" partial-assembly-qualified-name="Microsoft.Maui.Devices.EnergySaverBroadcastReceiver, Microsoft.Maui.Essentials" />
+    <type assembly-qualified-name="Microsoft.Maui.Devices.Sensors.AccelerometerListener, Microsoft.Maui.Essentials, Version=10.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="microsoft.maui.devices.sensors.AccelerometerListener" java-key="crc64f62664462a8937a9.AccelerometerListener" managed-key="Microsoft.Maui.Devices.Sensors.AccelerometerListener" partial-assembly-qualified-name="Microsoft.Maui.Devices.Sensors.AccelerometerListener, Microsoft.Maui.Essentials" />
+    <type assembly-qualified-name="Microsoft.Maui.Devices.Sensors.BarometerListener, Microsoft.Maui.Essentials, Version=10.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="microsoft.maui.devices.sensors.BarometerListener" java-key="crc64f62664462a8937a9.BarometerListener" managed-key="Microsoft.Maui.Devices.Sensors.BarometerListener" partial-assembly-qualified-name="Microsoft.Maui.Devices.Sensors.BarometerListener, Microsoft.Maui.Essentials" />
+    <type assembly-qualified-name="Microsoft.Maui.Devices.Sensors.SensorListener, Microsoft.Maui.Essentials, Version=10.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="microsoft.maui.devices.sensors.SensorListener" java-key="crc64f62664462a8937a9.SensorListener" managed-key="Microsoft.Maui.Devices.Sensors.SensorListener" partial-assembly-qualified-name="Microsoft.Maui.Devices.Sensors.SensorListener, Microsoft.Maui.Essentials" />
+    <type assembly-qualified-name="Microsoft.Maui.Devices.Sensors.SingleLocationListener, Microsoft.Maui.Essentials, Version=10.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="microsoft.maui.devices.sensors.SingleLocationListener" java-key="crc64f62664462a8937a9.SingleLocationListener" managed-key="Microsoft.Maui.Devices.Sensors.SingleLocationListener" partial-assembly-qualified-name="Microsoft.Maui.Devices.Sensors.SingleLocationListener, Microsoft.Maui.Essentials" />
+    <type assembly-qualified-name="Microsoft.Maui.Devices.Sensors.ContinuousLocationListener, Microsoft.Maui.Essentials, Version=10.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="microsoft.maui.devices.sensors.ContinuousLocationListener" java-key="crc64f62664462a8937a9.ContinuousLocationListener" managed-key="Microsoft.Maui.Devices.Sensors.ContinuousLocationListener" partial-assembly-qualified-name="Microsoft.Maui.Devices.Sensors.ContinuousLocationListener, Microsoft.Maui.Essentials" />
+    <type assembly-qualified-name="Microsoft.Maui.Devices.Sensors.GyroscopeListener, Microsoft.Maui.Essentials, Version=10.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="microsoft.maui.devices.sensors.GyroscopeListener" java-key="crc64f62664462a8937a9.GyroscopeListener" managed-key="Microsoft.Maui.Devices.Sensors.GyroscopeListener" partial-assembly-qualified-name="Microsoft.Maui.Devices.Sensors.GyroscopeListener, Microsoft.Maui.Essentials" />
+    <type assembly-qualified-name="Microsoft.Maui.Devices.Sensors.MagnetometerListener, Microsoft.Maui.Essentials, Version=10.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="microsoft.maui.devices.sensors.MagnetometerListener" java-key="crc64f62664462a8937a9.MagnetometerListener" managed-key="Microsoft.Maui.Devices.Sensors.MagnetometerListener" partial-assembly-qualified-name="Microsoft.Maui.Devices.Sensors.MagnetometerListener, Microsoft.Maui.Essentials" />
+    <type assembly-qualified-name="Microsoft.Maui.Devices.Sensors.OrientationSensorListener, Microsoft.Maui.Essentials, Version=10.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="microsoft.maui.devices.sensors.OrientationSensorListener" java-key="crc64f62664462a8937a9.OrientationSensorListener" managed-key="Microsoft.Maui.Devices.Sensors.OrientationSensorListener" partial-assembly-qualified-name="Microsoft.Maui.Devices.Sensors.OrientationSensorListener, Microsoft.Maui.Essentials" />
+  </acw-types>
+</api>

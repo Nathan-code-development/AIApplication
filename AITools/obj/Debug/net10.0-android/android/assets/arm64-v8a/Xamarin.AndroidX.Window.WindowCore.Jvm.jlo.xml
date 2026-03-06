@@ -1,0 +1,5 @@
+<api>
+  <acw-types partial-assembly-name="Xamarin.AndroidX.Window.WindowCore.Jvm" module-name="Xamarin.AndroidX.Window.WindowCore.Jvm.dll">
+    <type assembly-qualified-name="AndroidX.Window.Core.IExperimentalWindowCoreApi, Xamarin.AndroidX.Window.WindowCore.Jvm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.window.core.ExperimentalWindowCoreApi" java-key="androidx.window.core.ExperimentalWindowCoreApi" managed-key="AndroidX.Window.Core.IExperimentalWindowCoreApi" partial-assembly-qualified-name="AndroidX.Window.Core.IExperimentalWindowCoreApi, Xamarin.AndroidX.Window.WindowCore.Jvm" />
+  </acw-types>
+</api>

@@ -1,0 +1,5 @@
+<api>
+  <acw-types partial-assembly-name="Xamarin.AndroidX.VectorDrawable.Animated" module-name="Xamarin.AndroidX.VectorDrawable.Animated.dll">
+    <type assembly-qualified-name="AndroidX.VectorDrawable.Graphics.Drawable.IAnimatable2Compat, Xamarin.AndroidX.VectorDrawable.Animated, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.vectordrawable.graphics.drawable.Animatable2Compat" java-key="androidx.vectordrawable.graphics.drawable.Animatable2Compat" managed-key="AndroidX.VectorDrawable.Graphics.Drawable.IAnimatable2Compat" partial-assembly-qualified-name="AndroidX.VectorDrawable.Graphics.Drawable.IAnimatable2Compat, Xamarin.AndroidX.VectorDrawable.Animated" />
+  </acw-types>
+</api>

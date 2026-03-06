@@ -1,0 +1,22 @@
+<api type="debug" assembly-name="Xamarin.AndroidX.Concurrent.Futures" mvid="2b6757954d0d41a3a23f28be1836f4bd">
+  <java-to-managed>
+    <entry java-name="androidx/concurrent/futures/AbstractResolvableFuture" managed-name="AndroidX.Concurrent.Futures.AbstractResolvableFuture, Xamarin.AndroidX.Concurrent.Futures" managed-type-token-id="33554439" />
+    <entry java-name="androidx/concurrent/futures/AbstractResolvableFuture" managed-name="AndroidX.Concurrent.Futures.AbstractResolvableFutureInvoker, Xamarin.AndroidX.Concurrent.Futures" managed-type-token-id="33554440" />
+    <entry java-name="androidx/concurrent/futures/CallbackToFutureAdapter" managed-name="AndroidX.Concurrent.Futures.CallbackToFutureAdapter, Xamarin.AndroidX.Concurrent.Futures" managed-type-token-id="33554441" />
+    <entry java-name="androidx/concurrent/futures/CallbackToFutureAdapter$Completer" managed-name="AndroidX.Concurrent.Futures.CallbackToFutureAdapter+Completer, Xamarin.AndroidX.Concurrent.Futures" managed-type-token-id="33554445" />
+    <entry java-name="androidx/concurrent/futures/CallbackToFutureAdapter$Resolver" managed-name="AndroidX.Concurrent.Futures.CallbackToFutureAdapter+IResolver, Xamarin.AndroidX.Concurrent.Futures" skip-in-java-to-managed="True" managed-type-token-id="33554446" />
+    <entry java-name="androidx/concurrent/futures/CallbackToFutureAdapter$Resolver" managed-name="AndroidX.Concurrent.Futures.CallbackToFutureAdapter+IResolverInvoker, Xamarin.AndroidX.Concurrent.Futures" managed-type-token-id="33554447" />
+    <entry java-name="androidx/concurrent/futures/DirectExecutor" managed-name="AndroidX.Concurrent.Futures.DirectExecutor, Xamarin.AndroidX.Concurrent.Futures" managed-type-token-id="33554442" />
+    <entry java-name="androidx/concurrent/futures/ResolvableFuture" managed-name="AndroidX.Concurrent.Futures.ResolvableFuture, Xamarin.AndroidX.Concurrent.Futures" managed-type-token-id="33554443" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="androidx/concurrent/futures/AbstractResolvableFuture" managed-name="AndroidX.Concurrent.Futures.AbstractResolvableFuture, Xamarin.AndroidX.Concurrent.Futures" managed-type-token-id="33554439" />
+    <entry java-name="androidx/concurrent/futures/AbstractResolvableFuture" managed-name="AndroidX.Concurrent.Futures.AbstractResolvableFutureInvoker, Xamarin.AndroidX.Concurrent.Futures" managed-type-token-id="33554440" />
+    <entry java-name="androidx/concurrent/futures/CallbackToFutureAdapter" managed-name="AndroidX.Concurrent.Futures.CallbackToFutureAdapter, Xamarin.AndroidX.Concurrent.Futures" managed-type-token-id="33554441" />
+    <entry java-name="androidx/concurrent/futures/CallbackToFutureAdapter$Completer" managed-name="AndroidX.Concurrent.Futures.CallbackToFutureAdapter+Completer, Xamarin.AndroidX.Concurrent.Futures" managed-type-token-id="33554445" />
+    <entry java-name="androidx/concurrent/futures/CallbackToFutureAdapter$Resolver" managed-name="AndroidX.Concurrent.Futures.CallbackToFutureAdapter+IResolver, Xamarin.AndroidX.Concurrent.Futures" skip-in-java-to-managed="True" managed-type-token-id="33554446" />
+    <entry java-name="androidx/concurrent/futures/CallbackToFutureAdapter$Resolver" managed-name="AndroidX.Concurrent.Futures.CallbackToFutureAdapter+IResolverInvoker, Xamarin.AndroidX.Concurrent.Futures" managed-type-token-id="33554447" />
+    <entry java-name="androidx/concurrent/futures/DirectExecutor" managed-name="AndroidX.Concurrent.Futures.DirectExecutor, Xamarin.AndroidX.Concurrent.Futures" managed-type-token-id="33554442" />
+    <entry java-name="androidx/concurrent/futures/ResolvableFuture" managed-name="AndroidX.Concurrent.Futures.ResolvableFuture, Xamarin.AndroidX.Concurrent.Futures" managed-type-token-id="33554443" />
+  </managed-to-java>
+</api>
