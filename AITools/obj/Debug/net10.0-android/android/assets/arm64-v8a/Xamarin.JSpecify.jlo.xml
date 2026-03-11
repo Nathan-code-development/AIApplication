@@ -1,0 +1,8 @@
+<api>
+  <acw-types partial-assembly-name="Xamarin.JSpecify" module-name="Xamarin.JSpecify.dll">
+    <type assembly-qualified-name="Xamarin.JSpecify.Annotations.INonNull, Xamarin.JSpecify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="org.jspecify.annotations.NonNull" java-key="org.jspecify.annotations.NonNull" managed-key="Xamarin.JSpecify.Annotations.INonNull" partial-assembly-qualified-name="Xamarin.JSpecify.Annotations.INonNull, Xamarin.JSpecify" />
+    <type assembly-qualified-name="Xamarin.JSpecify.Annotations.INullable, Xamarin.JSpecify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="org.jspecify.annotations.Nullable" java-key="org.jspecify.annotations.Nullable" managed-key="Xamarin.JSpecify.Annotations.INullable" partial-assembly-qualified-name="Xamarin.JSpecify.Annotations.INullable, Xamarin.JSpecify" />
+    <type assembly-qualified-name="Xamarin.JSpecify.Annotations.INullMarked, Xamarin.JSpecify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="org.jspecify.annotations.NullMarked" java-key="org.jspecify.annotations.NullMarked" managed-key="Xamarin.JSpecify.Annotations.INullMarked" partial-assembly-qualified-name="Xamarin.JSpecify.Annotations.INullMarked, Xamarin.JSpecify" />
+    <type assembly-qualified-name="Xamarin.JSpecify.Annotations.INullUnmarked, Xamarin.JSpecify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="org.jspecify.annotations.NullUnmarked" java-key="org.jspecify.annotations.NullUnmarked" managed-key="Xamarin.JSpecify.Annotations.INullUnmarked" partial-assembly-qualified-name="Xamarin.JSpecify.Annotations.INullUnmarked, Xamarin.JSpecify" />
+  </acw-types>
+</api>

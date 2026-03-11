@@ -1,0 +1,14 @@
+<api type="debug" assembly-name="Xamarin.AndroidX.CustomView.PoolingContainer" mvid="0220fb253208480986c4d83172b631c8">
+  <java-to-managed>
+    <entry java-name="androidx/customview/poolingcontainer/PoolingContainerListener" managed-name="AndroidX.CustomView.PoolingContainer.IPoolingContainerListener, Xamarin.AndroidX.CustomView.PoolingContainer" skip-in-java-to-managed="True" managed-type-token-id="33554436" />
+    <entry java-name="androidx/customview/poolingcontainer/PoolingContainerListener" managed-name="AndroidX.CustomView.PoolingContainer.IPoolingContainerListenerInvoker, Xamarin.AndroidX.CustomView.PoolingContainer" managed-type-token-id="33554437" />
+    <entry java-name="mono/androidx/customview/poolingcontainer/PoolingContainerListenerImplementor" managed-name="AndroidX.CustomView.PoolingContainer.IPoolingContainerListenerImplementor, Xamarin.AndroidX.CustomView.PoolingContainer" managed-type-token-id="33554438" />
+    <entry java-name="androidx/customview/poolingcontainer/PoolingContainer" managed-name="AndroidX.CustomView.PoolingContainer.PoolingContainer, Xamarin.AndroidX.CustomView.PoolingContainer" managed-type-token-id="33554439" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="androidx/customview/poolingcontainer/PoolingContainerListener" managed-name="AndroidX.CustomView.PoolingContainer.IPoolingContainerListener, Xamarin.AndroidX.CustomView.PoolingContainer" skip-in-java-to-managed="True" managed-type-token-id="33554436" />
+    <entry java-name="androidx/customview/poolingcontainer/PoolingContainerListener" managed-name="AndroidX.CustomView.PoolingContainer.IPoolingContainerListenerInvoker, Xamarin.AndroidX.CustomView.PoolingContainer" managed-type-token-id="33554437" />
+    <entry java-name="mono/androidx/customview/poolingcontainer/PoolingContainerListenerImplementor" managed-name="AndroidX.CustomView.PoolingContainer.IPoolingContainerListenerImplementor, Xamarin.AndroidX.CustomView.PoolingContainer" managed-type-token-id="33554438" />
+    <entry java-name="androidx/customview/poolingcontainer/PoolingContainer" managed-name="AndroidX.CustomView.PoolingContainer.PoolingContainer, Xamarin.AndroidX.CustomView.PoolingContainer" managed-type-token-id="33554439" />
+  </managed-to-java>
+</api>

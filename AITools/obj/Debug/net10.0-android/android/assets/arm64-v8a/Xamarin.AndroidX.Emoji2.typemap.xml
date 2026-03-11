@@ -1,0 +1,150 @@
+<api type="debug" assembly-name="Xamarin.AndroidX.Emoji2" mvid="caf998617b4443ad9a75088898741188">
+  <java-to-managed>
+    <entry java-name="androidx/emoji2/text/DefaultEmojiCompatConfig" managed-name="AndroidX.Emoji2.Text.DefaultEmojiCompatConfig, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554503" />
+    <entry java-name="androidx/emoji2/text/DefaultEmojiCompatConfig$DefaultEmojiCompatConfigFactory" managed-name="AndroidX.Emoji2.Text.DefaultEmojiCompatConfig+DefaultEmojiCompatConfigFactory, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554541" />
+    <entry java-name="androidx/emoji2/text/DefaultEmojiCompatConfig$DefaultEmojiCompatConfigHelper" managed-name="AndroidX.Emoji2.Text.DefaultEmojiCompatConfig+DefaultEmojiCompatConfigHelper, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554542" />
+    <entry java-name="androidx/emoji2/text/DefaultEmojiCompatConfig$DefaultEmojiCompatConfigHelper_API28" managed-name="AndroidX.Emoji2.Text.DefaultEmojiCompatConfig+DefaultEmojiCompatConfigHelper_API28, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554543" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat" managed-name="AndroidX.Emoji2.Text.EmojiCompat, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554504" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$CodepointSequenceMatchResult" managed-name="AndroidX.Emoji2.Text.EmojiCompat+ICodepointSequenceMatchResult, Xamarin.AndroidX.Emoji2" skip-in-java-to-managed="True" managed-type-token-id="33554544" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$CodepointSequenceMatchResult" managed-name="AndroidX.Emoji2.Text.EmojiCompat+ICodepointSequenceMatchResultInvoker, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554545" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$Config" managed-name="AndroidX.Emoji2.Text.EmojiCompat+Config, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554546" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$Config" managed-name="AndroidX.Emoji2.Text.EmojiCompat+ConfigInvoker, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554547" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$DefaultSpanFactory" managed-name="AndroidX.Emoji2.Text.EmojiCompat+DefaultSpanFactory, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554548" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$GlyphChecker" managed-name="AndroidX.Emoji2.Text.EmojiCompat+IGlyphChecker, Xamarin.AndroidX.Emoji2" skip-in-java-to-managed="True" managed-type-token-id="33554549" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$GlyphChecker" managed-name="AndroidX.Emoji2.Text.EmojiCompat+IGlyphCheckerInvoker, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554550" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$InitCallback" managed-name="AndroidX.Emoji2.Text.EmojiCompat+InitCallback, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554551" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$InitCallback" managed-name="AndroidX.Emoji2.Text.EmojiCompat+InitCallbackInvoker, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554552" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$LoadStrategy" managed-name="AndroidX.Emoji2.Text.EmojiCompat+ILoadStrategy, Xamarin.AndroidX.Emoji2" skip-in-java-to-managed="True" managed-type-token-id="33554553" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$LoadStrategy" managed-name="AndroidX.Emoji2.Text.EmojiCompat+ILoadStrategyInvoker, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554554" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$MetadataRepoLoader" managed-name="AndroidX.Emoji2.Text.EmojiCompat+IMetadataRepoLoader, Xamarin.AndroidX.Emoji2" skip-in-java-to-managed="True" managed-type-token-id="33554555" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$MetadataRepoLoader" managed-name="AndroidX.Emoji2.Text.EmojiCompat+IMetadataRepoLoaderInvoker, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554556" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$MetadataRepoLoaderCallback" managed-name="AndroidX.Emoji2.Text.EmojiCompat+MetadataRepoLoaderCallback, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554557" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$MetadataRepoLoaderCallback" managed-name="AndroidX.Emoji2.Text.EmojiCompat+MetadataRepoLoaderCallbackInvoker, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554558" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$ReplaceStrategy" managed-name="AndroidX.Emoji2.Text.EmojiCompat+IReplaceStrategy, Xamarin.AndroidX.Emoji2" skip-in-java-to-managed="True" managed-type-token-id="33554559" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$ReplaceStrategy" managed-name="AndroidX.Emoji2.Text.EmojiCompat+IReplaceStrategyInvoker, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554560" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$SpanFactory" managed-name="AndroidX.Emoji2.Text.EmojiCompat+ISpanFactory, Xamarin.AndroidX.Emoji2" skip-in-java-to-managed="True" managed-type-token-id="33554561" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$SpanFactory" managed-name="AndroidX.Emoji2.Text.EmojiCompat+ISpanFactoryInvoker, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554562" />
+    <entry java-name="androidx/emoji2/text/EmojiCompatInitializer" managed-name="AndroidX.Emoji2.Text.EmojiCompatInitializer, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554506" />
+    <entry java-name="androidx/emoji2/text/EmojiDefaults" managed-name="AndroidX.Emoji2.Text.EmojiDefaults, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554507" />
+    <entry java-name="androidx/emoji2/text/EmojiSpan" managed-name="AndroidX.Emoji2.Text.EmojiSpan, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554508" />
+    <entry java-name="androidx/emoji2/text/EmojiSpan" managed-name="AndroidX.Emoji2.Text.EmojiSpanInvoker, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554509" />
+    <entry java-name="androidx/emoji2/text/FontRequestEmojiCompatConfig" managed-name="AndroidX.Emoji2.Text.FontRequestEmojiCompatConfig, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554510" />
+    <entry java-name="androidx/emoji2/text/FontRequestEmojiCompatConfig$ExponentialBackoffRetryPolicy" managed-name="AndroidX.Emoji2.Text.FontRequestEmojiCompatConfig+ExponentialBackoffRetryPolicy, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554563" />
+    <entry java-name="androidx/emoji2/text/FontRequestEmojiCompatConfig$FontProviderHelper" managed-name="AndroidX.Emoji2.Text.FontRequestEmojiCompatConfig+FontProviderHelper, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554564" />
+    <entry java-name="androidx/emoji2/text/FontRequestEmojiCompatConfig$RetryPolicy" managed-name="AndroidX.Emoji2.Text.FontRequestEmojiCompatConfig+RetryPolicy, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554565" />
+    <entry java-name="androidx/emoji2/text/FontRequestEmojiCompatConfig$RetryPolicy" managed-name="AndroidX.Emoji2.Text.FontRequestEmojiCompatConfig+RetryPolicyInvoker, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554566" />
+    <entry java-name="androidx/emoji2/text/MetadataRepo" managed-name="AndroidX.Emoji2.Text.MetadataRepo, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554511" />
+    <entry java-name="androidx/emoji2/text/SpannableBuilder" managed-name="AndroidX.Emoji2.Text.SpannableBuilder, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554512" />
+    <entry java-name="androidx/emoji2/text/TypefaceEmojiRasterizer" managed-name="AndroidX.Emoji2.Text.TypefaceEmojiRasterizer, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554513" />
+    <entry java-name="androidx/emoji2/text/TypefaceEmojiRasterizer$HasGlyph" managed-name="AndroidX.Emoji2.Text.TypefaceEmojiRasterizer+IHasGlyph, Xamarin.AndroidX.Emoji2" skip-in-java-to-managed="True" managed-type-token-id="33554567" />
+    <entry java-name="androidx/emoji2/text/TypefaceEmojiRasterizer$HasGlyph" managed-name="AndroidX.Emoji2.Text.TypefaceEmojiRasterizer+IHasGlyphInvoker, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554568" />
+    <entry java-name="androidx/emoji2/text/TypefaceEmojiSpan" managed-name="AndroidX.Emoji2.Text.TypefaceEmojiSpan, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554514" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/ArrayReadWriteBuf" managed-name="AndroidX.Emoji2.Text.FlatBuffer.ArrayReadWriteBuf, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554515" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/BaseVector" managed-name="AndroidX.Emoji2.Text.FlatBuffer.BaseVector, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554516" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/BooleanVector" managed-name="AndroidX.Emoji2.Text.FlatBuffer.BooleanVector, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554517" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf" managed-name="AndroidX.Emoji2.Text.FlatBuffer.ByteBufferReadWriteBuf, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554518" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/ByteBufferUtil" managed-name="AndroidX.Emoji2.Text.FlatBuffer.ByteBufferUtil, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554519" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/ByteVector" managed-name="AndroidX.Emoji2.Text.FlatBuffer.ByteVector, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554520" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/Constants" managed-name="AndroidX.Emoji2.Text.FlatBuffer.Constants, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554521" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/DoubleVector" managed-name="AndroidX.Emoji2.Text.FlatBuffer.DoubleVector, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554522" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/FlatBufferBuilder" managed-name="AndroidX.Emoji2.Text.FlatBuffer.FlatBufferBuilder, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554523" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/FlatBufferBuilder$ByteBufferFactory" managed-name="AndroidX.Emoji2.Text.FlatBuffer.FlatBufferBuilder+ByteBufferFactory, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554569" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/FlatBufferBuilder$ByteBufferFactory" managed-name="AndroidX.Emoji2.Text.FlatBuffer.FlatBufferBuilder+ByteBufferFactoryInvoker, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554570" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/FlatBufferBuilder$HeapByteBufferFactory" managed-name="AndroidX.Emoji2.Text.FlatBuffer.FlatBufferBuilder+HeapByteBufferFactory, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554571" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/FlexBuffers" managed-name="AndroidX.Emoji2.Text.FlatBuffer.FlexBuffers, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554524" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/FlexBuffers$FlexBufferException" managed-name="AndroidX.Emoji2.Text.FlatBuffer.FlexBuffers+FlexBufferException, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554572" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/FlexBuffers$KeyVector" managed-name="AndroidX.Emoji2.Text.FlatBuffer.FlexBuffers+KeyVector, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554573" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/FlexBuffers$Reference" managed-name="AndroidX.Emoji2.Text.FlatBuffer.FlexBuffers+Reference, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554574" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/FlexBuffersBuilder" managed-name="AndroidX.Emoji2.Text.FlatBuffer.FlexBuffersBuilder, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554525" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/FloatVector" managed-name="AndroidX.Emoji2.Text.FlatBuffer.FloatVector, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554526" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/IntVector" managed-name="AndroidX.Emoji2.Text.FlatBuffer.IntVector, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554527" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/LongVector" managed-name="AndroidX.Emoji2.Text.FlatBuffer.LongVector, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554528" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/MetadataItem" managed-name="AndroidX.Emoji2.Text.FlatBuffer.MetadataItem, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554529" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/MetadataItem$Vector" managed-name="AndroidX.Emoji2.Text.FlatBuffer.MetadataItem+Vector, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554575" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/MetadataList" managed-name="AndroidX.Emoji2.Text.FlatBuffer.MetadataList, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554530" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/MetadataList$Vector" managed-name="AndroidX.Emoji2.Text.FlatBuffer.MetadataList+Vector, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554576" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/ShortVector" managed-name="AndroidX.Emoji2.Text.FlatBuffer.ShortVector, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554531" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/StringVector" managed-name="AndroidX.Emoji2.Text.FlatBuffer.StringVector, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554532" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/Struct" managed-name="AndroidX.Emoji2.Text.FlatBuffer.Struct, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554533" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/Table" managed-name="AndroidX.Emoji2.Text.FlatBuffer.Table, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554534" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/UnionVector" managed-name="AndroidX.Emoji2.Text.FlatBuffer.UnionVector, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554535" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/Utf8" managed-name="AndroidX.Emoji2.Text.FlatBuffer.Utf8, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554536" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/Utf8" managed-name="AndroidX.Emoji2.Text.FlatBuffer.Utf8Invoker, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554537" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/Utf8Old" managed-name="AndroidX.Emoji2.Text.FlatBuffer.Utf8Old, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554538" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/Utf8Safe" managed-name="AndroidX.Emoji2.Text.FlatBuffer.Utf8Safe, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554539" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="androidx/emoji2/text/DefaultEmojiCompatConfig" managed-name="AndroidX.Emoji2.Text.DefaultEmojiCompatConfig, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554503" />
+    <entry java-name="androidx/emoji2/text/DefaultEmojiCompatConfig$DefaultEmojiCompatConfigFactory" managed-name="AndroidX.Emoji2.Text.DefaultEmojiCompatConfig+DefaultEmojiCompatConfigFactory, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554541" />
+    <entry java-name="androidx/emoji2/text/DefaultEmojiCompatConfig$DefaultEmojiCompatConfigHelper" managed-name="AndroidX.Emoji2.Text.DefaultEmojiCompatConfig+DefaultEmojiCompatConfigHelper, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554542" />
+    <entry java-name="androidx/emoji2/text/DefaultEmojiCompatConfig$DefaultEmojiCompatConfigHelper_API28" managed-name="AndroidX.Emoji2.Text.DefaultEmojiCompatConfig+DefaultEmojiCompatConfigHelper_API28, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554543" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat" managed-name="AndroidX.Emoji2.Text.EmojiCompat, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554504" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$CodepointSequenceMatchResult" managed-name="AndroidX.Emoji2.Text.EmojiCompat+ICodepointSequenceMatchResult, Xamarin.AndroidX.Emoji2" skip-in-java-to-managed="True" managed-type-token-id="33554544" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$CodepointSequenceMatchResult" managed-name="AndroidX.Emoji2.Text.EmojiCompat+ICodepointSequenceMatchResultInvoker, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554545" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$Config" managed-name="AndroidX.Emoji2.Text.EmojiCompat+Config, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554546" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$Config" managed-name="AndroidX.Emoji2.Text.EmojiCompat+ConfigInvoker, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554547" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$DefaultSpanFactory" managed-name="AndroidX.Emoji2.Text.EmojiCompat+DefaultSpanFactory, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554548" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$GlyphChecker" managed-name="AndroidX.Emoji2.Text.EmojiCompat+IGlyphChecker, Xamarin.AndroidX.Emoji2" skip-in-java-to-managed="True" managed-type-token-id="33554549" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$GlyphChecker" managed-name="AndroidX.Emoji2.Text.EmojiCompat+IGlyphCheckerInvoker, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554550" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$InitCallback" managed-name="AndroidX.Emoji2.Text.EmojiCompat+InitCallback, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554551" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$InitCallback" managed-name="AndroidX.Emoji2.Text.EmojiCompat+InitCallbackInvoker, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554552" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$LoadStrategy" managed-name="AndroidX.Emoji2.Text.EmojiCompat+ILoadStrategy, Xamarin.AndroidX.Emoji2" skip-in-java-to-managed="True" managed-type-token-id="33554553" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$LoadStrategy" managed-name="AndroidX.Emoji2.Text.EmojiCompat+ILoadStrategyInvoker, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554554" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$MetadataRepoLoader" managed-name="AndroidX.Emoji2.Text.EmojiCompat+IMetadataRepoLoader, Xamarin.AndroidX.Emoji2" skip-in-java-to-managed="True" managed-type-token-id="33554555" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$MetadataRepoLoader" managed-name="AndroidX.Emoji2.Text.EmojiCompat+IMetadataRepoLoaderInvoker, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554556" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$MetadataRepoLoaderCallback" managed-name="AndroidX.Emoji2.Text.EmojiCompat+MetadataRepoLoaderCallback, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554557" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$MetadataRepoLoaderCallback" managed-name="AndroidX.Emoji2.Text.EmojiCompat+MetadataRepoLoaderCallbackInvoker, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554558" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$ReplaceStrategy" managed-name="AndroidX.Emoji2.Text.EmojiCompat+IReplaceStrategy, Xamarin.AndroidX.Emoji2" skip-in-java-to-managed="True" managed-type-token-id="33554559" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$ReplaceStrategy" managed-name="AndroidX.Emoji2.Text.EmojiCompat+IReplaceStrategyInvoker, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554560" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$SpanFactory" managed-name="AndroidX.Emoji2.Text.EmojiCompat+ISpanFactory, Xamarin.AndroidX.Emoji2" skip-in-java-to-managed="True" managed-type-token-id="33554561" />
+    <entry java-name="androidx/emoji2/text/EmojiCompat$SpanFactory" managed-name="AndroidX.Emoji2.Text.EmojiCompat+ISpanFactoryInvoker, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554562" />
+    <entry java-name="androidx/emoji2/text/EmojiCompatInitializer" managed-name="AndroidX.Emoji2.Text.EmojiCompatInitializer, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554506" />
+    <entry java-name="androidx/emoji2/text/EmojiDefaults" managed-name="AndroidX.Emoji2.Text.EmojiDefaults, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554507" />
+    <entry java-name="androidx/emoji2/text/EmojiSpan" managed-name="AndroidX.Emoji2.Text.EmojiSpan, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554508" />
+    <entry java-name="androidx/emoji2/text/EmojiSpan" managed-name="AndroidX.Emoji2.Text.EmojiSpanInvoker, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554509" />
+    <entry java-name="androidx/emoji2/text/FontRequestEmojiCompatConfig" managed-name="AndroidX.Emoji2.Text.FontRequestEmojiCompatConfig, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554510" />
+    <entry java-name="androidx/emoji2/text/FontRequestEmojiCompatConfig$ExponentialBackoffRetryPolicy" managed-name="AndroidX.Emoji2.Text.FontRequestEmojiCompatConfig+ExponentialBackoffRetryPolicy, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554563" />
+    <entry java-name="androidx/emoji2/text/FontRequestEmojiCompatConfig$FontProviderHelper" managed-name="AndroidX.Emoji2.Text.FontRequestEmojiCompatConfig+FontProviderHelper, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554564" />
+    <entry java-name="androidx/emoji2/text/FontRequestEmojiCompatConfig$RetryPolicy" managed-name="AndroidX.Emoji2.Text.FontRequestEmojiCompatConfig+RetryPolicy, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554565" />
+    <entry java-name="androidx/emoji2/text/FontRequestEmojiCompatConfig$RetryPolicy" managed-name="AndroidX.Emoji2.Text.FontRequestEmojiCompatConfig+RetryPolicyInvoker, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554566" />
+    <entry java-name="androidx/emoji2/text/MetadataRepo" managed-name="AndroidX.Emoji2.Text.MetadataRepo, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554511" />
+    <entry java-name="androidx/emoji2/text/SpannableBuilder" managed-name="AndroidX.Emoji2.Text.SpannableBuilder, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554512" />
+    <entry java-name="androidx/emoji2/text/TypefaceEmojiRasterizer" managed-name="AndroidX.Emoji2.Text.TypefaceEmojiRasterizer, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554513" />
+    <entry java-name="androidx/emoji2/text/TypefaceEmojiRasterizer$HasGlyph" managed-name="AndroidX.Emoji2.Text.TypefaceEmojiRasterizer+IHasGlyph, Xamarin.AndroidX.Emoji2" skip-in-java-to-managed="True" managed-type-token-id="33554567" />
+    <entry java-name="androidx/emoji2/text/TypefaceEmojiRasterizer$HasGlyph" managed-name="AndroidX.Emoji2.Text.TypefaceEmojiRasterizer+IHasGlyphInvoker, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554568" />
+    <entry java-name="androidx/emoji2/text/TypefaceEmojiSpan" managed-name="AndroidX.Emoji2.Text.TypefaceEmojiSpan, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554514" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/ArrayReadWriteBuf" managed-name="AndroidX.Emoji2.Text.FlatBuffer.ArrayReadWriteBuf, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554515" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/BaseVector" managed-name="AndroidX.Emoji2.Text.FlatBuffer.BaseVector, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554516" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/BooleanVector" managed-name="AndroidX.Emoji2.Text.FlatBuffer.BooleanVector, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554517" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf" managed-name="AndroidX.Emoji2.Text.FlatBuffer.ByteBufferReadWriteBuf, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554518" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/ByteBufferUtil" managed-name="AndroidX.Emoji2.Text.FlatBuffer.ByteBufferUtil, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554519" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/ByteVector" managed-name="AndroidX.Emoji2.Text.FlatBuffer.ByteVector, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554520" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/Constants" managed-name="AndroidX.Emoji2.Text.FlatBuffer.Constants, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554521" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/DoubleVector" managed-name="AndroidX.Emoji2.Text.FlatBuffer.DoubleVector, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554522" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/FlatBufferBuilder" managed-name="AndroidX.Emoji2.Text.FlatBuffer.FlatBufferBuilder, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554523" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/FlatBufferBuilder$ByteBufferFactory" managed-name="AndroidX.Emoji2.Text.FlatBuffer.FlatBufferBuilder+ByteBufferFactory, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554569" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/FlatBufferBuilder$ByteBufferFactory" managed-name="AndroidX.Emoji2.Text.FlatBuffer.FlatBufferBuilder+ByteBufferFactoryInvoker, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554570" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/FlatBufferBuilder$HeapByteBufferFactory" managed-name="AndroidX.Emoji2.Text.FlatBuffer.FlatBufferBuilder+HeapByteBufferFactory, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554571" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/FlexBuffers" managed-name="AndroidX.Emoji2.Text.FlatBuffer.FlexBuffers, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554524" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/FlexBuffers$FlexBufferException" managed-name="AndroidX.Emoji2.Text.FlatBuffer.FlexBuffers+FlexBufferException, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554572" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/FlexBuffers$KeyVector" managed-name="AndroidX.Emoji2.Text.FlatBuffer.FlexBuffers+KeyVector, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554573" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/FlexBuffers$Reference" managed-name="AndroidX.Emoji2.Text.FlatBuffer.FlexBuffers+Reference, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554574" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/FlexBuffersBuilder" managed-name="AndroidX.Emoji2.Text.FlatBuffer.FlexBuffersBuilder, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554525" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/FloatVector" managed-name="AndroidX.Emoji2.Text.FlatBuffer.FloatVector, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554526" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/IntVector" managed-name="AndroidX.Emoji2.Text.FlatBuffer.IntVector, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554527" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/LongVector" managed-name="AndroidX.Emoji2.Text.FlatBuffer.LongVector, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554528" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/MetadataItem" managed-name="AndroidX.Emoji2.Text.FlatBuffer.MetadataItem, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554529" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/MetadataItem$Vector" managed-name="AndroidX.Emoji2.Text.FlatBuffer.MetadataItem+Vector, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554575" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/MetadataList" managed-name="AndroidX.Emoji2.Text.FlatBuffer.MetadataList, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554530" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/MetadataList$Vector" managed-name="AndroidX.Emoji2.Text.FlatBuffer.MetadataList+Vector, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554576" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/ShortVector" managed-name="AndroidX.Emoji2.Text.FlatBuffer.ShortVector, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554531" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/StringVector" managed-name="AndroidX.Emoji2.Text.FlatBuffer.StringVector, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554532" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/Struct" managed-name="AndroidX.Emoji2.Text.FlatBuffer.Struct, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554533" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/Table" managed-name="AndroidX.Emoji2.Text.FlatBuffer.Table, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554534" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/UnionVector" managed-name="AndroidX.Emoji2.Text.FlatBuffer.UnionVector, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554535" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/Utf8" managed-name="AndroidX.Emoji2.Text.FlatBuffer.Utf8, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554536" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/Utf8" managed-name="AndroidX.Emoji2.Text.FlatBuffer.Utf8Invoker, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554537" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/Utf8Old" managed-name="AndroidX.Emoji2.Text.FlatBuffer.Utf8Old, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554538" />
+    <entry java-name="androidx/emoji2/text/flatbuffer/Utf8Safe" managed-name="AndroidX.Emoji2.Text.FlatBuffer.Utf8Safe, Xamarin.AndroidX.Emoji2" managed-type-token-id="33554539" />
+  </managed-to-java>
+</api>

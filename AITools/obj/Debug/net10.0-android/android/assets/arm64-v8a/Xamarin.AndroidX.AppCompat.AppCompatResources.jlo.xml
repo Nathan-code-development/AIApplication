@@ -1,0 +1,19 @@
+<api>
+  <jcw-types>
+    <type name="DrawableContainer" package="crc6439358991bbf5dbbd" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="androidx.appcompat.graphics.drawable.DrawableContainerCompat" partial_assembly_qualified_name="AndroidX.AppCompat.Graphics.Drawable.DrawableContainer, Xamarin.AndroidX.AppCompat.AppCompatResources">
+      <constructors>
+        <constructor name="DrawableContainer" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+    </type>
+    <type name="DrawableWrapper" package="crc6439358991bbf5dbbd" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="androidx.appcompat.graphics.drawable.DrawableWrapperCompat" partial_assembly_qualified_name="AndroidX.AppCompat.Graphics.Drawable.DrawableWrapper, Xamarin.AndroidX.AppCompat.AppCompatResources">
+      <constructors>
+        <constructor name="DrawableWrapper" method="n_.ctor:(Landroid/graphics/drawable/Drawable;)V:" jni_signature="(Landroid/graphics/drawable/Drawable;)V" managed_parameters="Android.Graphics.Drawables.Drawable, Mono.Android" params="android.graphics.drawable.Drawable p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </constructors>
+    </type>
+  </jcw-types>
+  <acw-types partial-assembly-name="Xamarin.AndroidX.AppCompat.AppCompatResources" module-name="Xamarin.AndroidX.AppCompat.AppCompatResources.dll">
+    <type assembly-qualified-name="AndroidX.AppCompat.Widget.ResourceManagerInternal+IResourceManagerHooks, Xamarin.AndroidX.AppCompat.AppCompatResources, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.appcompat.widget.ResourceManagerInternal$ResourceManagerHooks" java-key="androidx.appcompat.widget.ResourceManagerInternal$ResourceManagerHooks" managed-key="AndroidX.AppCompat.Widget.ResourceManagerInternal.IResourceManagerHooks" partial-assembly-qualified-name="AndroidX.AppCompat.Widget.ResourceManagerInternal+IResourceManagerHooks, Xamarin.AndroidX.AppCompat.AppCompatResources" />
+    <type assembly-qualified-name="AndroidX.AppCompat.Graphics.Drawable.DrawableContainer, Xamarin.AndroidX.AppCompat.AppCompatResources, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.appcompat.graphics.drawable.DrawableContainer" java-key="crc6439358991bbf5dbbd.DrawableContainer" managed-key="AndroidX.AppCompat.Graphics.Drawable.DrawableContainer" partial-assembly-qualified-name="AndroidX.AppCompat.Graphics.Drawable.DrawableContainer, Xamarin.AndroidX.AppCompat.AppCompatResources" />
+    <type assembly-qualified-name="AndroidX.AppCompat.Graphics.Drawable.DrawableWrapper, Xamarin.AndroidX.AppCompat.AppCompatResources, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.appcompat.graphics.drawable.DrawableWrapper" java-key="crc6439358991bbf5dbbd.DrawableWrapper" managed-key="AndroidX.AppCompat.Graphics.Drawable.DrawableWrapper" partial-assembly-qualified-name="AndroidX.AppCompat.Graphics.Drawable.DrawableWrapper, Xamarin.AndroidX.AppCompat.AppCompatResources" />
+  </acw-types>
+</api>

@@ -1,0 +1,10 @@
+<api type="debug" assembly-name="Xamarin.AndroidX.Emoji2.ViewsHelper" mvid="eab28de890204cf4a4c555a06af7e9e5">
+  <java-to-managed>
+    <entry java-name="androidx/emoji2/viewsintegration/EmojiEditTextHelper" managed-name="AndroidX.Emoji2.ViewsIntegration.EmojiEditTextHelper, Xamarin.AndroidX.Emoji2.ViewsHelper" managed-type-token-id="33554435" />
+    <entry java-name="androidx/emoji2/viewsintegration/EmojiTextViewHelper" managed-name="AndroidX.Emoji2.ViewsIntegration.EmojiTextViewHelper, Xamarin.AndroidX.Emoji2.ViewsHelper" managed-type-token-id="33554436" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="androidx/emoji2/viewsintegration/EmojiEditTextHelper" managed-name="AndroidX.Emoji2.ViewsIntegration.EmojiEditTextHelper, Xamarin.AndroidX.Emoji2.ViewsHelper" managed-type-token-id="33554435" />
+    <entry java-name="androidx/emoji2/viewsintegration/EmojiTextViewHelper" managed-name="AndroidX.Emoji2.ViewsIntegration.EmojiTextViewHelper, Xamarin.AndroidX.Emoji2.ViewsHelper" managed-type-token-id="33554436" />
+  </managed-to-java>
+</api>

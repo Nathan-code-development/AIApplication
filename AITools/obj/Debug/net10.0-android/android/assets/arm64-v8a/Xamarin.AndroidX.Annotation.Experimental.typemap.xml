@@ -1,0 +1,26 @@
+<api type="debug" assembly-name="Xamarin.AndroidX.Annotation.Experimental" mvid="7c6de80283144c59a734d0c7aba36d65">
+  <java-to-managed>
+    <entry java-name="androidx/annotation/OptIn" managed-name="AndroidX.Annotations.IOptIn, Xamarin.AndroidX.Annotation.Experimental" skip-in-java-to-managed="True" managed-type-token-id="33554438" />
+    <entry java-name="androidx/annotation/OptIn" managed-name="AndroidX.Annotations.IOptInInvoker, Xamarin.AndroidX.Annotation.Experimental" managed-type-token-id="33554439" />
+    <entry java-name="androidx/annotation/RequiresOptIn$Level" managed-name="AndroidX.Annotations.RequiresOptInLevel, Xamarin.AndroidX.Annotation.Experimental" managed-type-token-id="33554440" />
+    <entry java-name="androidx/annotation/RequiresOptIn" managed-name="AndroidX.Annotations.IRequiresOptIn, Xamarin.AndroidX.Annotation.Experimental" skip-in-java-to-managed="True" managed-type-token-id="33554441" />
+    <entry java-name="androidx/annotation/RequiresOptIn" managed-name="AndroidX.Annotations.IRequiresOptInInvoker, Xamarin.AndroidX.Annotation.Experimental" managed-type-token-id="33554442" />
+    <entry java-name="androidx/annotation/experimental/Experimental$Level" managed-name="AndroidX.Annotations.Experimental.ExperimentalLevel, Xamarin.AndroidX.Annotation.Experimental" managed-type-token-id="33554446" />
+    <entry java-name="androidx/annotation/experimental/Experimental" managed-name="AndroidX.Annotations.Experimental.IExperimental, Xamarin.AndroidX.Annotation.Experimental" skip-in-java-to-managed="True" managed-type-token-id="33554447" />
+    <entry java-name="androidx/annotation/experimental/Experimental" managed-name="AndroidX.Annotations.Experimental.IExperimentalInvoker, Xamarin.AndroidX.Annotation.Experimental" managed-type-token-id="33554448" />
+    <entry java-name="androidx/annotation/experimental/UseExperimental" managed-name="AndroidX.Annotations.Experimental.IUseExperimental, Xamarin.AndroidX.Annotation.Experimental" skip-in-java-to-managed="True" managed-type-token-id="33554449" />
+    <entry java-name="androidx/annotation/experimental/UseExperimental" managed-name="AndroidX.Annotations.Experimental.IUseExperimentalInvoker, Xamarin.AndroidX.Annotation.Experimental" managed-type-token-id="33554450" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="androidx/annotation/OptIn" managed-name="AndroidX.Annotations.IOptIn, Xamarin.AndroidX.Annotation.Experimental" skip-in-java-to-managed="True" managed-type-token-id="33554438" />
+    <entry java-name="androidx/annotation/OptIn" managed-name="AndroidX.Annotations.IOptInInvoker, Xamarin.AndroidX.Annotation.Experimental" managed-type-token-id="33554439" />
+    <entry java-name="androidx/annotation/RequiresOptIn$Level" managed-name="AndroidX.Annotations.RequiresOptInLevel, Xamarin.AndroidX.Annotation.Experimental" managed-type-token-id="33554440" />
+    <entry java-name="androidx/annotation/RequiresOptIn" managed-name="AndroidX.Annotations.IRequiresOptIn, Xamarin.AndroidX.Annotation.Experimental" skip-in-java-to-managed="True" managed-type-token-id="33554441" />
+    <entry java-name="androidx/annotation/RequiresOptIn" managed-name="AndroidX.Annotations.IRequiresOptInInvoker, Xamarin.AndroidX.Annotation.Experimental" managed-type-token-id="33554442" />
+    <entry java-name="androidx/annotation/experimental/Experimental$Level" managed-name="AndroidX.Annotations.Experimental.ExperimentalLevel, Xamarin.AndroidX.Annotation.Experimental" managed-type-token-id="33554446" />
+    <entry java-name="androidx/annotation/experimental/Experimental" managed-name="AndroidX.Annotations.Experimental.IExperimental, Xamarin.AndroidX.Annotation.Experimental" skip-in-java-to-managed="True" managed-type-token-id="33554447" />
+    <entry java-name="androidx/annotation/experimental/Experimental" managed-name="AndroidX.Annotations.Experimental.IExperimentalInvoker, Xamarin.AndroidX.Annotation.Experimental" managed-type-token-id="33554448" />
+    <entry java-name="androidx/annotation/experimental/UseExperimental" managed-name="AndroidX.Annotations.Experimental.IUseExperimental, Xamarin.AndroidX.Annotation.Experimental" skip-in-java-to-managed="True" managed-type-token-id="33554449" />
+    <entry java-name="androidx/annotation/experimental/UseExperimental" managed-name="AndroidX.Annotations.Experimental.IUseExperimentalInvoker, Xamarin.AndroidX.Annotation.Experimental" managed-type-token-id="33554450" />
+  </managed-to-java>
+</api>

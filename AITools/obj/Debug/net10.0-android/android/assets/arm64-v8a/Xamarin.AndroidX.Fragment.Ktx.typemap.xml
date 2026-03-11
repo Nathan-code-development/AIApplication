@@ -1,0 +1,16 @@
+<api type="debug" assembly-name="Xamarin.AndroidX.Fragment.Ktx" mvid="feaab69a6d604bd4bd7d2a94728fe6ce">
+  <java-to-managed>
+    <entry java-name="androidx/fragment/app/FragmentKt" managed-name="AndroidX.Fragment.App.FragmentKt, Xamarin.AndroidX.Fragment.Ktx" managed-type-token-id="33554435" />
+    <entry java-name="androidx/fragment/app/FragmentManagerKt" managed-name="AndroidX.Fragment.App.FragmentManagerKt, Xamarin.AndroidX.Fragment.Ktx" managed-type-token-id="33554436" />
+    <entry java-name="androidx/fragment/app/FragmentTransactionKt" managed-name="AndroidX.Fragment.App.FragmentTransactionKt, Xamarin.AndroidX.Fragment.Ktx" managed-type-token-id="33554437" />
+    <entry java-name="androidx/fragment/app/FragmentViewModelLazyKt" managed-name="AndroidX.Fragment.App.FragmentViewModelLazyKt, Xamarin.AndroidX.Fragment.Ktx" managed-type-token-id="33554438" />
+    <entry java-name="androidx/fragment/app/ViewKt" managed-name="AndroidX.Fragment.App.ViewKt, Xamarin.AndroidX.Fragment.Ktx" managed-type-token-id="33554439" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="androidx/fragment/app/FragmentKt" managed-name="AndroidX.Fragment.App.FragmentKt, Xamarin.AndroidX.Fragment.Ktx" managed-type-token-id="33554435" />
+    <entry java-name="androidx/fragment/app/FragmentManagerKt" managed-name="AndroidX.Fragment.App.FragmentManagerKt, Xamarin.AndroidX.Fragment.Ktx" managed-type-token-id="33554436" />
+    <entry java-name="androidx/fragment/app/FragmentTransactionKt" managed-name="AndroidX.Fragment.App.FragmentTransactionKt, Xamarin.AndroidX.Fragment.Ktx" managed-type-token-id="33554437" />
+    <entry java-name="androidx/fragment/app/FragmentViewModelLazyKt" managed-name="AndroidX.Fragment.App.FragmentViewModelLazyKt, Xamarin.AndroidX.Fragment.Ktx" managed-type-token-id="33554438" />
+    <entry java-name="androidx/fragment/app/ViewKt" managed-name="AndroidX.Fragment.App.ViewKt, Xamarin.AndroidX.Fragment.Ktx" managed-type-token-id="33554439" />
+  </managed-to-java>
+</api>

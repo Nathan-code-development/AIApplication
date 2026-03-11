@@ -1,0 +1,36 @@
+<api type="debug" assembly-name="Xamarin.AndroidX.VersionedParcelable" mvid="1df93dcf292d4f3f8f1ec14b9504950c">
+  <java-to-managed>
+    <entry java-name="androidx/versionedparcelable/CustomVersionedParcelable" managed-name="AndroidX.VersionedParcelable.CustomVersionedParcelable, Xamarin.AndroidX.VersionedParcelable" managed-type-token-id="33554468" />
+    <entry java-name="androidx/versionedparcelable/CustomVersionedParcelable" managed-name="AndroidX.VersionedParcelable.CustomVersionedParcelableInvoker, Xamarin.AndroidX.VersionedParcelable" managed-type-token-id="33554469" />
+    <entry java-name="androidx/versionedparcelable/NonParcelField" managed-name="AndroidX.VersionedParcelable.INonParcelField, Xamarin.AndroidX.VersionedParcelable" skip-in-java-to-managed="True" managed-type-token-id="33554470" />
+    <entry java-name="androidx/versionedparcelable/NonParcelField" managed-name="AndroidX.VersionedParcelable.INonParcelFieldInvoker, Xamarin.AndroidX.VersionedParcelable" managed-type-token-id="33554471" />
+    <entry java-name="androidx/versionedparcelable/ParcelField" managed-name="AndroidX.VersionedParcelable.IParcelField, Xamarin.AndroidX.VersionedParcelable" skip-in-java-to-managed="True" managed-type-token-id="33554472" />
+    <entry java-name="androidx/versionedparcelable/ParcelField" managed-name="AndroidX.VersionedParcelable.IParcelFieldInvoker, Xamarin.AndroidX.VersionedParcelable" managed-type-token-id="33554473" />
+    <entry java-name="androidx/versionedparcelable/VersionedParcelable" managed-name="AndroidX.VersionedParcelable.IVersionedParcelable, Xamarin.AndroidX.VersionedParcelable" skip-in-java-to-managed="True" managed-type-token-id="33554474" />
+    <entry java-name="androidx/versionedparcelable/VersionedParcelable" managed-name="AndroidX.VersionedParcelable.IVersionedParcelableInvoker, Xamarin.AndroidX.VersionedParcelable" managed-type-token-id="33554475" />
+    <entry java-name="androidx/versionedparcelable/VersionedParcelize" managed-name="AndroidX.VersionedParcelable.IVersionedParcelize, Xamarin.AndroidX.VersionedParcelable" skip-in-java-to-managed="True" managed-type-token-id="33554476" />
+    <entry java-name="androidx/versionedparcelable/VersionedParcelize" managed-name="AndroidX.VersionedParcelable.IVersionedParcelizeInvoker, Xamarin.AndroidX.VersionedParcelable" managed-type-token-id="33554477" />
+    <entry java-name="androidx/versionedparcelable/ParcelImpl" managed-name="AndroidX.VersionedParcelable.ParcelImpl, Xamarin.AndroidX.VersionedParcelable" managed-type-token-id="33554480" />
+    <entry java-name="androidx/versionedparcelable/ParcelUtils" managed-name="AndroidX.VersionedParcelable.ParcelUtils, Xamarin.AndroidX.VersionedParcelable" managed-type-token-id="33554481" />
+    <entry java-name="androidx/versionedparcelable/VersionedParcel" managed-name="AndroidX.VersionedParcelable.VersionedParcel, Xamarin.AndroidX.VersionedParcelable" managed-type-token-id="33554482" />
+    <entry java-name="androidx/versionedparcelable/VersionedParcel$ParcelException" managed-name="AndroidX.VersionedParcelable.VersionedParcel+ParcelException, Xamarin.AndroidX.VersionedParcelable" managed-type-token-id="33554486" />
+    <entry java-name="androidx/versionedparcelable/VersionedParcel" managed-name="AndroidX.VersionedParcelable.VersionedParcelInvoker, Xamarin.AndroidX.VersionedParcelable" managed-type-token-id="33554483" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="androidx/versionedparcelable/CustomVersionedParcelable" managed-name="AndroidX.VersionedParcelable.CustomVersionedParcelable, Xamarin.AndroidX.VersionedParcelable" managed-type-token-id="33554468" />
+    <entry java-name="androidx/versionedparcelable/CustomVersionedParcelable" managed-name="AndroidX.VersionedParcelable.CustomVersionedParcelableInvoker, Xamarin.AndroidX.VersionedParcelable" managed-type-token-id="33554469" />
+    <entry java-name="androidx/versionedparcelable/NonParcelField" managed-name="AndroidX.VersionedParcelable.INonParcelField, Xamarin.AndroidX.VersionedParcelable" skip-in-java-to-managed="True" managed-type-token-id="33554470" />
+    <entry java-name="androidx/versionedparcelable/NonParcelField" managed-name="AndroidX.VersionedParcelable.INonParcelFieldInvoker, Xamarin.AndroidX.VersionedParcelable" managed-type-token-id="33554471" />
+    <entry java-name="androidx/versionedparcelable/ParcelField" managed-name="AndroidX.VersionedParcelable.IParcelField, Xamarin.AndroidX.VersionedParcelable" skip-in-java-to-managed="True" managed-type-token-id="33554472" />
+    <entry java-name="androidx/versionedparcelable/ParcelField" managed-name="AndroidX.VersionedParcelable.IParcelFieldInvoker, Xamarin.AndroidX.VersionedParcelable" managed-type-token-id="33554473" />
+    <entry java-name="androidx/versionedparcelable/VersionedParcelable" managed-name="AndroidX.VersionedParcelable.IVersionedParcelable, Xamarin.AndroidX.VersionedParcelable" skip-in-java-to-managed="True" managed-type-token-id="33554474" />
+    <entry java-name="androidx/versionedparcelable/VersionedParcelable" managed-name="AndroidX.VersionedParcelable.IVersionedParcelableInvoker, Xamarin.AndroidX.VersionedParcelable" managed-type-token-id="33554475" />
+    <entry java-name="androidx/versionedparcelable/VersionedParcelize" managed-name="AndroidX.VersionedParcelable.IVersionedParcelize, Xamarin.AndroidX.VersionedParcelable" skip-in-java-to-managed="True" managed-type-token-id="33554476" />
+    <entry java-name="androidx/versionedparcelable/VersionedParcelize" managed-name="AndroidX.VersionedParcelable.IVersionedParcelizeInvoker, Xamarin.AndroidX.VersionedParcelable" managed-type-token-id="33554477" />
+    <entry java-name="androidx/versionedparcelable/ParcelImpl" managed-name="AndroidX.VersionedParcelable.ParcelImpl, Xamarin.AndroidX.VersionedParcelable" managed-type-token-id="33554480" />
+    <entry java-name="androidx/versionedparcelable/ParcelUtils" managed-name="AndroidX.VersionedParcelable.ParcelUtils, Xamarin.AndroidX.VersionedParcelable" managed-type-token-id="33554481" />
+    <entry java-name="androidx/versionedparcelable/VersionedParcel" managed-name="AndroidX.VersionedParcelable.VersionedParcel, Xamarin.AndroidX.VersionedParcelable" managed-type-token-id="33554482" />
+    <entry java-name="androidx/versionedparcelable/VersionedParcel$ParcelException" managed-name="AndroidX.VersionedParcelable.VersionedParcel+ParcelException, Xamarin.AndroidX.VersionedParcelable" managed-type-token-id="33554486" />
+    <entry java-name="androidx/versionedparcelable/VersionedParcel" managed-name="AndroidX.VersionedParcelable.VersionedParcelInvoker, Xamarin.AndroidX.VersionedParcelable" managed-type-token-id="33554483" />
+  </managed-to-java>
+</api>

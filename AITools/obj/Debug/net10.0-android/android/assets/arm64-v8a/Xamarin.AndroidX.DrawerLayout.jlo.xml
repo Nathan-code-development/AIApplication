@@ -1,0 +1,22 @@
+<api>
+  <jcw-types>
+    <type name="DrawerLayout_DrawerListenerImplementor" package="mono.androidx.drawerlayout.widget" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.DrawerLayout.Widget.DrawerLayout+IDrawerListenerImplementor, Xamarin.AndroidX.DrawerLayout">
+      <implemented_interfaces>
+        <interface name="androidx.drawerlayout.widget.DrawerLayout.DrawerListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="DrawerLayout_DrawerListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onDrawerClosed" method="n_onDrawerClosed:(Landroid/view/View;)V:GetOnDrawerClosed_Landroid_view_View_Handler:AndroidX.DrawerLayout.Widget.DrawerLayout+IDrawerListenerInvoker, Xamarin.AndroidX.DrawerLayout" jni_signature="(Landroid/view/View;)V" params="android.view.View p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onDrawerOpened" method="n_onDrawerOpened:(Landroid/view/View;)V:GetOnDrawerOpened_Landroid_view_View_Handler:AndroidX.DrawerLayout.Widget.DrawerLayout+IDrawerListenerInvoker, Xamarin.AndroidX.DrawerLayout" jni_signature="(Landroid/view/View;)V" params="android.view.View p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onDrawerSlide" method="n_onDrawerSlide:(Landroid/view/View;F)V:GetOnDrawerSlide_Landroid_view_View_FHandler:AndroidX.DrawerLayout.Widget.DrawerLayout+IDrawerListenerInvoker, Xamarin.AndroidX.DrawerLayout" jni_signature="(Landroid/view/View;F)V" params="android.view.View p0, float p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onDrawerStateChanged" method="n_onDrawerStateChanged:(I)V:GetOnDrawerStateChanged_IHandler:AndroidX.DrawerLayout.Widget.DrawerLayout+IDrawerListenerInvoker, Xamarin.AndroidX.DrawerLayout" jni_signature="(I)V" params="int p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+  </jcw-types>
+  <acw-types partial-assembly-name="Xamarin.AndroidX.DrawerLayout" module-name="Xamarin.AndroidX.DrawerLayout.dll">
+    <type assembly-qualified-name="AndroidX.DrawerLayout.Widget.DrawerLayout+IDrawerListener, Xamarin.AndroidX.DrawerLayout, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.drawerlayout.widget.DrawerLayout$DrawerListener" java-key="androidx.drawerlayout.widget.DrawerLayout$DrawerListener" managed-key="AndroidX.DrawerLayout.Widget.DrawerLayout.IDrawerListener" partial-assembly-qualified-name="AndroidX.DrawerLayout.Widget.DrawerLayout+IDrawerListener, Xamarin.AndroidX.DrawerLayout" />
+    <type assembly-qualified-name="AndroidX.DrawerLayout.Widget.DrawerLayout+IDrawerListenerImplementor, Xamarin.AndroidX.DrawerLayout, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="mono.androidx.drawerlayout.widget.DrawerLayout_DrawerListenerImplementor" java-key="mono.androidx.drawerlayout.widget.DrawerLayout_DrawerListenerImplementor" managed-key="AndroidX.DrawerLayout.Widget.DrawerLayout.IDrawerListenerImplementor" partial-assembly-qualified-name="AndroidX.DrawerLayout.Widget.DrawerLayout+IDrawerListenerImplementor, Xamarin.AndroidX.DrawerLayout" />
+  </acw-types>
+</api>

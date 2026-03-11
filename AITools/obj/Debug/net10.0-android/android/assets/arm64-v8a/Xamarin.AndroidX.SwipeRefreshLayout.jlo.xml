@@ -1,0 +1,21 @@
+<api>
+  <jcw-types>
+    <type name="SwipeRefreshLayout_OnRefreshListenerImplementor" package="mono.androidx.swiperefreshlayout.widget" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.SwipeRefreshLayout.Widget.SwipeRefreshLayout+IOnRefreshListenerImplementor, Xamarin.AndroidX.SwipeRefreshLayout">
+      <implemented_interfaces>
+        <interface name="androidx.swiperefreshlayout.widget.SwipeRefreshLayout.OnRefreshListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="SwipeRefreshLayout_OnRefreshListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onRefresh" method="n_onRefresh:()V:GetOnRefreshHandler:AndroidX.SwipeRefreshLayout.Widget.SwipeRefreshLayout+IOnRefreshListenerInvoker, Xamarin.AndroidX.SwipeRefreshLayout" jni_signature="()V" retval="void" is_dynamically_registered="True" />
+      </methods>
+    </type>
+  </jcw-types>
+  <acw-types partial-assembly-name="Xamarin.AndroidX.SwipeRefreshLayout" module-name="Xamarin.AndroidX.SwipeRefreshLayout.dll">
+    <type assembly-qualified-name="AndroidX.SwipeRefreshLayout.Widget.SwipeRefreshLayout+IOnChildScrollUpCallback, Xamarin.AndroidX.SwipeRefreshLayout, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.swiperefreshlayout.widget.SwipeRefreshLayout$OnChildScrollUpCallback" java-key="androidx.swiperefreshlayout.widget.SwipeRefreshLayout$OnChildScrollUpCallback" managed-key="AndroidX.SwipeRefreshLayout.Widget.SwipeRefreshLayout.IOnChildScrollUpCallback" partial-assembly-qualified-name="AndroidX.SwipeRefreshLayout.Widget.SwipeRefreshLayout+IOnChildScrollUpCallback, Xamarin.AndroidX.SwipeRefreshLayout" />
+    <type assembly-qualified-name="AndroidX.SwipeRefreshLayout.Widget.SwipeRefreshLayout+IOnRefreshListener, Xamarin.AndroidX.SwipeRefreshLayout, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.swiperefreshlayout.widget.SwipeRefreshLayout$OnRefreshListener" java-key="androidx.swiperefreshlayout.widget.SwipeRefreshLayout$OnRefreshListener" managed-key="AndroidX.SwipeRefreshLayout.Widget.SwipeRefreshLayout.IOnRefreshListener" partial-assembly-qualified-name="AndroidX.SwipeRefreshLayout.Widget.SwipeRefreshLayout+IOnRefreshListener, Xamarin.AndroidX.SwipeRefreshLayout" />
+    <type assembly-qualified-name="AndroidX.SwipeRefreshLayout.Widget.SwipeRefreshLayout+IOnRefreshListenerImplementor, Xamarin.AndroidX.SwipeRefreshLayout, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="mono.androidx.swiperefreshlayout.widget.SwipeRefreshLayout_OnRefreshListenerImplementor" java-key="mono.androidx.swiperefreshlayout.widget.SwipeRefreshLayout_OnRefreshListenerImplementor" managed-key="AndroidX.SwipeRefreshLayout.Widget.SwipeRefreshLayout.IOnRefreshListenerImplementor" partial-assembly-qualified-name="AndroidX.SwipeRefreshLayout.Widget.SwipeRefreshLayout+IOnRefreshListenerImplementor, Xamarin.AndroidX.SwipeRefreshLayout" />
+    <type assembly-qualified-name="AndroidX.SwipeRefreshLayout.Widget.CircularProgressDrawable+IProgressDrawableSize, Xamarin.AndroidX.SwipeRefreshLayout, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.swiperefreshlayout.widget.CircularProgressDrawable$ProgressDrawableSize" java-key="androidx.swiperefreshlayout.widget.CircularProgressDrawable$ProgressDrawableSize" managed-key="AndroidX.SwipeRefreshLayout.Widget.CircularProgressDrawable.IProgressDrawableSize" partial-assembly-qualified-name="AndroidX.SwipeRefreshLayout.Widget.CircularProgressDrawable+IProgressDrawableSize, Xamarin.AndroidX.SwipeRefreshLayout" />
+  </acw-types>
+</api>

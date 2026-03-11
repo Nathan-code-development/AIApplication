@@ -1,0 +1,36 @@
+<api>
+  <jcw-types>
+    <type name="ViewPager_OnAdapterChangeListenerImplementor" package="mono.androidx.viewpager.widget" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.ViewPager.Widget.ViewPager+IOnAdapterChangeListenerImplementor, Xamarin.AndroidX.ViewPager">
+      <implemented_interfaces>
+        <interface name="androidx.viewpager.widget.ViewPager.OnAdapterChangeListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="ViewPager_OnAdapterChangeListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onAdapterChanged" method="n_onAdapterChanged:(Landroidx/viewpager/widget/ViewPager;Landroidx/viewpager/widget/PagerAdapter;Landroidx/viewpager/widget/PagerAdapter;)V:GetOnAdapterChanged_Landroidx_viewpager_widget_ViewPager_Landroidx_viewpager_widget_PagerAdapter_Landroidx_viewpager_widget_PagerAdapter_Handler:AndroidX.ViewPager.Widget.ViewPager+IOnAdapterChangeListenerInvoker, Xamarin.AndroidX.ViewPager" jni_signature="(Landroidx/viewpager/widget/ViewPager;Landroidx/viewpager/widget/PagerAdapter;Landroidx/viewpager/widget/PagerAdapter;)V" params="androidx.viewpager.widget.ViewPager p0, androidx.viewpager.widget.PagerAdapter p1, androidx.viewpager.widget.PagerAdapter p2" retval="void" is_dynamically_registered="True" super_call="p0, p1, p2" activate_call="p0, p1, p2" />
+      </methods>
+    </type>
+    <type name="ViewPager_OnPageChangeListenerImplementor" package="mono.androidx.viewpager.widget" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.ViewPager.Widget.ViewPager+IOnPageChangeListenerImplementor, Xamarin.AndroidX.ViewPager">
+      <implemented_interfaces>
+        <interface name="androidx.viewpager.widget.ViewPager.OnPageChangeListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="ViewPager_OnPageChangeListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onPageScrollStateChanged" method="n_onPageScrollStateChanged:(I)V:GetOnPageScrollStateChanged_IHandler:AndroidX.ViewPager.Widget.ViewPager+IOnPageChangeListenerInvoker, Xamarin.AndroidX.ViewPager" jni_signature="(I)V" params="int p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onPageScrolled" method="n_onPageScrolled:(IFI)V:GetOnPageScrolled_IFIHandler:AndroidX.ViewPager.Widget.ViewPager+IOnPageChangeListenerInvoker, Xamarin.AndroidX.ViewPager" jni_signature="(IFI)V" params="int p0, float p1, int p2" retval="void" is_dynamically_registered="True" super_call="p0, p1, p2" activate_call="p0, p1, p2" />
+        <method name="onPageSelected" method="n_onPageSelected:(I)V:GetOnPageSelected_IHandler:AndroidX.ViewPager.Widget.ViewPager+IOnPageChangeListenerInvoker, Xamarin.AndroidX.ViewPager" jni_signature="(I)V" params="int p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+  </jcw-types>
+  <acw-types partial-assembly-name="Xamarin.AndroidX.ViewPager" module-name="Xamarin.AndroidX.ViewPager.dll">
+    <type assembly-qualified-name="AndroidX.ViewPager.Widget.ViewPager+IDecorView, Xamarin.AndroidX.ViewPager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.viewpager.widget.ViewPager$DecorView" java-key="androidx.viewpager.widget.ViewPager$DecorView" managed-key="AndroidX.ViewPager.Widget.ViewPager.IDecorView" partial-assembly-qualified-name="AndroidX.ViewPager.Widget.ViewPager+IDecorView, Xamarin.AndroidX.ViewPager" />
+    <type assembly-qualified-name="AndroidX.ViewPager.Widget.ViewPager+IOnAdapterChangeListener, Xamarin.AndroidX.ViewPager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.viewpager.widget.ViewPager$OnAdapterChangeListener" java-key="androidx.viewpager.widget.ViewPager$OnAdapterChangeListener" managed-key="AndroidX.ViewPager.Widget.ViewPager.IOnAdapterChangeListener" partial-assembly-qualified-name="AndroidX.ViewPager.Widget.ViewPager+IOnAdapterChangeListener, Xamarin.AndroidX.ViewPager" />
+    <type assembly-qualified-name="AndroidX.ViewPager.Widget.ViewPager+IOnAdapterChangeListenerImplementor, Xamarin.AndroidX.ViewPager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="mono.androidx.viewpager.widget.ViewPager_OnAdapterChangeListenerImplementor" java-key="mono.androidx.viewpager.widget.ViewPager_OnAdapterChangeListenerImplementor" managed-key="AndroidX.ViewPager.Widget.ViewPager.IOnAdapterChangeListenerImplementor" partial-assembly-qualified-name="AndroidX.ViewPager.Widget.ViewPager+IOnAdapterChangeListenerImplementor, Xamarin.AndroidX.ViewPager" />
+    <type assembly-qualified-name="AndroidX.ViewPager.Widget.ViewPager+IOnPageChangeListener, Xamarin.AndroidX.ViewPager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.viewpager.widget.ViewPager$OnPageChangeListener" java-key="androidx.viewpager.widget.ViewPager$OnPageChangeListener" managed-key="AndroidX.ViewPager.Widget.ViewPager.IOnPageChangeListener" partial-assembly-qualified-name="AndroidX.ViewPager.Widget.ViewPager+IOnPageChangeListener, Xamarin.AndroidX.ViewPager" />
+    <type assembly-qualified-name="AndroidX.ViewPager.Widget.ViewPager+IOnPageChangeListenerImplementor, Xamarin.AndroidX.ViewPager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="mono.androidx.viewpager.widget.ViewPager_OnPageChangeListenerImplementor" java-key="mono.androidx.viewpager.widget.ViewPager_OnPageChangeListenerImplementor" managed-key="AndroidX.ViewPager.Widget.ViewPager.IOnPageChangeListenerImplementor" partial-assembly-qualified-name="AndroidX.ViewPager.Widget.ViewPager+IOnPageChangeListenerImplementor, Xamarin.AndroidX.ViewPager" />
+    <type assembly-qualified-name="AndroidX.ViewPager.Widget.ViewPager+IPageTransformer, Xamarin.AndroidX.ViewPager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.viewpager.widget.ViewPager$PageTransformer" java-key="androidx.viewpager.widget.ViewPager$PageTransformer" managed-key="AndroidX.ViewPager.Widget.ViewPager.IPageTransformer" partial-assembly-qualified-name="AndroidX.ViewPager.Widget.ViewPager+IPageTransformer, Xamarin.AndroidX.ViewPager" />
+  </acw-types>
+</api>

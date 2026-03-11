@@ -1,0 +1,71 @@
+<api>
+  <jcw-types>
+    <type name="FloatArrayEvaluator" package="crc64a25b61d9f8ee364f" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.Transitions.FloatArrayEvaluator, Xamarin.AndroidX.Transition">
+      <implemented_interfaces>
+        <interface name="android.animation.TypeEvaluator" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="FloatArrayEvaluator" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="evaluate" method="n_evaluate:(FLjava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:GetEvaluate_FLjava_lang_Object_Ljava_lang_Object_Handler:Android.Animation.ITypeEvaluatorInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(FLjava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" params="float p0, java.lang.Object p1, java.lang.Object p2" retval="java.lang.Object" is_dynamically_registered="True" super_call="p0, p1, p2" activate_call="p0, p1, p2" />
+      </methods>
+    </type>
+    <type name="TransitionUtils" package="crc64a25b61d9f8ee364f" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.Transitions.TransitionUtils, Xamarin.AndroidX.Transition">
+      <constructors>
+        <constructor name="TransitionUtils" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+    </type>
+    <type name="TransitionUtils_MatrixEvaluator" package="crc64a25b61d9f8ee364f" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.Transitions.TransitionUtils+MatrixEvaluator, Xamarin.AndroidX.Transition">
+      <implemented_interfaces>
+        <interface name="android.animation.TypeEvaluator" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="TransitionUtils_MatrixEvaluator" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="evaluate" method="n_evaluate:(FLjava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:GetEvaluate_FLjava_lang_Object_Ljava_lang_Object_Handler:Android.Animation.ITypeEvaluatorInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(FLjava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" params="float p0, java.lang.Object p1, java.lang.Object p2" retval="java.lang.Object" is_dynamically_registered="True" super_call="p0, p1, p2" activate_call="p0, p1, p2" />
+      </methods>
+    </type>
+    <type name="RectEvaluator" package="crc64a25b61d9f8ee364f" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.Transitions.RectEvaluator, Xamarin.AndroidX.Transition">
+      <implemented_interfaces>
+        <interface name="android.animation.TypeEvaluator" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="RectEvaluator" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="evaluate" method="n_evaluate:(FLjava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:GetEvaluate_FLjava_lang_Object_Ljava_lang_Object_Handler:Android.Animation.ITypeEvaluatorInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(FLjava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" params="float p0, java.lang.Object p1, java.lang.Object p2" retval="java.lang.Object" is_dynamically_registered="True" super_call="p0, p1, p2" activate_call="p0, p1, p2" />
+      </methods>
+    </type>
+    <type name="Transition_TransitionListenerImplementor" package="mono.androidx.transition" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.Transitions.Transition+ITransitionListenerImplementor, Xamarin.AndroidX.Transition">
+      <implemented_interfaces>
+        <interface name="androidx.transition.Transition.TransitionListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="Transition_TransitionListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onTransitionCancel" method="n_onTransitionCancel:(Landroidx/transition/Transition;)V:GetOnTransitionCancel_Landroidx_transition_Transition_Handler:AndroidX.Transitions.Transition+ITransitionListenerInvoker, Xamarin.AndroidX.Transition" jni_signature="(Landroidx/transition/Transition;)V" params="androidx.transition.Transition p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onTransitionEnd" method="n_onTransitionEnd:(Landroidx/transition/Transition;)V:GetOnTransitionEnd_Landroidx_transition_Transition_Handler:AndroidX.Transitions.Transition+ITransitionListenerInvoker, Xamarin.AndroidX.Transition" jni_signature="(Landroidx/transition/Transition;)V" params="androidx.transition.Transition p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onTransitionPause" method="n_onTransitionPause:(Landroidx/transition/Transition;)V:GetOnTransitionPause_Landroidx_transition_Transition_Handler:AndroidX.Transitions.Transition+ITransitionListenerInvoker, Xamarin.AndroidX.Transition" jni_signature="(Landroidx/transition/Transition;)V" params="androidx.transition.Transition p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onTransitionResume" method="n_onTransitionResume:(Landroidx/transition/Transition;)V:GetOnTransitionResume_Landroidx_transition_Transition_Handler:AndroidX.Transitions.Transition+ITransitionListenerInvoker, Xamarin.AndroidX.Transition" jni_signature="(Landroidx/transition/Transition;)V" params="androidx.transition.Transition p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onTransitionStart" method="n_onTransitionStart:(Landroidx/transition/Transition;)V:GetOnTransitionStart_Landroidx_transition_Transition_Handler:AndroidX.Transitions.Transition+ITransitionListenerInvoker, Xamarin.AndroidX.Transition" jni_signature="(Landroidx/transition/Transition;)V" params="androidx.transition.Transition p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onTransitionEnd" method="n_onTransitionEnd:(Landroidx/transition/Transition;Z)V:GetOnTransitionEndReversed_Landroidx_transition_Transition_ZHandler:AndroidX.Transitions.Transition+ITransitionListener, Xamarin.AndroidX.Transition" jni_signature="(Landroidx/transition/Transition;Z)V" params="androidx.transition.Transition p0, boolean p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onTransitionStart" method="n_onTransitionStart:(Landroidx/transition/Transition;Z)V:GetOnTransitionStartReversed_Landroidx_transition_Transition_ZHandler:AndroidX.Transitions.Transition+ITransitionListener, Xamarin.AndroidX.Transition" jni_signature="(Landroidx/transition/Transition;Z)V" params="androidx.transition.Transition p0, boolean p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+      </methods>
+    </type>
+  </jcw-types>
+  <acw-types partial-assembly-name="Xamarin.AndroidX.Transition" module-name="Xamarin.AndroidX.Transition.dll">
+    <type assembly-qualified-name="AndroidX.Transitions.FloatArrayEvaluator, Xamarin.AndroidX.Transition, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.transitions.FloatArrayEvaluator" java-key="crc64a25b61d9f8ee364f.FloatArrayEvaluator" managed-key="AndroidX.Transitions.FloatArrayEvaluator" partial-assembly-qualified-name="AndroidX.Transitions.FloatArrayEvaluator, Xamarin.AndroidX.Transition" />
+    <type assembly-qualified-name="AndroidX.Transitions.TransitionUtils, Xamarin.AndroidX.Transition, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.transitions.TransitionUtils" java-key="crc64a25b61d9f8ee364f.TransitionUtils" managed-key="AndroidX.Transitions.TransitionUtils" partial-assembly-qualified-name="AndroidX.Transitions.TransitionUtils, Xamarin.AndroidX.Transition" />
+    <type assembly-qualified-name="AndroidX.Transitions.TransitionUtils+MatrixEvaluator, Xamarin.AndroidX.Transition, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.transitions.TransitionUtils_MatrixEvaluator" java-key="crc64a25b61d9f8ee364f.TransitionUtils_MatrixEvaluator" managed-key="AndroidX.Transitions.TransitionUtils.MatrixEvaluator" partial-assembly-qualified-name="AndroidX.Transitions.TransitionUtils+MatrixEvaluator, Xamarin.AndroidX.Transition" />
+    <type assembly-qualified-name="AndroidX.Transitions.RectEvaluator, Xamarin.AndroidX.Transition, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.transitions.RectEvaluator" java-key="crc64a25b61d9f8ee364f.RectEvaluator" managed-key="AndroidX.Transitions.RectEvaluator" partial-assembly-qualified-name="AndroidX.Transitions.RectEvaluator, Xamarin.AndroidX.Transition" />
+    <type assembly-qualified-name="AndroidX.Transitions.ITransitionSeekController, Xamarin.AndroidX.Transition, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.transition.TransitionSeekController" java-key="androidx.transition.TransitionSeekController" managed-key="AndroidX.Transitions.ITransitionSeekController" partial-assembly-qualified-name="AndroidX.Transitions.ITransitionSeekController, Xamarin.AndroidX.Transition" />
+    <type assembly-qualified-name="AndroidX.Transitions.Slide+IGravityFlag, Xamarin.AndroidX.Transition, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.transition.Slide$GravityFlag" java-key="androidx.transition.Slide$GravityFlag" managed-key="AndroidX.Transitions.Slide.IGravityFlag" partial-assembly-qualified-name="AndroidX.Transitions.Slide+IGravityFlag, Xamarin.AndroidX.Transition" />
+    <type assembly-qualified-name="AndroidX.Transitions.Transition+IMatchOrder, Xamarin.AndroidX.Transition, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.transition.Transition$MatchOrder" java-key="androidx.transition.Transition$MatchOrder" managed-key="AndroidX.Transitions.Transition.IMatchOrder" partial-assembly-qualified-name="AndroidX.Transitions.Transition+IMatchOrder, Xamarin.AndroidX.Transition" />
+    <type assembly-qualified-name="AndroidX.Transitions.Transition+ITransitionListener, Xamarin.AndroidX.Transition, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.transition.Transition$TransitionListener" java-key="androidx.transition.Transition$TransitionListener" managed-key="AndroidX.Transitions.Transition.ITransitionListener" partial-assembly-qualified-name="AndroidX.Transitions.Transition+ITransitionListener, Xamarin.AndroidX.Transition" />
+    <type assembly-qualified-name="AndroidX.Transitions.Transition+ITransitionListenerImplementor, Xamarin.AndroidX.Transition, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="mono.androidx.transition.Transition_TransitionListenerImplementor" java-key="mono.androidx.transition.Transition_TransitionListenerImplementor" managed-key="AndroidX.Transitions.Transition.ITransitionListenerImplementor" partial-assembly-qualified-name="AndroidX.Transitions.Transition+ITransitionListenerImplementor, Xamarin.AndroidX.Transition" />
+    <type assembly-qualified-name="AndroidX.Transitions.Visibility+IMode, Xamarin.AndroidX.Transition, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.transition.Visibility$Mode" java-key="androidx.transition.Visibility$Mode" managed-key="AndroidX.Transitions.Visibility.IMode" partial-assembly-qualified-name="AndroidX.Transitions.Visibility+IMode, Xamarin.AndroidX.Transition" />
+  </acw-types>
+</api>

@@ -1,0 +1,18 @@
+{
+  "Task": "FastDeploy",
+  "Properties": {
+    "target.prop.ro.product.build.version.sdk": "31",
+    "target.prop.ro.product.cpu.abilist": "arm64-v8a;armeabi-v7a;armeabi",
+    "target.prop.ro.product.manufacturer": "HUAWEI",
+    "target.prop.ro.product.model": "TET-AN50",
+    "target.prop.ro.product.cpu.abi": "arm64-v8a",
+    "deploy.error.code": "",
+    "deploy.tool": "xamarin.sync",
+    "deploy.result": "Success",
+    "deploy.supports.fastdev": "True",
+    "deploy.systemapp": "False",
+    "deploy.duration.ms": "21010",
+    "pii.deploy.error": "",
+    "pii.deploy.file": ""
+  }
+}

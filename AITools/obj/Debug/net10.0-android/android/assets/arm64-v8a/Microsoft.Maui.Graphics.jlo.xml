@@ -1,0 +1,19 @@
+<api>
+  <jcw-types>
+    <type name="PlatformGraphicsView" package="crc643f2b18b2570eaa5a" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="android.view.View" partial_assembly_qualified_name="Microsoft.Maui.Graphics.Platform.PlatformGraphicsView, Microsoft.Maui.Graphics">
+      <constructors>
+        <constructor name="PlatformGraphicsView" method="n_.ctor:(Landroid/content/Context;Landroid/util/AttributeSet;II)V:" jni_signature="(Landroid/content/Context;Landroid/util/AttributeSet;II)V" managed_parameters="Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, System.Private.CoreLib:System.Int32, System.Private.CoreLib" params="android.content.Context p0, android.util.AttributeSet p1, int p2, int p3" retval="void" is_dynamically_registered="True" super_call="p0, p1, p2, p3" activate_call="p0, p1, p2, p3" />
+        <constructor name="PlatformGraphicsView" method="n_.ctor:(Landroid/content/Context;Landroid/util/AttributeSet;I)V:" jni_signature="(Landroid/content/Context;Landroid/util/AttributeSet;I)V" managed_parameters="Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, System.Private.CoreLib" params="android.content.Context p0, android.util.AttributeSet p1, int p2" retval="void" is_dynamically_registered="True" super_call="p0, p1, p2" activate_call="p0, p1, p2" />
+        <constructor name="PlatformGraphicsView" method="n_.ctor:(Landroid/content/Context;Landroid/util/AttributeSet;)V:" jni_signature="(Landroid/content/Context;Landroid/util/AttributeSet;)V" managed_parameters="Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android" params="android.content.Context p0, android.util.AttributeSet p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <constructor name="PlatformGraphicsView" method="n_.ctor:(Landroid/content/Context;)V:" jni_signature="(Landroid/content/Context;)V" managed_parameters="Android.Content.Context, Mono.Android" params="android.content.Context p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </constructors>
+      <methods>
+        <method name="draw" method="n_draw:(Landroid/graphics/Canvas;)V:GetDraw_Landroid_graphics_Canvas_Handler" jni_signature="(Landroid/graphics/Canvas;)V" params="android.graphics.Canvas p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onSizeChanged" method="n_onSizeChanged:(IIII)V:GetOnSizeChanged_IIIIHandler" jni_signature="(IIII)V" params="int p0, int p1, int p2, int p3" retval="void" is_dynamically_registered="True" super_call="p0, p1, p2, p3" activate_call="p0, p1, p2, p3" />
+      </methods>
+    </type>
+  </jcw-types>
+  <acw-types partial-assembly-name="Microsoft.Maui.Graphics" module-name="Microsoft.Maui.Graphics.dll">
+    <type assembly-qualified-name="Microsoft.Maui.Graphics.Platform.PlatformGraphicsView, Microsoft.Maui.Graphics, Version=10.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="microsoft.maui.graphics.platform.PlatformGraphicsView" java-key="crc643f2b18b2570eaa5a.PlatformGraphicsView" managed-key="Microsoft.Maui.Graphics.Platform.PlatformGraphicsView" partial-assembly-qualified-name="Microsoft.Maui.Graphics.Platform.PlatformGraphicsView, Microsoft.Maui.Graphics" />
+  </acw-types>
+</api>

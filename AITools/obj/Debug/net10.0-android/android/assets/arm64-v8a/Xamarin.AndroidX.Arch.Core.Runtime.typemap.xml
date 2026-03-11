@@ -1,0 +1,14 @@
+<api type="debug" assembly-name="Xamarin.AndroidX.Arch.Core.Runtime" mvid="d2039744b132480790d5991ee50adefc">
+  <java-to-managed>
+    <entry java-name="androidx/arch/core/executor/ArchTaskExecutor" managed-name="AndroidX.Arch.Core.Executor.ArchTaskExecutor, Xamarin.AndroidX.Arch.Core.Runtime" managed-type-token-id="33554437" />
+    <entry java-name="androidx/arch/core/executor/DefaultTaskExecutor" managed-name="AndroidX.Arch.Core.Executor.DefaultTaskExecutor, Xamarin.AndroidX.Arch.Core.Runtime" managed-type-token-id="33554438" />
+    <entry java-name="androidx/arch/core/executor/TaskExecutor" managed-name="AndroidX.Arch.Core.Executor.TaskExecutor, Xamarin.AndroidX.Arch.Core.Runtime" managed-type-token-id="33554439" />
+    <entry java-name="androidx/arch/core/executor/TaskExecutor" managed-name="AndroidX.Arch.Core.Executor.TaskExecutorInvoker, Xamarin.AndroidX.Arch.Core.Runtime" managed-type-token-id="33554440" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="androidx/arch/core/executor/ArchTaskExecutor" managed-name="AndroidX.Arch.Core.Executor.ArchTaskExecutor, Xamarin.AndroidX.Arch.Core.Runtime" managed-type-token-id="33554437" />
+    <entry java-name="androidx/arch/core/executor/DefaultTaskExecutor" managed-name="AndroidX.Arch.Core.Executor.DefaultTaskExecutor, Xamarin.AndroidX.Arch.Core.Runtime" managed-type-token-id="33554438" />
+    <entry java-name="androidx/arch/core/executor/TaskExecutor" managed-name="AndroidX.Arch.Core.Executor.TaskExecutor, Xamarin.AndroidX.Arch.Core.Runtime" managed-type-token-id="33554439" />
+    <entry java-name="androidx/arch/core/executor/TaskExecutor" managed-name="AndroidX.Arch.Core.Executor.TaskExecutorInvoker, Xamarin.AndroidX.Arch.Core.Runtime" managed-type-token-id="33554440" />
+  </managed-to-java>
+</api>

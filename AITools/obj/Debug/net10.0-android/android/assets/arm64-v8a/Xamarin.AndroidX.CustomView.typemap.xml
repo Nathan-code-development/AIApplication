@@ -1,0 +1,24 @@
+<api type="debug" assembly-name="Xamarin.AndroidX.CustomView" mvid="0e2aacb48c81499ea5cc1c740229e365">
+  <java-to-managed>
+    <entry java-name="androidx/customview/widget/ExploreByTouchHelper" managed-name="AndroidX.CustomView.Widget.ExploreByTouchHelper, Xamarin.AndroidX.CustomView" managed-type-token-id="33554464" />
+    <entry java-name="androidx/customview/widget/ExploreByTouchHelper" managed-name="AndroidX.CustomView.Widget.ExploreByTouchHelperInvoker, Xamarin.AndroidX.CustomView" managed-type-token-id="33554465" />
+    <entry java-name="androidx/customview/widget/Openable" managed-name="AndroidX.CustomView.Widget.IOpenable, Xamarin.AndroidX.CustomView" skip-in-java-to-managed="True" managed-type-token-id="33554466" />
+    <entry java-name="androidx/customview/widget/Openable" managed-name="AndroidX.CustomView.Widget.IOpenableInvoker, Xamarin.AndroidX.CustomView" managed-type-token-id="33554467" />
+    <entry java-name="androidx/customview/widget/ViewDragHelper" managed-name="AndroidX.CustomView.Widget.ViewDragHelper, Xamarin.AndroidX.CustomView" managed-type-token-id="33554468" />
+    <entry java-name="androidx/customview/widget/ViewDragHelper$Callback" managed-name="AndroidX.CustomView.Widget.ViewDragHelper+Callback, Xamarin.AndroidX.CustomView" managed-type-token-id="33554472" />
+    <entry java-name="androidx/customview/widget/ViewDragHelper$Callback" managed-name="AndroidX.CustomView.Widget.ViewDragHelper+CallbackInvoker, Xamarin.AndroidX.CustomView" managed-type-token-id="33554473" />
+    <entry java-name="androidx/customview/view/AbsSavedState" managed-name="AndroidX.CustomView.View.AbsSavedState, Xamarin.AndroidX.CustomView" managed-type-token-id="33554469" />
+    <entry java-name="androidx/customview/view/AbsSavedState" managed-name="AndroidX.CustomView.View.AbsSavedStateInvoker, Xamarin.AndroidX.CustomView" managed-type-token-id="33554470" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="androidx/customview/widget/ExploreByTouchHelper" managed-name="AndroidX.CustomView.Widget.ExploreByTouchHelper, Xamarin.AndroidX.CustomView" managed-type-token-id="33554464" />
+    <entry java-name="androidx/customview/widget/ExploreByTouchHelper" managed-name="AndroidX.CustomView.Widget.ExploreByTouchHelperInvoker, Xamarin.AndroidX.CustomView" managed-type-token-id="33554465" />
+    <entry java-name="androidx/customview/widget/Openable" managed-name="AndroidX.CustomView.Widget.IOpenable, Xamarin.AndroidX.CustomView" skip-in-java-to-managed="True" managed-type-token-id="33554466" />
+    <entry java-name="androidx/customview/widget/Openable" managed-name="AndroidX.CustomView.Widget.IOpenableInvoker, Xamarin.AndroidX.CustomView" managed-type-token-id="33554467" />
+    <entry java-name="androidx/customview/widget/ViewDragHelper" managed-name="AndroidX.CustomView.Widget.ViewDragHelper, Xamarin.AndroidX.CustomView" managed-type-token-id="33554468" />
+    <entry java-name="androidx/customview/widget/ViewDragHelper$Callback" managed-name="AndroidX.CustomView.Widget.ViewDragHelper+Callback, Xamarin.AndroidX.CustomView" managed-type-token-id="33554472" />
+    <entry java-name="androidx/customview/widget/ViewDragHelper$Callback" managed-name="AndroidX.CustomView.Widget.ViewDragHelper+CallbackInvoker, Xamarin.AndroidX.CustomView" managed-type-token-id="33554473" />
+    <entry java-name="androidx/customview/view/AbsSavedState" managed-name="AndroidX.CustomView.View.AbsSavedState, Xamarin.AndroidX.CustomView" managed-type-token-id="33554469" />
+    <entry java-name="androidx/customview/view/AbsSavedState" managed-name="AndroidX.CustomView.View.AbsSavedStateInvoker, Xamarin.AndroidX.CustomView" managed-type-token-id="33554470" />
+  </managed-to-java>
+</api>

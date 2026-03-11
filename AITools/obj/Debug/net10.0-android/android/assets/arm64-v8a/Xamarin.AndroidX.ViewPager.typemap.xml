@@ -1,0 +1,42 @@
+<api type="debug" assembly-name="Xamarin.AndroidX.ViewPager" mvid="ec000372a7da4bbd8c4e11d24ea7a8d9">
+  <java-to-managed>
+    <entry java-name="androidx/viewpager/widget/PagerAdapter" managed-name="AndroidX.ViewPager.Widget.PagerAdapter, Xamarin.AndroidX.ViewPager" managed-type-token-id="33554462" />
+    <entry java-name="androidx/viewpager/widget/PagerAdapter" managed-name="AndroidX.ViewPager.Widget.PagerAdapterInvoker, Xamarin.AndroidX.ViewPager" managed-type-token-id="33554463" />
+    <entry java-name="androidx/viewpager/widget/PagerTabStrip" managed-name="AndroidX.ViewPager.Widget.PagerTabStrip, Xamarin.AndroidX.ViewPager" managed-type-token-id="33554464" />
+    <entry java-name="androidx/viewpager/widget/PagerTitleStrip" managed-name="AndroidX.ViewPager.Widget.PagerTitleStrip, Xamarin.AndroidX.ViewPager" managed-type-token-id="33554465" />
+    <entry java-name="androidx/viewpager/widget/ViewPager" managed-name="AndroidX.ViewPager.Widget.ViewPager, Xamarin.AndroidX.ViewPager" managed-type-token-id="33554466" />
+    <entry java-name="androidx/viewpager/widget/ViewPager$DecorView" managed-name="AndroidX.ViewPager.Widget.ViewPager+IDecorView, Xamarin.AndroidX.ViewPager" skip-in-java-to-managed="True" managed-type-token-id="33554468" />
+    <entry java-name="androidx/viewpager/widget/ViewPager$DecorView" managed-name="AndroidX.ViewPager.Widget.ViewPager+IDecorViewInvoker, Xamarin.AndroidX.ViewPager" managed-type-token-id="33554469" />
+    <entry java-name="androidx/viewpager/widget/ViewPager$LayoutParams" managed-name="AndroidX.ViewPager.Widget.ViewPager+LayoutParams, Xamarin.AndroidX.ViewPager" managed-type-token-id="33554470" />
+    <entry java-name="androidx/viewpager/widget/ViewPager$OnAdapterChangeListener" managed-name="AndroidX.ViewPager.Widget.ViewPager+IOnAdapterChangeListener, Xamarin.AndroidX.ViewPager" skip-in-java-to-managed="True" managed-type-token-id="33554471" />
+    <entry java-name="androidx/viewpager/widget/ViewPager$OnAdapterChangeListener" managed-name="AndroidX.ViewPager.Widget.ViewPager+IOnAdapterChangeListenerInvoker, Xamarin.AndroidX.ViewPager" managed-type-token-id="33554472" />
+    <entry java-name="mono/androidx/viewpager/widget/ViewPager_OnAdapterChangeListenerImplementor" managed-name="AndroidX.ViewPager.Widget.ViewPager+IOnAdapterChangeListenerImplementor, Xamarin.AndroidX.ViewPager" managed-type-token-id="33554474" />
+    <entry java-name="androidx/viewpager/widget/ViewPager$OnPageChangeListener" managed-name="AndroidX.ViewPager.Widget.ViewPager+IOnPageChangeListener, Xamarin.AndroidX.ViewPager" skip-in-java-to-managed="True" managed-type-token-id="33554475" />
+    <entry java-name="androidx/viewpager/widget/ViewPager$OnPageChangeListener" managed-name="AndroidX.ViewPager.Widget.ViewPager+IOnPageChangeListenerInvoker, Xamarin.AndroidX.ViewPager" managed-type-token-id="33554476" />
+    <entry java-name="mono/androidx/viewpager/widget/ViewPager_OnPageChangeListenerImplementor" managed-name="AndroidX.ViewPager.Widget.ViewPager+IOnPageChangeListenerImplementor, Xamarin.AndroidX.ViewPager" managed-type-token-id="33554480" />
+    <entry java-name="androidx/viewpager/widget/ViewPager$PageTransformer" managed-name="AndroidX.ViewPager.Widget.ViewPager+IPageTransformer, Xamarin.AndroidX.ViewPager" skip-in-java-to-managed="True" managed-type-token-id="33554481" />
+    <entry java-name="androidx/viewpager/widget/ViewPager$PageTransformer" managed-name="AndroidX.ViewPager.Widget.ViewPager+IPageTransformerInvoker, Xamarin.AndroidX.ViewPager" managed-type-token-id="33554482" />
+    <entry java-name="androidx/viewpager/widget/ViewPager$SavedState" managed-name="AndroidX.ViewPager.Widget.ViewPager+SavedState, Xamarin.AndroidX.ViewPager" managed-type-token-id="33554483" />
+    <entry java-name="androidx/viewpager/widget/ViewPager$SimpleOnPageChangeListener" managed-name="AndroidX.ViewPager.Widget.ViewPager+SimpleOnPageChangeListener, Xamarin.AndroidX.ViewPager" managed-type-token-id="33554484" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="androidx/viewpager/widget/PagerAdapter" managed-name="AndroidX.ViewPager.Widget.PagerAdapter, Xamarin.AndroidX.ViewPager" managed-type-token-id="33554462" />
+    <entry java-name="androidx/viewpager/widget/PagerAdapter" managed-name="AndroidX.ViewPager.Widget.PagerAdapterInvoker, Xamarin.AndroidX.ViewPager" managed-type-token-id="33554463" />
+    <entry java-name="androidx/viewpager/widget/PagerTabStrip" managed-name="AndroidX.ViewPager.Widget.PagerTabStrip, Xamarin.AndroidX.ViewPager" managed-type-token-id="33554464" />
+    <entry java-name="androidx/viewpager/widget/PagerTitleStrip" managed-name="AndroidX.ViewPager.Widget.PagerTitleStrip, Xamarin.AndroidX.ViewPager" managed-type-token-id="33554465" />
+    <entry java-name="androidx/viewpager/widget/ViewPager" managed-name="AndroidX.ViewPager.Widget.ViewPager, Xamarin.AndroidX.ViewPager" managed-type-token-id="33554466" />
+    <entry java-name="androidx/viewpager/widget/ViewPager$DecorView" managed-name="AndroidX.ViewPager.Widget.ViewPager+IDecorView, Xamarin.AndroidX.ViewPager" skip-in-java-to-managed="True" managed-type-token-id="33554468" />
+    <entry java-name="androidx/viewpager/widget/ViewPager$DecorView" managed-name="AndroidX.ViewPager.Widget.ViewPager+IDecorViewInvoker, Xamarin.AndroidX.ViewPager" managed-type-token-id="33554469" />
+    <entry java-name="androidx/viewpager/widget/ViewPager$LayoutParams" managed-name="AndroidX.ViewPager.Widget.ViewPager+LayoutParams, Xamarin.AndroidX.ViewPager" managed-type-token-id="33554470" />
+    <entry java-name="androidx/viewpager/widget/ViewPager$OnAdapterChangeListener" managed-name="AndroidX.ViewPager.Widget.ViewPager+IOnAdapterChangeListener, Xamarin.AndroidX.ViewPager" skip-in-java-to-managed="True" managed-type-token-id="33554471" />
+    <entry java-name="androidx/viewpager/widget/ViewPager$OnAdapterChangeListener" managed-name="AndroidX.ViewPager.Widget.ViewPager+IOnAdapterChangeListenerInvoker, Xamarin.AndroidX.ViewPager" managed-type-token-id="33554472" />
+    <entry java-name="mono/androidx/viewpager/widget/ViewPager_OnAdapterChangeListenerImplementor" managed-name="AndroidX.ViewPager.Widget.ViewPager+IOnAdapterChangeListenerImplementor, Xamarin.AndroidX.ViewPager" managed-type-token-id="33554474" />
+    <entry java-name="androidx/viewpager/widget/ViewPager$OnPageChangeListener" managed-name="AndroidX.ViewPager.Widget.ViewPager+IOnPageChangeListener, Xamarin.AndroidX.ViewPager" skip-in-java-to-managed="True" managed-type-token-id="33554475" />
+    <entry java-name="androidx/viewpager/widget/ViewPager$OnPageChangeListener" managed-name="AndroidX.ViewPager.Widget.ViewPager+IOnPageChangeListenerInvoker, Xamarin.AndroidX.ViewPager" managed-type-token-id="33554476" />
+    <entry java-name="mono/androidx/viewpager/widget/ViewPager_OnPageChangeListenerImplementor" managed-name="AndroidX.ViewPager.Widget.ViewPager+IOnPageChangeListenerImplementor, Xamarin.AndroidX.ViewPager" managed-type-token-id="33554480" />
+    <entry java-name="androidx/viewpager/widget/ViewPager$PageTransformer" managed-name="AndroidX.ViewPager.Widget.ViewPager+IPageTransformer, Xamarin.AndroidX.ViewPager" skip-in-java-to-managed="True" managed-type-token-id="33554481" />
+    <entry java-name="androidx/viewpager/widget/ViewPager$PageTransformer" managed-name="AndroidX.ViewPager.Widget.ViewPager+IPageTransformerInvoker, Xamarin.AndroidX.ViewPager" managed-type-token-id="33554482" />
+    <entry java-name="androidx/viewpager/widget/ViewPager$SavedState" managed-name="AndroidX.ViewPager.Widget.ViewPager+SavedState, Xamarin.AndroidX.ViewPager" managed-type-token-id="33554483" />
+    <entry java-name="androidx/viewpager/widget/ViewPager$SimpleOnPageChangeListener" managed-name="AndroidX.ViewPager.Widget.ViewPager+SimpleOnPageChangeListener, Xamarin.AndroidX.ViewPager" managed-type-token-id="33554484" />
+  </managed-to-java>
+</api>

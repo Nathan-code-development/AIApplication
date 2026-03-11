@@ -1,0 +1,22 @@
+<api>
+  <jcw-types>
+    <type name="ReportFragment_ActivityInitializationListenerImplementor" package="mono.androidx.lifecycle" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.Lifecycle.ReportFragment+IActivityInitializationListenerImplementor, Xamarin.AndroidX.Lifecycle.Runtime.Android">
+      <implemented_interfaces>
+        <interface name="androidx.lifecycle.ReportFragment.ActivityInitializationListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="ReportFragment_ActivityInitializationListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onCreate" method="n_onCreate:()V:GetOnCreateHandler:AndroidX.Lifecycle.ReportFragment+IActivityInitializationListenerInvoker, Xamarin.AndroidX.Lifecycle.Runtime.Android" jni_signature="()V" retval="void" is_dynamically_registered="True" />
+        <method name="onResume" method="n_onResume:()V:GetOnResumeHandler:AndroidX.Lifecycle.ReportFragment+IActivityInitializationListenerInvoker, Xamarin.AndroidX.Lifecycle.Runtime.Android" jni_signature="()V" retval="void" is_dynamically_registered="True" />
+        <method name="onStart" method="n_onStart:()V:GetOnStartHandler:AndroidX.Lifecycle.ReportFragment+IActivityInitializationListenerInvoker, Xamarin.AndroidX.Lifecycle.Runtime.Android" jni_signature="()V" retval="void" is_dynamically_registered="True" />
+      </methods>
+    </type>
+  </jcw-types>
+  <acw-types partial-assembly-name="Xamarin.AndroidX.Lifecycle.Runtime.Android" module-name="Xamarin.AndroidX.Lifecycle.Runtime.Android.dll">
+    <type assembly-qualified-name="AndroidX.Lifecycle.ILifecycleRegistryOwner, Xamarin.AndroidX.Lifecycle.Runtime.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.lifecycle.LifecycleRegistryOwner" java-key="androidx.lifecycle.LifecycleRegistryOwner" managed-key="AndroidX.Lifecycle.ILifecycleRegistryOwner" partial-assembly-qualified-name="AndroidX.Lifecycle.ILifecycleRegistryOwner, Xamarin.AndroidX.Lifecycle.Runtime.Android" />
+    <type assembly-qualified-name="AndroidX.Lifecycle.ReportFragment+IActivityInitializationListener, Xamarin.AndroidX.Lifecycle.Runtime.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.lifecycle.ReportFragment$ActivityInitializationListener" java-key="androidx.lifecycle.ReportFragment$ActivityInitializationListener" managed-key="AndroidX.Lifecycle.ReportFragment.IActivityInitializationListener" partial-assembly-qualified-name="AndroidX.Lifecycle.ReportFragment+IActivityInitializationListener, Xamarin.AndroidX.Lifecycle.Runtime.Android" />
+    <type assembly-qualified-name="AndroidX.Lifecycle.ReportFragment+IActivityInitializationListenerImplementor, Xamarin.AndroidX.Lifecycle.Runtime.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="mono.androidx.lifecycle.ReportFragment_ActivityInitializationListenerImplementor" java-key="mono.androidx.lifecycle.ReportFragment_ActivityInitializationListenerImplementor" managed-key="AndroidX.Lifecycle.ReportFragment.IActivityInitializationListenerImplementor" partial-assembly-qualified-name="AndroidX.Lifecycle.ReportFragment+IActivityInitializationListenerImplementor, Xamarin.AndroidX.Lifecycle.Runtime.Android" />
+  </acw-types>
+</api>

@@ -1,0 +1,6 @@
+<api>
+  <acw-types partial-assembly-name="Xamarin.AndroidX.CursorAdapter" module-name="Xamarin.AndroidX.CursorAdapter.dll">
+    <type assembly-qualified-name="AndroidX.CursorAdapter.Widget.SimpleCursorAdapter+ICursorToStringConverter, Xamarin.AndroidX.CursorAdapter, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.cursoradapter.widget.SimpleCursorAdapter$CursorToStringConverter" java-key="androidx.cursoradapter.widget.SimpleCursorAdapter$CursorToStringConverter" managed-key="AndroidX.CursorAdapter.Widget.SimpleCursorAdapter.ICursorToStringConverter" partial-assembly-qualified-name="AndroidX.CursorAdapter.Widget.SimpleCursorAdapter+ICursorToStringConverter, Xamarin.AndroidX.CursorAdapter" />
+    <type assembly-qualified-name="AndroidX.CursorAdapter.Widget.SimpleCursorAdapter+IViewBinder, Xamarin.AndroidX.CursorAdapter, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.cursoradapter.widget.SimpleCursorAdapter$ViewBinder" java-key="androidx.cursoradapter.widget.SimpleCursorAdapter$ViewBinder" managed-key="AndroidX.CursorAdapter.Widget.SimpleCursorAdapter.IViewBinder" partial-assembly-qualified-name="AndroidX.CursorAdapter.Widget.SimpleCursorAdapter+IViewBinder, Xamarin.AndroidX.CursorAdapter" />
+  </acw-types>
+</api>

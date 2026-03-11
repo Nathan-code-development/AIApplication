@@ -1,0 +1,266 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\ProjectCollection\\AITools\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A56B006E-3B5C-9DD0-D9CE-EBAEF9DB79C8}|AITools\\AITools.csproj|f:\\projectcollection\\aitools\\aitools\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A56B006E-3B5C-9DD0-D9CE-EBAEF9DB79C8}|AITools\\AITools.csproj|solutionrelative:aitools\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A56B006E-3B5C-9DD0-D9CE-EBAEF9DB79C8}|AITools\\AITools.csproj|f:\\projectcollection\\aitools\\aitools\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A56B006E-3B5C-9DD0-D9CE-EBAEF9DB79C8}|AITools\\AITools.csproj|solutionrelative:aitools\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A56B006E-3B5C-9DD0-D9CE-EBAEF9DB79C8}|AITools\\AITools.csproj|f:\\projectcollection\\aitools\\aitools\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A56B006E-3B5C-9DD0-D9CE-EBAEF9DB79C8}|AITools\\AITools.csproj|solutionrelative:aitools\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A56B006E-3B5C-9DD0-D9CE-EBAEF9DB79C8}|AITools\\AITools.csproj|f:\\projectcollection\\aitools\\aitools\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A56B006E-3B5C-9DD0-D9CE-EBAEF9DB79C8}|AITools\\AITools.csproj|solutionrelative:aitools\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A56B006E-3B5C-9DD0-D9CE-EBAEF9DB79C8}|AITools\\AITools.csproj|f:\\projectcollection\\aitools\\aitools\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A56B006E-3B5C-9DD0-D9CE-EBAEF9DB79C8}|AITools\\AITools.csproj|solutionrelative:aitools\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A56B006E-3B5C-9DD0-D9CE-EBAEF9DB79C8}|AITools\\AITools.csproj|f:\\projectcollection\\aitools\\aitools\\views\\myself.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A56B006E-3B5C-9DD0-D9CE-EBAEF9DB79C8}|AITools\\AITools.csproj|solutionrelative:aitools\\views\\myself.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A56B006E-3B5C-9DD0-D9CE-EBAEF9DB79C8}|AITools\\AITools.csproj|f:\\projectcollection\\aitools\\aitools\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A56B006E-3B5C-9DD0-D9CE-EBAEF9DB79C8}|AITools\\AITools.csproj|solutionrelative:aitools\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A56B006E-3B5C-9DD0-D9CE-EBAEF9DB79C8}|AITools\\AITools.csproj|f:\\projectcollection\\aitools\\aitools\\views\\myself.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A56B006E-3B5C-9DD0-D9CE-EBAEF9DB79C8}|AITools\\AITools.csproj|solutionrelative:aitools\\views\\myself.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A56B006E-3B5C-9DD0-D9CE-EBAEF9DB79C8}|AITools\\AITools.csproj|f:\\projectcollection\\aitools\\aitools\\views\\modelsquare.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A56B006E-3B5C-9DD0-D9CE-EBAEF9DB79C8}|AITools\\AITools.csproj|solutionrelative:aitools\\views\\modelsquare.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A56B006E-3B5C-9DD0-D9CE-EBAEF9DB79C8}|AITools\\AITools.csproj|f:\\projectcollection\\aitools\\aitools\\views\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A56B006E-3B5C-9DD0-D9CE-EBAEF9DB79C8}|AITools\\AITools.csproj|solutionrelative:aitools\\views\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A56B006E-3B5C-9DD0-D9CE-EBAEF9DB79C8}|AITools\\AITools.csproj|f:\\projectcollection\\aitools\\aitools\\views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A56B006E-3B5C-9DD0-D9CE-EBAEF9DB79C8}|AITools\\AITools.csproj|solutionrelative:aitools\\views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A56B006E-3B5C-9DD0-D9CE-EBAEF9DB79C8}|AITools\\AITools.csproj|f:\\projectcollection\\aitools\\aitools\\views\\modelsquare.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A56B006E-3B5C-9DD0-D9CE-EBAEF9DB79C8}|AITools\\AITools.csproj|solutionrelative:aitools\\views\\modelsquare.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A56B006E-3B5C-9DD0-D9CE-EBAEF9DB79C8}|AITools\\AITools.csproj|f:\\projectcollection\\aitools\\aitools\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A56B006E-3B5C-9DD0-D9CE-EBAEF9DB79C8}|AITools\\AITools.csproj|solutionrelative:aitools\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A56B006E-3B5C-9DD0-D9CE-EBAEF9DB79C8}|AITools\\AITools.csproj|f:\\projectcollection\\aitools\\aitools\\views\\ai.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A56B006E-3B5C-9DD0-D9CE-EBAEF9DB79C8}|AITools\\AITools.csproj|solutionrelative:aitools\\views\\ai.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A56B006E-3B5C-9DD0-D9CE-EBAEF9DB79C8}|AITools\\AITools.csproj|f:\\projectcollection\\aitools\\aitools\\views\\ai.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A56B006E-3B5C-9DD0-D9CE-EBAEF9DB79C8}|AITools\\AITools.csproj|solutionrelative:aitools\\views\\ai.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "F:\\ProjectCollection\\AITools\\AITools\\App.xaml",
+              "RelativeDocumentMoniker": "AITools\\App.xaml",
+              "ToolTip": "F:\\ProjectCollection\\AITools\\AITools\\App.xaml",
+              "RelativeToolTip": "AITools\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-09T09:57:27.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "F:\\ProjectCollection\\AITools\\AITools\\Views\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "AITools\\Views\\LoginPage.xaml",
+              "ToolTip": "F:\\ProjectCollection\\AITools\\AITools\\Views\\LoginPage.xaml",
+              "RelativeToolTip": "AITools\\Views\\LoginPage.xaml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswB4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-09T06:29:02.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Myself.xaml",
+              "DocumentMoniker": "F:\\ProjectCollection\\AITools\\AITools\\Views\\Myself.xaml",
+              "RelativeDocumentMoniker": "AITools\\Views\\Myself.xaml",
+              "ToolTip": "F:\\ProjectCollection\\AITools\\AITools\\Views\\Myself.xaml",
+              "RelativeToolTip": "AITools\\Views\\Myself.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMBAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-04T14:49:02.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Myself.xaml.cs",
+              "DocumentMoniker": "F:\\ProjectCollection\\AITools\\AITools\\Views\\Myself.xaml.cs",
+              "RelativeDocumentMoniker": "AITools\\Views\\Myself.xaml.cs",
+              "ToolTip": "F:\\ProjectCollection\\AITools\\AITools\\Views\\Myself.xaml.cs",
+              "RelativeToolTip": "AITools\\Views\\Myself.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T14:52:45.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "F:\\ProjectCollection\\AITools\\AITools\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AITools\\AppShell.xaml",
+              "ToolTip": "F:\\ProjectCollection\\AITools\\AITools\\AppShell.xaml",
+              "RelativeToolTip": "AITools\\AppShell.xaml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-04T14:31:47.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "F:\\ProjectCollection\\AITools\\AITools\\App.xaml.cs",
+              "RelativeDocumentMoniker": "AITools\\App.xaml.cs",
+              "ToolTip": "F:\\ProjectCollection\\AITools\\AITools\\App.xaml.cs",
+              "RelativeToolTip": "AITools\\App.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T06:33:05.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "F:\\ProjectCollection\\AITools\\AITools\\Views\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "AITools\\Views\\LoginPage.xaml.cs",
+              "ToolTip": "F:\\ProjectCollection\\AITools\\AITools\\Views\\LoginPage.xaml.cs",
+              "RelativeToolTip": "AITools\\Views\\LoginPage.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAIwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T06:31:47.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "F:\\ProjectCollection\\AITools\\AITools\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AITools\\AppShell.xaml.cs",
+              "ToolTip": "F:\\ProjectCollection\\AITools\\AITools\\AppShell.xaml.cs",
+              "RelativeToolTip": "AITools\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T14:31:52.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "modelSquare.xaml.cs",
+              "DocumentMoniker": "F:\\ProjectCollection\\AITools\\AITools\\Views\\modelSquare.xaml.cs",
+              "RelativeDocumentMoniker": "AITools\\Views\\modelSquare.xaml.cs",
+              "ToolTip": "F:\\ProjectCollection\\AITools\\AITools\\Views\\modelSquare.xaml.cs",
+              "RelativeToolTip": "AITools\\Views\\modelSquare.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T14:52:27.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegisterPage.xaml.cs",
+              "DocumentMoniker": "F:\\ProjectCollection\\AITools\\AITools\\Views\\RegisterPage.xaml.cs",
+              "RelativeDocumentMoniker": "AITools\\Views\\RegisterPage.xaml.cs",
+              "ToolTip": "F:\\ProjectCollection\\AITools\\AITools\\Views\\RegisterPage.xaml.cs",
+              "RelativeToolTip": "AITools\\Views\\RegisterPage.xaml.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAswHUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T06:53:02.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegisterPage.xaml",
+              "DocumentMoniker": "F:\\ProjectCollection\\AITools\\AITools\\Views\\RegisterPage.xaml",
+              "RelativeDocumentMoniker": "AITools\\Views\\RegisterPage.xaml",
+              "ToolTip": "F:\\ProjectCollection\\AITools\\AITools\\Views\\RegisterPage.xaml",
+              "RelativeToolTip": "AITools\\Views\\RegisterPage.xaml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwBMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-09T06:29:32.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "modelSquare.xaml",
+              "DocumentMoniker": "F:\\ProjectCollection\\AITools\\AITools\\Views\\modelSquare.xaml",
+              "RelativeDocumentMoniker": "AITools\\Views\\modelSquare.xaml",
+              "ToolTip": "F:\\ProjectCollection\\AITools\\AITools\\Views\\modelSquare.xaml",
+              "RelativeToolTip": "AITools\\Views\\modelSquare.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-04T14:48:59.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "F:\\ProjectCollection\\AITools\\AITools\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "AITools\\MauiProgram.cs",
+              "ToolTip": "F:\\ProjectCollection\\AITools\\AITools\\MauiProgram.cs",
+              "RelativeToolTip": "AITools\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T06:43:04.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AI.xaml",
+              "DocumentMoniker": "F:\\ProjectCollection\\AITools\\AITools\\Views\\AI.xaml",
+              "RelativeDocumentMoniker": "AITools\\Views\\AI.xaml",
+              "ToolTip": "F:\\ProjectCollection\\AITools\\AITools\\Views\\AI.xaml",
+              "RelativeToolTip": "AITools\\Views\\AI.xaml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwDYAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-04T14:48:53.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AI.xaml.cs",
+              "DocumentMoniker": "F:\\ProjectCollection\\AITools\\AITools\\Views\\AI.xaml.cs",
+              "RelativeDocumentMoniker": "AITools\\Views\\AI.xaml.cs",
+              "ToolTip": "F:\\ProjectCollection\\AITools\\AITools\\Views\\AI.xaml.cs",
+              "RelativeToolTip": "AITools\\Views\\AI.xaml.cs",
+              "ViewState": "AgIAAPgAAAAAAAAAAAAcwA8BAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T14:51:48.012Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

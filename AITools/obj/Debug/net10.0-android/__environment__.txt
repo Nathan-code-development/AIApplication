@@ -1,0 +1,2 @@
+mono.enable_assembly_preload=0
+DOTNET_MODIFIABLE_ASSEMBLIES=Debug

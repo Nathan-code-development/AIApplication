@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AITools.Views.modelSquare"
+             Title="modelSquare"
+             BackgroundColor="#F5F5F5">
+
+    <Shell.NavBarIsVisible>False</Shell.NavBarIsVisible>
+
+    <ContentPage.Resources>
+        <!-- Card style: Rounded corners, light shadow, white background, fixed height to form a square. -->
+        <Style TargetType="Border" x:Key="CardBorderStyle">
+            <Setter Property="StrokeThickness" Value="1"/>
+            <Setter Property="Stroke" Value="#E0E0E0"/>
+            <Setter Property="BackgroundColor" Value="White"/>
+            <Setter Property="StrokeShape" Value="RoundRectangle 10"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="HeightRequest" Value="120"/>
+            <Setter Property="Shadow">
+                <Setter.Value>
+                    <Shadow Brush="Gray"
+                            Offset="0,1"
+                            Radius="2"
+                            Opacity="0.1" />
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </ContentPage.Resources>
+
+    <!-- Grid: Header + Content -->
+    <Grid RowDefinitions="Auto, *">
+
+        <Border Grid.Row="0"
+                BackgroundColor="#1A1A2E"
+                StrokeThickness="0"
+                Padding="20,16,20,18">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="0"/>
+            </Border.StrokeShape>
+            <Label Text="AI model square"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   TextColor="White"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"/>
+        </Border>
+
+        <!-- Model block grid (two columns) -->
+        <CollectionView x:Name="ModelsCollectionView"
+                        Grid.Row="1"
+                        Margin="20,60,20,10">
+            <CollectionView.ItemsLayout>
+                <GridItemsLayout Span="2"
+                                 Orientation="Vertical"
+                                 HorizontalItemSpacing="10"
+                                 VerticalItemSpacing="10"/>
+            </CollectionView.ItemsLayout>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Border Style="{StaticResource CardBorderStyle}">
+                        <Border.Content>
+                            <HorizontalStackLayout Spacing="10" HorizontalOptions="Center" VerticalOptions="Center">
+                                <Image Source="{Binding IconSource}" WidthRequest="56" HeightRequest="56"/>
+                                <Label Text="{Binding Name}" FontSize="16" TextColor="#333" VerticalTextAlignment="Center"/>
+                            </HorizontalStackLayout>
+                        </Border.Content>
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </Grid>
+</ContentPage>

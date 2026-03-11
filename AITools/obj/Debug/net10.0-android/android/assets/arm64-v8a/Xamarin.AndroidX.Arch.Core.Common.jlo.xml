@@ -1,0 +1,5 @@
+<api>
+  <acw-types partial-assembly-name="Xamarin.AndroidX.Arch.Core.Common" module-name="Xamarin.AndroidX.Arch.Core.Common.dll">
+    <type assembly-qualified-name="AndroidX.Arch.Core.Util.IFunction, Xamarin.AndroidX.Arch.Core.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.arch.core.util.Function" java-key="androidx.arch.core.util.Function" managed-key="AndroidX.Arch.Core.Util.IFunction" partial-assembly-qualified-name="AndroidX.Arch.Core.Util.IFunction, Xamarin.AndroidX.Arch.Core.Common" />
+  </acw-types>
+</api>

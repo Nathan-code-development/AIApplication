@@ -1,0 +1,64 @@
+<api type="debug" assembly-name="Xamarin.AndroidX.Lifecycle.Common.Jvm" mvid="08487c7fd57f440b8e859f96df604077">
+  <java-to-managed>
+    <entry java-name="androidx/lifecycle/Lifecycle" managed-name="AndroidX.Lifecycle.Lifecycle, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554440" />
+    <entry java-name="androidx/lifecycle/Lifecycle$Event" managed-name="AndroidX.Lifecycle.Lifecycle+Event, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554465" />
+    <entry java-name="androidx/lifecycle/Lifecycle$Event$Companion" managed-name="AndroidX.Lifecycle.Lifecycle+Event+Companion, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554474" />
+    <entry java-name="androidx/lifecycle/Lifecycle$Event$Companion$WhenMappings" managed-name="AndroidX.Lifecycle.Lifecycle+Event+Companion+WhenMappings, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554476" />
+    <entry java-name="androidx/lifecycle/Lifecycle$Event$WhenMappings" managed-name="AndroidX.Lifecycle.Lifecycle+Event+WhenMappings, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554475" />
+    <entry java-name="androidx/lifecycle/Lifecycle$State" managed-name="AndroidX.Lifecycle.Lifecycle+State, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554466" />
+    <entry java-name="androidx/lifecycle/AtomicReference" managed-name="AndroidX.Lifecycle.AtomicReference, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554441" />
+    <entry java-name="androidx/lifecycle/CompositeGeneratedAdaptersObserver" managed-name="AndroidX.Lifecycle.CompositeGeneratedAdaptersObserver, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554442" />
+    <entry java-name="androidx/lifecycle/DefaultLifecycleObserver" managed-name="AndroidX.Lifecycle.IDefaultLifecycleObserver, Xamarin.AndroidX.Lifecycle.Common.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554443" />
+    <entry java-name="androidx/lifecycle/DefaultLifecycleObserver" managed-name="AndroidX.Lifecycle.IDefaultLifecycleObserverInvoker, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554444" />
+    <entry java-name="androidx/lifecycle/GeneratedAdapter" managed-name="AndroidX.Lifecycle.IGeneratedAdapter, Xamarin.AndroidX.Lifecycle.Common.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554445" />
+    <entry java-name="androidx/lifecycle/GeneratedAdapter" managed-name="AndroidX.Lifecycle.IGeneratedAdapterInvoker, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554446" />
+    <entry java-name="androidx/lifecycle/GenericLifecycleObserver" managed-name="AndroidX.Lifecycle.IGenericLifecycleObserver, Xamarin.AndroidX.Lifecycle.Common.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554447" />
+    <entry java-name="androidx/lifecycle/GenericLifecycleObserver" managed-name="AndroidX.Lifecycle.IGenericLifecycleObserverInvoker, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554448" />
+    <entry java-name="androidx/lifecycle/LifecycleEventObserver" managed-name="AndroidX.Lifecycle.ILifecycleEventObserver, Xamarin.AndroidX.Lifecycle.Common.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554449" />
+    <entry java-name="androidx/lifecycle/LifecycleEventObserver" managed-name="AndroidX.Lifecycle.ILifecycleEventObserverInvoker, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554450" />
+    <entry java-name="androidx/lifecycle/LifecycleObserver" managed-name="AndroidX.Lifecycle.ILifecycleObserver, Xamarin.AndroidX.Lifecycle.Common.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554451" />
+    <entry java-name="androidx/lifecycle/LifecycleObserver" managed-name="AndroidX.Lifecycle.ILifecycleObserverInvoker, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554452" />
+    <entry java-name="androidx/lifecycle/LifecycleOwner" managed-name="AndroidX.Lifecycle.ILifecycleOwner, Xamarin.AndroidX.Lifecycle.Common.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554453" />
+    <entry java-name="androidx/lifecycle/LifecycleOwner" managed-name="AndroidX.Lifecycle.ILifecycleOwnerInvoker, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554454" />
+    <entry java-name="androidx/lifecycle/Lifecycle" managed-name="AndroidX.Lifecycle.LifecycleInvoker, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554455" />
+    <entry java-name="androidx/lifecycle/LifecycleCoroutineScope" managed-name="AndroidX.Lifecycle.LifecycleCoroutineScope, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554456" />
+    <entry java-name="androidx/lifecycle/LifecycleCoroutineScope" managed-name="AndroidX.Lifecycle.LifecycleCoroutineScopeInvoker, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554457" />
+    <entry java-name="androidx/lifecycle/LifecycleKt" managed-name="AndroidX.Lifecycle.LifecycleKt, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554458" />
+    <entry java-name="androidx/lifecycle/LifecycleOwnerKt" managed-name="AndroidX.Lifecycle.LifecycleOwnerKt, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554459" />
+    <entry java-name="androidx/lifecycle/Lifecycling" managed-name="AndroidX.Lifecycle.Lifecycling, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554460" />
+    <entry java-name="androidx/lifecycle/MethodCallsLogger" managed-name="AndroidX.Lifecycle.MethodCallsLogger, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554461" />
+    <entry java-name="androidx/lifecycle/PausingDispatcherKt" managed-name="AndroidX.Lifecycle.PausingDispatcherKt, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554462" />
+    <entry java-name="androidx/lifecycle/SingleGeneratedAdapterObserver" managed-name="AndroidX.Lifecycle.SingleGeneratedAdapterObserver, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554463" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="androidx/lifecycle/Lifecycle" managed-name="AndroidX.Lifecycle.Lifecycle, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554440" />
+    <entry java-name="androidx/lifecycle/Lifecycle$Event" managed-name="AndroidX.Lifecycle.Lifecycle+Event, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554465" />
+    <entry java-name="androidx/lifecycle/Lifecycle$Event$Companion" managed-name="AndroidX.Lifecycle.Lifecycle+Event+Companion, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554474" />
+    <entry java-name="androidx/lifecycle/Lifecycle$Event$Companion$WhenMappings" managed-name="AndroidX.Lifecycle.Lifecycle+Event+Companion+WhenMappings, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554476" />
+    <entry java-name="androidx/lifecycle/Lifecycle$Event$WhenMappings" managed-name="AndroidX.Lifecycle.Lifecycle+Event+WhenMappings, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554475" />
+    <entry java-name="androidx/lifecycle/Lifecycle$State" managed-name="AndroidX.Lifecycle.Lifecycle+State, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554466" />
+    <entry java-name="androidx/lifecycle/AtomicReference" managed-name="AndroidX.Lifecycle.AtomicReference, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554441" />
+    <entry java-name="androidx/lifecycle/CompositeGeneratedAdaptersObserver" managed-name="AndroidX.Lifecycle.CompositeGeneratedAdaptersObserver, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554442" />
+    <entry java-name="androidx/lifecycle/DefaultLifecycleObserver" managed-name="AndroidX.Lifecycle.IDefaultLifecycleObserver, Xamarin.AndroidX.Lifecycle.Common.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554443" />
+    <entry java-name="androidx/lifecycle/DefaultLifecycleObserver" managed-name="AndroidX.Lifecycle.IDefaultLifecycleObserverInvoker, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554444" />
+    <entry java-name="androidx/lifecycle/GeneratedAdapter" managed-name="AndroidX.Lifecycle.IGeneratedAdapter, Xamarin.AndroidX.Lifecycle.Common.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554445" />
+    <entry java-name="androidx/lifecycle/GeneratedAdapter" managed-name="AndroidX.Lifecycle.IGeneratedAdapterInvoker, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554446" />
+    <entry java-name="androidx/lifecycle/GenericLifecycleObserver" managed-name="AndroidX.Lifecycle.IGenericLifecycleObserver, Xamarin.AndroidX.Lifecycle.Common.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554447" />
+    <entry java-name="androidx/lifecycle/GenericLifecycleObserver" managed-name="AndroidX.Lifecycle.IGenericLifecycleObserverInvoker, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554448" />
+    <entry java-name="androidx/lifecycle/LifecycleEventObserver" managed-name="AndroidX.Lifecycle.ILifecycleEventObserver, Xamarin.AndroidX.Lifecycle.Common.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554449" />
+    <entry java-name="androidx/lifecycle/LifecycleEventObserver" managed-name="AndroidX.Lifecycle.ILifecycleEventObserverInvoker, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554450" />
+    <entry java-name="androidx/lifecycle/LifecycleObserver" managed-name="AndroidX.Lifecycle.ILifecycleObserver, Xamarin.AndroidX.Lifecycle.Common.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554451" />
+    <entry java-name="androidx/lifecycle/LifecycleObserver" managed-name="AndroidX.Lifecycle.ILifecycleObserverInvoker, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554452" />
+    <entry java-name="androidx/lifecycle/LifecycleOwner" managed-name="AndroidX.Lifecycle.ILifecycleOwner, Xamarin.AndroidX.Lifecycle.Common.Jvm" skip-in-java-to-managed="True" managed-type-token-id="33554453" />
+    <entry java-name="androidx/lifecycle/LifecycleOwner" managed-name="AndroidX.Lifecycle.ILifecycleOwnerInvoker, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554454" />
+    <entry java-name="androidx/lifecycle/Lifecycle" managed-name="AndroidX.Lifecycle.LifecycleInvoker, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554455" />
+    <entry java-name="androidx/lifecycle/LifecycleCoroutineScope" managed-name="AndroidX.Lifecycle.LifecycleCoroutineScope, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554456" />
+    <entry java-name="androidx/lifecycle/LifecycleCoroutineScope" managed-name="AndroidX.Lifecycle.LifecycleCoroutineScopeInvoker, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554457" />
+    <entry java-name="androidx/lifecycle/LifecycleKt" managed-name="AndroidX.Lifecycle.LifecycleKt, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554458" />
+    <entry java-name="androidx/lifecycle/LifecycleOwnerKt" managed-name="AndroidX.Lifecycle.LifecycleOwnerKt, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554459" />
+    <entry java-name="androidx/lifecycle/Lifecycling" managed-name="AndroidX.Lifecycle.Lifecycling, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554460" />
+    <entry java-name="androidx/lifecycle/MethodCallsLogger" managed-name="AndroidX.Lifecycle.MethodCallsLogger, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554461" />
+    <entry java-name="androidx/lifecycle/PausingDispatcherKt" managed-name="AndroidX.Lifecycle.PausingDispatcherKt, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554462" />
+    <entry java-name="androidx/lifecycle/SingleGeneratedAdapterObserver" managed-name="AndroidX.Lifecycle.SingleGeneratedAdapterObserver, Xamarin.AndroidX.Lifecycle.Common.Jvm" managed-type-token-id="33554463" />
+  </managed-to-java>
+</api>

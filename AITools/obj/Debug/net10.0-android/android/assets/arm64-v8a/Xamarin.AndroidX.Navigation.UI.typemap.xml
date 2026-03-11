@@ -1,0 +1,38 @@
+<api type="debug" assembly-name="Xamarin.AndroidX.Navigation.UI" mvid="ddbcd8542d3c4609a42d211d0f804e9f">
+  <java-to-managed>
+    <entry java-name="androidx/navigation/ui/ActivityKt" managed-name="AndroidX.Navigation.UI.ActivityKt, Xamarin.AndroidX.Navigation.UI" managed-type-token-id="33554439" />
+    <entry java-name="androidx/navigation/ui/AppBarConfiguration" managed-name="AndroidX.Navigation.UI.AppBarConfiguration, Xamarin.AndroidX.Navigation.UI" managed-type-token-id="33554440" />
+    <entry java-name="androidx/navigation/ui/AppBarConfiguration$Builder" managed-name="AndroidX.Navigation.UI.AppBarConfiguration+Builder, Xamarin.AndroidX.Navigation.UI" managed-type-token-id="33554453" />
+    <entry java-name="androidx/navigation/ui/AppBarConfiguration$OnNavigateUpListener" managed-name="AndroidX.Navigation.UI.AppBarConfiguration+IOnNavigateUpListener, Xamarin.AndroidX.Navigation.UI" skip-in-java-to-managed="True" managed-type-token-id="33554454" />
+    <entry java-name="androidx/navigation/ui/AppBarConfiguration$OnNavigateUpListener" managed-name="AndroidX.Navigation.UI.AppBarConfiguration+IOnNavigateUpListenerInvoker, Xamarin.AndroidX.Navigation.UI" managed-type-token-id="33554455" />
+    <entry java-name="mono/androidx/navigation/ui/AppBarConfiguration_OnNavigateUpListenerImplementor" managed-name="AndroidX.Navigation.UI.AppBarConfiguration+IOnNavigateUpListenerImplementor, Xamarin.AndroidX.Navigation.UI" managed-type-token-id="33554457" />
+    <entry java-name="androidx/navigation/ui/AppBarConfigurationKt" managed-name="AndroidX.Navigation.UI.AppBarConfigurationKt, Xamarin.AndroidX.Navigation.UI" managed-type-token-id="33554441" />
+    <entry java-name="androidx/navigation/ui/BottomNavigationViewKt" managed-name="AndroidX.Navigation.UI.BottomNavigationViewKt, Xamarin.AndroidX.Navigation.UI" managed-type-token-id="33554442" />
+    <entry java-name="androidx/navigation/ui/CollapsingToolbarLayoutKt" managed-name="AndroidX.Navigation.UI.CollapsingToolbarLayoutKt, Xamarin.AndroidX.Navigation.UI" managed-type-token-id="33554443" />
+    <entry java-name="androidx/navigation/ui/NavigationUiSaveStateControl" managed-name="AndroidX.Navigation.UI.INavigationUiSaveStateControl, Xamarin.AndroidX.Navigation.UI" skip-in-java-to-managed="True" managed-type-token-id="33554444" />
+    <entry java-name="androidx/navigation/ui/NavigationUiSaveStateControl" managed-name="AndroidX.Navigation.UI.INavigationUiSaveStateControlInvoker, Xamarin.AndroidX.Navigation.UI" managed-type-token-id="33554445" />
+    <entry java-name="androidx/navigation/ui/MenuItemKt" managed-name="AndroidX.Navigation.UI.MenuItemKt, Xamarin.AndroidX.Navigation.UI" managed-type-token-id="33554446" />
+    <entry java-name="androidx/navigation/ui/NavControllerKt" managed-name="AndroidX.Navigation.UI.NavControllerKt, Xamarin.AndroidX.Navigation.UI" managed-type-token-id="33554447" />
+    <entry java-name="androidx/navigation/ui/NavigationUI" managed-name="AndroidX.Navigation.UI.NavigationUI, Xamarin.AndroidX.Navigation.UI" managed-type-token-id="33554448" />
+    <entry java-name="androidx/navigation/ui/NavigationViewKt" managed-name="AndroidX.Navigation.UI.NavigationViewKt, Xamarin.AndroidX.Navigation.UI" managed-type-token-id="33554450" />
+    <entry java-name="androidx/navigation/ui/ToolbarKt" managed-name="AndroidX.Navigation.UI.ToolbarKt, Xamarin.AndroidX.Navigation.UI" managed-type-token-id="33554451" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="androidx/navigation/ui/ActivityKt" managed-name="AndroidX.Navigation.UI.ActivityKt, Xamarin.AndroidX.Navigation.UI" managed-type-token-id="33554439" />
+    <entry java-name="androidx/navigation/ui/AppBarConfiguration" managed-name="AndroidX.Navigation.UI.AppBarConfiguration, Xamarin.AndroidX.Navigation.UI" managed-type-token-id="33554440" />
+    <entry java-name="androidx/navigation/ui/AppBarConfiguration$Builder" managed-name="AndroidX.Navigation.UI.AppBarConfiguration+Builder, Xamarin.AndroidX.Navigation.UI" managed-type-token-id="33554453" />
+    <entry java-name="androidx/navigation/ui/AppBarConfiguration$OnNavigateUpListener" managed-name="AndroidX.Navigation.UI.AppBarConfiguration+IOnNavigateUpListener, Xamarin.AndroidX.Navigation.UI" skip-in-java-to-managed="True" managed-type-token-id="33554454" />
+    <entry java-name="androidx/navigation/ui/AppBarConfiguration$OnNavigateUpListener" managed-name="AndroidX.Navigation.UI.AppBarConfiguration+IOnNavigateUpListenerInvoker, Xamarin.AndroidX.Navigation.UI" managed-type-token-id="33554455" />
+    <entry java-name="mono/androidx/navigation/ui/AppBarConfiguration_OnNavigateUpListenerImplementor" managed-name="AndroidX.Navigation.UI.AppBarConfiguration+IOnNavigateUpListenerImplementor, Xamarin.AndroidX.Navigation.UI" managed-type-token-id="33554457" />
+    <entry java-name="androidx/navigation/ui/AppBarConfigurationKt" managed-name="AndroidX.Navigation.UI.AppBarConfigurationKt, Xamarin.AndroidX.Navigation.UI" managed-type-token-id="33554441" />
+    <entry java-name="androidx/navigation/ui/BottomNavigationViewKt" managed-name="AndroidX.Navigation.UI.BottomNavigationViewKt, Xamarin.AndroidX.Navigation.UI" managed-type-token-id="33554442" />
+    <entry java-name="androidx/navigation/ui/CollapsingToolbarLayoutKt" managed-name="AndroidX.Navigation.UI.CollapsingToolbarLayoutKt, Xamarin.AndroidX.Navigation.UI" managed-type-token-id="33554443" />
+    <entry java-name="androidx/navigation/ui/NavigationUiSaveStateControl" managed-name="AndroidX.Navigation.UI.INavigationUiSaveStateControl, Xamarin.AndroidX.Navigation.UI" skip-in-java-to-managed="True" managed-type-token-id="33554444" />
+    <entry java-name="androidx/navigation/ui/NavigationUiSaveStateControl" managed-name="AndroidX.Navigation.UI.INavigationUiSaveStateControlInvoker, Xamarin.AndroidX.Navigation.UI" managed-type-token-id="33554445" />
+    <entry java-name="androidx/navigation/ui/MenuItemKt" managed-name="AndroidX.Navigation.UI.MenuItemKt, Xamarin.AndroidX.Navigation.UI" managed-type-token-id="33554446" />
+    <entry java-name="androidx/navigation/ui/NavControllerKt" managed-name="AndroidX.Navigation.UI.NavControllerKt, Xamarin.AndroidX.Navigation.UI" managed-type-token-id="33554447" />
+    <entry java-name="androidx/navigation/ui/NavigationUI" managed-name="AndroidX.Navigation.UI.NavigationUI, Xamarin.AndroidX.Navigation.UI" managed-type-token-id="33554448" />
+    <entry java-name="androidx/navigation/ui/NavigationViewKt" managed-name="AndroidX.Navigation.UI.NavigationViewKt, Xamarin.AndroidX.Navigation.UI" managed-type-token-id="33554450" />
+    <entry java-name="androidx/navigation/ui/ToolbarKt" managed-name="AndroidX.Navigation.UI.ToolbarKt, Xamarin.AndroidX.Navigation.UI" managed-type-token-id="33554451" />
+  </managed-to-java>
+</api>

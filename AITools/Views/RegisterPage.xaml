@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AITools.Views.RegisterPage"
+             BackgroundColor="#F5F0EB">
+
+    <Shell.NavBarIsVisible>False</Shell.NavBarIsVisible>
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="0">
+
+            <!-- ── Page header (flat, no rounded bottom) ── -->
+            <VerticalStackLayout BackgroundColor="#F5F0EB"
+                                 Padding="20,66,20,28"
+                                 Spacing="6"
+                                 HorizontalOptions="Fill">
+                <!-- App icon -->
+                <Border BackgroundColor="#E94560"
+                        WidthRequest="60" HeightRequest="60"
+                        StrokeThickness="0"
+                        HorizontalOptions="Center">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="16"/>
+                    </Border.StrokeShape>
+                    <Label Text="✦" FontSize="28"
+                           TextColor="White"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"/>
+                </Border>
+                <!-- Page title -->
+                <Label Text="Register"
+                       FontSize="22" FontAttributes="Bold"
+                       TextColor="Black"
+                       HorizontalOptions="Center"/>
+                <Label Text="Create your AITools account"
+                       FontSize="13"
+                       TextColor="#A0A0C8"
+                       HorizontalOptions="Center"/>
+            </VerticalStackLayout>
+
+            <!-- ── Form content ── -->
+            <VerticalStackLayout Padding="28,24,28,32" Spacing="0">
+
+                <!-- Card container -->
+                <Border BackgroundColor="White" Stroke="#E8E4F0" StrokeThickness="1" Padding="24,28">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="20"/>
+                    </Border.StrokeShape>
+                    <Border.Shadow>
+                        <Shadow Brush="#20000000" Offset="0,4" Radius="16" Opacity="0.10"/>
+                    </Border.Shadow>
+
+                    <VerticalStackLayout Spacing="14">
+
+                        <!-- Username -->
+                        <VerticalStackLayout Spacing="6">
+                            <Label Text="Username" FontSize="13" FontAttributes="Bold" TextColor="#1A1A2E"/>
+                            <Border BackgroundColor="#F8F6FF" Stroke="#E0D8F8" StrokeThickness="1.5" Padding="14,0">
+                                <Border.StrokeShape>
+                                    <RoundRectangle CornerRadius="12"/>
+                                </Border.StrokeShape>
+                                <Entry x:Name="UsernameEntry" Placeholder="Input username"
+                                       PlaceholderColor="#B0A8C8" TextColor="#1A1A2E" FontSize="15"
+                                       BackgroundColor="Transparent" HeightRequest="50" ReturnType="Next"/>
+                            </Border>
+                        </VerticalStackLayout>
+
+                        <!-- Email -->
+                        <VerticalStackLayout Spacing="6">
+                            <Label Text="Email Address" FontSize="13" FontAttributes="Bold" TextColor="#1A1A2E"/>
+                            <Border BackgroundColor="#F8F6FF" Stroke="#E0D8F8" StrokeThickness="1.5" Padding="14,0">
+                                <Border.StrokeShape>
+                                    <RoundRectangle CornerRadius="12"/>
+                                </Border.StrokeShape>
+                                <Entry x:Name="EmailEntry" Placeholder="Input email address"
+                                       PlaceholderColor="#B0A8C8" TextColor="#1A1A2E" FontSize="15"
+                                       Keyboard="Email" BackgroundColor="Transparent"
+                                       HeightRequest="50" ReturnType="Next"/>
+                            </Border>
+                        </VerticalStackLayout>
+
+                        <!-- Password -->
+                        <VerticalStackLayout Spacing="6">
+                            <Label Text="Password" FontSize="13" FontAttributes="Bold" TextColor="#1A1A2E"/>
+                            <Border BackgroundColor="#F8F6FF" Stroke="#E0D8F8" StrokeThickness="1.5" Padding="14,0">
+                                <Border.StrokeShape>
+                                    <RoundRectangle CornerRadius="12"/>
+                                </Border.StrokeShape>
+                                <Entry x:Name="PasswordEntry" Placeholder="Input password"
+                                       PlaceholderColor="#B0A8C8" TextColor="#1A1A2E" FontSize="15"
+                                       IsPassword="True" BackgroundColor="Transparent"
+                                       HeightRequest="50" ReturnType="Next"/>
+                            </Border>
+                        </VerticalStackLayout>
+
+                        <!-- Confirm password -->
+                        <VerticalStackLayout Spacing="6">
+                            <Label Text="Confirm Password" FontSize="13" FontAttributes="Bold" TextColor="#1A1A2E"/>
+                            <Border BackgroundColor="#F8F6FF" Stroke="#E0D8F8" StrokeThickness="1.5" Padding="14,0">
+                                <Border.StrokeShape>
+                                    <RoundRectangle CornerRadius="12"/>
+                                </Border.StrokeShape>
+                                <Entry x:Name="ConfirmPasswordEntry" Placeholder="Confirm password"
+                                       PlaceholderColor="#B0A8C8" TextColor="#1A1A2E" FontSize="15"
+                                       IsPassword="True" BackgroundColor="Transparent"
+                                       HeightRequest="50" ReturnType="Next"/>
+                            </Border>
+                        </VerticalStackLayout>
+
+                        <!-- Verification code row -->
+                        <VerticalStackLayout Spacing="6">
+                            <Label Text="Verification Code" FontSize="13" FontAttributes="Bold" TextColor="#1A1A2E"/>
+                            <Grid ColumnDefinitions="*,Auto" ColumnSpacing="10">
+                                <Border Grid.Column="0"
+                                        BackgroundColor="#F8F6FF" Stroke="#E0D8F8" StrokeThickness="1.5" Padding="14,0">
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="12"/>
+                                    </Border.StrokeShape>
+                                    <Entry x:Name="CodeEntry" Placeholder="Input validation code"
+                                           PlaceholderColor="#B0A8C8" TextColor="#1A1A2E" FontSize="15"
+                                           Keyboard="Numeric" BackgroundColor="Transparent" HeightRequest="50"/>
+                                </Border>
+                                <!-- Send code button -->
+                                <Border Grid.Column="1" BackgroundColor="#1A1A2E"
+                                        StrokeThickness="0" WidthRequest="100">
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="12"/>
+                                    </Border.StrokeShape>
+                                    <Border.GestureRecognizers>
+                                        <TapGestureRecognizer Tapped="OnSendCodeTapped"/>
+                                    </Border.GestureRecognizers>
+                                    <Label x:Name="SendCodeLabel" Text="Send code"
+                                           FontSize="13" FontAttributes="Bold" TextColor="White"
+                                           HorizontalOptions="Center" VerticalOptions="Center"/>
+                                </Border>
+                            </Grid>
+                        </VerticalStackLayout>
+
+                        <!-- Error / success message -->
+                        <Label x:Name="ErrorLabel" Text="" FontSize="13"
+                               TextColor="#E94560" IsVisible="False" HorizontalOptions="Center"/>
+
+                        <!-- Register button -->
+                        <Border BackgroundColor="#E94560" StrokeThickness="0" Margin="0,6,0,0">
+                            <Border.StrokeShape>
+                                <RoundRectangle CornerRadius="14"/>
+                            </Border.StrokeShape>
+                            <Border.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnRegisterClicked"/>
+                            </Border.GestureRecognizers>
+                            <Label Text="Register" FontSize="16" FontAttributes="Bold"
+                                   TextColor="White" HorizontalOptions="Center" Padding="0,16"/>
+                        </Border>
+
+                    </VerticalStackLayout>
+                </Border>
+
+                <!-- Navigate to login -->
+                <Border BackgroundColor="Transparent" Stroke="#D0C8F0" StrokeThickness="1" Margin="0,14,0,0">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="12"/>
+                    </Border.StrokeShape>
+                    <Border.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnGoToLoginTapped"/>
+                    </Border.GestureRecognizers>
+                    <Label Text="Already have an account?  Login!"
+                           FontSize="14" TextColor="#4A3F8C"
+                           HorizontalOptions="Center" Padding="0,14"/>
+                </Border>
+
+            </VerticalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

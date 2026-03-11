@@ -1,0 +1,8 @@
+<api type="debug" assembly-name="Xamarin.AndroidX.Core.ViewTree" mvid="aa2f1fd43eee42cd9ef17d0db6fa93d0">
+  <java-to-managed>
+    <entry java-name="androidx/core/viewtree/ViewTree" managed-name="AndroidX.Core.ViewTree.ViewTree, Xamarin.AndroidX.Core.ViewTree" managed-type-token-id="33554435" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="androidx/core/viewtree/ViewTree" managed-name="AndroidX.Core.ViewTree.ViewTree, Xamarin.AndroidX.Core.ViewTree" managed-type-token-id="33554435" />
+  </managed-to-java>
+</api>

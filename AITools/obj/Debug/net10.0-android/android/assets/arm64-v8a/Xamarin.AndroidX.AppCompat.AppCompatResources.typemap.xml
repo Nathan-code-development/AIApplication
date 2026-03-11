@@ -1,0 +1,38 @@
+<api type="debug" assembly-name="Xamarin.AndroidX.AppCompat.AppCompatResources" mvid="aaebdb570d9141528693049d533a60bc">
+  <java-to-managed>
+    <entry java-name="androidx/appcompat/widget/DrawableUtils" managed-name="AndroidX.AppCompat.Widget.DrawableUtils, Xamarin.AndroidX.AppCompat.AppCompatResources" managed-type-token-id="33554461" />
+    <entry java-name="androidx/appcompat/widget/ResourceManagerInternal" managed-name="AndroidX.AppCompat.Widget.ResourceManagerInternal, Xamarin.AndroidX.AppCompat.AppCompatResources" managed-type-token-id="33554462" />
+    <entry java-name="androidx/appcompat/widget/ResourceManagerInternal$AsldcInflateDelegate" managed-name="AndroidX.AppCompat.Widget.ResourceManagerInternal+AsldcInflateDelegate, Xamarin.AndroidX.AppCompat.AppCompatResources" managed-type-token-id="33554475" />
+    <entry java-name="androidx/appcompat/widget/ResourceManagerInternal$ResourceManagerHooks" managed-name="AndroidX.AppCompat.Widget.ResourceManagerInternal+IResourceManagerHooks, Xamarin.AndroidX.AppCompat.AppCompatResources" skip-in-java-to-managed="True" managed-type-token-id="33554476" />
+    <entry java-name="androidx/appcompat/widget/ResourceManagerInternal$ResourceManagerHooks" managed-name="AndroidX.AppCompat.Widget.ResourceManagerInternal+IResourceManagerHooksInvoker, Xamarin.AndroidX.AppCompat.AppCompatResources" managed-type-token-id="33554477" />
+    <entry java-name="androidx/appcompat/widget/TintContextWrapper" managed-name="AndroidX.AppCompat.Widget.TintContextWrapper, Xamarin.AndroidX.AppCompat.AppCompatResources" managed-type-token-id="33554463" />
+    <entry java-name="androidx/appcompat/widget/TintInfo" managed-name="AndroidX.AppCompat.Widget.TintInfo, Xamarin.AndroidX.AppCompat.AppCompatResources" managed-type-token-id="33554464" />
+    <entry java-name="androidx/appcompat/widget/VectorEnabledTintResources" managed-name="AndroidX.AppCompat.Widget.VectorEnabledTintResources, Xamarin.AndroidX.AppCompat.AppCompatResources" managed-type-token-id="33554465" />
+    <entry java-name="androidx/appcompat/resources/Compatibility" managed-name="AndroidX.AppCompat.Resources.Compatibility, Xamarin.AndroidX.AppCompat.AppCompatResources" managed-type-token-id="33554466" />
+    <entry java-name="androidx/appcompat/content/res/AppCompatResources" managed-name="AndroidX.AppCompat.Content.Res.AppCompatResources, Xamarin.AndroidX.AppCompat.AppCompatResources" managed-type-token-id="33554467" />
+    <entry java-name="crc6439358991bbf5dbbd/DrawableContainer" managed-name="AndroidX.AppCompat.Graphics.Drawable.DrawableContainer, Xamarin.AndroidX.AppCompat.AppCompatResources" managed-type-token-id="33554468" />
+    <entry java-name="crc6439358991bbf5dbbd/DrawableWrapper" managed-name="AndroidX.AppCompat.Graphics.Drawable.DrawableWrapper, Xamarin.AndroidX.AppCompat.AppCompatResources" managed-type-token-id="33554469" />
+    <entry java-name="androidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat" managed-name="AndroidX.AppCompat.Graphics.Drawable.AnimatedStateListDrawableCompat, Xamarin.AndroidX.AppCompat.AppCompatResources" managed-type-token-id="33554470" />
+    <entry java-name="androidx/appcompat/graphics/drawable/DrawableContainerCompat" managed-name="AndroidX.AppCompat.Graphics.Drawable.DrawableContainerCompat, Xamarin.AndroidX.AppCompat.AppCompatResources" managed-type-token-id="33554471" />
+    <entry java-name="androidx/appcompat/graphics/drawable/DrawableWrapperCompat" managed-name="AndroidX.AppCompat.Graphics.Drawable.DrawableWrapperCompat, Xamarin.AndroidX.AppCompat.AppCompatResources" managed-type-token-id="33554472" />
+    <entry java-name="androidx/appcompat/graphics/drawable/StateListDrawableCompat" managed-name="AndroidX.AppCompat.Graphics.Drawable.StateListDrawableCompat, Xamarin.AndroidX.AppCompat.AppCompatResources" managed-type-token-id="33554473" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="androidx/appcompat/widget/DrawableUtils" managed-name="AndroidX.AppCompat.Widget.DrawableUtils, Xamarin.AndroidX.AppCompat.AppCompatResources" managed-type-token-id="33554461" />
+    <entry java-name="androidx/appcompat/widget/ResourceManagerInternal" managed-name="AndroidX.AppCompat.Widget.ResourceManagerInternal, Xamarin.AndroidX.AppCompat.AppCompatResources" managed-type-token-id="33554462" />
+    <entry java-name="androidx/appcompat/widget/ResourceManagerInternal$AsldcInflateDelegate" managed-name="AndroidX.AppCompat.Widget.ResourceManagerInternal+AsldcInflateDelegate, Xamarin.AndroidX.AppCompat.AppCompatResources" managed-type-token-id="33554475" />
+    <entry java-name="androidx/appcompat/widget/ResourceManagerInternal$ResourceManagerHooks" managed-name="AndroidX.AppCompat.Widget.ResourceManagerInternal+IResourceManagerHooks, Xamarin.AndroidX.AppCompat.AppCompatResources" skip-in-java-to-managed="True" managed-type-token-id="33554476" />
+    <entry java-name="androidx/appcompat/widget/ResourceManagerInternal$ResourceManagerHooks" managed-name="AndroidX.AppCompat.Widget.ResourceManagerInternal+IResourceManagerHooksInvoker, Xamarin.AndroidX.AppCompat.AppCompatResources" managed-type-token-id="33554477" />
+    <entry java-name="androidx/appcompat/widget/TintContextWrapper" managed-name="AndroidX.AppCompat.Widget.TintContextWrapper, Xamarin.AndroidX.AppCompat.AppCompatResources" managed-type-token-id="33554463" />
+    <entry java-name="androidx/appcompat/widget/TintInfo" managed-name="AndroidX.AppCompat.Widget.TintInfo, Xamarin.AndroidX.AppCompat.AppCompatResources" managed-type-token-id="33554464" />
+    <entry java-name="androidx/appcompat/widget/VectorEnabledTintResources" managed-name="AndroidX.AppCompat.Widget.VectorEnabledTintResources, Xamarin.AndroidX.AppCompat.AppCompatResources" managed-type-token-id="33554465" />
+    <entry java-name="androidx/appcompat/resources/Compatibility" managed-name="AndroidX.AppCompat.Resources.Compatibility, Xamarin.AndroidX.AppCompat.AppCompatResources" managed-type-token-id="33554466" />
+    <entry java-name="androidx/appcompat/content/res/AppCompatResources" managed-name="AndroidX.AppCompat.Content.Res.AppCompatResources, Xamarin.AndroidX.AppCompat.AppCompatResources" managed-type-token-id="33554467" />
+    <entry java-name="crc6439358991bbf5dbbd/DrawableContainer" managed-name="AndroidX.AppCompat.Graphics.Drawable.DrawableContainer, Xamarin.AndroidX.AppCompat.AppCompatResources" managed-type-token-id="33554468" />
+    <entry java-name="crc6439358991bbf5dbbd/DrawableWrapper" managed-name="AndroidX.AppCompat.Graphics.Drawable.DrawableWrapper, Xamarin.AndroidX.AppCompat.AppCompatResources" managed-type-token-id="33554469" />
+    <entry java-name="androidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat" managed-name="AndroidX.AppCompat.Graphics.Drawable.AnimatedStateListDrawableCompat, Xamarin.AndroidX.AppCompat.AppCompatResources" managed-type-token-id="33554470" />
+    <entry java-name="androidx/appcompat/graphics/drawable/DrawableContainerCompat" managed-name="AndroidX.AppCompat.Graphics.Drawable.DrawableContainerCompat, Xamarin.AndroidX.AppCompat.AppCompatResources" managed-type-token-id="33554471" />
+    <entry java-name="androidx/appcompat/graphics/drawable/DrawableWrapperCompat" managed-name="AndroidX.AppCompat.Graphics.Drawable.DrawableWrapperCompat, Xamarin.AndroidX.AppCompat.AppCompatResources" managed-type-token-id="33554472" />
+    <entry java-name="androidx/appcompat/graphics/drawable/StateListDrawableCompat" managed-name="AndroidX.AppCompat.Graphics.Drawable.StateListDrawableCompat, Xamarin.AndroidX.AppCompat.AppCompatResources" managed-type-token-id="33554473" />
+  </managed-to-java>
+</api>

@@ -1,0 +1,12 @@
+<api type="debug" assembly-name="Xamarin.AndroidX.Lifecycle.Process" mvid="f1fcb726336d490aba3a324f61cf3e3f">
+  <java-to-managed>
+    <entry java-name="androidx/lifecycle/ProcessLifecycleInitializer" managed-name="AndroidX.Lifecycle.ProcessLifecycleInitializer, Xamarin.AndroidX.Lifecycle.Process" managed-type-token-id="33554435" />
+    <entry java-name="androidx/lifecycle/ProcessLifecycleOwner" managed-name="AndroidX.Lifecycle.ProcessLifecycleOwner, Xamarin.AndroidX.Lifecycle.Process" managed-type-token-id="33554436" />
+    <entry java-name="androidx/lifecycle/ProcessLifecycleOwner$Companion" managed-name="AndroidX.Lifecycle.ProcessLifecycleOwner+Companion, Xamarin.AndroidX.Lifecycle.Process" managed-type-token-id="33554438" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="androidx/lifecycle/ProcessLifecycleInitializer" managed-name="AndroidX.Lifecycle.ProcessLifecycleInitializer, Xamarin.AndroidX.Lifecycle.Process" managed-type-token-id="33554435" />
+    <entry java-name="androidx/lifecycle/ProcessLifecycleOwner" managed-name="AndroidX.Lifecycle.ProcessLifecycleOwner, Xamarin.AndroidX.Lifecycle.Process" managed-type-token-id="33554436" />
+    <entry java-name="androidx/lifecycle/ProcessLifecycleOwner$Companion" managed-name="AndroidX.Lifecycle.ProcessLifecycleOwner+Companion, Xamarin.AndroidX.Lifecycle.Process" managed-type-token-id="33554438" />
+  </managed-to-java>
+</api>

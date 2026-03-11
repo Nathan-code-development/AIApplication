@@ -1,0 +1,21 @@
+<api>
+  <jcw-types>
+    <type name="NavController_OnDestinationChangedListenerImplementor" package="mono.androidx.navigation" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.Navigation.NavController+IOnDestinationChangedListenerImplementor, Xamarin.AndroidX.Navigation.Runtime.Android">
+      <implemented_interfaces>
+        <interface name="androidx.navigation.NavController.OnDestinationChangedListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="NavController_OnDestinationChangedListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onDestinationChanged" method="n_onDestinationChanged:(Landroidx/navigation/NavController;Landroidx/navigation/NavDestination;Landroid/os/Bundle;)V:GetOnDestinationChanged_Landroidx_navigation_NavController_Landroidx_navigation_NavDestination_Landroid_os_Bundle_Handler:AndroidX.Navigation.NavController+IOnDestinationChangedListenerInvoker, Xamarin.AndroidX.Navigation.Runtime.Android" jni_signature="(Landroidx/navigation/NavController;Landroidx/navigation/NavDestination;Landroid/os/Bundle;)V" params="androidx.navigation.NavController p0, androidx.navigation.NavDestination p1, android.os.Bundle p2" retval="void" is_dynamically_registered="True" super_call="p0, p1, p2" activate_call="p0, p1, p2" />
+      </methods>
+    </type>
+  </jcw-types>
+  <acw-types partial-assembly-name="Xamarin.AndroidX.Navigation.Runtime.Android" module-name="Xamarin.AndroidX.Navigation.Runtime.Android.dll">
+    <type assembly-qualified-name="AndroidX.Navigation.INavDeepLinkSaveStateControl, Xamarin.AndroidX.Navigation.Runtime.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.navigation.NavDeepLinkSaveStateControl" java-key="androidx.navigation.NavDeepLinkSaveStateControl" managed-key="AndroidX.Navigation.INavDeepLinkSaveStateControl" partial-assembly-qualified-name="AndroidX.Navigation.INavDeepLinkSaveStateControl, Xamarin.AndroidX.Navigation.Runtime.Android" />
+    <type assembly-qualified-name="AndroidX.Navigation.INavHost, Xamarin.AndroidX.Navigation.Runtime.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.navigation.NavHost" java-key="androidx.navigation.NavHost" managed-key="AndroidX.Navigation.INavHost" partial-assembly-qualified-name="AndroidX.Navigation.INavHost, Xamarin.AndroidX.Navigation.Runtime.Android" />
+    <type assembly-qualified-name="AndroidX.Navigation.NavController+IOnDestinationChangedListener, Xamarin.AndroidX.Navigation.Runtime.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.navigation.NavController$OnDestinationChangedListener" java-key="androidx.navigation.NavController$OnDestinationChangedListener" managed-key="AndroidX.Navigation.NavController.IOnDestinationChangedListener" partial-assembly-qualified-name="AndroidX.Navigation.NavController+IOnDestinationChangedListener, Xamarin.AndroidX.Navigation.Runtime.Android" />
+    <type assembly-qualified-name="AndroidX.Navigation.NavController+IOnDestinationChangedListenerImplementor, Xamarin.AndroidX.Navigation.Runtime.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="mono.androidx.navigation.NavController_OnDestinationChangedListenerImplementor" java-key="mono.androidx.navigation.NavController_OnDestinationChangedListenerImplementor" managed-key="AndroidX.Navigation.NavController.IOnDestinationChangedListenerImplementor" partial-assembly-qualified-name="AndroidX.Navigation.NavController+IOnDestinationChangedListenerImplementor, Xamarin.AndroidX.Navigation.Runtime.Android" />
+  </acw-types>
+</api>

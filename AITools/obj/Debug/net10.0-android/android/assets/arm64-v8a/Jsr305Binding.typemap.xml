@@ -1,0 +1,136 @@
+<api type="debug" assembly-name="Jsr305Binding" mvid="01ef5c00be91440eb0167c700b4764a8">
+  <java-to-managed>
+    <entry java-name="javax/annotation/CheckForNull" managed-name="Javax.Annotation.ICheckForNull, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554442" />
+    <entry java-name="javax/annotation/CheckForNull" managed-name="Javax.Annotation.ICheckForNullInvoker, Jsr305Binding" managed-type-token-id="33554443" />
+    <entry java-name="javax/annotation/CheckForSigned" managed-name="Javax.Annotation.ICheckForSigned, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554444" />
+    <entry java-name="javax/annotation/CheckForSigned" managed-name="Javax.Annotation.ICheckForSignedInvoker, Jsr305Binding" managed-type-token-id="33554445" />
+    <entry java-name="javax/annotation/CheckReturnValue" managed-name="Javax.Annotation.ICheckReturnValue, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554446" />
+    <entry java-name="javax/annotation/CheckReturnValue" managed-name="Javax.Annotation.ICheckReturnValueInvoker, Jsr305Binding" managed-type-token-id="33554447" />
+    <entry java-name="javax/annotation/Detainted" managed-name="Javax.Annotation.IDetainted, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554448" />
+    <entry java-name="javax/annotation/Detainted" managed-name="Javax.Annotation.IDetaintedInvoker, Jsr305Binding" managed-type-token-id="33554449" />
+    <entry java-name="javax/annotation/MatchesPattern$Checker" managed-name="Javax.Annotation.MatchesPatternChecker, Jsr305Binding" managed-type-token-id="33554450" />
+    <entry java-name="javax/annotation/MatchesPattern" managed-name="Javax.Annotation.IMatchesPattern, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554451" />
+    <entry java-name="javax/annotation/MatchesPattern" managed-name="Javax.Annotation.IMatchesPatternInvoker, Jsr305Binding" managed-type-token-id="33554452" />
+    <entry java-name="javax/annotation/Nonnegative$Checker" managed-name="Javax.Annotation.NonnegativeChecker, Jsr305Binding" managed-type-token-id="33554453" />
+    <entry java-name="javax/annotation/Nonnegative" managed-name="Javax.Annotation.INonnegative, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554454" />
+    <entry java-name="javax/annotation/Nonnegative" managed-name="Javax.Annotation.INonnegativeInvoker, Jsr305Binding" managed-type-token-id="33554455" />
+    <entry java-name="javax/annotation/Nonnull$Checker" managed-name="Javax.Annotation.NonnullChecker, Jsr305Binding" managed-type-token-id="33554456" />
+    <entry java-name="javax/annotation/Nonnull" managed-name="Javax.Annotation.INonnull, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554457" />
+    <entry java-name="javax/annotation/Nonnull" managed-name="Javax.Annotation.INonnullInvoker, Jsr305Binding" managed-type-token-id="33554458" />
+    <entry java-name="javax/annotation/Nullable" managed-name="Javax.Annotation.INullable, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554459" />
+    <entry java-name="javax/annotation/Nullable" managed-name="Javax.Annotation.INullableInvoker, Jsr305Binding" managed-type-token-id="33554460" />
+    <entry java-name="javax/annotation/OverridingMethodsMustInvokeSuper" managed-name="Javax.Annotation.IOverridingMethodsMustInvokeSuper, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554461" />
+    <entry java-name="javax/annotation/OverridingMethodsMustInvokeSuper" managed-name="Javax.Annotation.IOverridingMethodsMustInvokeSuperInvoker, Jsr305Binding" managed-type-token-id="33554462" />
+    <entry java-name="javax/annotation/ParametersAreNonnullByDefault" managed-name="Javax.Annotation.IParametersAreNonnullByDefault, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554463" />
+    <entry java-name="javax/annotation/ParametersAreNonnullByDefault" managed-name="Javax.Annotation.IParametersAreNonnullByDefaultInvoker, Jsr305Binding" managed-type-token-id="33554464" />
+    <entry java-name="javax/annotation/ParametersAreNullableByDefault" managed-name="Javax.Annotation.IParametersAreNullableByDefault, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554465" />
+    <entry java-name="javax/annotation/ParametersAreNullableByDefault" managed-name="Javax.Annotation.IParametersAreNullableByDefaultInvoker, Jsr305Binding" managed-type-token-id="33554466" />
+    <entry java-name="javax/annotation/PropertyKey" managed-name="Javax.Annotation.IPropertyKey, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554467" />
+    <entry java-name="javax/annotation/PropertyKey" managed-name="Javax.Annotation.IPropertyKeyInvoker, Jsr305Binding" managed-type-token-id="33554468" />
+    <entry java-name="javax/annotation/RegEx$Checker" managed-name="Javax.Annotation.RegExChecker, Jsr305Binding" managed-type-token-id="33554469" />
+    <entry java-name="javax/annotation/RegEx" managed-name="Javax.Annotation.IRegEx, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554470" />
+    <entry java-name="javax/annotation/RegEx" managed-name="Javax.Annotation.IRegExInvoker, Jsr305Binding" managed-type-token-id="33554471" />
+    <entry java-name="javax/annotation/Signed" managed-name="Javax.Annotation.ISigned, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554472" />
+    <entry java-name="javax/annotation/Signed" managed-name="Javax.Annotation.ISignedInvoker, Jsr305Binding" managed-type-token-id="33554473" />
+    <entry java-name="javax/annotation/Syntax" managed-name="Javax.Annotation.ISyntax, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554474" />
+    <entry java-name="javax/annotation/Syntax" managed-name="Javax.Annotation.ISyntaxInvoker, Jsr305Binding" managed-type-token-id="33554475" />
+    <entry java-name="javax/annotation/Tainted" managed-name="Javax.Annotation.ITainted, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554476" />
+    <entry java-name="javax/annotation/Tainted" managed-name="Javax.Annotation.ITaintedInvoker, Jsr305Binding" managed-type-token-id="33554477" />
+    <entry java-name="javax/annotation/Untainted" managed-name="Javax.Annotation.IUntainted, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554478" />
+    <entry java-name="javax/annotation/Untainted" managed-name="Javax.Annotation.IUntaintedInvoker, Jsr305Binding" managed-type-token-id="33554479" />
+    <entry java-name="javax/annotation/WillClose" managed-name="Javax.Annotation.IWillClose, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554480" />
+    <entry java-name="javax/annotation/WillClose" managed-name="Javax.Annotation.IWillCloseInvoker, Jsr305Binding" managed-type-token-id="33554481" />
+    <entry java-name="javax/annotation/WillCloseWhenClosed" managed-name="Javax.Annotation.IWillCloseWhenClosed, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554482" />
+    <entry java-name="javax/annotation/WillCloseWhenClosed" managed-name="Javax.Annotation.IWillCloseWhenClosedInvoker, Jsr305Binding" managed-type-token-id="33554483" />
+    <entry java-name="javax/annotation/WillNotClose" managed-name="Javax.Annotation.IWillNotClose, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554484" />
+    <entry java-name="javax/annotation/WillNotClose" managed-name="Javax.Annotation.IWillNotCloseInvoker, Jsr305Binding" managed-type-token-id="33554485" />
+    <entry java-name="javax/annotation/meta/Exclusive" managed-name="Javax.Annotation.Meta.IExclusive, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554504" />
+    <entry java-name="javax/annotation/meta/Exclusive" managed-name="Javax.Annotation.Meta.IExclusiveInvoker, Jsr305Binding" managed-type-token-id="33554505" />
+    <entry java-name="javax/annotation/meta/Exhaustive" managed-name="Javax.Annotation.Meta.IExhaustive, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554506" />
+    <entry java-name="javax/annotation/meta/Exhaustive" managed-name="Javax.Annotation.Meta.IExhaustiveInvoker, Jsr305Binding" managed-type-token-id="33554507" />
+    <entry java-name="javax/annotation/meta/TypeQualifier" managed-name="Javax.Annotation.Meta.ITypeQualifier, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554508" />
+    <entry java-name="javax/annotation/meta/TypeQualifier" managed-name="Javax.Annotation.Meta.ITypeQualifierInvoker, Jsr305Binding" managed-type-token-id="33554509" />
+    <entry java-name="javax/annotation/meta/TypeQualifierDefault" managed-name="Javax.Annotation.Meta.ITypeQualifierDefault, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554510" />
+    <entry java-name="javax/annotation/meta/TypeQualifierDefault" managed-name="Javax.Annotation.Meta.ITypeQualifierDefaultInvoker, Jsr305Binding" managed-type-token-id="33554511" />
+    <entry java-name="javax/annotation/meta/TypeQualifierNickname" managed-name="Javax.Annotation.Meta.ITypeQualifierNickname, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554512" />
+    <entry java-name="javax/annotation/meta/TypeQualifierNickname" managed-name="Javax.Annotation.Meta.ITypeQualifierNicknameInvoker, Jsr305Binding" managed-type-token-id="33554513" />
+    <entry java-name="javax/annotation/meta/TypeQualifierValidator" managed-name="Javax.Annotation.Meta.ITypeQualifierValidator, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554514" />
+    <entry java-name="javax/annotation/meta/TypeQualifierValidator" managed-name="Javax.Annotation.Meta.ITypeQualifierValidatorInvoker, Jsr305Binding" managed-type-token-id="33554515" />
+    <entry java-name="javax/annotation/meta/When" managed-name="Javax.Annotation.Meta.When, Jsr305Binding" managed-type-token-id="33554519" />
+    <entry java-name="javax/annotation/concurrent/GuardedBy" managed-name="Javax.Annotation.Concurrent.IGuardedBy, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554521" />
+    <entry java-name="javax/annotation/concurrent/GuardedBy" managed-name="Javax.Annotation.Concurrent.IGuardedByInvoker, Jsr305Binding" managed-type-token-id="33554522" />
+    <entry java-name="javax/annotation/concurrent/Immutable" managed-name="Javax.Annotation.Concurrent.IImmutable, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554523" />
+    <entry java-name="javax/annotation/concurrent/Immutable" managed-name="Javax.Annotation.Concurrent.IImmutableInvoker, Jsr305Binding" managed-type-token-id="33554524" />
+    <entry java-name="javax/annotation/concurrent/NotThreadSafe" managed-name="Javax.Annotation.Concurrent.INotThreadSafe, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554526" />
+    <entry java-name="javax/annotation/concurrent/NotThreadSafe" managed-name="Javax.Annotation.Concurrent.INotThreadSafeInvoker, Jsr305Binding" managed-type-token-id="33554527" />
+    <entry java-name="javax/annotation/concurrent/ThreadSafe" managed-name="Javax.Annotation.Concurrent.IThreadSafe, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554528" />
+    <entry java-name="javax/annotation/concurrent/ThreadSafe" managed-name="Javax.Annotation.Concurrent.IThreadSafeInvoker, Jsr305Binding" managed-type-token-id="33554529" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="javax/annotation/CheckForNull" managed-name="Javax.Annotation.ICheckForNull, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554442" />
+    <entry java-name="javax/annotation/CheckForNull" managed-name="Javax.Annotation.ICheckForNullInvoker, Jsr305Binding" managed-type-token-id="33554443" />
+    <entry java-name="javax/annotation/CheckForSigned" managed-name="Javax.Annotation.ICheckForSigned, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554444" />
+    <entry java-name="javax/annotation/CheckForSigned" managed-name="Javax.Annotation.ICheckForSignedInvoker, Jsr305Binding" managed-type-token-id="33554445" />
+    <entry java-name="javax/annotation/CheckReturnValue" managed-name="Javax.Annotation.ICheckReturnValue, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554446" />
+    <entry java-name="javax/annotation/CheckReturnValue" managed-name="Javax.Annotation.ICheckReturnValueInvoker, Jsr305Binding" managed-type-token-id="33554447" />
+    <entry java-name="javax/annotation/Detainted" managed-name="Javax.Annotation.IDetainted, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554448" />
+    <entry java-name="javax/annotation/Detainted" managed-name="Javax.Annotation.IDetaintedInvoker, Jsr305Binding" managed-type-token-id="33554449" />
+    <entry java-name="javax/annotation/MatchesPattern$Checker" managed-name="Javax.Annotation.MatchesPatternChecker, Jsr305Binding" managed-type-token-id="33554450" />
+    <entry java-name="javax/annotation/MatchesPattern" managed-name="Javax.Annotation.IMatchesPattern, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554451" />
+    <entry java-name="javax/annotation/MatchesPattern" managed-name="Javax.Annotation.IMatchesPatternInvoker, Jsr305Binding" managed-type-token-id="33554452" />
+    <entry java-name="javax/annotation/Nonnegative$Checker" managed-name="Javax.Annotation.NonnegativeChecker, Jsr305Binding" managed-type-token-id="33554453" />
+    <entry java-name="javax/annotation/Nonnegative" managed-name="Javax.Annotation.INonnegative, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554454" />
+    <entry java-name="javax/annotation/Nonnegative" managed-name="Javax.Annotation.INonnegativeInvoker, Jsr305Binding" managed-type-token-id="33554455" />
+    <entry java-name="javax/annotation/Nonnull$Checker" managed-name="Javax.Annotation.NonnullChecker, Jsr305Binding" managed-type-token-id="33554456" />
+    <entry java-name="javax/annotation/Nonnull" managed-name="Javax.Annotation.INonnull, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554457" />
+    <entry java-name="javax/annotation/Nonnull" managed-name="Javax.Annotation.INonnullInvoker, Jsr305Binding" managed-type-token-id="33554458" />
+    <entry java-name="javax/annotation/Nullable" managed-name="Javax.Annotation.INullable, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554459" />
+    <entry java-name="javax/annotation/Nullable" managed-name="Javax.Annotation.INullableInvoker, Jsr305Binding" managed-type-token-id="33554460" />
+    <entry java-name="javax/annotation/OverridingMethodsMustInvokeSuper" managed-name="Javax.Annotation.IOverridingMethodsMustInvokeSuper, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554461" />
+    <entry java-name="javax/annotation/OverridingMethodsMustInvokeSuper" managed-name="Javax.Annotation.IOverridingMethodsMustInvokeSuperInvoker, Jsr305Binding" managed-type-token-id="33554462" />
+    <entry java-name="javax/annotation/ParametersAreNonnullByDefault" managed-name="Javax.Annotation.IParametersAreNonnullByDefault, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554463" />
+    <entry java-name="javax/annotation/ParametersAreNonnullByDefault" managed-name="Javax.Annotation.IParametersAreNonnullByDefaultInvoker, Jsr305Binding" managed-type-token-id="33554464" />
+    <entry java-name="javax/annotation/ParametersAreNullableByDefault" managed-name="Javax.Annotation.IParametersAreNullableByDefault, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554465" />
+    <entry java-name="javax/annotation/ParametersAreNullableByDefault" managed-name="Javax.Annotation.IParametersAreNullableByDefaultInvoker, Jsr305Binding" managed-type-token-id="33554466" />
+    <entry java-name="javax/annotation/PropertyKey" managed-name="Javax.Annotation.IPropertyKey, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554467" />
+    <entry java-name="javax/annotation/PropertyKey" managed-name="Javax.Annotation.IPropertyKeyInvoker, Jsr305Binding" managed-type-token-id="33554468" />
+    <entry java-name="javax/annotation/RegEx$Checker" managed-name="Javax.Annotation.RegExChecker, Jsr305Binding" managed-type-token-id="33554469" />
+    <entry java-name="javax/annotation/RegEx" managed-name="Javax.Annotation.IRegEx, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554470" />
+    <entry java-name="javax/annotation/RegEx" managed-name="Javax.Annotation.IRegExInvoker, Jsr305Binding" managed-type-token-id="33554471" />
+    <entry java-name="javax/annotation/Signed" managed-name="Javax.Annotation.ISigned, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554472" />
+    <entry java-name="javax/annotation/Signed" managed-name="Javax.Annotation.ISignedInvoker, Jsr305Binding" managed-type-token-id="33554473" />
+    <entry java-name="javax/annotation/Syntax" managed-name="Javax.Annotation.ISyntax, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554474" />
+    <entry java-name="javax/annotation/Syntax" managed-name="Javax.Annotation.ISyntaxInvoker, Jsr305Binding" managed-type-token-id="33554475" />
+    <entry java-name="javax/annotation/Tainted" managed-name="Javax.Annotation.ITainted, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554476" />
+    <entry java-name="javax/annotation/Tainted" managed-name="Javax.Annotation.ITaintedInvoker, Jsr305Binding" managed-type-token-id="33554477" />
+    <entry java-name="javax/annotation/Untainted" managed-name="Javax.Annotation.IUntainted, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554478" />
+    <entry java-name="javax/annotation/Untainted" managed-name="Javax.Annotation.IUntaintedInvoker, Jsr305Binding" managed-type-token-id="33554479" />
+    <entry java-name="javax/annotation/WillClose" managed-name="Javax.Annotation.IWillClose, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554480" />
+    <entry java-name="javax/annotation/WillClose" managed-name="Javax.Annotation.IWillCloseInvoker, Jsr305Binding" managed-type-token-id="33554481" />
+    <entry java-name="javax/annotation/WillCloseWhenClosed" managed-name="Javax.Annotation.IWillCloseWhenClosed, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554482" />
+    <entry java-name="javax/annotation/WillCloseWhenClosed" managed-name="Javax.Annotation.IWillCloseWhenClosedInvoker, Jsr305Binding" managed-type-token-id="33554483" />
+    <entry java-name="javax/annotation/WillNotClose" managed-name="Javax.Annotation.IWillNotClose, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554484" />
+    <entry java-name="javax/annotation/WillNotClose" managed-name="Javax.Annotation.IWillNotCloseInvoker, Jsr305Binding" managed-type-token-id="33554485" />
+    <entry java-name="javax/annotation/meta/Exclusive" managed-name="Javax.Annotation.Meta.IExclusive, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554504" />
+    <entry java-name="javax/annotation/meta/Exclusive" managed-name="Javax.Annotation.Meta.IExclusiveInvoker, Jsr305Binding" managed-type-token-id="33554505" />
+    <entry java-name="javax/annotation/meta/Exhaustive" managed-name="Javax.Annotation.Meta.IExhaustive, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554506" />
+    <entry java-name="javax/annotation/meta/Exhaustive" managed-name="Javax.Annotation.Meta.IExhaustiveInvoker, Jsr305Binding" managed-type-token-id="33554507" />
+    <entry java-name="javax/annotation/meta/TypeQualifier" managed-name="Javax.Annotation.Meta.ITypeQualifier, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554508" />
+    <entry java-name="javax/annotation/meta/TypeQualifier" managed-name="Javax.Annotation.Meta.ITypeQualifierInvoker, Jsr305Binding" managed-type-token-id="33554509" />
+    <entry java-name="javax/annotation/meta/TypeQualifierDefault" managed-name="Javax.Annotation.Meta.ITypeQualifierDefault, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554510" />
+    <entry java-name="javax/annotation/meta/TypeQualifierDefault" managed-name="Javax.Annotation.Meta.ITypeQualifierDefaultInvoker, Jsr305Binding" managed-type-token-id="33554511" />
+    <entry java-name="javax/annotation/meta/TypeQualifierNickname" managed-name="Javax.Annotation.Meta.ITypeQualifierNickname, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554512" />
+    <entry java-name="javax/annotation/meta/TypeQualifierNickname" managed-name="Javax.Annotation.Meta.ITypeQualifierNicknameInvoker, Jsr305Binding" managed-type-token-id="33554513" />
+    <entry java-name="javax/annotation/meta/TypeQualifierValidator" managed-name="Javax.Annotation.Meta.ITypeQualifierValidator, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554514" />
+    <entry java-name="javax/annotation/meta/TypeQualifierValidator" managed-name="Javax.Annotation.Meta.ITypeQualifierValidatorInvoker, Jsr305Binding" managed-type-token-id="33554515" />
+    <entry java-name="javax/annotation/meta/When" managed-name="Javax.Annotation.Meta.When, Jsr305Binding" managed-type-token-id="33554519" />
+    <entry java-name="javax/annotation/concurrent/GuardedBy" managed-name="Javax.Annotation.Concurrent.IGuardedBy, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554521" />
+    <entry java-name="javax/annotation/concurrent/GuardedBy" managed-name="Javax.Annotation.Concurrent.IGuardedByInvoker, Jsr305Binding" managed-type-token-id="33554522" />
+    <entry java-name="javax/annotation/concurrent/Immutable" managed-name="Javax.Annotation.Concurrent.IImmutable, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554523" />
+    <entry java-name="javax/annotation/concurrent/Immutable" managed-name="Javax.Annotation.Concurrent.IImmutableInvoker, Jsr305Binding" managed-type-token-id="33554524" />
+    <entry java-name="javax/annotation/concurrent/NotThreadSafe" managed-name="Javax.Annotation.Concurrent.INotThreadSafe, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554526" />
+    <entry java-name="javax/annotation/concurrent/NotThreadSafe" managed-name="Javax.Annotation.Concurrent.INotThreadSafeInvoker, Jsr305Binding" managed-type-token-id="33554527" />
+    <entry java-name="javax/annotation/concurrent/ThreadSafe" managed-name="Javax.Annotation.Concurrent.IThreadSafe, Jsr305Binding" skip-in-java-to-managed="True" managed-type-token-id="33554528" />
+    <entry java-name="javax/annotation/concurrent/ThreadSafe" managed-name="Javax.Annotation.Concurrent.IThreadSafeInvoker, Jsr305Binding" managed-type-token-id="33554529" />
+  </managed-to-java>
+</api>

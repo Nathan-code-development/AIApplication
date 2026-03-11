@@ -1,0 +1,16 @@
+<api type="debug" assembly-name="Xamarin.AndroidX.Interpolator" mvid="f905d111db7e4cc3b5640af2298866d2">
+  <java-to-managed>
+    <entry java-name="androidx/interpolator/view/animation/FastOutLinearInInterpolator" managed-name="AndroidX.Interpolator.View.Animation.FastOutLinearInInterpolator, Xamarin.AndroidX.Interpolator" managed-type-token-id="33554436" />
+    <entry java-name="androidx/interpolator/view/animation/FastOutSlowInInterpolator" managed-name="AndroidX.Interpolator.View.Animation.FastOutSlowInInterpolator, Xamarin.AndroidX.Interpolator" managed-type-token-id="33554437" />
+    <entry java-name="androidx/interpolator/view/animation/LinearOutSlowInInterpolator" managed-name="AndroidX.Interpolator.View.Animation.LinearOutSlowInInterpolator, Xamarin.AndroidX.Interpolator" managed-type-token-id="33554438" />
+    <entry java-name="androidx/interpolator/view/animation/LookupTableInterpolator" managed-name="AndroidX.Interpolator.View.Animation.LookupTableInterpolator, Xamarin.AndroidX.Interpolator" managed-type-token-id="33554439" />
+    <entry java-name="androidx/interpolator/view/animation/LookupTableInterpolator" managed-name="AndroidX.Interpolator.View.Animation.LookupTableInterpolatorInvoker, Xamarin.AndroidX.Interpolator" managed-type-token-id="33554440" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="androidx/interpolator/view/animation/FastOutLinearInInterpolator" managed-name="AndroidX.Interpolator.View.Animation.FastOutLinearInInterpolator, Xamarin.AndroidX.Interpolator" managed-type-token-id="33554436" />
+    <entry java-name="androidx/interpolator/view/animation/FastOutSlowInInterpolator" managed-name="AndroidX.Interpolator.View.Animation.FastOutSlowInInterpolator, Xamarin.AndroidX.Interpolator" managed-type-token-id="33554437" />
+    <entry java-name="androidx/interpolator/view/animation/LinearOutSlowInInterpolator" managed-name="AndroidX.Interpolator.View.Animation.LinearOutSlowInInterpolator, Xamarin.AndroidX.Interpolator" managed-type-token-id="33554438" />
+    <entry java-name="androidx/interpolator/view/animation/LookupTableInterpolator" managed-name="AndroidX.Interpolator.View.Animation.LookupTableInterpolator, Xamarin.AndroidX.Interpolator" managed-type-token-id="33554439" />
+    <entry java-name="androidx/interpolator/view/animation/LookupTableInterpolator" managed-name="AndroidX.Interpolator.View.Animation.LookupTableInterpolatorInvoker, Xamarin.AndroidX.Interpolator" managed-type-token-id="33554440" />
+  </managed-to-java>
+</api>

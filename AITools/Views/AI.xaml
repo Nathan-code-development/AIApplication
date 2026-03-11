@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AITools.Views.AI"
+             Title="AI"
+             BackgroundColor="#F5F0EB">
+
+    <Shell.NavBarIsVisible>False</Shell.NavBarIsVisible>
+
+    <Grid RowDefinitions="Auto,*,Auto">
+
+        <!-- HEADER -->
+        <Border Grid.Row="0"
+                BackgroundColor="#1A1A2E"
+                StrokeThickness="0"
+                Padding="20,16,20,18">
+            <Border.StrokeShape>
+                <RoundRectangle />
+            </Border.StrokeShape>
+            <Grid ColumnDefinitions="Auto,*,Auto">
+
+                <Border Grid.Column="0"
+                        BackgroundColor="#E94560"
+                        WidthRequest="42" HeightRequest="42"
+                        StrokeThickness="0" VerticalOptions="Center">
+                    <Border.StrokeShape>
+                        <Ellipse/>
+                    </Border.StrokeShape>
+                    <Label Text="AI" FontSize="14" FontAttributes="Bold"
+                           TextColor="White"
+                           HorizontalOptions="Center" VerticalOptions="Center"/>
+                </Border>
+
+                <VerticalStackLayout Grid.Column="1" Margin="12,0,0,0" VerticalOptions="Center">
+                    <Label Text="AI Chatbox" FontSize="18" FontAttributes="Bold" TextColor="White"/>
+                    <HorizontalStackLayout Spacing="5">
+                        <Ellipse Fill="#4CAF50" WidthRequest="7" HeightRequest="7" VerticalOptions="Center"/>
+                        <Label Text="online" FontSize="12" TextColor="#A0A0C0"/>
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+
+                <Label Grid.Column="2" Text="⋮" FontSize="24" TextColor="White" VerticalOptions="Center"/>
+            </Grid>
+        </Border>
+
+        <!-- CHAT MESSAGE LIST -->
+        <ScrollView Grid.Row="1" x:Name="ChatScrollView">
+            <VerticalStackLayout x:Name="MessageContainer" Padding="16,20" Spacing="16">
+
+                <!-- AI Welcome Bubble (Static) -->
+                <Grid ColumnDefinitions="44,*,44" ColumnSpacing="10">
+                    <Border Grid.Column="0"
+                            BackgroundColor="#1A1A2E"
+                            WidthRequest="40" HeightRequest="40"
+                            StrokeThickness="0" VerticalOptions="Start">
+                        <Border.StrokeShape>
+                            <Ellipse/>
+                        </Border.StrokeShape>
+                        <Label Text="AI" FontSize="11" FontAttributes="Bold"
+                               TextColor="White"
+                               HorizontalOptions="Center" VerticalOptions="Center"/>
+                    </Border>
+
+                    <VerticalStackLayout Grid.Column="1" Spacing="6">
+                        <Label Text="AI Assistant" FontSize="12" TextColor="#8888A0" Margin="4,0,0,0"/>
+                        <Border BackgroundColor="White" Stroke="#E8E4F0"
+                                StrokeThickness="1" Padding="14,12">
+                            <Border.StrokeShape>
+                                <RoundRectangle CornerRadius="4,18,18,18"/>
+                            </Border.StrokeShape>
+                            <Border.Shadow>
+                                <Shadow Brush="#20000000" Offset="0,2" Radius="8" Opacity="0.12"/>
+                            </Border.Shadow>
+                            <Label TextColor="#1A1A2E" FontSize="15" LineHeight="1.5">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="Hi！I'm AI，" FontAttributes="Bold"/>
+                                        <Span Text="It's my pleasure to serve you."/>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </Border>
+                    </VerticalStackLayout>
+                </Grid>
+
+                <!-- It is suggested that the card area be dynamically managed by C# code. -->
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <!-- INPUT BAR -->
+        <Border Grid.Row="2"
+                BackgroundColor="White"
+                Stroke="#E8E4F0"
+                StrokeThickness="1"
+                Padding="12,10"
+                Margin="12,0,12,8">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="28"/>
+            </Border.StrokeShape>
+            <Border.Shadow>
+                <Shadow Brush="#20000000" Offset="0,-2" Radius="12" Opacity="0.08"/>
+            </Border.Shadow>
+
+            <Grid ColumnDefinitions="*,Auto" ColumnSpacing="8">
+                <Entry x:Name="MessageEntry"
+                       Grid.Column="0"
+                       Placeholder="input message..."
+                       PlaceholderColor="#B0A8C8"
+                       TextColor="#1A1A2E"
+                       FontSize="15"
+                       BackgroundColor="Transparent"
+                       VerticalOptions="Center"
+                       Completed="OnSendClicked"/>
+
+                <!-- x:Name Used in the code to control the appearance of the disabled state -->
+                <Border x:Name="SendButton"
+                        Grid.Column="1"
+                        BackgroundColor="#1A1A2E"
+                        WidthRequest="44" HeightRequest="44"
+                        StrokeThickness="0">
+                    <Border.StrokeShape>
+                        <Ellipse/>
+                    </Border.StrokeShape>
+                    <Border.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnSendClicked"/>
+                    </Border.GestureRecognizers>
+                    <Label x:Name="SendIcon"
+                           Text="➤"
+                           FontSize="18"
+                           TextColor="White"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"/>
+                </Border>
+            </Grid>
+        </Border>
+
+    </Grid>
+</ContentPage>
