@@ -48,7 +48,9 @@
         <!-- Model block grid (two columns) -->
         <CollectionView x:Name="ModelsCollectionView"
                         Grid.Row="1"
-                        Margin="20,60,20,10">
+                        Margin="20,60,20,10"
+                        SelectionMode="Single"
+                        SelectionChanged="OnModelSelected">
             <CollectionView.ItemsLayout>
                 <GridItemsLayout Span="2"
                                  Orientation="Vertical"
