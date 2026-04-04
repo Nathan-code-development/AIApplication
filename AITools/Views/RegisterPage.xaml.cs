@@ -1,82 +1,94 @@
-using Microsoft.Maui.Controls;
+using AITools.Services;
 
 namespace AITools.Views;
 
 public partial class RegisterPage : ContentPage
 {
-    // Simulated verification code (in production, generated and sent by backend)
-    private string _generatedCode = string.Empty;
-    private bool _codeSent = false;
-    private int _countdown = 0;
-    private IDispatcherTimer? _timer;   // Use MAUI IDispatcherTimer — compatible with Android/iOS/Windows
+    // ── Services ──────────────────────────────────────────────
+    private readonly AuthService _auth = new();
+    private readonly EmailCodeService _emailSvc = new();
+
+    // ── State flags ───────────────────────────────────────────
+    private bool _isRegistering = false;   // Prevent double-tap on Register button
+    private bool _isSendingCode = false;   // Prevent double-tap on Send Code button
+    private bool _codeSent = false;   // True once server confirms code was sent
+
+    // Countdown cancellation — cancelled if user somehow taps Send again
+    private CancellationTokenSource? _countdownCts;
 
     public RegisterPage()
     {
         InitializeComponent();
     }
 
-    // ── Send verification code ──
+    // ─────────────────────────────────────────────────────────
+    //  Send Verification Code
+    //  Calls: POST /api/v1/email/send-code  { email }
+    //  On success: starts a 60-second countdown on SendCodeLabel
+    // ─────────────────────────────────────────────────────────
     private async void OnSendCodeTapped(object sender, TappedEventArgs e)
     {
-        if (_countdown > 0) return; // Prevent re-sending during countdown
+        if (_isSendingCode) return;
 
-        string email = EmailEntry.Text?.Trim() ?? string.Empty;
-        if (string.IsNullOrEmpty(email) || !email.Contains('@'))
+        var email = EmailEntry.Text?.Trim() ?? string.Empty;
+
+        // Validate email format before hitting the network
+        if (string.IsNullOrEmpty(email) || !email.Contains('@') || !email.Contains('.'))
         {
             ShowError("Please enter a valid email address first.");
             return;
         }
 
-        // Generate a 6-digit simulated verification code
-        _generatedCode = new Random().Next(100000, 999999).ToString();
-        _codeSent = true;
+        _isSendingCode = true;
+        SendCodeLabel.Text = "Sending…";
+        HideError();
 
-        // In production, replace this with a real email-sending API call
-        await DisplayAlertAsync("Verification Code (Demo)",
-            $"Your code is: {_generatedCode}\n(In production this would be sent to {email})",
-            "OK");
+        var (success, error) = await _emailSvc.SendCodeAsync(email);
 
-        // Start a 60-second countdown
-        _countdown = 60;
-        StartCountdown();
-    }
+        _isSendingCode = false;
 
-    // ── Countdown timer using MAUI IDispatcherTimer (UI-thread safe) ──
-    private void StartCountdown()
-    {
-        _timer = Application.Current!.Dispatcher.CreateTimer();
-        _timer.Interval = TimeSpan.FromSeconds(1);
-        _timer.Tick += (s, e) =>
+        if (!success)
         {
-            _countdown--;
-            if (_countdown > 0)
-            {
-                SendCodeLabel.Text = $"{_countdown}s";
-            }
-            else
-            {
-                SendCodeLabel.Text = "Send code";
-                _timer?.Stop();
-                _timer = null;
-            }
-        };
-        _timer.Start();
+            SendCodeLabel.Text = "Send code";   // Reset button text on failure
+            ShowError(TranslateMsg(error));
+            return;
+        }
+
+        // ── Code dispatched — start countdown ──
+        _codeSent = true;
+        ShowSuccess("Code sent! Please check your inbox.");
+        StartCountdown(60);
     }
 
-    // ── Register ──
+    // ─────────────────────────────────────────────────────────
+    //  Register
+    //  Flow:
+    //    1. Local field validation (no network)
+    //    2. POST /api/v1/email/verify-code  { email, code }
+    //    3. Generate userId client-side  ("UID" + 10 random digits)
+    //    4. POST /Users/insertUser
+    //         { userId, username, email, passwordHash,
+    //           avatarUrl, lastLoginAt, createdAt }
+    // ─────────────────────────────────────────────────────────
     private async void OnRegisterClicked(object sender, EventArgs e)
     {
-        string username = UsernameEntry.Text?.Trim() ?? string.Empty;
-        string email = EmailEntry.Text?.Trim() ?? string.Empty;
-        string password = PasswordEntry.Text?.Trim() ?? string.Empty;
-        string confirm = ConfirmPasswordEntry.Text?.Trim() ?? string.Empty;
-        string code = CodeEntry.Text?.Trim() ?? string.Empty;
+        if (_isRegistering) return;
 
-        // ── Validation ──
+        // Read all fields
+        var username = UsernameEntry.Text?.Trim() ?? string.Empty;
+        var email = EmailEntry.Text?.Trim() ?? string.Empty;
+        var password = PasswordEntry.Text?.Trim() ?? string.Empty;
+        var confirm = ConfirmPasswordEntry.Text?.Trim() ?? string.Empty;
+        var code = CodeEntry.Text?.Trim() ?? string.Empty;
+
+        // ── Local validation ──────────────────────────────────
         if (string.IsNullOrEmpty(username))
         { ShowError("Username cannot be empty."); return; }
 
-        if (string.IsNullOrEmpty(email) || !email.Contains('@'))
+        if (username.Length < 3 || username.Length > 20)
+        { ShowError("Username must be 3–20 characters."); return; }
+
+        if (string.IsNullOrEmpty(email) || !email.Contains('@') || !email.Contains('.'))
         { ShowError("Please enter a valid email address."); return; }
 
         if (password.Length < 6)
@@ -86,42 +98,121 @@ public partial class RegisterPage : ContentPage
         { ShowError("Passwords do not match."); return; }
 
         if (!_codeSent)
-        { ShowError("Please send the verification code first."); return; }
+        { ShowError("Please send the verification code to your email first."); return; }
 
-        if (code != _generatedCode)
-        { ShowError("Incorrect verification code."); return; }
+        if (code.Length != 6)
+        { ShowError("Please enter the 6-digit verification code."); return; }
 
-        // ── Save account locally (replace with backend registration API in production) ──
-        Preferences.Set("registered_username", username);
-        Preferences.Set("registered_password", password);
-        Preferences.Set("registered_email", email);
+        SetRegistering(true);
+        HideError();
 
-        _timer?.Stop();
+        // ── Step 1: Verify code against backend Redis store ───
+        var (codeOk, codeErr) = await _emailSvc.VerifyCodeAsync(email, code);
+        if (!codeOk)
+        {
+            SetRegistering(false);
+            ShowError(TranslateMsg(codeErr) ?? "Incorrect or expired code. Try again.");
+            return;
+        }
 
-        await DisplayAlertAsync("Success", "Account registered successfully! Please login.", "OK");
+        // ── Step 2: Generate a unique userId on the client ────
+        // Stored in Users.userId (VARCHAR) in the database.
+        // Format example: "UID4829301756"
+        var userId = "UID" + new Random().NextInt64(1_000_000_000L, 9_999_999_999L);
 
-        // Navigate back to login page
+        // ── Step 3: Create account via POST /Users/insertUser ─
+        var (regOk, regErr) = await _auth.RegisterAsync(username, email, password, userId);
+
+        SetRegistering(false);
+
+        if (!regOk)
+        {
+            ShowError(regErr ?? "Registration failed. Please try again.");
+            return;
+        }
+
+        // ── Success: inform user and go back to login ─────────
+        ShowSuccess("Account created successfully! Redirecting to login…");
+        await Task.Delay(1200);
         await Navigation.PopAsync();
     }
 
-    // ── Navigate to login page ──
+    // ── Navigate back to login ──
     private async void OnGoToLoginTapped(object sender, TappedEventArgs e)
+        => await Navigation.PopAsync();
+
+    // ─────────────────────────────────────────────────────────
+    //  60-second countdown on SendCodeLabel
+    //  The XAML has no x:Name on the Border, only on the Label,
+    //  so we control appearance purely through SendCodeLabel.Text.
+    // ─────────────────────────────────────────────────────────
+    private void StartCountdown(int totalSeconds)
     {
-        await Navigation.PopAsync();
+        _countdownCts?.Cancel();
+        _countdownCts = new CancellationTokenSource();
+        var token = _countdownCts.Token;
+
+        Task.Run(async () =>
+        {
+            for (int i = totalSeconds; i > 0; i--)
+            {
+                if (token.IsCancellationRequested) return;
+
+                int remaining = i;
+                MainThread.BeginInvokeOnMainThread(()
+                    => SendCodeLabel.Text = $"Resend ({remaining}s)");
+
+                await Task.Delay(1000, token);
+            }
+
+            // Countdown finished — restore button label
+            if (!token.IsCancellationRequested)
+                MainThread.BeginInvokeOnMainThread(()
+                    => SendCodeLabel.Text = "Send code");
+
+        }, token);
     }
 
-    private void ShowError(string message)
+    // ─────────────────────────────────────────────────────────
+    //  Translate backend Chinese error messages → English
+    // ─────────────────────────────────────────────────────────
+    private static string TranslateMsg(string? msg) => msg switch
     {
-        ErrorLabel.Text = message;
-        ErrorLabel.TextColor = message.Contains("Success")
-            ? Color.FromArgb("#4CAF50")
-            : Color.FromArgb("#E94560");
+        "请求过于频繁，请60秒后再试" => "Too many requests — please wait 60 seconds.",
+        "验证码已过期，请重新获取" => "Code expired. Please request a new one.",
+        "验证码错误" => "Incorrect verification code.",
+        "邮件发送失败，请稍后重试" => "Email delivery failed. Please try again later.",
+        _ => msg ?? "An unknown error occurred."
+    };
+
+    // ─────────────────────────────────────────────────────────
+    //  UI helpers
+    // ─────────────────────────────────────────────────────────
+
+    // Switch Register button between normal ↔ loading state
+    private void SetRegistering(bool loading)
+    {
+        _isRegistering = loading;
+        RegisterButtonLabel.IsVisible = !loading;
+        RegisterLoadingIndicator.IsVisible = loading;
+        RegisterLoadingIndicator.IsRunning = loading;
+    }
+
+    // Red error text (reuses ErrorLabel)
+    private void ShowError(string msg)
+    {
+        ErrorLabel.Text = msg;
+        ErrorLabel.TextColor = Color.FromArgb("#E94560");
         ErrorLabel.IsVisible = true;
     }
 
-    protected override void OnDisappearing()
+    // Green success text (reuses ErrorLabel)
+    private void ShowSuccess(string msg)
     {
-        base.OnDisappearing();
-        _timer?.Stop();
+        ErrorLabel.Text = msg;
+        ErrorLabel.TextColor = Color.FromArgb("#22C55E");
+        ErrorLabel.IsVisible = true;
     }
+
+    private void HideError() => ErrorLabel.IsVisible = false;
 }

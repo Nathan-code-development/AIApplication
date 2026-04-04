@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AITools.Views.CompleteProfilePage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Complete Profile"
+    BackgroundColor="#0F172A"
+    Shell.NavBarIsVisible="False">
+
+    <Grid RowDefinitions="Auto,*">
+
+        <!-- Top Bar -->
+        <Grid Padding="20,18,20,12"
+              ColumnDefinitions="Auto,*,Auto">
+
+            <Border Grid.Column="0"
+                    WidthRequest="40"
+                    HeightRequest="40"
+                    Padding="0"
+                    BackgroundColor="#1E293B"
+                    Stroke="#334155"
+                    StrokeThickness="1"
+                    StrokeShape="RoundRectangle 20"
+                    VerticalOptions="Center">
+
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnBackTapped" />
+                </Border.GestureRecognizers>
+
+                <Label Text="←"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       FontSize="20"
+                       TextColor="White" />
+            </Border>
+
+            <Label Grid.Column="1"
+                   Text="Complete Profile"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   FontSize="22"
+                   FontAttributes="Bold"
+                   TextColor="White" />
+
+            <Grid Grid.Column="2"
+                  WidthRequest="40"
+                  HeightRequest="40" />
+        </Grid>
+
+        <!-- Body -->
+        <ScrollView Grid.Row="1">
+            <VerticalStackLayout Padding="20,8,20,28"
+                                 Spacing="18">
+
+                <!-- Header Card -->
+                <Border BackgroundColor="#111827"
+                        Stroke="#1F2937"
+                        StrokeThickness="1"
+                        StrokeShape="RoundRectangle 24"
+                        Padding="22">
+
+                    <VerticalStackLayout Spacing="10">
+                        <Label Text="Tell us more about you"
+                               FontSize="24"
+                               FontAttributes="Bold"
+                               TextColor="White" />
+
+                        <Label Text="Complete your personal information so your profile page can display a better introduction."
+                               FontSize="14"
+                               LineBreakMode="WordWrap"
+                               TextColor="#94A3B8" />
+                    </VerticalStackLayout>
+                </Border>
+
+                <!-- Form Card -->
+                <Border BackgroundColor="#111827"
+                        Stroke="#1F2937"
+                        StrokeThickness="1"
+                        StrokeShape="RoundRectangle 24"
+                        Padding="20">
+
+                    <VerticalStackLayout Spacing="18">
+
+                        <!-- Display Name -->
+                        <VerticalStackLayout Spacing="8">
+                            <Label Text="Display Name"
+                                   FontSize="15"
+                                   FontAttributes="Bold"
+                                   TextColor="White" />
+
+                            <Border Stroke="#334155"
+                                    StrokeThickness="1.2"
+                                    BackgroundColor="#0B1220"
+                                    StrokeShape="RoundRectangle 16"
+                                    Padding="14,10">
+                                <Entry x:Name="DisplayNameEntry"
+                                       Placeholder="Enter your display name"
+                                       PlaceholderColor="#64748B"
+                                       TextColor="White"
+                                       FontSize="15"
+                                       MaxLength="30"
+                                       ClearButtonVisibility="WhileEditing" />
+                            </Border>
+
+                            <Label Text="This name will be shown on your profile."
+                                   FontSize="12"
+                                   TextColor="#64748B" />
+                        </VerticalStackLayout>
+
+                        <!-- Gender -->
+                        <VerticalStackLayout Spacing="8">
+                            <Label Text="Gender"
+                                   FontSize="15"
+                                   FontAttributes="Bold"
+                                   TextColor="White" />
+
+                            <Border Stroke="#334155"
+                                    StrokeThickness="1.2"
+                                    BackgroundColor="#0B1220"
+                                    StrokeShape="RoundRectangle 16"
+                                    Padding="10,4">
+                                <Picker x:Name="GenderPicker"
+                                        Title="Select gender"
+                                        TitleColor="#64748B"
+                                        TextColor="White"
+                                        FontSize="15">
+                                    <Picker.Items>
+                                        <x:String>Male</x:String>
+                                        <x:String>Female</x:String>
+                                        <x:String>Non-binary</x:String>
+                                        <x:String>Prefer not to say</x:String>
+                                    </Picker.Items>
+                                </Picker>
+                            </Border>
+                        </VerticalStackLayout>
+
+                        <!-- Phone Number -->
+                        <VerticalStackLayout Spacing="8">
+                            <Label Text="Phone Number"
+                               FontSize="15"
+                               FontAttributes="Bold"
+                               TextColor="White" />
+
+                            <Grid ColumnDefinitions="Auto, *" ColumnSpacing="12">
+                                <!-- Country code picker -->
+                                <Border Grid.Column="0"
+                                    Stroke="#334155"
+                                    StrokeThickness="1.2"
+                                    BackgroundColor="#0B1220"
+                                    StrokeShape="RoundRectangle 16"
+                                    Padding="10,4"
+                                    WidthRequest="100">
+                                        <Picker x:Name="CountryCodePicker"
+                                        Title="Code"
+                                        TitleColor="#64748B"
+                                        TextColor="White"
+                                        FontSize="15">
+                                        <Picker.Items>
+                                            <x:String>+86</x:String>
+                                            <x:String>+65</x:String>
+                                        </Picker.Items>
+                                    </Picker>
+                                </Border>
+
+                                <!-- Phone number entry -->
+                                <Border Grid.Column="1"
+                                    Stroke="#334155"
+                                    StrokeThickness="1.2"
+                                    BackgroundColor="#0B1220"
+                                    StrokeShape="RoundRectangle 16"
+                                    Padding="14,10">
+                                    <Entry x:Name="PhoneEntry"
+                                       Placeholder="Enter phone number"
+                                       PlaceholderColor="#64748B"
+                                       TextColor="White"
+                                       FontSize="15"
+                                       Keyboard="Telephone"
+                                       MaxLength="15"
+                                       ClearButtonVisibility="WhileEditing" />
+                                </Border>
+                            </Grid>
+
+                            <Label Text="Enter phone number with area code (numbers only)."
+                               FontSize="12"
+                               TextColor="#64748B" />
+                        </VerticalStackLayout>
+
+                        <!-- Bio -->
+                        <VerticalStackLayout Spacing="8">
+                            <Grid ColumnDefinitions="*,Auto">
+                                <Label Grid.Column="0"
+                                       Text="Bio / Introduction"
+                                       FontSize="15"
+                                       FontAttributes="Bold"
+                                       TextColor="White" />
+
+                                <Label x:Name="BioCharCount"
+                                       Grid.Column="1"
+                                       Text="0 / 200"
+                                       FontSize="12"
+                                       TextColor="#94A3B8"
+                                       VerticalOptions="Center" />
+                            </Grid>
+
+                            <Border Stroke="#334155"
+                                    StrokeThickness="1.2"
+                                    BackgroundColor="#0B1220"
+                                    StrokeShape="RoundRectangle 16"
+                                    Padding="14,10"
+                                    MinimumHeightRequest="150">
+                                <Editor x:Name="BioEditor"
+                                        Placeholder="Write a short introduction about yourself..."
+                                        PlaceholderColor="#64748B"
+                                        TextColor="White"
+                                        FontSize="15"
+                                        AutoSize="TextChanges" />
+                            </Border>
+
+                            <Label Text="Maximum 200 characters."
+                                   FontSize="12"
+                                   TextColor="#64748B" />
+                        </VerticalStackLayout>
+
+                        <!-- Feedback -->
+                        <Label x:Name="FeedbackLabel"
+                               IsVisible="False"
+                               FontSize="13"
+                               LineBreakMode="WordWrap"
+                               TextColor="#E94560" />
+
+                        <!-- Save Button -->
+                        <Border BackgroundColor="#2563EB"
+                                StrokeThickness="0"
+                                StrokeShape="RoundRectangle 18"
+                                Padding="0"
+                                HeightRequest="54">
+
+                            <Border.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnSaveProfileTapped" />
+                            </Border.GestureRecognizers>
+
+                            <Grid>
+                                <Label x:Name="SaveButtonLabel"
+                                       Text="Save Profile"
+                                       HorizontalOptions="Center"
+                                       VerticalOptions="Center"
+                                       FontSize="16"
+                                       FontAttributes="Bold"
+                                       TextColor="White" />
+
+                                <ActivityIndicator x:Name="SaveIndicator"
+                                                   IsVisible="False"
+                                                   IsRunning="False"
+                                                   HorizontalOptions="Center"
+                                                   VerticalOptions="Center"
+                                                   Color="White" />
+                            </Grid>
+                        </Border>
+
+                    </VerticalStackLayout>
+                </Border>
+
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

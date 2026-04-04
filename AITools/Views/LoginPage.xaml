@@ -6,7 +6,6 @@
 
     <Shell.NavBarIsVisible>False</Shell.NavBarIsVisible>
 
-    <!-- Set status bar color to match theme -->
     <ContentPage.Resources>
         <Style TargetType="ContentPage">
             <Setter Property="BackgroundColor" Value="#F5F0EB"/>
@@ -16,50 +15,33 @@
     <ScrollView>
         <VerticalStackLayout Spacing="0">
 
-            <!-- ── Status bar color fill (matches system bar) ── -->
-            <BoxView BackgroundColor="#1A1A2E"
-                     HeightRequest="0">
-                <!-- This forces the status bar to be themed via Shell -->
-            </BoxView>
+            <BoxView BackgroundColor="#1A1A2E" HeightRequest="0"/>
 
-            <!-- ── Page header (no rounded bottom, flat design) ── -->
+            <!-- ── Page header ── -->
             <VerticalStackLayout BackgroundColor="#F5F0EB"
-                                 Padding="20,66,20,28"
-                                 Spacing="6"
+                                 Padding="20,66,20,28" Spacing="6"
                                  HorizontalOptions="Fill">
-                <!-- App icon -->
                 <Border BackgroundColor="#2A2A4E"
                         WidthRequest="60" HeightRequest="60"
-                        StrokeThickness="0"
-                        HorizontalOptions="Center">
+                        StrokeThickness="0" HorizontalOptions="Center">
                     <Border.StrokeShape>
                         <RoundRectangle CornerRadius="16"/>
                     </Border.StrokeShape>
-                    <Label Text="AI"
-                           FontSize="24" FontAttributes="Bold"
+                    <Label Text="AI" FontSize="24" FontAttributes="Bold"
                            TextColor="White"
-                           HorizontalOptions="Center"
-                           VerticalOptions="Center"/>
+                           HorizontalOptions="Center" VerticalOptions="Center"/>
                 </Border>
-                <!-- Page title -->
-                <Label Text="Login"
-                       FontSize="22" FontAttributes="Bold"
-                       TextColor="Black"
-                       HorizontalOptions="Center"/>
-                <Label Text="Welcome back to AITools"
-                       FontSize="13"
-                       TextColor="#A0A0C8"
-                       HorizontalOptions="Center"/>
+                <Label Text="Login" FontSize="22" FontAttributes="Bold"
+                       TextColor="Black" HorizontalOptions="Center"/>
+                <Label Text="Welcome back to AITools" FontSize="13"
+                       TextColor="#A0A0C8" HorizontalOptions="Center"/>
             </VerticalStackLayout>
 
-            <!-- ── Form content ── -->
+            <!-- ── Form ── -->
             <VerticalStackLayout Padding="28,28,28,32" Spacing="0">
 
-                <!-- Card container -->
-                <Border BackgroundColor="White"
-                        Stroke="#E8E4F0"
-                        StrokeThickness="1"
-                        Padding="24,28">
+                <Border BackgroundColor="White" Stroke="#E8E4F0"
+                        StrokeThickness="1" Padding="24,28">
                     <Border.StrokeShape>
                         <RoundRectangle CornerRadius="20"/>
                     </Border.StrokeShape>
@@ -98,8 +80,7 @@
                                        TextColor="#1A1A2E" FontSize="15"
                                        IsPassword="True"
                                        BackgroundColor="Transparent"
-                                       HeightRequest="50"
-                                       ReturnType="Done"
+                                       HeightRequest="50" ReturnType="Done"
                                        Completed="OnLoginClicked"/>
                             </Border>
                         </VerticalStackLayout>
@@ -111,7 +92,7 @@
                                IsVisible="False"
                                HorizontalOptions="Center"/>
 
-                        <!-- Login button -->
+                        <!-- Login button（With loading status）-->
                         <Border BackgroundColor="#1A1A2E" StrokeThickness="0" Margin="0,8,0,0">
                             <Border.StrokeShape>
                                 <RoundRectangle CornerRadius="14"/>
@@ -119,15 +100,28 @@
                             <Border.GestureRecognizers>
                                 <TapGestureRecognizer Tapped="OnLoginClicked"/>
                             </Border.GestureRecognizers>
-                            <Label Text="Login" FontSize="16" FontAttributes="Bold"
-                                   TextColor="White" HorizontalOptions="Center" Padding="0,16"/>
+
+                            <Grid ColumnDefinitions="*,Auto,*" Padding="0,16">
+                                <Label Grid.Column="1"
+                                       x:Name="LoginButtonLabel"
+                                       Text="Login"
+                                       FontSize="16" FontAttributes="Bold"
+                                       TextColor="White"
+                                       HorizontalOptions="Center"/>
+                                <ActivityIndicator Grid.Column="1"
+                                                   x:Name="LoginLoadingIndicator"
+                                                   IsRunning="False" IsVisible="False"
+                                                   Color="White"
+                                                   HorizontalOptions="Center"/>
+                            </Grid>
                         </Border>
 
                     </VerticalStackLayout>
                 </Border>
 
                 <!-- Navigate to register -->
-                <Border BackgroundColor="Transparent" Stroke="#D0C8F0" StrokeThickness="1" Margin="0,14,0,0">
+                <Border BackgroundColor="Transparent" Stroke="#D0C8F0"
+                        StrokeThickness="1" Margin="0,14,0,0">
                     <Border.StrokeShape>
                         <RoundRectangle CornerRadius="12"/>
                     </Border.StrokeShape>

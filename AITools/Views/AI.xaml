@@ -7,9 +7,9 @@
 
     <Shell.NavBarIsVisible>False</Shell.NavBarIsVisible>
 
-    <Grid RowDefinitions="Auto,*,Auto">
+    <Grid RowDefinitions="Auto,Auto,*,Auto,Auto">
 
-        <!-- HEADER -->
+        <!-- ── HEADER ── -->
         <Border Grid.Row="0"
                 BackgroundColor="#1A1A2E"
                 StrokeThickness="0"
@@ -32,22 +32,93 @@
                 </Border>
 
                 <VerticalStackLayout Grid.Column="1" Margin="12,0,0,0" VerticalOptions="Center">
-                    <Label Text="AI Chatbox" FontSize="18" FontAttributes="Bold" TextColor="White"/>
+                    <Label x:Name="HeaderModelLabel"
+                           Text="AI Chatbox" FontSize="18" FontAttributes="Bold" TextColor="White"/>
                     <HorizontalStackLayout Spacing="5">
                         <Ellipse Fill="#4CAF50" WidthRequest="7" HeightRequest="7" VerticalOptions="Center"/>
                         <Label Text="online" FontSize="12" TextColor="#A0A0C0"/>
                     </HorizontalStackLayout>
                 </VerticalStackLayout>
 
-                <Label Grid.Column="2" Text="⋮" FontSize="24" TextColor="White" VerticalOptions="Center"/>
+                <!-- Clear chat history button -->
+                <Border Grid.Column="2"
+                        BackgroundColor="#2A2A4E"
+                        Padding="10,6" StrokeThickness="0"
+                        VerticalOptions="Center">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="10"/>
+                    </Border.StrokeShape>
+                    <Border.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnClearChatTapped"/>
+                    </Border.GestureRecognizers>
+                    <Label Text="🗑 Clear" FontSize="12" TextColor="White"/>
+                </Border>
             </Grid>
         </Border>
 
-        <!-- CHAT MESSAGE LIST -->
-        <ScrollView Grid.Row="1" x:Name="ChatScrollView">
-            <VerticalStackLayout x:Name="MessageContainer" Padding="16,20" Spacing="16">
+        <!-- ── MODEL SWITCHER BAR ── -->
+        <ScrollView Grid.Row="1" Orientation="Horizontal"
+                    HorizontalScrollBarVisibility="Never"
+                    BackgroundColor="#F5F0EB"
+                    Padding="12,8,12,4">
+            <HorizontalStackLayout x:Name="ModelTabBar" Spacing="8">
 
-                <!-- AI Welcome Bubble (Static) -->
+                <!-- DeepSeek -->
+                <Border x:Name="TabDeepSeek"
+                        BackgroundColor="#1A1A2E"
+                        StrokeThickness="0" Padding="14,8">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="20"/>
+                    </Border.StrokeShape>
+                    <Border.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnModelTabTapped" CommandParameter="DeepSeek"/>
+                    </Border.GestureRecognizers>
+                    <HorizontalStackLayout Spacing="6">
+                        <Label Text="🔵" FontSize="13"/>
+                        <Label Text="DeepSeek" FontSize="13" FontAttributes="Bold" TextColor="White"/>
+                    </HorizontalStackLayout>
+                </Border>
+
+                <!-- Doubao (ByteDance) -->
+                <Border x:Name="TabDoubao"
+                        BackgroundColor="#E8E4F0"
+                        StrokeThickness="0" Padding="14,8">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="20"/>
+                    </Border.StrokeShape>
+                    <Border.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnModelTabTapped" CommandParameter="Doubao"/>
+                    </Border.GestureRecognizers>
+                    <HorizontalStackLayout Spacing="6">
+                        <Label Text="🟣" FontSize="13"/>
+                        <Label x:Name="TabDoubaoLabel" Text="Doubao" FontSize="13" FontAttributes="Bold" TextColor="#4A3F8C"/>
+                    </HorizontalStackLayout>
+                </Border>
+
+                <!-- Qianwen -->
+                <Border x:Name="TabQianwen"
+                        BackgroundColor="#E8E4F0"
+                        StrokeThickness="0" Padding="14,8">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="20"/>
+                    </Border.StrokeShape>
+                    <Border.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnModelTabTapped" CommandParameter="Qianwen"/>
+                    </Border.GestureRecognizers>
+                    <HorizontalStackLayout Spacing="6">
+                        <Label Text="🟢" FontSize="13"/>
+                        <Label x:Name="TabQianwenLabel" Text="Qwen" FontSize="13" FontAttributes="Bold" TextColor="#4A3F8C"/>
+                    </HorizontalStackLayout>
+                </Border>
+
+            </HorizontalStackLayout>
+        </ScrollView>
+
+        <!-- ── CHAT MESSAGE LIST ── -->
+        <ScrollView Grid.Row="2" x:Name="ChatScrollView">
+            <VerticalStackLayout x:Name="MessageContainer" Padding="16,12" Spacing="16">
+
+                <!-- Static welcome bubble -->
                 <Grid ColumnDefinitions="44,*,44" ColumnSpacing="10">
                     <Border Grid.Column="0"
                             BackgroundColor="#1A1A2E"
@@ -74,8 +145,8 @@
                             <Label TextColor="#1A1A2E" FontSize="15" LineHeight="1.5">
                                 <Label.FormattedText>
                                     <FormattedString>
-                                        <Span Text="Hi！I'm AI，" FontAttributes="Bold"/>
-                                        <Span Text="It's my pleasure to serve you."/>
+                                        <Span Text="Hi! I'm your AI Assistant 👋  " FontAttributes="Bold"/>
+                                        <Span Text="Select a model above and start chatting. You can also attach images or files!"/>
                                     </FormattedString>
                                 </Label.FormattedText>
                             </Label>
@@ -83,17 +154,26 @@
                     </VerticalStackLayout>
                 </Grid>
 
-                <!-- It is suggested that the card area be dynamically managed by C# code. -->
-
             </VerticalStackLayout>
         </ScrollView>
 
-        <!-- INPUT BAR -->
-        <Border Grid.Row="2"
+        <!-- ── ATTACHMENT PREVIEW BAR (hidden when empty) ── -->
+        <ScrollView Grid.Row="3"
+                    x:Name="AttachmentBar"
+                    Orientation="Horizontal"
+                    HorizontalScrollBarVisibility="Never"
+                    IsVisible="False"
+                    BackgroundColor="White"
+                    Padding="12,6">
+            <HorizontalStackLayout x:Name="AttachmentContainer" Spacing="8"/>
+        </ScrollView>
+
+        <!-- ── INPUT BAR ── -->
+        <Border Grid.Row="4"
                 BackgroundColor="White"
                 Stroke="#E8E4F0"
                 StrokeThickness="1"
-                Padding="12,10"
+                Padding="10,8"
                 Margin="12,0,12,8">
             <Border.StrokeShape>
                 <RoundRectangle CornerRadius="28"/>
@@ -102,10 +182,42 @@
                 <Shadow Brush="#20000000" Offset="0,-2" Radius="12" Opacity="0.08"/>
             </Border.Shadow>
 
-            <Grid ColumnDefinitions="*,Auto" ColumnSpacing="8">
+            <Grid ColumnDefinitions="Auto,Auto,*,Auto" ColumnSpacing="6">
+
+                <!-- Attach image button -->
+                <Border Grid.Column="0"
+                        BackgroundColor="#F0EEF8"
+                        WidthRequest="38" HeightRequest="38"
+                        StrokeThickness="0" VerticalOptions="Center">
+                    <Border.StrokeShape>
+                        <Ellipse/>
+                    </Border.StrokeShape>
+                    <Border.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnAttachImageTapped"/>
+                    </Border.GestureRecognizers>
+                    <Label Text="🖼" FontSize="16"
+                           HorizontalOptions="Center" VerticalOptions="Center"/>
+                </Border>
+
+                <!-- Attach file button -->
+                <Border Grid.Column="1"
+                        BackgroundColor="#F0EEF8"
+                        WidthRequest="38" HeightRequest="38"
+                        StrokeThickness="0" VerticalOptions="Center">
+                    <Border.StrokeShape>
+                        <Ellipse/>
+                    </Border.StrokeShape>
+                    <Border.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnAttachFileTapped"/>
+                    </Border.GestureRecognizers>
+                    <Label Text="📎" FontSize="16"
+                           HorizontalOptions="Center" VerticalOptions="Center"/>
+                </Border>
+
+                <!-- Text input -->
                 <Entry x:Name="MessageEntry"
-                       Grid.Column="0"
-                       Placeholder="input message..."
+                       Grid.Column="2"
+                       Placeholder="Message AI..."
                        PlaceholderColor="#B0A8C8"
                        TextColor="#1A1A2E"
                        FontSize="15"
@@ -113,25 +225,22 @@
                        VerticalOptions="Center"
                        Completed="OnSendClicked"/>
 
-                <!-- x:Name Used in the code to control the appearance of the disabled state -->
+                <!-- Send button -->
                 <Border x:Name="SendButton"
-                        Grid.Column="1"
+                        Grid.Column="3"
                         BackgroundColor="#1A1A2E"
                         WidthRequest="44" HeightRequest="44"
-                        StrokeThickness="0">
+                        StrokeThickness="0" VerticalOptions="Center">
                     <Border.StrokeShape>
                         <Ellipse/>
                     </Border.StrokeShape>
                     <Border.GestureRecognizers>
                         <TapGestureRecognizer Tapped="OnSendClicked"/>
                     </Border.GestureRecognizers>
-                    <Label x:Name="SendIcon"
-                           Text="➤"
-                           FontSize="18"
-                           TextColor="White"
-                           HorizontalOptions="Center"
-                           VerticalOptions="Center"/>
+                    <Label x:Name="SendIcon" Text="➤" FontSize="18" TextColor="White"
+                           HorizontalOptions="Center" VerticalOptions="Center"/>
                 </Border>
+
             </Grid>
         </Border>
 

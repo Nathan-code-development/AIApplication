@@ -1,5 +1,6 @@
 namespace AITools.Views;
 
+
 public partial class Myself : ContentPage
 {
     public Myself()
@@ -7,12 +8,38 @@ public partial class Myself : ContentPage
         InitializeComponent();
     }
 
-    // ── Complete profile ──
-    private async void OnCompleteProfileTapped(object sender, TappedEventArgs e)
+    // ── Reload user info every time this tab becomes active ───
+    protected override void OnAppearing()
     {
-        // TODO: Navigate to complete profile page
-        await DisplayAlertAsync("Notice", "Complete profile feature coming soon ✨", "OK");
+        base.OnAppearing();
+        LoadUserInfo();
     }
+
+    // ── Populate header card from persisted Preferences ──────
+    private void LoadUserInfo()
+    {
+        // Username comes from Users.username (set at login / registration)
+        var username = Preferences.Get("current_username", "Unknown User");
+
+        // userId is the custom string ID generated at registration
+        // e.g. "UID7482910356"
+        var userId = Preferences.Get("userId", string.Empty);
+
+        // Email from Users.email
+        var email = Preferences.Get("userEmail", string.Empty);
+
+        // real_name from UserProfiles — shown as subtitle if available
+        var realName = Preferences.Get("userRealName", string.Empty);
+
+        UsernameLabel.Text = string.IsNullOrEmpty(realName) ? username : realName;
+        UserIdLabel.Text = string.IsNullOrEmpty(userId)
+            ? "User ID: —"
+            : $"User ID: {userId}";
+    }
+
+    // ── Navigate to Complete Profile page ──
+    private async void OnCompleteProfileTapped(object sender, TappedEventArgs e)
+        => await Navigation.PushAsync(new CompleteProfilePage());
 
     // ── Clear chat history ──
     private async void OnClearChatTapped(object sender, TappedEventArgs e)
@@ -25,8 +52,8 @@ public partial class Myself : ContentPage
 
         if (confirm)
         {
-            // TODO: Execute clear logic
-            await DisplayAlertAsync("Notice", "Chat history cleared.", "OK");
+            // TODO: call ChatMessage delete API
+            await DisplayAlertAsync("Done", "Chat history has been cleared.", "OK");
         }
     }
 
@@ -34,18 +61,14 @@ public partial class Myself : ContentPage
     private async void OnTopicTapped(object sender, TappedEventArgs e)
     {
         string topicId = e.Parameter as string ?? string.Empty;
-        // TODO: Navigate to topic detail page
-        await DisplayAlertAsync("Topic", $"Topic {topicId} detail page coming soon ✨", "OK");
+        await DisplayAlertAsync("Topic", $"Topic {topicId} — detail page coming soon ✨", "OK");
     }
 
     // ── More topics ──
     private async void OnMoreTopicsTapped(object sender, TappedEventArgs e)
-    {
-        // TODO: Navigate to full topic list
-        await DisplayAlertAsync("More Topics", "Full topic list coming soon ✨", "OK");
-    }
+        => await DisplayAlertAsync("More Topics", "Full topic list — coming soon ✨", "OK");
 
-    // ── Logout ──
+    // ── Log out ──────────────────────────────────────────────
     private async void OnLogoutTapped(object sender, TappedEventArgs e)
     {
         bool confirm = await DisplayAlertAsync(
@@ -54,20 +77,22 @@ public partial class Myself : ContentPage
             "Log Out",
             "Cancel");
 
-        if (confirm)
-        {
-            // Clear login state
-            Preferences.Set("is_logged_in", false);
-            Preferences.Remove("current_username");
+        if (!confirm) return;
 
-            // Navigate back to login page
-            // Use Windows[0].Page instead of MainPage (MainPage is deprecated in .NET 10 MAUI)
-            Application.Current!.Windows[0].Page = new NavigationPage(new LoginPage())
-            {
-                // Match the status bar to the app theme color
-                BarBackgroundColor = Color.FromArgb("#1A1A2E"),
-                BarTextColor = Colors.White
-            };
-        }
+        // Clear all session data
+        Preferences.Set("is_logged_in", false);
+        foreach (var key in new[]
+        {
+            "current_username", "userId", "userEmail",
+            "avatarUrl", "userBio", "userGender", "userRealName"
+        })
+            Preferences.Remove(key);
+
+        // Return to login page
+        Application.Current!.Windows[0].Page = new NavigationPage(new LoginPage())
+        {
+            BarBackgroundColor = Color.FromArgb("#1A1A2E"),
+            BarTextColor = Colors.White
+        };
     }
 }

@@ -9,7 +9,7 @@
 
     <Grid RowDefinitions="Auto,*,Auto">
 
-        <!-- HEADER -->
+        <!-- ── Header ── -->
         <Border Grid.Row="0"
                 BackgroundColor="#1A1A2E"
                 StrokeThickness="0"
@@ -17,19 +17,19 @@
             <Border.StrokeShape>
                 <RoundRectangle />
             </Border.StrokeShape>
-            <Label Text="Myself"
+            <Label Text="My Profile"
                    FontSize="20"
                    FontAttributes="Bold"
                    TextColor="White"
                    HorizontalOptions="Center"
                    VerticalOptions="Center"/>
         </Border>
-        
-        <!-- MAIN SCROLL CONTENT -->
+
+        <!-- ── Main scroll area ── -->
         <ScrollView Grid.Row="1">
             <VerticalStackLayout Padding="16,20,16,20" Spacing="14">
 
-                <!-- User Information Card -->
+                <!-- ── User info card ── -->
                 <Border BackgroundColor="White"
                         Stroke="#E8E4F0"
                         StrokeThickness="1"
@@ -43,7 +43,7 @@
 
                     <Grid ColumnDefinitions="70,*" ColumnSpacing="14">
 
-                        <!-- head image -->
+                        <!-- Avatar placeholder -->
                         <Border Grid.Column="0"
                                 BackgroundColor="#E8E4F0"
                                 WidthRequest="62"
@@ -61,11 +61,12 @@
                                    VerticalOptions="Center"/>
                         </Border>
 
-                        <!-- nickname + ID -->
+                        <!-- Username + User ID (populated in code-behind) -->
                         <VerticalStackLayout Grid.Column="1"
                                              VerticalOptions="Center"
                                              Spacing="6">
-                            <Label Text="User nick name"
+                            <Label x:Name="UsernameLabel"
+                                   Text="—"
                                    FontSize="17"
                                    FontAttributes="Bold"
                                    TextColor="#1A1A2E"/>
@@ -75,7 +76,8 @@
                                 <Border.StrokeShape>
                                     <RoundRectangle CornerRadius="8"/>
                                 </Border.StrokeShape>
-                                <Label Text="User ID: 000000"
+                                <Label x:Name="UserIdLabel"
+                                       Text="User ID: —"
                                        FontSize="12"
                                        TextColor="#8888A0"/>
                             </Border>
@@ -83,7 +85,7 @@
                     </Grid>
                 </Border>
 
-                <!-- Operation Button: Complete Personal Information -->
+                <!-- ── Complete profile button ── -->
                 <Border BackgroundColor="White"
                         Stroke="#E8E4F0"
                         StrokeThickness="1"
@@ -100,7 +102,7 @@
                     <Grid ColumnDefinitions="Auto,*,Auto" Padding="16,14">
                         <Label Grid.Column="0" Text="✏️" FontSize="18" VerticalOptions="Center"/>
                         <Label Grid.Column="1"
-                               Text="improve personal information"
+                               Text="Complete My Profile"
                                FontSize="15"
                                TextColor="#1A1A2E"
                                VerticalOptions="Center"
@@ -109,7 +111,7 @@
                     </Grid>
                 </Border>
 
-                <!-- Operation button: Clear chat history -->
+                <!-- ── Clear chat history button ── -->
                 <Border BackgroundColor="White"
                         Stroke="#E8E4F0"
                         StrokeThickness="1"
@@ -126,7 +128,7 @@
                     <Grid ColumnDefinitions="Auto,*,Auto" Padding="16,14">
                         <Label Grid.Column="0" Text="🗑️" FontSize="18" VerticalOptions="Center"/>
                         <Label Grid.Column="1"
-                               Text="Clear chat history"
+                               Text="Clear Chat History"
                                FontSize="15"
                                TextColor="#E94560"
                                VerticalOptions="Center"
@@ -135,8 +137,8 @@
                     </Grid>
                 </Border>
 
-                <!-- Topic list grouping -->
-                <Label Text="topic"
+                <!-- ── Section: Recent Topics ── -->
+                <Label Text="Recent Topics"
                        FontSize="13"
                        TextColor="#8888A0"
                        Margin="4,6,0,0"/>
@@ -159,19 +161,16 @@
                             <Grid.GestureRecognizers>
                                 <TapGestureRecognizer Tapped="OnTopicTapped" CommandParameter="1"/>
                             </Grid.GestureRecognizers>
-                            <Border Grid.Column="0"
-                                    BackgroundColor="#EEF0FF"
-                                    WidthRequest="32" HeightRequest="32"
-                                    StrokeThickness="0">
+                            <Border Grid.Column="0" BackgroundColor="#EEF0FF"
+                                    WidthRequest="32" HeightRequest="32" StrokeThickness="0">
                                 <Border.StrokeShape>
                                     <RoundRectangle CornerRadius="8"/>
                                 </Border.StrokeShape>
-                                <Label Text="💬" FontSize="15"
-                                       HorizontalOptions="Center" VerticalOptions="Center"/>
+                                <Label Text="💬" FontSize="15" HorizontalOptions="Center" VerticalOptions="Center"/>
                             </Border>
                             <VerticalStackLayout Grid.Column="1" Margin="12,0,0,0" VerticalOptions="Center">
                                 <Label Text="Topic 1" FontSize="14" FontAttributes="Bold" TextColor="#1A1A2E"/>
-                                <Label Text="xxxxxxxx" FontSize="12" TextColor="#8888A0"/>
+                                <Label Text="Tap to view details" FontSize="12" TextColor="#8888A0"/>
                             </VerticalStackLayout>
                             <Label Grid.Column="2" Text="›" FontSize="20" TextColor="#B0A8C8" VerticalOptions="Center"/>
                         </Grid>
@@ -183,19 +182,16 @@
                             <Grid.GestureRecognizers>
                                 <TapGestureRecognizer Tapped="OnTopicTapped" CommandParameter="2"/>
                             </Grid.GestureRecognizers>
-                            <Border Grid.Column="0"
-                                    BackgroundColor="#FFF0F3"
-                                    WidthRequest="32" HeightRequest="32"
-                                    StrokeThickness="0">
+                            <Border Grid.Column="0" BackgroundColor="#FFF0F3"
+                                    WidthRequest="32" HeightRequest="32" StrokeThickness="0">
                                 <Border.StrokeShape>
                                     <RoundRectangle CornerRadius="8"/>
                                 </Border.StrokeShape>
-                                <Label Text="🌟" FontSize="15"
-                                       HorizontalOptions="Center" VerticalOptions="Center"/>
+                                <Label Text="🌟" FontSize="15" HorizontalOptions="Center" VerticalOptions="Center"/>
                             </Border>
                             <VerticalStackLayout Grid.Column="1" Margin="12,0,0,0" VerticalOptions="Center">
                                 <Label Text="Topic 2" FontSize="14" FontAttributes="Bold" TextColor="#1A1A2E"/>
-                                <Label Text="xxxxxxxx" FontSize="12" TextColor="#8888A0"/>
+                                <Label Text="Tap to view details" FontSize="12" TextColor="#8888A0"/>
                             </VerticalStackLayout>
                             <Label Grid.Column="2" Text="›" FontSize="20" TextColor="#B0A8C8" VerticalOptions="Center"/>
                         </Grid>
@@ -207,43 +203,16 @@
                             <Grid.GestureRecognizers>
                                 <TapGestureRecognizer Tapped="OnTopicTapped" CommandParameter="3"/>
                             </Grid.GestureRecognizers>
-                            <Border Grid.Column="0"
-                                    BackgroundColor="#F0FFF4"
-                                    WidthRequest="32" HeightRequest="32"
-                                    StrokeThickness="0">
+                            <Border Grid.Column="0" BackgroundColor="#F0FFF4"
+                                    WidthRequest="32" HeightRequest="32" StrokeThickness="0">
                                 <Border.StrokeShape>
                                     <RoundRectangle CornerRadius="8"/>
                                 </Border.StrokeShape>
-                                <Label Text="🔍" FontSize="15"
-                                       HorizontalOptions="Center" VerticalOptions="Center"/>
+                                <Label Text="🔍" FontSize="15" HorizontalOptions="Center" VerticalOptions="Center"/>
                             </Border>
                             <VerticalStackLayout Grid.Column="1" Margin="12,0,0,0" VerticalOptions="Center">
                                 <Label Text="Topic 3" FontSize="14" FontAttributes="Bold" TextColor="#1A1A2E"/>
-                                <Label Text="xxxxxxxx" FontSize="12" TextColor="#8888A0"/>
-                            </VerticalStackLayout>
-                            <Label Grid.Column="2" Text="›" FontSize="20" TextColor="#B0A8C8" VerticalOptions="Center"/>
-                        </Grid>
-
-                        <BoxView HeightRequest="1" Color="#F0EEF8" Margin="16,0"/>
-
-                        <!-- Topic 4 -->
-                        <Grid ColumnDefinitions="Auto,*,Auto" Padding="16,14">
-                            <Grid.GestureRecognizers>
-                                <TapGestureRecognizer Tapped="OnTopicTapped" CommandParameter="4"/>
-                            </Grid.GestureRecognizers>
-                            <Border Grid.Column="0"
-                                    BackgroundColor="#FFFBEE"
-                                    WidthRequest="32" HeightRequest="32"
-                                    StrokeThickness="0">
-                                <Border.StrokeShape>
-                                    <RoundRectangle CornerRadius="8"/>
-                                </Border.StrokeShape>
-                                <Label Text="📌" FontSize="15"
-                                       HorizontalOptions="Center" VerticalOptions="Center"/>
-                            </Border>
-                            <VerticalStackLayout Grid.Column="1" Margin="12,0,0,0" VerticalOptions="Center">
-                                <Label Text="Topic 4" FontSize="14" FontAttributes="Bold" TextColor="#1A1A2E"/>
-                                <Label Text="xxxxxxxx" FontSize="12" TextColor="#8888A0"/>
+                                <Label Text="Tap to view details" FontSize="12" TextColor="#8888A0"/>
                             </VerticalStackLayout>
                             <Label Grid.Column="2" Text="›" FontSize="20" TextColor="#B0A8C8" VerticalOptions="Center"/>
                         </Grid>
@@ -255,29 +224,24 @@
                             <Grid.GestureRecognizers>
                                 <TapGestureRecognizer Tapped="OnMoreTopicsTapped"/>
                             </Grid.GestureRecognizers>
-                            <Border Grid.Column="0"
-                                    BackgroundColor="#F0EEF8"
-                                    WidthRequest="32" HeightRequest="32"
-                                    StrokeThickness="0">
+                            <Border Grid.Column="0" BackgroundColor="#F0EEF8"
+                                    WidthRequest="32" HeightRequest="32" StrokeThickness="0">
                                 <Border.StrokeShape>
                                     <RoundRectangle CornerRadius="8"/>
                                 </Border.StrokeShape>
                                 <Label Text="⋯" FontSize="16" TextColor="#8888A0"
                                        HorizontalOptions="Center" VerticalOptions="Center"/>
                             </Border>
-                            <Label Grid.Column="1"
-                                   Text="more topic content......"
-                                   FontSize="14"
-                                   TextColor="#8888A0"
-                                   VerticalOptions="Center"
-                                   Margin="12,0,0,0"/>
+                            <Label Grid.Column="1" Text="View all topics…"
+                                   FontSize="14" TextColor="#8888A0"
+                                   VerticalOptions="Center" Margin="12,0,0,0"/>
                             <Label Grid.Column="2" Text="›" FontSize="20" TextColor="#B0A8C8" VerticalOptions="Center"/>
                         </Grid>
 
                     </VerticalStackLayout>
                 </Border>
 
-                <!-- Logout button -->
+                <!-- ── Logout button ── -->
                 <Border BackgroundColor="#1A1A2E"
                         StrokeThickness="0"
                         Padding="0"
@@ -291,7 +255,7 @@
                     <Border.GestureRecognizers>
                         <TapGestureRecognizer Tapped="OnLogoutTapped"/>
                     </Border.GestureRecognizers>
-                    <Label Text="Log out"
+                    <Label Text="Log Out"
                            FontSize="16"
                            FontAttributes="Bold"
                            TextColor="White"
