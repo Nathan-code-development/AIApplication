@@ -11,48 +11,79 @@
 
         <!-- ── HEADER ── -->
         <Border Grid.Row="0"
-                BackgroundColor="#1A1A2E"
-                StrokeThickness="0"
-                Padding="20,16,20,18">
+        BackgroundColor="#1A1A2E"
+        StrokeThickness="0"
+        Padding="20,16,20,18">
             <Border.StrokeShape>
                 <RoundRectangle />
             </Border.StrokeShape>
             <Grid ColumnDefinitions="Auto,*,Auto">
-
+                <!-- 左侧 AI 头像 -->
                 <Border Grid.Column="0"
-                        BackgroundColor="#E94560"
-                        WidthRequest="42" HeightRequest="42"
-                        StrokeThickness="0" VerticalOptions="Center">
+                BackgroundColor="#E94560"
+                WidthRequest="42" HeightRequest="42"
+                StrokeThickness="0" VerticalOptions="Center">
                     <Border.StrokeShape>
                         <Ellipse/>
                     </Border.StrokeShape>
                     <Label Text="AI" FontSize="14" FontAttributes="Bold"
-                           TextColor="White"
-                           HorizontalOptions="Center" VerticalOptions="Center"/>
+                   TextColor="White"
+                   HorizontalOptions="Center" VerticalOptions="Center"/>
                 </Border>
 
+                <!-- 中间标题（限制宽度，超长截断） -->
                 <VerticalStackLayout Grid.Column="1" Margin="12,0,0,0" VerticalOptions="Center">
                     <Label x:Name="HeaderModelLabel"
-                           Text="AI Chatbox" FontSize="18" FontAttributes="Bold" TextColor="White"/>
+                   Text="AI Chatbox"
+                   FontSize="18" FontAttributes="Bold"
+                   TextColor="White"
+                   MaxLines="1"
+                   LineBreakMode="TailTruncation"
+                   VerticalOptions="Center"/>
                     <HorizontalStackLayout Spacing="5">
                         <Ellipse Fill="#4CAF50" WidthRequest="7" HeightRequest="7" VerticalOptions="Center"/>
-                        <Label Text="online" FontSize="12" TextColor="#A0A0C0"/>
+                        <Label Text="online" FontSize="12" TextColor="#A0A0C0" VerticalOptions="Center"/>
                     </HorizontalStackLayout>
                 </VerticalStackLayout>
 
-                <!-- Clear chat history button -->
-                <Border Grid.Column="2"
-                        BackgroundColor="#2A2A4E"
-                        Padding="10,6" StrokeThickness="0"
-                        VerticalOptions="Center">
-                    <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="10"/>
-                    </Border.StrokeShape>
-                    <Border.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="OnClearChatTapped"/>
-                    </Border.GestureRecognizers>
-                    <Label Text="🗑 Clear" FontSize="12" TextColor="White"/>
-                </Border>
+                <!-- 右侧按钮组（固定高度，文字居中） -->
+                <HorizontalStackLayout Grid.Column="2" Spacing="8" VerticalOptions="Center">
+                    <Border BackgroundColor="#2A2A4E"
+                    StrokeThickness="0"
+                    HeightRequest="34"
+                    VerticalOptions="Center"
+                    Padding="12,0">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="10"/>
+                        </Border.StrokeShape>
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnNewChatTapped"/>
+                        </Border.GestureRecognizers>
+                        <Label Text="+ New Chat"
+                       FontSize="12"
+                       TextColor="White"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+                    </Border>
+
+                    <Border BackgroundColor="#2A2A4E"
+                    StrokeThickness="0"
+                    HeightRequest="34"
+                    VerticalOptions="Center"
+                    Padding="12,0">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="10"/>
+                        </Border.StrokeShape>
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnClearChatTapped"/>
+                        </Border.GestureRecognizers>
+                        <Label Text="🗑 Clear"
+                       FontSize="12"
+                       TextColor="White"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+                    </Border>
+                </HorizontalStackLayout>
             </Grid>
         </Border>
 
