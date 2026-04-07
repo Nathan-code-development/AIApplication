@@ -18,6 +18,7 @@
             Icon="model_square.png" />
         <ShellContent
             Title="AI"
+            Route="AI"
             ContentTemplate="{DataTemplate views:AI}"
             Icon="ai.png" />
         <ShellContent
