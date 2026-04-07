@@ -49,7 +49,7 @@ This app expects a backend server with the following endpoints (Spring Boot base
   `GET /UserProfiles/addHeadImage?userId=xxx&avatarUrl=xxx`
   `GET /UserProfiles/download?name=xxx`
 
-The backend base URL is configured in `ApiConfig.cs` (default: `http://121.40.144.4:380`). Replace it with your own server address.
+The backend base URL is configured in `ApiConfig.cs` (default: `http://www.nathanwebsite.com:380`). Replace it with your own server address.
 
 ## 🚀 Getting Started
 
@@ -62,8 +62,8 @@ The backend base URL is configured in `ApiConfig.cs` (default: `http://121.40.14
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/ai-tools-maui.git
-cd ai-tools-maui
+git clone https://github.com/Nathan-code-development/AIApplication.git
+cd AITools
 ```
 
 ### Configure API Keys (Important)
