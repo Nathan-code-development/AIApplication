@@ -57,30 +57,44 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <AndroidResource Remove="Platforms\Android\Resources\values\styles.xml" />
+	  <AndroidResource Remove="新文件夹1\**" />
+	  <AndroidResource Remove="新文件夹2\**" />
+	  <AndroidResource Remove="新文件夹\**" />
+	  <Compile Remove="新文件夹1\**" />
+	  <Compile Remove="新文件夹2\**" />
+	  <Compile Remove="新文件夹\**" />
+	  <EmbeddedResource Remove="新文件夹1\**" />
+	  <EmbeddedResource Remove="新文件夹2\**" />
+	  <EmbeddedResource Remove="新文件夹\**" />
+	  <MauiCss Remove="新文件夹1\**" />
+	  <MauiCss Remove="新文件夹2\**" />
+	  <MauiCss Remove="新文件夹\**" />
+	  <MauiXaml Remove="新文件夹1\**" />
+	  <MauiXaml Remove="新文件夹2\**" />
+	  <MauiXaml Remove="新文件夹\**" />
+	  <None Remove="新文件夹1\**" />
+	  <None Remove="新文件夹2\**" />
+	  <None Remove="新文件夹\**" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Resources\AppIcon\appicon.png" />
+	  <AndroidResource Remove="Platforms\Android\Resources\values\styles.xml" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="10.0.0" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="新文件夹1\" />
-	  <Folder Include="新文件夹2\" />
-	  <Folder Include="新文件夹\" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Page Include="Resources\AppIcon\appicon.png" />
+		<PackageReference Include="MySqlConnector" Version="2.5.0" />
 	</ItemGroup>
 
 	<ItemGroup>
 	  <MauiXaml Update="Views\AI.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\AiTopicsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\CompleteProfilePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\LoginPage.xaml">
