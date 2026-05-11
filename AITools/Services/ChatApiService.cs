@@ -30,7 +30,7 @@ public class ChatMessageDto
 //  ChatApiService
 public class ChatApiService
 {
-    private const string BaseUrl = "http://121.40.144.4:380";
+    private const string BaseUrl = "http://your-service-ip:port";
 
     private static readonly HttpClient _http = new()
     {
