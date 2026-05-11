@@ -9,7 +9,7 @@ namespace AITools.Services;
 /// </summary>
 public static class ApiConfig
 {
-    public const string BaseUrl = "http://121.40.144.4:380";
+    public const string BaseUrl = "http://your-service-ip:port";
 }
 
 /// <summary>
