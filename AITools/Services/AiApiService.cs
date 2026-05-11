@@ -36,9 +36,9 @@ public class ChatTurn
 public class AiApiService
 {
     // ── API Keys ──────────────────────────────────────────────
-    private const string DeepSeekApiKey = "sk-8acfd1b2b6644ce7bb2034c34d21ce38";
-    private const string DoubaoApiKey = "3bcca3cf-e17d-4bbe-a8b4-e48746c99489";
-    private const string QianwenApiKey = "sk-1d43156f789841aba38bdaeb077bec24";
+    private const string DeepSeekApiKey = "your-deepseek-key";
+    private const string DoubaoApiKey = "your-doubao-key";
+    private const string QianwenApiKey = "your-qianwen-key";
 
     // ── Model identifiers ─────────────────────────────────────
     // deepseek-chat and deepseek-reasoner are the only models on
