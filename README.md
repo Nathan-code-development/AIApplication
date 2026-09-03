@@ -49,7 +49,7 @@ This app expects a backend server with the following endpoints (Spring Boot base
   `GET /UserProfiles/addHeadImage?userId=xxx&avatarUrl=xxx`
   `GET /UserProfiles/download?name=xxx`
 
-The backend base URL is configured in `ApiConfig.cs` (default: `http://www.nathanwebsite.com:380`). Replace it with your own server address.
+The backend base URL is configured in `ApiConfig.cs` (default: `http://your-server-ip-or-domain:port`). Replace it with your own server address.
 
 ## 🚀 Getting Started
 
