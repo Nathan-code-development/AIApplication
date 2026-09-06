@@ -1,10 +1,20 @@
-# AI Tools - .NET MAUI Multi-Model Chat Application
+<div align="center">
+
+# AI Tools
+
+**A .NET MAUI Multi-Model Chat Application**
+
+**English** | [简体中文](README.zh-CN.md)
+
+</div>
+
+---
 
 AI Tools is a cross-platform mobile application built with **.NET MAUI** that provides a unified interface to interact with multiple AI models including **DeepSeek**, **Doubao**, and **Qwen**. It supports text conversations, image and file attachments, user authentication, profile management, chat history persistence, and a model showcase gallery.
 
 ## 📱 Features
 
-- **Multi‑Model Chat** – Switch seamlessly between DeepSeek, Doubao, and Qwen.
+- **Multi-Model Chat** – Switch seamlessly between DeepSeek, Doubao, and Qwen.
 - **Rich Attachments** – Send images (supported by Doubao & Qwen) and text files (e.g., PDF, TXT, JSON) as context.
 - **Chat History** – Conversations are automatically saved and grouped into topics. Browse all past topics and continue any conversation.
 - **User Authentication** – Register with email verification code, login, and manage your personal profile.
@@ -16,7 +26,7 @@ AI Tools is a cross-platform mobile application built with **.NET MAUI** that pr
 
 | Technology           | Purpose                                                      |
 | :------------------- | :----------------------------------------------------------- |
-| **.NET MAUI**        | Cross‑platform UI framework                                  |
+| **.NET MAUI**        | Cross-platform UI framework                                  |
 | **C#**               | Backend logic and service layer                              |
 | **HttpClient**       | REST API communication with backend server                   |
 | **System.Text.Json** | JSON serialization / deserialization                         |
@@ -127,7 +137,7 @@ AITools/
 
 ## 📄 License
 
-This project is licensed under the MIT License – see the [LICENSE](https://license/) file for details.
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgements
 
@@ -135,4 +145,3 @@ This project is licensed under the MIT License – see the [LICENSE](https://lic
 - [Doubao (ByteDance)](https://www.volcengine.com/product/doubao)
 - [Qwen (Alibaba Cloud)](https://dashscope.aliyun.com/)
 - .NET MAUI community
-
