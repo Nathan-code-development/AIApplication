@@ -144,4 +144,4 @@ This project is licensed under the MIT License – see the [LICENSE](LICENSE) fi
 - [DeepSeek API](https://platform.deepseek.com/)
 - [Doubao (ByteDance)](https://www.volcengine.com/product/doubao)
 - [Qwen (Alibaba Cloud)](https://dashscope.aliyun.com/)
-- .NET MAUI community
+- [.NET MAUI community](https://github.com/dotnet/maui)

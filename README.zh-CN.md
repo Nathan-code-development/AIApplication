@@ -144,4 +144,4 @@ AITools/
 - [DeepSeek API](https://platform.deepseek.com/)
 - [豆包（字节跳动）](https://www.volcengine.com/product/doubao)
 - [通义千问（阿里云）](https://dashscope.aliyun.com/)
-- .NET MAUI 社区
+- [.NET MAUI 社区](https://github.com/dotnet/maui)
