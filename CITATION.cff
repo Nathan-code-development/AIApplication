@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+type: software
+title: "AI Tools: A .NET MAUI Multi-Model Chat Application"
+version: v1.0.0
+date-released: 2026-11-05
+license: MIT
+repository-code: "https://github.com/Nathan-code-development/AIApplication"
+authors:
+  - name: "声声"
+# After Zenodo mints the DOI, uncomment and fill in:
+# doi: 10.5281/zenodo.XXXXXXX
+abstract: >-
+  A cross-platform .NET MAUI application providing a unified chat interface
+  for multiple large language models (DeepSeek, Doubao, Qwen), with image and
+  file attachments, persistent chat history, user authentication, profile
+  management and a model showcase gallery.
+keywords:
+  - .NET MAUI
+  - C#
+  - cross-platform
+  - large language model
+  - chatbot
+  - DeepSeek
+  - Doubao
+  - Qwen

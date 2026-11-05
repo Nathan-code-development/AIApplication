@@ -1,0 +1,34 @@
+{
+  "title": "AI Tools: A .NET MAUI Multi-Model Chat Application",
+  "upload_type": "software",
+  "description": "<p>AI Tools is a cross-platform mobile application built with <strong>.NET MAUI</strong> that provides a unified interface for interacting with multiple large language models, including <strong>DeepSeek</strong>, <strong>Doubao</strong> and <strong>Qwen</strong>.</p><p>Features:</p><ul><li>Multi-model chat with seamless switching between DeepSeek, Doubao and Qwen</li><li>Image attachments (Doubao and Qwen) and text-file attachments (PDF, TXT, JSON) as context</li><li>Persistent chat history grouped into topics</li><li>User registration with email verification code, login and profile management (avatar, display name, gender, bio, phone)</li><li>Model Square: a gallery of 8 popular AI models with specs, capability radar, pricing and reviews</li></ul><p>The app targets Android, iOS, macOS (Mac Catalyst) and Windows, and communicates with a Spring Boot backend over REST.</p>",
+  "creators": [
+    {
+      "name": "声声"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "version": "v1.0.0",
+  "publication_date": "2026-11-05",
+  "language": "eng",
+  "keywords": [
+    ".NET MAUI",
+    "C#",
+    "cross-platform",
+    "mobile application",
+    "large language model",
+    "chatbot",
+    "DeepSeek",
+    "Doubao",
+    "Qwen"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Nathan-code-development/AIApplication",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    }
+  ]
+}
