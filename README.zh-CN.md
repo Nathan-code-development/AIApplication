@@ -4,6 +4,8 @@
 
 **基于 .NET MAUI 的多模型 AI 聊天应用**
 
+<a href="https://doi.org/10.5281/zenodo.23972338"><img src="https://zenodo.org/badge/1174075138.svg" alt="DOI"></a>
+
 [English](README.md) | **简体中文**
 
 </div>
@@ -65,20 +67,20 @@ AI Tools 是一款使用 **.NET MAUI** 构建的跨平台移动应用，提供�
 
 ### 环境要求
 
-- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0) 或更高版本
-- Visual Studio 2022（17.8+）或安装了 MAUI 工作负载的 VS Code
+- [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0) 或更高版本
+- 安装了 .NET MAUI 工作负载的 Visual Studio 2026，或安装了 .NET MAUI 扩展的 VS Code
 - 对应目标平台的 Android / iOS / macOS / Windows 开发环境
 
 ### 克隆仓库
 
 ```bash
 git clone https://github.com/Nathan-code-development/AIApplication.git
-cd AITools
+cd AIApplication
 ```
 
 ### 配置 API Key（重要）
 
-`Services/AiApiService.cs` 中包含用于演示的硬编码 API Key。**请勿将真实密钥提交到 GitHub。** 请替换为你自己的密钥，或改用更安全的配置方案。
+`AITools/Services/AiApiService.cs` 中包含用于演示的硬编码 API Key。**请勿将真实密钥提交到 GitHub。** 请替换为你自己的密钥，或改用更安全的配置方案。
 
 ```csharp
 private const string DeepSeekApiKey = "your-deepseek-key";
@@ -90,7 +92,7 @@ private const string QianwenApiKey = "your-qianwen-key";
 
 ### 修改后端地址
 
-编辑 `Services/ApiConfig.cs`：
+编辑 `AITools/Services/ApiConfig.cs`：
 
 ```csharp
 public const string BaseUrl = "http://your-server-address:port";
@@ -98,35 +100,43 @@ public const string BaseUrl = "http://your-server-address:port";
 
 ### 编译与运行
 
-- 使用 Visual Studio 打开解决方案
+- 使用 Visual Studio 打开 `AITools.slnx`
 - 选择运行目标（如 Android 模拟器、Windows 计算机）
 - 按 **F5** 开始调试
 
 ## 📁 项目结构
 
 ```text
-AITools/
-├── Models/
-│   └── AIModel.cs                 # 模型广场的数据模型
-├── Services/
-│   ├── AiApiService.cs            # AI 接口调用（DeepSeek、豆包、通义千问）
-│   ├── ApiConfig.cs               # 后端地址与 JSON 配置项
-│   ├── AuthService.cs             # 登录 / 注册
-│   ├── ChatApiService.cs          # 话题与消息的增删改查
-│   ├── EmailCodeService.cs        # 邮箱验证码
-│   └── UserProfileService.cs      # 个人资料与头像管理
-├── Views/
-│   ├── AI.xaml/.cs                # 聊天主页面
-│   ├── AllTopicsPage.xaml/.cs     # 全部会话话题列表
-│   ├── CompleteProfilePage.xaml/.cs
-│   ├── LoginPage.xaml/.cs
-│   ├── ModelDetailPage.xaml/.cs   # 模型详情页
-│   ├── modelSquare.xaml/.cs       # 模型广场
-│   ├── Myself.xaml/.cs            # 个人中心与设置
-│   └── RegisterPage.xaml/.cs
-├── App.xaml/.cs
-├── AppShell.xaml/.cs
-└── Resources/                     # 图片、样式、字体
+AIApplication/
+├── AITools.slnx                   # 解决方案文件
+├── LICENSE
+├── README.md
+├── README.zh-CN.md
+└── AITools/
+    ├── AITools.csproj
+    ├── App.xaml/.cs
+    ├── AppShell.xaml/.cs
+    ├── MauiProgram.cs             # 应用启动与依赖注入
+    ├── AIModel/
+    │   └── AIModel.cs             # 模型广场的数据模型
+    ├── Services/
+    │   ├── AiApiService.cs        # AI 接口调用（DeepSeek、豆包、通义千问）
+    │   ├── ApiConfig.cs           # 后端地址与 JSON 配置项
+    │   ├── AuthService.cs         # 登录 / 注册
+    │   ├── ChatApiService.cs      # 话题与消息的增删改查
+    │   ├── EmailCodeService.cs    # 邮箱验证码
+    │   └── UserProfileService.cs  # 个人资料与头像管理
+    ├── Views/
+    │   ├── AI.xaml/.cs            # 聊天主页面
+    │   ├── AiTopicsPage.xaml/.cs  # 全部会话话题列表
+    │   ├── CompleteProfilePage.xaml/.cs
+    │   ├── LoginPage.xaml/.cs
+    │   ├── ModelDetailPage.xaml/.cs  # 模型详情页
+    │   ├── modelSquare.xaml/.cs   # 模型广场
+    │   ├── Myself.xaml/.cs        # 个人中心与设置
+    │   └── RegisterPage.xaml/.cs
+    ├── Platforms/                 # Android / iOS / MacCatalyst / Windows 平台代码
+    └── Resources/                 # 图片、样式、字体
 ```
 
 ## 🔒 安全提示
@@ -134,6 +144,20 @@ AITools/
 - 当前 **API Key 为硬编码**，仅适用于个人本地测试。
 - 生产环境请将密钥迁移到安全的后端代理，或使用 Azure Key Vault / 环境变量。
 - 当前演示后端以明文比对密码。真实项目中请务必对密码进行哈希处理。
+
+## 📖 引用
+
+如果你在工作中使用了本软件，请通过 Zenodo 引用：[10.5281/zenodo.23972338](https://doi.org/10.5281/zenodo.23972338)
+
+```bibtex
+@software{aitools,
+  author    = {声声},
+  title     = {AI Tools: A .NET MAUI Multi-Model Chat Application},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.23972338},
+  url       = {https://doi.org/10.5281/zenodo.23972338}
+}
+```
 
 ## 📄 开源协议
 
