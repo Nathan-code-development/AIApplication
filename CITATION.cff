@@ -9,7 +9,7 @@ repository-code: "https://github.com/Nathan-code-development/AIApplication"
 authors:
   - name: "声声"
 # After Zenodo mints the DOI, uncomment and fill in:
-# doi: 10.5281/zenodo.XXXXXXX
+# doi: 10.5281/zenodo.23972338
 abstract: >-
   A cross-platform .NET MAUI application providing a unified chat interface
   for multiple large language models (DeepSeek, Doubao, Qwen), with image and
