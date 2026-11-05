@@ -4,6 +4,8 @@
 
 **A .NET MAUI Multi-Model Chat Application**
 
+<a href="https://doi.org/10.5281/zenodo.23972338"><img src="https://zenodo.org/badge/1174075138.svg" alt="DOI"></a>
+
 **English** | [简体中文](README.zh-CN.md)
 
 </div>
@@ -65,20 +67,20 @@ The backend base URL is configured in `ApiConfig.cs` (default: `http://your-serv
 
 ### Prerequisites
 
-- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0) or later
-- Visual Studio 2022 (17.8+) / VS Code with MAUI workloads
+- [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0) or later
+- Visual Studio 2026 with the .NET MAUI workload, or VS Code with the .NET MAUI extension
 - Android/iOS/macOS/Windows development environment (depending on your target)
 
 ### Clone the Repository
 
 ```bash
 git clone https://github.com/Nathan-code-development/AIApplication.git
-cd AITools
+cd AIApplication
 ```
 
 ### Configure API Keys (Important)
 
-The file `Services/AiApiService.cs` contains hardcoded API keys for demonstration. **Do not commit real keys to GitHub.** Instead, replace them with your own keys or use a secure configuration system.
+The file `AITools/Services/AiApiService.cs` contains hardcoded API keys for demonstration. **Do not commit real keys to GitHub.** Instead, replace them with your own keys or use a secure configuration system.
 
 ```csharp
 private const string DeepSeekApiKey = "your-deepseek-key";
@@ -90,7 +92,7 @@ Alternatively, move keys to `appsettings.json` and use a configuration builder.
 
 ### Update Backend URL
 
-Edit `Services/ApiConfig.cs`:
+Edit `AITools/Services/ApiConfig.cs`:
 
 ```csharp
 public const string BaseUrl = "http://your-server-address:port";
@@ -98,35 +100,43 @@ public const string BaseUrl = "http://your-server-address:port";
 
 ### Build and Run
 
-- Open the solution in Visual Studio
+- Open `AITools.slnx` in Visual Studio
 - Select a target (e.g., Android Emulator, Windows Machine)
 - Press **F5** to debug
 
 ## 📁 Project Structure
 
 ```text
-AITools/
-├── Models/
-│   └── AIModel.cs                 # Data models for model square
-├── Services/
-│   ├── AiApiService.cs            # AI API calls (DeepSeek, Doubao, Qwen)
-│   ├── ApiConfig.cs               # Backend URL & JSON options
-│   ├── AuthService.cs             # Login / Register
-│   ├── ChatApiService.cs          # Topics & messages CRUD
-│   ├── EmailCodeService.cs        # Email verification
-│   └── UserProfileService.cs      # Profile & avatar management
-├── Views/
-│   ├── AI.xaml/.cs                # Main chat page
-│   ├── AllTopicsPage.xaml/.cs     # List of all conversation topics
-│   ├── CompleteProfilePage.xaml/.cs
-│   ├── LoginPage.xaml/.cs
-│   ├── ModelDetailPage.xaml/.cs   # Detailed model view
-│   ├── modelSquare.xaml/.cs       # Model gallery
-│   ├── Myself.xaml/.cs            # User profile & settings
-│   └── RegisterPage.xaml/.cs
-├── App.xaml/.cs
-├── AppShell.xaml/.cs
-└── Resources/                     # Images, styles, fonts
+AIApplication/
+├── AITools.slnx                   # Solution file
+├── LICENSE
+├── README.md
+├── README.zh-CN.md
+└── AITools/
+    ├── AITools.csproj
+    ├── App.xaml/.cs
+    ├── AppShell.xaml/.cs
+    ├── MauiProgram.cs             # App startup & DI
+    ├── AIModel/
+    │   └── AIModel.cs             # Data models for model square
+    ├── Services/
+    │   ├── AiApiService.cs        # AI API calls (DeepSeek, Doubao, Qwen)
+    │   ├── ApiConfig.cs           # Backend URL & JSON options
+    │   ├── AuthService.cs         # Login / Register
+    │   ├── ChatApiService.cs      # Topics & messages CRUD
+    │   ├── EmailCodeService.cs    # Email verification
+    │   └── UserProfileService.cs  # Profile & avatar management
+    ├── Views/
+    │   ├── AI.xaml/.cs            # Main chat page
+    │   ├── AiTopicsPage.xaml/.cs  # List of all conversation topics
+    │   ├── CompleteProfilePage.xaml/.cs
+    │   ├── LoginPage.xaml/.cs
+    │   ├── ModelDetailPage.xaml/.cs  # Detailed model view
+    │   ├── modelSquare.xaml/.cs   # Model gallery
+    │   ├── Myself.xaml/.cs        # User profile & settings
+    │   └── RegisterPage.xaml/.cs
+    ├── Platforms/                 # Android / iOS / MacCatalyst / Windows
+    └── Resources/                 # Images, styles, fonts
 ```
 
 ## 🔒 Security Notes
@@ -134,6 +144,20 @@ AITools/
 - **API keys** are currently hardcoded – only use this approach for personal/local testing.
 - For production, move keys to a secure backend proxy or use Azure Key Vault / environment variables.
 - Passwords are compared as plain text in the current demo backend. In a real application, always hash passwords.
+
+## 📖 Citation
+
+If you use this software in your work, please cite it via Zenodo: [10.5281/zenodo.23972338](https://doi.org/10.5281/zenodo.23972338)
+
+```bibtex
+@software{aitools,
+  author    = {声声},
+  title     = {AI Tools: A .NET MAUI Multi-Model Chat Application},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.23972338},
+  url       = {https://doi.org/10.5281/zenodo.23972338}
+}
+```
 
 ## 📄 License
 
