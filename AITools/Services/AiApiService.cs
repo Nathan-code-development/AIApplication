@@ -58,11 +58,18 @@ public class AiApiService
     // ─────────────────────────────────────────────────────────
     //  Main entry point
     // ─────────────────────────────────────────────────────────
+    /// <summary>
+    /// Sends one chat request.
+    /// </summary>
+    /// <param name="history">
+    /// Turns from before the current request. The current <paramref name="userMessage"/>
+    /// is appended exactly once by <see cref="BuildMessages"/>.
+    /// </param>
     public async Task<(string reply, string? error)> SendAsync(
         AiModel model,
         string userMessage,
-        List<ChatTurn> history,
-        List<AiAttachment>? attachments = null)
+        IReadOnlyList<ChatTurn> history,
+        IReadOnlyList<AiAttachment>? attachments = null)
     {
         // DeepSeek does not support image input — reject early with a clear message
         bool hasImages = attachments?.Any(a => a.IsImage) == true;
@@ -74,22 +81,7 @@ public class AiApiService
         {
             var (url, apiKey, modelId) = GetConfig(model);
 
-            var messages = new JsonArray();
-
-            messages.Add(new JsonObject
-            {
-                ["role"] = "system",
-                ["content"] = "You are a helpful AI assistant. Be concise and friendly."
-            });
-
-            foreach (var turn in history.TakeLast(10))
-                messages.Add(new JsonObject
-                {
-                    ["role"] = turn.Role,
-                    ["content"] = turn.Content
-                });
-
-            messages.Add(BuildUserMessage(userMessage, attachments));
+            var messages = BuildMessages(userMessage, history, attachments);
 
             var requestBody = new JsonObject
             {
@@ -127,10 +119,42 @@ public class AiApiService
     }
 
     // ─────────────────────────────────────────────────────────
+    //  Build the wire-format message array
+    //  `history` must contain prior turns only; the current user
+    //  message is appended once, with attachments attached to it.
+    // ─────────────────────────────────────────────────────────
+    public static JsonArray BuildMessages(
+        string userMessage,
+        IReadOnlyList<ChatTurn> history,
+        IReadOnlyList<AiAttachment>? attachments = null)
+    {
+        ArgumentNullException.ThrowIfNull(history);
+
+        var messages = new JsonArray();
+
+        messages.Add(new JsonObject
+        {
+            ["role"] = "system",
+            ["content"] = "You are a helpful AI assistant. Be concise and friendly."
+        });
+
+        foreach (var turn in history.TakeLast(10))
+            messages.Add(new JsonObject
+            {
+                ["role"] = turn.Role,
+                ["content"] = turn.Content
+            });
+
+        messages.Add(BuildUserMessage(userMessage, attachments));
+
+        return messages;
+    }
+
+    // ─────────────────────────────────────────────────────────
     //  Build user message — plain text or multipart with images
     // ─────────────────────────────────────────────────────────
     private static JsonNode BuildUserMessage(
-        string userMessage, List<AiAttachment>? attachments)
+        string userMessage, IReadOnlyList<AiAttachment>? attachments)
     {
         if (attachments == null || attachments.Count == 0)
             return new JsonObject { ["role"] = "user", ["content"] = userMessage };
