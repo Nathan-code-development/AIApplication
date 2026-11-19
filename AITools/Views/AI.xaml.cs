@@ -371,9 +371,14 @@ public partial class AI : ContentPage
 
         await AppendUserBubble(text, attachmentsCopy);
         await ScrollToBottomAsync();
+
+        // SendAsync appends the current user message itself; hand it only the
+        // turns that came before this one so the current message is sent once.
+        var historyForRequest = _history.ToList();
         _history.Add(new ChatTurn { Role = "user", Content = text });
 
-        var (reply, error) = await CallAiWithTypingIndicator(text, attachmentsCopy);
+        var (reply, error) = await CallAiWithTypingIndicator(
+            text, attachmentsCopy, historyForRequest);
 
         if (error != null)
             await AppendAiBubble($"⚠️ {error}", isError: true);
@@ -403,7 +408,7 @@ public partial class AI : ContentPage
     }
 
     private async Task<(string reply, string? error)> CallAiWithTypingIndicator(
-        string text, List<AiAttachment> attachments)
+        string text, List<AiAttachment> attachments, IReadOnlyList<ChatTurn> history)
     {
         var modelLabel = _currentModel switch
         {
@@ -421,7 +426,7 @@ public partial class AI : ContentPage
         };
         MessageContainer.Add(typingLabel);
         await ScrollToBottomAsync();
-        var result = await _aiSvc.SendAsync(_currentModel, text, _history, attachments);
+        var result = await _aiSvc.SendAsync(_currentModel, text, history, attachments);
         MessageContainer.Remove(typingLabel);
         return result;
     }
