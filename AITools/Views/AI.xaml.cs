@@ -26,12 +26,7 @@ public partial class AI : ContentPage
     // Chat persistence 
     private long _currentTopicId = 0;
     private readonly List<ChatTurn> _history = [];
-    private readonly List<AiAttachment> _attachments = []; 
-    private const string BaseUrl = "http://121.40.144.4:380";
-    private static readonly HttpClient _http = new()
-    {
-        Timeout = TimeSpan.FromSeconds(15)
-    };
+    private readonly List<AiAttachment> _attachments = [];
 
     // Track whether we already loaded history for the current topic 
     private long _loadedTopicId = 0;
@@ -588,13 +583,16 @@ public partial class AI : ContentPage
 
         try
         {
-            // 1. If the current topic already exists, call the backend to delete all the messages under that topic.
+            // 1. If the current topic already exists, delete its messages and then the topic itself.
             if (_currentTopicId > 0)
             {
-                bool success = await _chatApi.DeleteMessagesByTopicIdAsync(_currentTopicId);
-                await _http.GetAsync($"{BaseUrl}/Topics/deleteById?id={_currentTopicId}");
-                if (!success)
+                long topicId = _currentTopicId;
+
+                if (!await _chatApi.DeleteMessagesByTopicIdAsync(topicId))
                     throw new Exception("Failed to delete messages on server.");
+
+                if (!await _chatApi.DeleteTopicAsync(topicId))
+                    throw new Exception("Failed to delete conversation on server.");
             }
 
             // 2. Clear local attachments
@@ -606,8 +604,11 @@ public partial class AI : ContentPage
             while (MessageContainer.Count > 1)
                 MessageContainer.RemoveAt(MessageContainer.Count - 1);
 
-            // 4. Reset the local history records and status
+            // 4. Reset the local history records and status. The topic is gone,
+            //    so the next message must create a new one instead of reusing its id.
             _history.Clear();
+            _currentTopicId = 0;
+            _loadedTopicId = 0;
             _currentSuggestionBlock = null;
 
             // 5. Restore the title to be the name of the current model (instead of the topic title)
@@ -618,8 +619,6 @@ public partial class AI : ContentPage
                 AiModel.Qianwen => "Qwen AI",
                 _ => "AI Chatbox"
             };
-
-            // Note: Do not clear _currentTopicId and _loadedTopicId. Subsequent new messages will still be saved to the same topic.
 
             // 6. Re-display the suggestion block
             AppendSuggestionBlock();

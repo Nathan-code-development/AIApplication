@@ -30,12 +30,26 @@ public class ChatMessageDto
 //  ChatApiService
 public class ChatApiService
 {
-    private const string BaseUrl = "http://your-service-ip:port";
-
-    private static readonly HttpClient _http = new()
+    private static readonly HttpClient SharedHttpClient = new()
     {
         Timeout = TimeSpan.FromSeconds(15)
     };
+
+    private readonly HttpClient _http;
+    private readonly string _baseUrl;
+
+    public ChatApiService() : this(ApiConfig.BaseUrl)
+    {
+    }
+
+    /// <summary>
+    /// Lets callers (and tests) point the chat API at a specific backend.
+    /// </summary>
+    public ChatApiService(string baseUrl, HttpClient? http = null)
+    {
+        _baseUrl = baseUrl.TrimEnd('/');
+        _http = http ?? SharedHttpClient;
+    }
 
     private static string Now() => DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
 
@@ -74,7 +88,7 @@ public class ChatApiService
 
     public async Task<List<TopicDto>> GetTopicsAsync(long userId)
     {
-        var resp = await _http.GetAsync($"{BaseUrl}/Topics/selectByUserId?userId={userId}");
+        var resp = await _http.GetAsync($"{_baseUrl}/Topics/selectByUserId?userId={userId}");
         if (!resp.IsSuccessStatusCode) return [];
 
         var doc = JsonDocument.Parse(await resp.Content.ReadAsStringAsync());
@@ -116,7 +130,7 @@ public class ChatApiService
     public async Task<List<ChatMessageDto>> GetMessagesAsync(long topicId)
     {
         var resp = await _http.GetAsync(
-            $"{BaseUrl}/ChatMessage/selectByTopicId?topicId={topicId}");
+            $"{_baseUrl}/ChatMessage/selectByTopicId?topicId={topicId}");
         if (!resp.IsSuccessStatusCode) return [];
 
         var doc = JsonDocument.Parse(await resp.Content.ReadAsStringAsync());
@@ -168,7 +182,7 @@ public class ChatApiService
         };
 
         var insertResp = await _http.SendAsync(new HttpRequestMessage(
-            HttpMethod.Post, $"{BaseUrl}/Topics/insertTopics")
+            HttpMethod.Post, $"{_baseUrl}/Topics/insertTopics")
         {
             Content = new StringContent(body.ToJsonString(), Encoding.UTF8, "application/json")
         });
@@ -177,7 +191,7 @@ public class ChatApiService
             throw new HttpRequestException(
                 $"insertTopics {(int)insertResp.StatusCode}: {await insertResp.Content.ReadAsStringAsync()}");
 
-        var listResp = await _http.GetAsync($"{BaseUrl}/Topics/selectByUserId?userId={userId}");
+        var listResp = await _http.GetAsync($"{_baseUrl}/Topics/selectByUserId?userId={userId}");
         if (!listResp.IsSuccessStatusCode)
             throw new HttpRequestException(
                 $"selectByUserId {(int)listResp.StatusCode}: {await listResp.Content.ReadAsStringAsync()}");
@@ -216,7 +230,7 @@ public class ChatApiService
         };
 
         var resp = await _http.SendAsync(new HttpRequestMessage(
-            HttpMethod.Post, $"{BaseUrl}/ChatMessage/insertChatMessages")
+            HttpMethod.Post, $"{_baseUrl}/ChatMessage/insertChatMessages")
         {
             Content = new StringContent(body.ToJsonString(), Encoding.UTF8, "application/json")
         });
@@ -225,7 +239,7 @@ public class ChatApiService
             throw new HttpRequestException(
                 $"insertChatMessages {(int)resp.StatusCode}: {await resp.Content.ReadAsStringAsync()}");
 
-        _ = _http.GetAsync($"{BaseUrl}/Topics/incrementMessageCount?id={topicId}");
+        _ = _http.GetAsync($"{_baseUrl}/Topics/incrementMessageCount?id={topicId}");
     }
 
     //  DeleteAllTopicsAsync
@@ -234,8 +248,8 @@ public class ChatApiService
     {
         var topics = await GetTopicsAsync(userId);
         foreach (var topic in topics)
-            await _http.GetAsync($"{BaseUrl}/ChatMessage/deleteByTopicId?topicId={topic.Id}");
-        await _http.GetAsync($"{BaseUrl}/Topics/deleteByUserId?userId={userId}");
+            await _http.GetAsync($"{_baseUrl}/ChatMessage/deleteByTopicId?topicId={topic.Id}");
+        await _http.GetAsync($"{_baseUrl}/Topics/deleteByUserId?userId={userId}");
     }
 
     /// Delete all chat messages under the specified topic (keep the topic itself intact)
@@ -243,9 +257,26 @@ public class ChatApiService
     {
         try
         {
-            var resp = await _http.GetAsync($"{BaseUrl}/ChatMessage/deleteByTopicId?topicId={topicId}");
+            var resp = await _http.GetAsync($"{_baseUrl}/ChatMessage/deleteByTopicId?topicId={topicId}");
             var content = await resp.Content.ReadAsStringAsync();
             return resp.IsSuccessStatusCode && bool.TryParse(content.Trim(), out var ok) && ok;
+        }
+        catch
+        {
+            return false;
+        }
+    }
+
+    /// <summary>
+    /// Deletes the topic row itself. The caller is responsible for clearing
+    /// any local id that pointed at it.
+    /// </summary>
+    public async Task<bool> DeleteTopicAsync(long topicId)
+    {
+        try
+        {
+            var resp = await _http.GetAsync($"{_baseUrl}/Topics/deleteById?id={topicId}");
+            return resp.IsSuccessStatusCode;
         }
         catch
         {
