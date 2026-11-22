@@ -26,7 +26,7 @@ public partial class AI : ContentPage
     // Chat persistence 
     private long _currentTopicId = 0;
     private readonly List<ChatTurn> _history = [];
-    private readonly List<AiAttachment> _attachments = []; 
+    private readonly PendingAttachments _attachments = new();
     private const string BaseUrl = "http://121.40.144.4:380";
     private static readonly HttpClient _http = new()
     {
@@ -268,8 +268,8 @@ public partial class AI : ContentPage
                 ".webp" => "image/webp",
                 _ => "image/jpeg"
             };
-            _attachments.Add(new AiAttachment { FileName = file.FileName, MimeType = mimeType, Data = ms.ToArray() });
-            AddAttachmentChip(file.FileName, "🖼");
+            var attachment = _attachments.Add(file.FileName, mimeType, ms.ToArray());
+            AddAttachmentChip(attachment, "🖼");
         }
         catch (Exception ex)
         {
@@ -310,8 +310,8 @@ public partial class AI : ContentPage
                 ".csv" => "text/csv",
                 _ => "application/octet-stream"
             };
-            _attachments.Add(new AiAttachment { FileName = result.FileName, MimeType = mimeType, Data = ms.ToArray() });
-            AddAttachmentChip(result.FileName, "📎");
+            var attachment = _attachments.Add(result.FileName, mimeType, ms.ToArray());
+            AddAttachmentChip(attachment, "📎");
         }
         catch (Exception ex)
         {
@@ -320,9 +320,10 @@ public partial class AI : ContentPage
     }
 
     // Attachment chip
-    private void AddAttachmentChip(string fileName, string icon)
+    private void AddAttachmentChip(AiAttachment attachment, string icon)
     {
         AttachmentBar.IsVisible = true;
+        var fileName = attachment.FileName;
         var displayName = fileName.Length > 16 ? fileName[..13] + "…" : fileName;
 
         var chip = new Border
@@ -336,13 +337,15 @@ public partial class AI : ContentPage
         chipContent.Add(new Label { Text = icon, FontSize = 13 });
         chipContent.Add(new Label { Text = displayName, FontSize = 12, TextColor = Colors.White, VerticalOptions = LayoutOptions.Center });
 
-        int idx = _attachments.Count - 1;
         var removeBtn = new Label { Text = " ✕", FontSize = 12, TextColor = Color.FromArgb("#E94560"), VerticalOptions = LayoutOptions.Center };
         removeBtn.GestureRecognizers.Add(new TapGestureRecognizer
         {
+            // Remove the attachment this chip was created for. Capturing a list
+            // index here breaks as soon as any earlier chip is removed: the
+            // index then points at a different attachment (or past the end).
             Command = new Command(() =>
             {
-                if (idx >= 0 && idx < _attachments.Count) _attachments.RemoveAt(idx);
+                _attachments.Remove(attachment);
                 AttachmentContainer.Remove(chip);
                 if (AttachmentContainer.Count == 0) AttachmentBar.IsVisible = false;
             })
@@ -364,7 +367,7 @@ public partial class AI : ContentPage
         SetSendLocked(true);
         RemoveCurrentSuggestionBlock();
 
-        var attachmentsCopy = new List<AiAttachment>(_attachments);
+        var attachmentsCopy = _attachments.Snapshot();
         _attachments.Clear();
         AttachmentContainer.Children.Clear();
         AttachmentBar.IsVisible = false;
